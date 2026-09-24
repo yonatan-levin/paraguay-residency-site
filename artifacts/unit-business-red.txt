@@ -1,0 +1,264 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v5.0.1 C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site
+
+ ❯ tests/unit/business.test.ts (12 tests | 11 failed) 17ms
+   ❯ central commercial fixtures (3)
+     × stores exact provisional minor-unit prices and never substitutes a family total 6ms
+     × formats fixed, range, quote and zero decimals from minor units 1ms
+     × does not equate missing inclusion with included 0ms
+   ❯ safe navigation and preservation (2)
+     × resolves the package owning service and preserves a valid campaign 2ms
+     × ignores invalid IDs instead of returning arbitrary paths 1ms
+   ❯ finder branching and recommendations (5)
+     × asks at most five questions and skips residency for business/tax/property 1ms
+     × recommends Guided for new residency without using contact details 2ms
+     × routes a temporary resident to upgrade regardless of requested support 1ms
+     × flags family as quote only and routes investment for specialist discussion 1ms
+     × preserves relevant answers when editing, but clears incompatible answers on goal change 1ms
+   ❯ attribution privacy (2)
+     × allowlists campaign values and never carries raw parameters or referrer queries 1ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 11 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/business.test.ts > central commercial fixtures > stores exact provisional minor-unit prices and never substitutes a family total
+AssertionError: expected [] to have a length of 18 but got +0
+
+- Expected
++ Received
+
+- 18
++ 0
+
+ ❯ tests/unit/business.test.ts:10:22
+      8| describe('central commercial fixtures', () => {
+      9|   it('stores exact provisional minor-unit prices and never substitutes…
+     10|     expect(packages).toHaveLength(18);
+       |                      ^
+     11|     expect(getPackage('temporary-guided')?.price).toMatchObject({type:…
+     12|     expect(getPackage('accounting')?.price).toMatchObject({type:'range…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/11]⎯
+
+ FAIL  tests/unit/business.test.ts > central commercial fixtures > formats fixed, range, quote and zero decimals from minor units
+AssertionError: expected '' to be '$2,850.50' // Object.is equality
+
+- Expected
++ Received
+
+- $2,850.50
+
+ ❯ tests/unit/business.test.ts:16:133
+     14|   });
+     15|   it('formats fixed, range, quote and zero decimals from minor units',…
+     16|     expect(formatPrice({type:'fixed',amountMinor:285050,currency:'USD'…
+       |                                                                                                                                     ^
+     17|     expect(formatPrice({type:'range',minMinor:9000,maxMinor:22000,curr…
+     18|     expect(formatPrice({type:'quote',currency:'USD',basis:'per-engagem…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/11]⎯
+
+ FAIL  tests/unit/business.test.ts > central commercial fixtures > does not equate missing inclusion with included
+AssertionError: expected '' to be 'To be confirmed' // Object.is equality
+
+- Expected
++ Received
+
+- To be confirmed
+
+ ❯ tests/unit/business.test.ts:21:44
+     19|   });
+     20|   it('does not equate missing inclusion with included',()=> {
+     21|     expect(inclusionLabel(undefined,'en')).toBe('To be confirmed');
+       |                                            ^
+     22|     expect(inclusionLabel('included','es')).toBe('Incluido');
+     23|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/11]⎯
+
+ FAIL  tests/unit/business.test.ts > safe navigation and preservation > resolves the package owning service and preserves a valid campaign
+AssertionError: expected {} to deeply equal { packageId: 'temporary-guided', …(3) }
+
+- Expected
++ Received
+
+- {
+-   "campaign": "residency-cost",
+-   "invalid": false,
+-   "packageId": "temporary-guided",
+-   "serviceId": "temporary-residency",
+- }
++ {}
+
+ ❯ tests/unit/business.test.ts:28:106
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/11]⎯
+
+ FAIL  tests/unit/business.test.ts > safe navigation and preservation > ignores invalid IDs instead of returning arbitrary paths
+AssertionError: expected {} to deeply equal { invalid: true }
+
+- Expected
++ Received
+
+- {
+-   "invalid": true,
+- }
++ {}
+
+ ❯ tests/unit/business.test.ts:31:93
+     29|   });
+     30|   it('ignores invalid IDs instead of returning arbitrary paths',()=> {
+     31|     expect(resolveSelection({plan:'https://evil.example',service:'<scr…
+       |                                                                                             ^
+     32|     expect(journeyHref('es','book',{packageId:'temporary-guided',servi…
+     33|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/11]⎯
+
+ FAIL  tests/unit/business.test.ts > finder branching and recommendations > asks at most five questions and skips residency for business/tax/property
+AssertionError: expected [] to deeply equal [ 'goal', 'stage', 'household', …(2) ]
+
+- Expected
++ Received
+
+- [
+-   "goal",
+-   "stage",
+-   "household",
+-   "timing",
+-   "support",
+- ]
++ []
+
+ ❯ tests/unit/business.test.ts:38:52
+     36| describe('finder branching and recommendations',()=> {
+     37|   it('asks at most five questions and skips residency for business/tax…
+     38|     expect(getFinderQuestions({goal:'residency'})).toEqual(['goal','st…
+       |                                                    ^
+     39|     for (const goal of ['business','tax','property'] as const) expect(…
+     40|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/11]⎯
+
+ FAIL  tests/unit/business.test.ts > finder branching and recommendations > recommends Guided for new residency without using contact details
+AssertionError: expected { serviceId: '', …(3) } to match object { …(3) }
+(2 matching properties omitted from actual)
+
+- Expected
++ Received
+
+  {
+    "familyQuote": false,
+-   "packageId": "temporary-guided",
+-   "serviceId": "temporary-residency",
++   "serviceId": "",
+  }
+
+ ❯ tests/unit/business.test.ts:42:113
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/11]⎯
+
+ FAIL  tests/unit/business.test.ts > finder branching and recommendations > routes a temporary resident to upgrade regardless of requested support
+AssertionError: expected { serviceId: '', …(3) } to match object { …(2) }
+(3 matching properties omitted from actual)
+
+- Expected
++ Received
+
+  {
+-   "packageId": "upgrade-basic",
+-   "serviceId": "permanent-residency",
++   "serviceId": "",
+  }
+
+ ❯ tests/unit/business.test.ts:45:85
+     43|   });
+     44|   it('routes a temporary resident to upgrade regardless of requested s…
+     45|     expect(recommendPlan({goal:'residency',stage:'temporary',support:'…
+       |                                                                                     ^
+     46|   });
+     47|   it('flags family as quote only and routes investment for specialist …
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/11]⎯
+
+ FAIL  tests/unit/business.test.ts > finder branching and recommendations > flags family as quote only and routes investment for specialist discussion
+AssertionError: expected { serviceId: '', …(3) } to match object { packageId: 'temporary-guided', …(1) }
+(3 matching properties omitted from actual)
+
+- Expected
++ Received
+
+  {
+-   "familyQuote": true,
+-   "packageId": "temporary-guided",
++   "familyQuote": false,
+  }
+
+ ❯ tests/unit/business.test.ts:48:95
+     46|   });
+     47|   it('flags family as quote only and routes investment for specialist …
+     48|     expect(recommendPlan({goal:'residency',stage:'new',household:'fami…
+       |                                                                                               ^
+     49|     expect(recommendPlan({goal:'investment'})).toMatchObject({serviceI…
+     50|     expect(recommendPlan({goal:'tax'})).toMatchObject({serviceId:'tax-…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/11]⎯
+
+ FAIL  tests/unit/business.test.ts > finder branching and recommendations > preserves relevant answers when editing, but clears incompatible answers on goal change
+AssertionError: expected {} to deeply equal { goal: 'residency', …(4) }
+
+- Expected
++ Received
+
+- {
+-   "goal": "residency",
+-   "household": "family",
+-   "stage": "new",
+-   "support": "guided",
+-   "timing": "exploring",
+- }
++ {}
+
+ ❯ tests/unit/business.test.ts:54:63
+     52|   it('preserves relevant answers when editing, but clears incompatible…
+     53|     const original={goal:'residency',stage:'new',household:'family',ti…
+     54|     expect(updateFinderAnswer(original,'timing','exploring')).toEqual(…
+       |                                                               ^
+     55|     expect(updateFinderAnswer(original,'goal','tax')).toEqual({goal:'t…
+     56|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/11]⎯
+
+ FAIL  tests/unit/business.test.ts > attribution privacy > allowlists campaign values and never carries raw parameters or referrer queries
+AssertionError: expected { source: '', medium: '', …(2) } to deeply equal { source: 'instagram', …(4) }
+
+- Expected
++ Received
+
+  {
+-   "campaign": "family-relocation",
+-   "content": "family",
+-   "medium": "social",
+-   "referrer": "https://example.com/article",
+-   "source": "instagram",
++   "campaign": "",
++   "content": "",
++   "medium": "",
++   "source": "",
+  }
+
+ ❯ tests/unit/business.test.ts:61:226
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[11/11]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  11 failed | 1 passed (12)
+   Start at  09:51:55
+   Duration  275ms (transform 58%, import 19%, tests 18%, worker 4%)
+

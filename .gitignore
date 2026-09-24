@@ -1,0 +1,16 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.tsbuildinfo
+next-env.d.ts
+playwright-report/
+test-results/
+# Local scratch material; retain final reports, screenshots and test evidence.
+artifacts/*baseline-src/
+artifacts/*-output/
+artifacts/*.cjs
+artifacts/*.mjs
+artifacts/*-additions.json
+artifacts/i18n-*-source.json
+artifacts/github-*.md

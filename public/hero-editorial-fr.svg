@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="1000" viewBox="0 0 860 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Votre prochain chapitre, clairement préparé.</title>
+  <desc id="desc">Illustration originale d’une cour ensoleillée, de plantes tropicales et d’une rivière au delà d’une arche. Ce visuel provisoire ne représente pas la photographie d’un bien ou d’un bureau.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#E2EBDF"/><stop offset="1" stop-color="#F5E9D5"/></linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#E7CBAB"/><stop offset="1" stop-color="#F0DDC1"/></linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#A1BAB1"/><stop offset="1" stop-color="#769A8A"/></linearGradient>
+    <clipPath id="arch"><path d="M284 673V313a153 153 0 0 1 306 0v360Z"/></clipPath>
+  </defs>
+  <path fill="#E5C9A7" d="M0 0h860v1000H0z"/>
+  <path fill="url(#wall)" d="M0 0h860v805H0z"/>
+  <path fill="#D2AE85" d="M0 0h143v805H0z"/>
+  <path fill="#F5E5CB" d="M143 0h19v806h-19z"/>
+  <path fill="#D6B18C" d="M661 0h199v805H661z"/>
+  <path fill="#EBD1B0" d="M661 0h22v805h-22z"/>
+  <path fill="#D3AD84" d="M249 694V310a188 188 0 0 1 376 0v384Z"/>
+  <path fill="#FAEAD0" d="M265 694V309a172 172 0 0 1 344 0v385Z"/>
+  <g clip-path="url(#arch)">
+    <path fill="url(#sky)" d="M275 152h329v557H275z"/>
+    <circle cx="510" cy="274" r="50" fill="#FBF2DF"/>
+    <path fill="#B6C5AB" d="M270 453q55-42 105-27t87-11 78 13 78-20v136H270Z"/>
+    <path fill="#839E85" d="M266 480q50-29 95-10t74-16 82 4 109-24v103H266Z"/>
+    <path fill="url(#river)" d="M272 502h334v179H272z"/>
+    <path fill="none" stroke="#CCD7C4" stroke-width="3" d="M300 526h146m24 0h55m-194 29h78m33 0h114m-256 27h84m19 0h98m-121 29h147"/>
+    <path fill="#52765E" d="M267 646q68-46 121-32t112 1 111 22v61H267Z"/>
+    <path fill="#345B46" d="m274 650 57-46 23 20 43-39 19 40 30-13 38 36 50-27 37 24 36-24v93H274Z"/>
+  </g>
+  <path fill="#C39870" d="M284 671h306v19H284z"/>
+  <path fill="#F0D9B8" d="M247 690h377v32H247z"/>
+  <path fill="#D5B18B" d="M247 722h377v22H247z"/>
+  <path fill="#F4DEC0" d="M213 744h445v31H213z"/>
+  <path fill="#D2AD86" d="M213 775h445v26H213z"/>
+  <path fill="#E2BE96" d="M0 801h860v199H0z"/>
+  <path fill="#CB9F77" d="m660 801 200 67v132H647l-432-199Z" opacity=".38"/>
+  <g fill="none" stroke="#CEAA84" stroke-width="2"><path d="M0 863h860M0 941h860M143 801 34 1000m346-199-41 199m271-199 21 199m144-199 110 199"/></g>
+  <g>
+    <path fill="#183F34" d="M39 663q-5-180 10-350 11-128 78-213l8 6q-57 111-68 212-12 159-1 345Z"/>
+    <path fill="#2B5D43" d="M70 337C-56 304-76 176 19 77c61 59 93 155 51 260Z"/>
+    <path fill="#3E714F" d="M69 366C147 227 216 175 258 192c-3 110-58 187-189 174Z"/>
+    <path fill="#164936" d="M69 484C-14 385-63 357-103 375c10 104 65 148 172 109Z"/>
+    <path fill="#386B49" d="M67 477c33-81 114-121 172-101-6 76-87 135-172 101Z"/>
+    <path fill="#497A52" d="M82 281c-7-88 11-174 52-211 54 68 23 169-52 211Z"/>
+    <path fill="none" stroke="#83A16D" stroke-width="2" d="M69 337 20 115m53 248 162-151M69 479l144-83M82 276l53-176"/>
+    <path fill="#9B6748" d="M17 655h109l-13 133q-41 19-83 0Z"/>
+    <path fill="#B8805C" d="M10 647h124v28H10z"/>
+    <path fill="#CB9971" d="M22 682h12l12 99-11-2Z"/>
+  </g>
+  <g>
+    <path fill="#315D42" d="M786 789q15-157-12-262l8-3q37 113 27 265Z"/>
+    <path fill="#4E7A50" d="M788 630c-66-4-110-55-114-104 64-12 111 29 114 104Z"/>
+    <path fill="#2D6345" d="M797 681c29-102 86-129 143-108-23 72-70 115-143 108Z"/>
+    <path fill="#244F3A" d="M801 738c-87-23-126-5-145 50 67 40 121 20 145-50Z"/>
+    <path fill="#66875A" d="M787 596c52-52 64-118 34-161-59 31-71 99-34 161Z"/>
+    <path fill="#1E4B38" d="M804 751c35-54 70-74 118-53-5 64-64 89-118 53Z"/>
+    <path fill="none" stroke="#94A778" stroke-width="2" d="M788 628 690 538m108 143 116-84M787 593l32-133M800 739l-123 40"/>
+    <path fill="#DAD2B8" d="M728 809h148l-19 139q-54 27-109 0Z"/>
+    <path fill="#F0E9D2" d="M719 798h166v28H719z"/>
+    <path fill="#C2B799" d="M814 827h57l-18 121q-16 10-39 12Z"/>
+  </g>
+  <path fill="#6D795A" d="M164 739h47v73h-47z"/>
+  <path fill="#486442" d="M187 748c-3-28-34-51-48-35 6 21 21 31 48 35Zm1-13c26-2 42-25 35-40-24 0-38 15-35 40Zm-2-12c-11-20-8-39 6-49 14 17 12 34-6 49Z"/>
+  <rect x="248" y="899" width="365" height="58" rx="29" fill="#F7F8F5"/>
+  <text x="430" y="934" text-anchor="middle" fill="#142B3B" font-size="19" font-family="Arial, Helvetica, sans-serif">Illustration éditoriale · Visuel provisoire</text>
+</svg>

@@ -1,0 +1,138 @@
+[
+  {
+    "route": "/en",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "scores": {
+      "performance": 77,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "lcp": 5452.538070421717,
+    "cls": 0,
+    "tbt": 196,
+    "failed": [
+      "first-contentful-paint",
+      "largest-contentful-paint",
+      "speed-index",
+      "total-blocking-time",
+      "max-potential-fid",
+      "interactive",
+      "unused-css-rules",
+      "unused-javascript",
+      "is-crawlable",
+      "bf-cache",
+      "forced-reflow-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "route": "/fr",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "scores": {
+      "performance": 86,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "lcp": 4214.924699464624,
+    "cls": 0,
+    "tbt": 21,
+    "failed": [
+      "first-contentful-paint",
+      "largest-contentful-paint",
+      "max-potential-fid",
+      "interactive",
+      "unused-css-rules",
+      "unused-javascript",
+      "is-crawlable",
+      "bf-cache",
+      "forced-reflow-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "route": "/de",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "scores": {
+      "performance": 86,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "lcp": 4211.263020747818,
+    "cls": 0,
+    "tbt": 19.5,
+    "failed": [
+      "first-contentful-paint",
+      "largest-contentful-paint",
+      "max-potential-fid",
+      "interactive",
+      "unused-css-rules",
+      "unused-javascript",
+      "is-crawlable",
+      "bf-cache",
+      "forced-reflow-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "route": "/de/pricing",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "scores": {
+      "performance": 87,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "lcp": 4062.733174427258,
+    "cls": 0,
+    "tbt": 35,
+    "failed": [
+      "largest-contentful-paint",
+      "max-potential-fid",
+      "interactive",
+      "unused-css-rules",
+      "unused-javascript",
+      "is-crawlable",
+      "bf-cache",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  }
+]

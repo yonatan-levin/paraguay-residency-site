@@ -1,0 +1,6050 @@
+{
+  "summary": {
+    "publicRoutes": 29,
+    "locales": 4,
+    "viewports": [
+      320,
+      390
+    ],
+    "expected": 232,
+    "measured": 232,
+    "baselineFailures": 13,
+    "candidateFailures": 0,
+    "errors": 0
+  },
+  "candidateCss": "body { overflow-wrap: anywhere; }",
+  "results": [
+    {
+      "locale": "en",
+      "route": "paraguay-residency",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "paraguay-residency",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "find-my-plan",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "find-my-plan",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "pricing",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "pricing",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "thank-you",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "book",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "thank-you",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "book",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "services",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "services",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "permanent-residency",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "permanent-residency",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "investor-residency",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "investor-residency",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "relocation",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "relocation",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "tax-planning",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "company-formation/paraguay",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "tax-planning",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "company-formation/paraguay",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "accounting",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "company-formation/us",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "company-formation/us",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "accounting",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "real-estate",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "banking",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "banking",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "real-estate",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "driving-license",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "driving-license",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "retire-in-paraguay",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "retire-in-paraguay",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "guides",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "guides",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "citizenship-guidance",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "citizenship-guidance",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "about",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "guides/residency-requirements",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "guides/residency-requirements",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "about",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "contact",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "lp/residency-cost",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "lp/residency-cost",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "contact",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "links",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "lp/family-relocation",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "links",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "lp/family-relocation",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "terms",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "privacy",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "privacy",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "terms",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "disclaimer",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "en",
+      "route": "disclaimer",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "pricing",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "paraguay-residency",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "pricing",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "paraguay-residency",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "book",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "book",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "find-my-plan",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "find-my-plan",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "thank-you",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "thank-you",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "services",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "services",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "investor-residency",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "permanent-residency",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "permanent-residency",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "investor-residency",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "tax-planning",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "relocation",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "tax-planning",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "relocation",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "company-formation/paraguay",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "company-formation/paraguay",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "company-formation/us",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "company-formation/us",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "accounting",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "accounting",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "banking",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "banking",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "driving-license",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "real-estate",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "driving-license",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "real-estate",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "citizenship-guidance",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "retire-in-paraguay",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "citizenship-guidance",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "retire-in-paraguay",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "guides/residency-requirements",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "guides",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "guides",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "guides/residency-requirements",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "about",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "about",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "contact",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "contact",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "lp/residency-cost",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "lp/residency-cost",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "lp/family-relocation",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "lp/family-relocation",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "links",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "links",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "privacy",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "privacy",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "disclaimer",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "disclaimer",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "terms",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "es",
+      "route": "terms",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "paraguay-residency",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "paraguay-residency",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "find-my-plan",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "pricing",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "pricing",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "find-my-plan",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "thank-you",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "book",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "thank-you",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "book",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "services",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "permanent-residency",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "permanent-residency",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "services",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "investor-residency",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "relocation",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "investor-residency",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "relocation",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "tax-planning",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "company-formation/paraguay",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "tax-planning",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "company-formation/paraguay",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "company-formation/us",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "company-formation/us",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "accounting",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "accounting",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "banking",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "banking",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "real-estate",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "real-estate",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "driving-license",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "retire-in-paraguay",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "driving-license",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "retire-in-paraguay",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "citizenship-guidance",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "guides",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "citizenship-guidance",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "guides",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "about",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "guides/residency-requirements",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "guides/residency-requirements",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "about",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "contact",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "contact",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "lp/residency-cost",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "lp/residency-cost",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "lp/family-relocation",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "lp/family-relocation",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "links",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "links",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "privacy",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "privacy",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "terms",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "terms",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "disclaimer",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "fr",
+      "route": "disclaimer",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "paraguay-residency",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "pricing",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "paraguay-residency",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 338,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 338,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "pricing",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "find-my-plan",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "book",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "find-my-plan",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "book",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "thank-you",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "thank-you",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "services",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "services",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "permanent-residency",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "permanent-residency",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "investor-residency",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "investor-residency",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "relocation",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "tax-planning",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "relocation",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "tax-planning",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "company-formation/paraguay",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 400,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 400,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "company-formation/paraguay",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 400,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 400,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "company-formation/us",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 400,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 400,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "accounting",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "company-formation/us",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 400,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 400,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "accounting",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "banking",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 354,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 354,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "banking",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "real-estate",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 404,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 404,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "real-estate",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 404,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 404,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "driving-license",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "driving-license",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "retire-in-paraguay",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "retire-in-paraguay",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "citizenship-guidance",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 443,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 443,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "citizenship-guidance",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 443,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 443,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "guides",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "guides",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "guides/residency-requirements",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 338,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 338,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "guides/residency-requirements",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "about",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "about",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "contact",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "lp/residency-cost",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "contact",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "lp/residency-cost",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "lp/family-relocation",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "links",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "lp/family-relocation",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "links",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "privacy",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "privacy",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 340,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 340,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "terms",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 382,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 382,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "terms",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "disclaimer",
+      "width": 320,
+      "status": 200,
+      "baseline": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 320,
+        "scroll": 320,
+        "offenders": []
+      }
+    },
+    {
+      "locale": "de",
+      "route": "disclaimer",
+      "width": 390,
+      "status": 200,
+      "baseline": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "baselineOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidate": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      },
+      "candidateOpen": {
+        "width": 390,
+        "scroll": 390,
+        "offenders": []
+      }
+    }
+  ]
+}
