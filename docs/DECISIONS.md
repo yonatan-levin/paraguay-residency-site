@@ -1,6 +1,6 @@
 # Prototype decisions
 
-This document records product and architecture decisions for the local prototype, not approval to operate a live service. The source is `CODEX_HANDOFF_PARAGUAY_SITE.md` supplied by the owner. Its commercial benchmark snapshot is dated September 23, 2026; those amounts have not become approved business prices through implementation.
+This document records product and architecture decisions for the demo prototype, not approval to operate a live service. The source is `CODEX_HANDOFF_PARAGUAY_SITE.md` supplied by the owner. Its commercial benchmark snapshot is dated September 23, 2026; those amounts have not become approved business prices through implementation.
 
 ## Defaults used
 
@@ -10,11 +10,14 @@ This document records product and architecture decisions for the local prototype
 | Stack | Next.js App Router, React, strict TypeScript, npm, small CSS component system | Follows the source handoff for an empty workspace; keep content server-rendered and interactions isolated |
 | Content storage | Typed local content, no database or CMS | The prototype needs reviewable fixtures and deterministic editing, not an operating backend |
 | Brand | Paraguay Residency Studio | Explicitly provisional; no assumption that Este a Oeste is the legal provider |
-| Operating mode | Demo with local mocks and non-live origin | No real booking, lead delivery, messaging, payment, analytics, or deployment |
+| Operating mode | Demo with local mocks, publicly accessible team preview authorized | No real booking, lead delivery, messaging, payment or analytics; hosting does not approve business operation |
 | Currency | USD integer minor units, shared formatter | No exchange-rate service, duplicated display amounts, or floating-point business arithmetic |
 | Languages | Complete English, Spanish, French, German and Hebrew across all public pages | User requested full language parity, including Hebrew and the previously missing Spanish pages |
 | Hebrew direction | Server and client use RTL at `/he`; logical CSS and isolated mixed text preserve reading order | Language is available in the prototype; professional publication review and staffed support remain unapproved |
-| GitHub publication | Private owner repository, implementation on a review branch and open pull request | Owner explicitly requested publication with gh; no default branch merge or live deployment is implied |
+| GitHub publication | Public owner repository, implementation on a review branch and open pull request | Owner requested public team access; default branch merge remains separate |
+| Demo hosting | Firebase App Hosting in the separate `paraguay-residency-site` project | Preserve the existing Next.js architecture and keep the owner's other Firebase project untouched; setup is in `FIREBASE_HOSTING.md` |
+| Hosting capacity | `us-central1`, Node.js 24, editable minimum 0 and maximum 2 instances | Selected region supports the documented local source storage allowance; scale to zero between reviews, with modest burst capacity. This is not a billing cap |
+| Hosting origin | Verified backend HTTPS `uri`, configured as `SITE_URL` at build and runtime | Do not infer Firebase hostnames; backend creation requires Blaze billing authorization before the origin can be retrieved |
 | Root route | Deterministic redirect to `/en` | No inferred language or IP-based routing |
 | URL convention | No trailing slash on page routes | One canonical URL per page; canonical URLs omit selection and tracking parameters |
 | Demo consultation | 20 minutes, configurable | Demonstration choice only, not a staffing or delivery commitment |
@@ -29,7 +32,7 @@ This document records product and architecture decisions for the local prototype
 | Missing business facts | Honest pending/unavailable labels | No fabricated team biographies, addresses, review stars, credentials, office, support hours, or regulatory guarantees |
 | Imagery | Original neutral editorial artwork / explicit placeholders | No stock person represented as staff and no copied competitor assets |
 | Website wording | No hyphens or dash punctuation in authored copy | Use natural sentence punctuation and wording; price ranges use localized connecting words. Technical identifiers and URLs retain their required spelling. |
-| SEO | Every preview page noindex; no preview URLs in sitemap | Robots directives are not access protection; a hosted review deployment would need access controls |
+| SEO | Every preview page noindex; no preview URLs in sitemap | Public demo access is authorized; robots directives are not access protection, and only test data belongs in the demo |
 | Live readiness | Fail closed with missing-input errors | Passing a build never approves launch or automatically enables providers |
 
 ## Commercial fixture policy

@@ -1,6 +1,6 @@
 # Paraguay Residency Studio prototype
 
-A complete demo website for reviewing residency and relocation journeys. The brand, prices, scope, people, and business policies are provisional. Requests, appointments, WhatsApp messages, and analytics remain local simulations. **Nothing is deployed and no real booking or message is sent.**
+A complete demo website for reviewing residency and relocation journeys. The brand, prices, scope, people, and business policies are provisional. Requests, appointments, WhatsApp messages, and analytics remain local simulations. **No real booking or message is sent.** The source repository is public for team collaboration. Firebase Blaze billing is authorized and the dedicated backend is configured with its verified origin. See [the hosting guide](docs/FIREBASE_HOSTING.md) for setup and [issue #7](https://github.com/yonatan-levin/paraguay-residency-site/issues/7) for rollout and hosted verification status.
 
 ## Run on Windows / PowerShell
 
@@ -24,7 +24,7 @@ npm run build
 npm run start
 ```
 
-This optimizes the prototype; it does not make the business launch-ready. `SITE_MODE=live` deliberately fails. All pages send noindex metadata and an HTTP robots header. Access control is still required before any future externally hosted review preview.
+This optimizes the prototype; it does not make the business launch-ready. `SITE_MODE=live` deliberately fails. All pages send noindex metadata and an HTTP robots header. The owner has authorized a public team demo with test data only. Noindex discourages indexing but does not restrict access; anyone with the demo URL can visit.
 
 ## Validation
 
@@ -86,5 +86,6 @@ Contact drafts, finder answers, and receipts exist only in browser memory. Reloa
 - [Routes, translations, and SEO rules](docs/ROUTES_AND_SEO.md)
 - [QA evidence](docs/QA_REPORT.md)
 - [Launch checklist](docs/LAUNCH_CHECKLIST.md)
+- [Firebase setup, deployment and rollback](docs/FIREBASE_HOSTING.md)
 
-Original handoff files remain untouched in the parent workspace. The owner requested GitHub publication after local delivery. Code is reviewed on `prototype/hebrew` in the private repository. GitHub publication does not deploy the website or approve its business launch.
+Original handoff files remain untouched in the parent workspace. Code is reviewed on `prototype/hebrew` in the public repository. [Issue #7](https://github.com/yonatan-levin/paraguay-residency-site/issues/7) tracks Firebase hosting and public team access. GitHub publication and a hosted demo do not approve the business launch.

@@ -1,8 +1,8 @@
 # Public-launch approval checklist
 
-**This application is a local demonstration. No public deployment is authorized.** Passing tests or a production build does not approve the business, its offers, its content, or live integrations. All gate owners below are responsibilities to assign to real people; no approval is inferred from a placeholder name, source link, benchmark price, or implementation date.
+**A public team demo is authorized; a business launch is not.** Passing tests or a production build does not approve the business, its offers, its content, or live integrations. All gate owners below are responsibilities to assign to real people; no approval is inferred from a placeholder name, source link, benchmark price, or implementation date.
 
-The prototype remains in demo mode, with provisional prices and noindex previews. A hosted review deployment, if later explicitly authorized, also needs access control; noindex is not access control.
+The prototype remains in demo mode, with provisional prices, local mocks and noindex previews. The public demo is intentionally accessible without a login and must use test data only; noindex is not access control. Firebase project `paraguay-residency-site` separates it from the owner's existing site. Follow `FIREBASE_HOSTING.md` for the required billing authorization, verified origin, deployment and hosted checks. Progress belongs in GitHub issue #7.
 
 ## Required business and operating approvals
 
@@ -43,7 +43,7 @@ The prototype remains in demo mode, with provisional prices and noindex previews
 | Native mobile browsers | QA owner | Separate real-device check required | iOS/Android and relevant social in-app browser checks; emulation is not equivalent evidence |
 | Performance | Engineering / QA owner | Current Hebrew mobile sample: home 92, pricing and campaign 85; 90 aim not met throughout | Resolve GitHub issue #2, repeat audits across all languages, review asset budget and define the field plan for LCP/INP/CLS; earlier four language scores of 77 to 87 are historical; see current QA report |
 | Live integration rollback | Engineering / operations owner | Not configured | Ability to disable sending/tracking, restore safe mode, preserve accepted request integrity and communicate outages |
-| Deployment authorization | Business owner | Not granted | Explicit approval of reviewed release and target; credentials provisioned through approved secure process |
+| Business launch authorization | Business owner | Not granted; public demo separately authorized | Explicit approval of reviewed business release and target; demo hosting does not satisfy the operating, content or integration gates |
 
 ## Fail-closed release policy
 
