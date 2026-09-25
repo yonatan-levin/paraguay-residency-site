@@ -1,0 +1,15 @@
+
+> paraguay-residency-site@0.1.0 assets:social
+> node scripts/render-social-assets.mjs
+
+C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\public\og-residency-cost-en.png
+C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\public\og-family-relocation-en.png
+C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\public\og-residency-cost-es.png
+C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\public\og-family-relocation-es.png
+C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\public\og-residency-cost-fr.png
+C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\public\og-family-relocation-fr.png
+C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\public\og-residency-cost-de.png
+C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\public\og-family-relocation-de.png
+Localized es default card and editorial artwork
+Localized fr default card and editorial artwork
+Localized de default card and editorial artwork

@@ -1,0 +1,52 @@
+
+ RUN  v5.0.1 C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site
+
+ ❯ tests/unit/submission.test.ts (16 tests | 2 failed) 37ms
+   ❯ minimal contact validation (4)
+     × never requires phone and email together for an appointment 5ms
+   ❯ submission state transitions and idempotency (8)
+     × restores the correct accepted receipt when revisiting an earlier payload 2ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/submission.test.ts > minimal contact validation > never requires phone and email together for an appointment
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/unit/submission.test.ts:23:168
+     21|   });
+     22|   it('never requires phone and email together for an appointment',()=>…
+     23|     expect(validateSubmission({...payload,mode:'appointment',slotUtc:'…
+       |                                                                                                                                                                        ^
+     24|   });
+     25|   it('rejects forged context and a malformed instant at the boundary',…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  tests/unit/submission.test.ts > submission state transitions and idempotency > restores the correct accepted receipt when revisiting an earlier payload
+AssertionError: expected 'temporary-essential' to be 'temporary-guided' // Object.is equality
+
+Expected: "temporary-guided"
+Received: "temporary-essential"
+
+ ❯ tests/unit/submission.test.ts:74:57
+     72|     await controller.submit({...payload,context:{...payload.context,pa…
+     73|     expect(await controller.submit(payload)).toEqual(first);
+     74|     expect(controller.readReceipt()?.context.packageId).toBe('temporar…
+       |                                                         ^
+     75|     expect(controller.getState()).toBe('success');
+     76|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 14 passed (16)
+   Start at  10:02:34
+   Duration  338ms (import 43%, transform 35%, tests 19%, worker 2%)
+

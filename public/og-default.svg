@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Paraguay Residency Studio preview</title>
+  <desc id="desc">Original illustrative preview card with an open arch, landscape, and the words Your next chapter, clearly planned. Working brand and offers are provisional.</desc>
+  <defs><clipPath id="arch"><path d="M835 480V228a110 110 0 0 1 220 0v252Z"/></clipPath></defs>
+  <path fill="#F7F8F5" d="M0 0h1200v630H0z"/>
+  <path fill="#D9B793" d="M740 0h460v630H740z"/>
+  <path fill="#F1DDBF" d="M808 495V226a137 137 0 0 1 274 0v269Z"/>
+  <g clip-path="url(#arch)">
+    <path fill="#DCE7D8" d="M825 100h240v388H825z"/>
+    <circle cx="990" cy="223" r="38" fill="#FCF2DF"/>
+    <path fill="#94AE90" d="M819 341q54-34 107-13t144-19v191H819Z"/>
+    <path fill="#709382" d="M818 374h252v112H818z"/>
+    <path fill="none" stroke="#B5C7B5" stroke-width="3" d="M849 399h115m20 0h49m-160 25h122m-77 23h111"/>
+    <path fill="#426B4E" d="M819 467q58-33 110-14t148-1v47H819Z"/>
+  </g>
+  <path fill="#EED6B5" d="M802 480h285v25H802zM775 525h339v24H775z"/>
+  <path fill="#BC956F" d="M802 505h285v20H802zM775 549h339v17H775z"/>
+  <path fill="#C7A07B" d="M740 566h460v64H740z"/>
+  <path fill="#1E503B" d="M1156 587q-10-157-39-256l9-4q41 135 44 260Z"/>
+  <path fill="#42744F" d="M1141 451c-65-23-93-74-75-120 52 15 82 61 75 120Zm6 32c26-73 66-102 113-78-11 58-56 91-113 78Z"/>
+  <path fill="#2B6144" d="M1130 391c30-44 26-89-5-121-41 36-42 78 5 121Z"/>
+  <path fill="#C9C3A6" d="M1112 562h88v68h-76z"/>
+  <path fill="#12624C" d="M70 67h38v38H70z"/>
+  <path fill="none" stroke="#FFFFFF" stroke-width="3" d="M80 95V82a9 9 0 0 1 18 0v13"/>
+  <text x="124" y="83" fill="#142B3B" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Paraguay</text>
+  <text x="124" y="108" fill="#52636D" font-family="Arial, Helvetica, sans-serif" font-size="19">Residency Studio</text>
+  <g fill="#142B3B" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="600" letter-spacing="-2"><text x="70" y="260">Your next chapter,</text><text x="70" y="339">clearly planned.</text></g>
+  <g fill="#52636D" font-family="Arial, Helvetica, sans-serif" font-size="25"><text x="72" y="408">Residency support. Clear packages.</text><text x="72" y="445">Local coordination.</text></g>
+  <path fill="#D8E2DC" d="M72 501h595v1H72z"/>
+  <text x="72" y="548" fill="#52636D" font-family="Arial, Helvetica, sans-serif" font-size="19">Website preview · Working brand and provisional offers</text>
+</svg>

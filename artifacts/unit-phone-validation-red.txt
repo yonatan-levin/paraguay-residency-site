@@ -1,0 +1,38 @@
+
+ RUN  v5.0.1 C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site
+
+ ❯ tests/unit/submission.test.ts (26 tests | 3 failed) 40ms
+   ❯ minimal contact validation (14)
+     × rejects a WhatsApp number without meaningful international digits: +1------ 5ms
+     × rejects a WhatsApp number without meaningful international digits: +595 ()---- 1ms
+     × rejects a WhatsApp number without meaningful international digits: +1234567890123456 1ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 3 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/submission.test.ts > minimal contact validation > rejects a WhatsApp number without meaningful international digits: +1------
+ FAIL  tests/unit/submission.test.ts > minimal contact validation > rejects a WhatsApp number without meaningful international digits: +595 ()----
+ FAIL  tests/unit/submission.test.ts > minimal contact validation > rejects a WhatsApp number without meaningful international digits: +1234567890123456
+AssertionError: expected true to be false // Object.is equality
+
+- Expected
++ Received
+
+- false
++ true
+
+ ❯ tests/unit/submission.test.ts:20:28
+     18|   it.each(['+1------','+595 ()----','+123456','+1234567890123456','+0 …
+     19|     const result=validateSubmission({...payload,contact:{firstName:'Te…
+     20|     expect(result.success).toBe(false);
+       |                            ^
+     21|     expect(result.errors['contact.phone']).toBe('phone-country-code-re…
+     22|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/3]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  3 failed | 23 passed (26)
+   Start at  10:13:28
+   Duration  371ms (import 45%, transform 33%, tests 19%, worker 2%)
+

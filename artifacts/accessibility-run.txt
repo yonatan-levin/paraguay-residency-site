@@ -1,0 +1,26 @@
+
+> paraguay-residency-site@0.1.0 test:a11y
+> playwright test tests/e2e/accessibility.spec.ts --project=chromium --reporter=list
+
+
+Running 13 tests using 2 workers
+
+(node:44780) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:47648) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  2 [chromium] › tests\e2e\accessibility.spec.ts:14:3 › automated accessibility /en/pricing (895ms)
+  ok  1 [chromium] › tests\e2e\accessibility.spec.ts:14:3 › automated accessibility /en (917ms)
+  ok  3 [chromium] › tests\e2e\accessibility.spec.ts:14:3 › automated accessibility /en/lp/residency-cost (650ms)
+  ok  4 [chromium] › tests\e2e\accessibility.spec.ts:14:3 › automated accessibility /en/find-my-plan (618ms)
+  ok  5 [chromium] › tests\e2e\accessibility.spec.ts:14:3 › automated accessibility /en/book (653ms)
+  ok  6 [chromium] › tests\e2e\accessibility.spec.ts:14:3 › automated accessibility /es/book (648ms)
+  ok  7 [chromium] › tests\e2e\accessibility.spec.ts:24:3 › reflow and unfilled visual evidence 320px (615ms)
+  ok  8 [chromium] › tests\e2e\accessibility.spec.ts:24:3 › reflow and unfilled visual evidence 360px (614ms)
+  ok 10 [chromium] › tests\e2e\accessibility.spec.ts:24:3 › reflow and unfilled visual evidence 768px (559ms)
+  ok  9 [chromium] › tests\e2e\accessibility.spec.ts:24:3 › reflow and unfilled visual evidence 390px (1.2s)
+  ok 12 [chromium] › tests\e2e\accessibility.spec.ts:57:1 › keyboard menu, skip link, dialog dismissal and focus recovery (309ms)
+  ok 11 [chromium] › tests\e2e\accessibility.spec.ts:24:3 › reflow and unfilled visual evidence 1440px (1.5s)
+  ok 13 [chromium] › tests\e2e\accessibility.spec.ts:85:1 › RTL mixed-script fixture and emulated 200-percent zoom remain usable (1.0s)
+
+  13 passed (6.4s)

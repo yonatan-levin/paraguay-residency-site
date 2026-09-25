@@ -1,0 +1,123 @@
+
+> paraguay-residency-site@0.1.0 perf
+> node scripts/lighthouse.mjs
+
+[
+  {
+    "route": "/en",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "scores": {
+      "performance": 93,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "lcp": 3166.358314490707,
+    "cls": 0,
+    "tbt": 37,
+    "failed": [
+      "first-contentful-paint",
+      "largest-contentful-paint",
+      "max-potential-fid",
+      "interactive",
+      "unused-css-rules",
+      "unused-javascript",
+      "is-crawlable",
+      "bf-cache",
+      "forced-reflow-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "route": "/en/pricing",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "scores": {
+      "performance": 95,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "lcp": 3009.670799949741,
+    "cls": 0,
+    "tbt": 21,
+    "failed": [
+      "largest-contentful-paint",
+      "max-potential-fid",
+      "interactive",
+      "unused-css-rules",
+      "unused-javascript",
+      "is-crawlable",
+      "bf-cache",
+      "forced-reflow-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "route": "/en/lp/residency-cost",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "lcp": 3309.6018811896024,
+    "cls": 0,
+    "tbt": 27,
+    "failed": [
+      "largest-contentful-paint",
+      "max-potential-fid",
+      "interactive",
+      "unused-css-rules",
+      "unused-javascript",
+      "is-crawlable",
+      "bf-cache",
+      "forced-reflow-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  }
+]
+node:fs:1221
+  return binding.rmSync(getValidatedPath(path), opts.maxRetries, opts.recursive, opts.retryDelay);
+                 ^
+
+Error: EPERM, Permission denied: \\?\C:\Users\YONATA~1\AppData\Local\Temp\lighthouse.95365550 '\\?\C:\Users\YONATA~1\AppData\Local\Temp\lighthouse.95365550'
+    at rmSync (node:fs:1221:18)
+    at Launcher.destroyTmp (file:///C:/Users/Yonatan%20Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site/node_modules/chrome-launcher/dist/chrome-launcher.js:367:9)
+    at Launcher.kill (file:///C:/Users/Yonatan%20Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site/node_modules/chrome-launcher/dist/chrome-launcher.js:349:14)
+    at Object.kill (file:///C:/Users/Yonatan%20Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site/node_modules/chrome-launcher/dist/chrome-launcher.js:39:18)
+    at file:///C:/Users/Yonatan%20Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site/scripts/lighthouse.mjs:50:16 {
+  errno: 1,
+  code: 'EPERM',
+  path: '\\\\?\\C:\\Users\\YONATA~1\\AppData\\Local\\Temp\\lighthouse.95365550',
+  syscall: 'rm'
+}
+
+Node.js v24.14.1

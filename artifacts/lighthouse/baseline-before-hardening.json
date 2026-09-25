@@ -1,0 +1,111 @@
+[
+  {
+    "route": "/en",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "scores": {
+      "performance": 91,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 69
+    },
+    "lcp": 3315.0562901123085,
+    "cls": 0,
+    "tbt": 136.5,
+    "failed": [
+      "first-contentful-paint",
+      "largest-contentful-paint",
+      "total-blocking-time",
+      "max-potential-fid",
+      "errors-in-console",
+      "interactive",
+      "label-content-name-mismatch",
+      "unused-css-rules",
+      "unused-javascript",
+      "is-crawlable",
+      "bf-cache",
+      "forced-reflow-insight",
+      "lcp-discovery-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "route": "/en/pricing",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "scores": {
+      "performance": 78,
+      "accessibility": 98,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "lcp": 6169.7681999999995,
+    "cls": 0,
+    "tbt": 54,
+    "failed": [
+      "largest-contentful-paint",
+      "max-potential-fid",
+      "interactive",
+      "heading-order",
+      "label-content-name-mismatch",
+      "unused-css-rules",
+      "unused-javascript",
+      "is-crawlable",
+      "bf-cache",
+      "forced-reflow-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "route": "/en/lp/residency-cost",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "scores": {
+      "performance": 85,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "lcp": 4260.267648607175,
+    "cls": 0,
+    "tbt": 82,
+    "failed": [
+      "largest-contentful-paint",
+      "total-blocking-time",
+      "max-potential-fid",
+      "interactive",
+      "label-content-name-mismatch",
+      "unused-css-rules",
+      "unused-javascript",
+      "is-crawlable",
+      "bf-cache",
+      "forced-reflow-insight",
+      "lcp-discovery-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  }
+]

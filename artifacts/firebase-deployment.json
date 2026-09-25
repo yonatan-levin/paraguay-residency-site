@@ -1,0 +1,55 @@
+{
+  "checkedOn": "2026-09-25",
+  "projectId": "paraguay-residency-site",
+  "backendId": "paraguay-prototype",
+  "region": "us-central1",
+  "origin": "https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app",
+  "deployedSourceCommit": "a89512521040b0313b3c671c54ef18e4f2f22ac8",
+  "cloudBuild": {
+    "id": "2aad9898-ab41-45f6-b5ae-bfb399fedc97",
+    "status": "SUCCESS",
+    "createdAt": "2026-09-25T21:23:36.863678154Z",
+    "finishedAt": "2026-09-25T21:24:50.281726Z"
+  },
+  "cloudRun": {
+    "revision": "paraguay-prototype-build-2026-09-25-002",
+    "ready": true,
+    "trafficPercent": 100,
+    "minInstances": 0,
+    "maxInstances": 2,
+    "siteMode": "demo"
+  },
+  "publicRepository": "https://github.com/yonatan-levin/paraguay-residency-site",
+  "reviewBranch": "prototype/hebrew",
+  "pullRequest": 6,
+  "trackingIssue": 7,
+  "billing": {
+    "plan": "Blaze",
+    "authorized": true,
+    "usageChargesPossible": true,
+    "instanceLimitIsSpendingCap": false
+  },
+  "validation": {
+    "unitPassed": 65,
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "productionBuild": "PASS",
+    "independentFocusedBrowserPassed": 41,
+    "finalImplementationReviewCycle": 3,
+    "finalImplementationReview": "APPROVE",
+    "hostedBrowserPassed": 219,
+    "hostedBrowserFailed": 3,
+    "hostedBrowserRetries": 0,
+    "hostedBrowserDurationMinutes": 4.0,
+    "hostedAcceptance": "NOT ACCEPTED",
+    "remainingDefect": "Immediate navigation after changing a journey can preserve an incompatible previous package."
+  },
+  "restrictions": [
+    "Noindex preview",
+    "Provisional USD prices",
+    "Local mocked integrations",
+    "Test contact data only",
+    "Business launch unapproved",
+    "Pull request unmerged"
+  ]
+}
