@@ -35,6 +35,7 @@ import {
   useSelection,
 } from "./journey-provider";
 import { PageIntro, Section } from "./primitives";
+import { useHydrated } from "./use-hydrated";
 
 function SelectionSummary({ locale }: { locale: Locale }) {
   const selection = useSelection();
@@ -106,6 +107,7 @@ function SelectionSummary({ locale }: { locale: Locale }) {
 }
 
 export function Booking({ locale }: { locale: Locale }) {
+  const hydrated = useHydrated();
   const router = useRouter();
   const journey = useJourney();
   const context = useLeadContext(locale);
@@ -239,7 +241,7 @@ export function Booking({ locale }: { locale: Locale }) {
         <div className="booking-grid">
           <SelectionSummary locale={locale} />
           <form onSubmit={submit} noValidate className="inquiry-form">
-            <fieldset className="mode-selector">
+            <fieldset className="mode-selector" disabled={!hydrated}>
               <legend>{text(locale, "How would you like to start?")}</legend>
               {(["conversation", "appointment"] as const).map((value) => (
                 <label key={value}>
@@ -263,7 +265,12 @@ export function Booking({ locale }: { locale: Locale }) {
               ))}
             </fieldset>
             {mode === "appointment" && (
-              <fieldset id="slotUtc" tabIndex={-1} className="scheduler">
+              <fieldset
+                id="slotUtc"
+                tabIndex={-1}
+                className="scheduler"
+                disabled={!hydrated}
+              >
                 <legend>
                   {translate(
                     locale,
@@ -360,6 +367,7 @@ export function Booking({ locale }: { locale: Locale }) {
               <label htmlFor="firstName">{text(locale, "First name")}</label>
               <input
                 id="firstName"
+                disabled={!hydrated}
                 dir="auto"
                 autoComplete="given-name"
                 value={journey.draft.firstName}
@@ -381,6 +389,7 @@ export function Booking({ locale }: { locale: Locale }) {
                 </label>
                 <select
                   id="channel"
+                  disabled={!hydrated}
                   value={channel}
                   onChange={(event) =>
                     updateDraft({
@@ -400,6 +409,7 @@ export function Booking({ locale }: { locale: Locale }) {
                 <label htmlFor="email">{text(locale, "Email")}</label>
                 <input
                   id="email"
+                  disabled={!hydrated}
                   dir="ltr"
                   type="email"
                   autoComplete="email"
@@ -420,6 +430,7 @@ export function Booking({ locale }: { locale: Locale }) {
                 </label>
                 <input
                   id="phone"
+                  disabled={!hydrated}
                   dir="ltr"
                   type="tel"
                   autoComplete="tel"
@@ -441,6 +452,7 @@ export function Booking({ locale }: { locale: Locale }) {
               </label>
               <textarea
                 id="notes"
+                disabled={!hydrated}
                 dir="auto"
                 rows={4}
                 maxLength={CONTACT_LIMITS.notes}
@@ -469,6 +481,7 @@ export function Booking({ locale }: { locale: Locale }) {
             <label className="checkbox-label">
               <input
                 type="checkbox"
+                disabled={!hydrated}
                 checked={journey.draft.marketingConsent}
                 onChange={(event) =>
                   updateDraft({ marketingConsent: event.target.checked })
@@ -488,6 +501,7 @@ export function Booking({ locale }: { locale: Locale }) {
               </label>
               <select
                 id="demo-outcome"
+                disabled={!hydrated}
                 data-testid="demo-outcome"
                 value={outcome}
                 onChange={(event) =>
@@ -504,7 +518,7 @@ export function Booking({ locale }: { locale: Locale }) {
             <button
               data-testid="submit-request"
               className="button"
-              disabled={status === "pending"}
+              disabled={!hydrated || status === "pending"}
               type="submit"
             >
               {status === "pending"

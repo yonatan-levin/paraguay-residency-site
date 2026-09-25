@@ -14,6 +14,7 @@ import {
 } from "../config/locales";
 import { translate } from "../lib/i18n/common";
 import { createMockMessagingGateway } from "../infrastructure/mock/gateways";
+import { useHydrated } from "./use-hydrated";
 import {
   CaptureJourneyEntry,
   JourneyLink,
@@ -50,6 +51,7 @@ export function WhatsAppButton({
   className?: string;
   children?: ReactNode;
 }) {
+  const hydrated = useHydrated();
   const dialog = useRef<HTMLDialogElement>(null);
   const titleId = useId();
   const context = useLeadContext(locale);
@@ -59,6 +61,7 @@ export function WhatsAppButton({
     <>
       <button
         type="button"
+        disabled={!hydrated}
         className={className}
         onClick={() => {
           analytics.emit({

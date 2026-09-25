@@ -14,8 +14,10 @@ import { journeyHref } from "../domain/selection";
 import { text, ui } from "../content/ui";
 import { JourneyLink, useJourney, useSelection } from "./journey-provider";
 import { PackageCard, PageIntro, Section } from "./primitives";
+import { useHydrated } from "./use-hydrated";
 
 export function Pricing({ locale }: { locale: Locale }) {
+  const hydrated = useHydrated();
   const selection = useSelection();
   const router = useRouter();
   const { setSelection, setFinderResult } = useJourney();
@@ -98,7 +100,7 @@ export function Pricing({ locale }: { locale: Locale }) {
         </p>
       </PageIntro>
       <Section className="pricing-section">
-        <fieldset className="journey-tabs">
+        <fieldset className="journey-tabs" disabled={!hydrated}>
           <legend>{text(locale, "Choose your journey")}</legend>
           {[
             ["first", text(locale, "First residency")],

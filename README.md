@@ -1,6 +1,6 @@
 # Paraguay Residency Studio prototype
 
-A complete demo website for reviewing residency and relocation journeys. The brand, prices, scope, people, and business policies are provisional. Requests, appointments, WhatsApp messages, and analytics remain local simulations. **No real booking or message is sent.** The source repository is public for team collaboration. Firebase Blaze billing is authorized and the dedicated backend is configured with its verified origin. See [the hosting guide](docs/FIREBASE_HOSTING.md) for setup and [issue #7](https://github.com/yonatan-levin/paraguay-residency-site/issues/7) for rollout and hosted verification status.
+A complete demo website for reviewing residency and relocation journeys. The brand, prices, scope, people, and business policies are provisional. Requests, appointments, WhatsApp messages, and analytics remain local simulations. **No real booking or message is sent.** The source repository is public for team collaboration. The [hosted team preview](https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app) uses the dedicated Firebase project with authorized Blaze usage billing. See [the hosting guide](docs/FIREBASE_HOSTING.md) for setup and [issue #7](https://github.com/yonatan-levin/paraguay-residency-site/issues/7) for the deployed revision and hosted verification status.
 
 ## Run on Windows / PowerShell
 

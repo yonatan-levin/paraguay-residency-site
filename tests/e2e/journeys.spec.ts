@@ -75,10 +75,12 @@ test("AC-10 simulated failure keeps draft and allows successful retry", async ({
 
 test("AC-12 WhatsApp is an accessible local preview and makes no provider requests", async ({
   page,
+  baseURL,
 }) => {
+  const siteOrigin = new URL(baseURL!).origin;
   const external: string[] = [];
   page.on("request", (request) => {
-    if (!new URL(request.url()).hostname.match(/^(127\.0\.0\.1|localhost)$/))
+    if (new URL(request.url()).origin !== siteOrigin)
       external.push(request.url());
   });
   await page.goto("/en/contact?plan=temporary-guided");

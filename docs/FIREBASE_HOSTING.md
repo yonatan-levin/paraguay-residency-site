@@ -2,7 +2,7 @@
 
 The owner authorized a public demo and public source repository. The dedicated Firebase project is `paraguay-residency-site` (project number `236755616004`); it is separate from the existing `este-a-oeste-web` project. The repository is [yonatan-levin/paraguay-residency-site](https://github.com/yonatan-levin/paraguay-residency-site), with implementation reviewed on `prototype/hebrew`.
 
-The owner authorized Blaze billing, which is enabled for this project. Backend `paraguay-prototype` exists in `us-central1` with runtime `nodejs24`. Firebase returned the allocated origin `https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app`, now configured as `SITE_URL` at build and runtime. An allocated origin does not establish a successful rollout or passing hosted checks; current rollout and verification status belongs in [issue #7](https://github.com/yonatan-levin/paraguay-residency-site/issues/7).
+The owner authorized Blaze billing, which is enabled for this project. Backend `paraguay-prototype` serves the [public team preview](https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app) in `us-central1` with runtime `nodejs24`. Firebase returned that origin, configured as `SITE_URL` at build and runtime. Deployment does not establish passing hosted checks; the deployed revision and verification status belong in [issue #7](https://github.com/yonatan-levin/paraguay-residency-site/issues/7).
 
 ## Hosting contract
 
@@ -61,6 +61,15 @@ firebase apphosting:backends:get paraguay-prototype --project paraguay-residency
 This uploads the current local source, not whatever happens to be on the default GitHub branch. Wait for the rollout to succeed in the [project's App Hosting console](https://console.firebase.google.com/project/paraguay-residency-site/apphosting). Record the actual rollout ID, source commit and verified URL in issue #7. Do not claim a successful deployment solely from backend creation or a local build.
 
 ## Hosted acceptance checks
+
+Run the existing regression suite against the actual hosted origin. The longer per-test timeout allows the link inventory to request every rendered destination over the network; retries remain disabled. Unset `CI` only for this manual hosted run so Playwright reuses the deployed server instead of starting a local one:
+
+```powershell
+$env:E2E_BASE_URL = 'https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app'
+Remove-Item Env:CI -ErrorAction SilentlyContinue
+npm run test:e2e -- --timeout=120000
+Remove-Item Env:E2E_BASE_URL
+```
 
 - Open all five home pages and a pricing, booking, campaign and policy route in each language. Verify HTTPS and noindex metadata plus the `X-Robots-Tag` response header. Canonical and language alternate URLs must use the verified Firebase origin.
 - Check Hebrew direction on first render and after language switching at mobile and desktop sizes. Confirm package, family quote, contact draft and selected appointment instant survive language changes.

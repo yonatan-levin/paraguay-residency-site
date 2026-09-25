@@ -96,11 +96,13 @@ test("appointment draft survives language changes without changing the UTC insta
 
 test("Hebrew mixed direction details keep their meaning through a simulated appointment", async ({
   page,
+  baseURL,
 }) => {
   const copy = hebrewCopy();
+  const siteOrigin = new URL(baseURL!).origin;
   const external: string[] = [];
   page.on("request", (request) => {
-    if (!["localhost", "127.0.0.1"].includes(new URL(request.url()).hostname))
+    if (new URL(request.url()).origin !== siteOrigin)
       external.push(request.url());
   });
   await page.goto("/he/book?plan=temporary-guided");

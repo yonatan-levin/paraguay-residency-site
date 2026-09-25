@@ -16,8 +16,10 @@ import { journeyHref } from "../domain/selection";
 import { text, ui } from "../content/ui";
 import { JourneyLink, useJourney, useSelection } from "./journey-provider";
 import { PageIntro, Section } from "./primitives";
+import { useHydrated } from "./use-hydrated";
 
 export function PlanFinder({ locale }: { locale: Locale }) {
+  const hydrated = useHydrated();
   const journey = useJourney();
   const router = useRouter();
   const { answers, setAnswers } = journey;
@@ -347,6 +349,7 @@ export function PlanFinder({ locale }: { locale: Locale }) {
               </div>
               <button
                 className="text-button"
+                disabled={!hydrated}
                 onClick={() => {
                   setComplete(false);
                   setStep(0);
@@ -369,7 +372,7 @@ export function PlanFinder({ locale }: { locale: Locale }) {
                   style={{ width: `${((step + 1) / questions.length) * 100}%` }}
                 />
               </div>
-              <fieldset>
+              <fieldset disabled={!hydrated}>
                 <legend>
                   <h2 ref={heading} tabIndex={-1}>
                     {content[current].title}
@@ -400,7 +403,7 @@ export function PlanFinder({ locale }: { locale: Locale }) {
                   type="button"
                   className="button button-outline"
                   data-testid="finder-back"
-                  disabled={step === 0}
+                  disabled={!hydrated || step === 0}
                   onClick={() => {
                     setStep(step - 1);
                     focusStep();
@@ -412,7 +415,7 @@ export function PlanFinder({ locale }: { locale: Locale }) {
                   type="button"
                   className="button"
                   data-testid="finder-next"
-                  disabled={!journey.answers[current]}
+                  disabled={!hydrated || !journey.answers[current]}
                   onClick={next}
                 >
                   {step === questions.length - 1
