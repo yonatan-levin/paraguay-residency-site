@@ -101,6 +101,12 @@ export function Pricing({ locale }: { locale: Locale }) {
             "Start with your journey. Then compare what each level of support would cover.",
           )}
         </p>
+        <p className="small">
+          {text(locale, "Still deciding whether Paraguay fits your plans?")}{" "}
+          <JourneyLink locale={locale} route="why-paraguay">
+            {text(locale, "Explore Why Paraguay")}
+          </JourneyLink>
+        </p>
       </PageIntro>
       <Section className="pricing-section">
         <fieldset className="journey-tabs" disabled={!hydrated}>

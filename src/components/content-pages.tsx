@@ -4,10 +4,12 @@ import type { Locale } from "../domain/types";
 import { packages, services } from "../content/catalog";
 import { getServiceDetail } from "../content/service-details";
 import { getGuide } from "../content/guide";
+import { getOutcomeIntro, valueText } from "../content/value-first";
 import { brand } from "../config/brand";
 import { formatPrice } from "../domain/pricing";
 import { text, ui } from "../content/ui";
-import { JourneyLink } from "./journey-provider";
+import { JourneyLink, ServiceInquiry } from "./journey-provider";
+import { SourceNote } from "./value-content";
 import { WhatsAppButton } from "./shell";
 import { FAQAccordion, PackageCard, PageIntro, Section } from "./primitives";
 
@@ -32,22 +34,59 @@ export function ServicePage({
         title={service.name[locale]}
         eyebrow={text(locale, "Practical support, clearly scoped")}
       >
-        <p>{detail.intro}</p>
+        <p>{getOutcomeIntro(route, locale) ?? detail.intro}</p>
       </PageIntro>
+      {route === "paraguay-residency" && (
+        <Section id="benefits" className="soft-section">
+          <h2>{valueText(locale, "residencyTitle")}</h2>
+          <p>{valueText(locale, "residencyBody")}</p>
+          <p>{valueText(locale, "residencyStages")}</p>
+          <p>{valueText(locale, "residencyLimits")}</p>
+          <SourceNote locale={locale} source="R1" />
+          <JourneyLink locale={locale} route="why-paraguay">
+            {valueText(locale, "whyLink")}
+          </JourneyLink>
+        </Section>
+      )}
       <Section className="service-intro">
         <div className="two-column">
           <div>
             <h2>{text(locale, "Is this the right conversation for you?")}</h2>
             <p>{detail.audience}</p>
-            <JourneyLink
+            <ServiceInquiry
               locale={locale}
-              route="book"
-              selection={{ serviceId: service.id }}
-              className="button"
+              serviceId={service.id}
               cta="service-inquiry"
-            >
-              {text(locale, "Discuss this service")}
-            </JourneyLink>
+            />
+            {route === "relocation" && (
+              <div className="resource-links">
+                <JourneyLink
+                  locale={locale}
+                  route="why-paraguay"
+                  anchor="life-and-budget"
+                >
+                  {valueText(locale, "budgetLink")}
+                </JourneyLink>
+                <JourneyLink locale={locale} route="lp/family-relocation">
+                  {text(locale, "Family relocation")}
+                </JourneyLink>
+              </div>
+            )}
+            {route === "tax-planning" && (
+              <>
+                <SourceNote locale={locale} source="R3" />
+                <JourneyLink
+                  locale={locale}
+                  route="why-paraguay"
+                  anchor="financial-planning"
+                >
+                  {valueText(locale, "whyLink")}
+                </JourneyLink>
+              </>
+            )}
+            {route === "permanent-residency" && (
+              <SourceNote locale={locale} source="R2" />
+            )}
           </div>
           <div className="service-note">
             <p className="eyebrow">{text(locale, "Preview scope")}</p>
@@ -150,14 +189,7 @@ export function ServicePage({
             ))}
           </ul>
         )}
-        <JourneyLink
-          locale={locale}
-          route="book"
-          selection={{ serviceId: service.id }}
-          className="button"
-        >
-          {text(locale, "Discuss this service")}
-        </JourneyLink>
+        <ServiceInquiry locale={locale} serviceId={service.id} />
       </Section>
     </>
   );
@@ -196,17 +228,17 @@ export function ServicesIndex({ locale }: { locale: Locale }) {
                         : editorialText(locale, "Practical support")}
                 </p>
                 <h2>
-                  <Link href={`/${locale}/${item.routeKey}`}>
+                  <JourneyLink locale={locale} route={item.routeKey}>
                     {item.name[locale]}
-                  </Link>
+                  </JourneyLink>
                 </h2>
                 <p>
                   {getServiceDetail(item.routeKey, locale)?.intro ??
                     item.scope[locale].join(" ")}
                 </p>
-                <Link href={`/${locale}/${item.routeKey}`}>
+                <JourneyLink locale={locale} route={item.routeKey}>
                   {editorialText(locale, "Explore the scope")}
-                </Link>
+                </JourneyLink>
               </article>
             ))}
         </div>
@@ -239,17 +271,18 @@ export function GuidesIndex({ locale }: { locale: Locale }) {
             {editorialText(locale, "Document preparation · Editorial draft")}
           </p>
           <h2>
-            <Link href={`/${locale}/guides/residency-requirements`}>
+            <JourneyLink locale={locale} route="guides/residency-requirements">
               {guide.title}
-            </Link>
+            </JourneyLink>
           </h2>
           <p>{guide.summary}</p>
-          <Link
+          <JourneyLink
+            locale={locale}
             className="button button-outline"
-            href={`/${locale}/guides/residency-requirements`}
+            route="guides/residency-requirements"
           >
             {editorialText(locale, "Read the preparation guide")}
-          </Link>
+          </JourneyLink>
         </article>
       </Section>
     </>
@@ -358,6 +391,9 @@ export function ResidencyGuide({ locale }: { locale: Locale }) {
             </section>
             <section>
               <h2>{editorialText(locale, "Related reading")}</h2>
+              <JourneyLink locale={locale} route="why-paraguay">
+                {valueText(locale, "whyLink")}
+              </JourneyLink>
               <p>
                 {editorialText(
                   locale,
@@ -385,12 +421,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
         )}
         eyebrow={editorialText(locale, "About the working studio")}
       >
-        <p>
-          {editorialText(
-            locale,
-            "Paraguay Residency Studio is a working brand for this website prototype. The business story, operating entity and people will be published once supplied and approved.",
-          )}
-        </p>
+        <p>{valueText(locale, "aboutBrand")}</p>
       </PageIntro>
       <Section className="service-intro">
         <div className="two-column">

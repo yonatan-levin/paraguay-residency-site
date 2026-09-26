@@ -61,6 +61,7 @@ export interface PageDefinition {
   locales: Locale[];
   template:
     | "home"
+    | "why"
     | "service"
     | "pricing"
     | "finder"
@@ -80,6 +81,7 @@ export interface PageDefinition {
   commercialApproved: boolean;
   requiresCommercialApproval: boolean;
   contentReviewed: boolean;
+  claimIds?: readonly string[];
   cta: { routeKey: string; serviceId?: string };
 }
 export type Campaign = "residency-cost" | "family-relocation";

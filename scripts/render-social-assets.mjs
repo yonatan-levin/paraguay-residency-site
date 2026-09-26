@@ -76,6 +76,41 @@ const cards = [
     lines: ["Ein neues Kapitel,", "gemeinsam geplant."],
     foot: "Familienangebot · Websitevorschau",
   },
+  {
+    campaign: "why-paraguay",
+    locale: "en",
+    kicker: "RESIDENCY / LIFE / PLANNING",
+    lines: ["Why consider", "Paraguay?"],
+    foot: "Explore the opportunities and commitments",
+  },
+  {
+    campaign: "why-paraguay",
+    locale: "es",
+    kicker: "RESIDENCIA / VIDA / PLANIFICACIÓN",
+    lines: ["¿Por qué considerar", "Paraguay?"],
+    foot: "Explore las oportunidades y los compromisos",
+  },
+  {
+    campaign: "why-paraguay",
+    locale: "fr",
+    kicker: "RÉSIDENCE / VIE / PROJETS",
+    lines: ["Pourquoi envisager", "le Paraguay ?"],
+    foot: "Découvrez les possibilités et les engagements",
+  },
+  {
+    campaign: "why-paraguay",
+    locale: "de",
+    kicker: "AUFENTHALT / LEBEN / PLANUNG",
+    lines: ["Warum Paraguay", "in Betracht ziehen?"],
+    foot: "Möglichkeiten und Verpflichtungen verstehen",
+  },
+  {
+    campaign: "why-paraguay",
+    locale: "he",
+    kicker: "תושבות / חיים / תכנון",
+    lines: ["למה לשקול", "את פרגוואי?"],
+    foot: "לבחון הזדמנויות ומחויבויות",
+  },
 ];
 for (const card of cards) {
   // Hebrew shares the existing text region without reversing the artwork or brand.
@@ -89,7 +124,7 @@ for (const card of cards) {
   <circle cx="1090" cy="315" r="175" fill="none" stroke="#12624C" stroke-width="2"/>
   <circle cx="1090" cy="315" r="120" fill="none" stroke="#12624C" stroke-width="2"/>
   <path d="M920 490l160-265 120 145v260H920z" fill="#12624C"/>
-  <text x="72" y="90" font-family="Arial,sans-serif" font-size="26" fill="#142B3B">Paraguay Residency Studio</text>
+  <text x="72" y="90" font-family="Arial,sans-serif" font-size="26" fill="#142B3B">Paraguay Next</text>
   <text x="${textX}" y="187" ${textDirection} font-family="Arial,sans-serif" font-size="18" letter-spacing="${card.locale === "he" ? 0 : 2}" fill="#12624C">${card.kicker}</text>
   <g ${textDirection} font-family="Arial,sans-serif" font-weight="600" font-size="58" fill="#142B3B"><text x="${card.locale === "he" ? textX : 68}" y="288">${card.lines[0]}</text><text x="${card.locale === "he" ? textX : 68}" y="366">${card.lines[1]}</text></g>
   <path d="M72 459H816" stroke="#D8E2DC"/>
@@ -116,44 +151,48 @@ const sourceHero = await readFile(
 );
 const artworkCopy = {
   he: [
-    "הפרק הבא שלכם,",
-    "בתכנון ברור.",
-    "ליווי לתושבות. חבילות ברורות.",
-    "תיאום מקומי.",
-    "תצוגה מקדימה · מותג והצעות זמניים",
+    "יותר אפשרויות",
+    "לפרק הבא שלכם.",
+    "הכירו את החיים והתושבות בפרגוואי.",
+    "הבינו את האפשרויות לפני המעבר.",
+    "תצוגה מקדימה · הצעות זמניות",
     "איור להמחשה · תמונה זמנית",
+    "תושבות, מעבר והקמת עסק",
   ],
   es: [
-    "Su próxima etapa,",
-    "con un plan claro.",
-    "Apoyo de residencia. Paquetes claros.",
-    "Coordinación local.",
-    "Vista previa · Marca y ofertas provisionales",
+    "Más opciones para",
+    "su próxima etapa.",
+    "Explore la vida y la residencia en Paraguay.",
+    "Conozca las opciones antes de mudarse.",
+    "Vista previa · Ofertas provisionales",
     "Ilustración editorial · Imagen provisional",
+    "Residencia, reubicación y creación de empresas",
   ],
   fr: [
-    "Votre prochain chapitre,",
-    "clairement préparé.",
-    "Aide à la résidence. Formules claires.",
-    "Coordination locale.",
-    "Aperçu du site · Marque et offres provisoires",
+    "Plus de possibilités",
+    "pour votre avenir.",
+    "Découvrez la vie et la résidence au Paraguay.",
+    "Comprenez vos options avant de partir.",
+    "Aperçu du site · Offres provisoires",
     "Illustration éditoriale · Visuel provisoire",
+    "Résidence, installation et création d’entreprise",
   ],
   de: [
-    "Ihr nächstes Kapitel,",
-    "klar geplant.",
-    "Aufenthaltshilfe. Klare Pakete.",
-    "Koordination vor Ort.",
-    "Websitevorschau · Vorläufige Marke und Angebote",
+    "Mehr Möglichkeiten",
+    "für Ihre Zukunft.",
+    "Leben und Aufenthalt in Paraguay entdecken.",
+    "Möglichkeiten vor dem Umzug verstehen.",
+    "Websitevorschau · Vorläufige Angebote",
     "Redaktionelle Illustration · Vorschaubild",
+    "Aufenthalt, Umzug und Unternehmensgründung",
   ],
 };
 const sourceLines = [
-  "Your next chapter,",
-  "clearly planned.",
-  "Residency support. Clear packages.",
-  "Local coordination.",
-  "Website preview · Working brand and provisional offers",
+  "More options for",
+  "your next chapter.",
+  "Explore life and residency in Paraguay.",
+  "Understand the choices before you move.",
+  "Website preview · Provisional offers",
 ];
 const artworkDescriptions = {
   he: "איור מקורי של חצר שטופת שמש, צמחייה טרופית ונהר הנשקף מבעד לקשת פתוחה. זו תמונה זמנית להמחשה ולא תצלום של נכס או משרד.",
@@ -161,6 +200,11 @@ const artworkDescriptions = {
   fr: "Illustration originale d’une cour ensoleillée, de plantes tropicales et d’une rivière au delà d’une arche. Ce visuel provisoire ne représente pas la photographie d’un bien ou d’un bureau.",
   de: "Originalillustration eines sonnigen Innenhofs, tropischer Pflanzen und eines Flusses hinter einem offenen Bogen. Dies ist ein vorläufiges Bild, keine Fotografie einer Immobilie oder eines Büros.",
 };
+// The English default is also a generated output, so edits to its SVG cannot
+// leave production metadata pointing at a stale raster with the former brand.
+await sharp(Buffer.from(sourceCard))
+  .png()
+  .toFile(fileURLToPath(new URL("../public/og-default.png", import.meta.url)));
 for (const [locale, lines] of Object.entries(artworkCopy)) {
   let svg = sourceCard;
   sourceLines.forEach((line, index) => {
@@ -168,6 +212,10 @@ for (const [locale, lines] of Object.entries(artworkCopy)) {
       throw new Error(`Missing source artwork text: ${line}`);
     svg = svg.replaceAll(line, lines[index]);
   });
+  svg = svg.replace(
+    "Residency, relocation &amp; business setup",
+    lines[sourceLines.length + 1],
+  );
   if (locale === "he") {
     svg = svg
       .replace('letter-spacing="-2"', 'letter-spacing="0"')
@@ -177,11 +225,15 @@ for (const [locale, lines] of Object.entries(artworkCopy)) {
       )
       .replace(
         /<title id="title">[^<]*<\/title>/,
-        '<title id="title">תצוגה מקדימה של Paraguay Residency Studio</title>',
+        '<title id="title">תצוגה מקדימה של Paraguay Next</title>',
       )
       .replace(
         /<desc id="desc">[^<]*<\/desc>/,
-        `<desc id="desc">איור עם קשת פתוחה ונוף. ${lines[0]} ${lines[1]} המותג וההצעות זמניים.</desc>`,
+        `<desc id="desc">איור עם קשת פתוחה ונוף. ${lines[0]} ${lines[1]} ההצעות זמניות.</desc>`,
+      )
+      .replace(
+        '<text x="124" y="108"',
+        '<text x="667" y="108" direction="rtl" text-anchor="start"',
       );
   }
   await sharp(Buffer.from(svg))

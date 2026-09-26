@@ -5,6 +5,7 @@ import { getPage } from "../../../../config/routes";
 import { pageMetadata } from "../../../../lib/seo/metadata";
 import type { Locale } from "../../../../domain/types";
 import { Home } from "../../../../components/home";
+import { WhyParaguay } from "../../../../components/why-paraguay";
 import {
   Booking,
   ThankYou,
@@ -40,6 +41,7 @@ export default async function SitePage({ params }: PageProps) {
   const route = slug?.join("/") || "home";
   if (!getPage(route, locale)) notFound();
   if (route === "home") return <Home locale={locale} />;
+  if (route === "why-paraguay") return <WhyParaguay locale={locale} />;
   if (route === "pricing") return <Pricing locale={locale} />;
   if (route === "book") return <Booking locale={locale} />;
   if (route === "thank-you") return <ThankYou locale={locale} />;

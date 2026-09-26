@@ -11,6 +11,79 @@
   --max: 1200px;
   --gutter: 20px;
 }
+
+/* Evaluation content shares the existing palette and lets every locale reflow. */
+.benefit-grid,
+.service-value-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.benefit-card,
+.service-value-grid article {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.benefit-card p,
+.service-value-grid p,
+.motivation-grid p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.benefit-card .benefit-qualification {
+  font-size: 0.875rem;
+  color: var(--ink);
+  border-inline-start: 3px solid var(--green);
+  padding-inline-start: 12px;
+}
+.benefit-card a,
+.service-value-grid a,
+.motivation-grid a {
+  display: inline-block;
+  padding-block: 8px;
+  font-weight: 600;
+}
+.motivation-grid .goal-card {
+  display: flex;
+  flex-direction: column;
+}
+.motivation-grid .goal-card a {
+  margin-block-start: auto;
+}
+.why-content .container {
+  max-width: min(820px, calc(100% - var(--gutter) * 2));
+}
+.why-content .section {
+  padding-block: 48px;
+}
+.why-content .section + .section {
+  border-block-start: 1px solid var(--line);
+}
+.why-content [id],
+#benefits {
+  scroll-margin-block-start: 24px;
+}
+.why-overview li,
+.budget-list li {
+  margin-block-end: 12px;
+}
+.source-note {
+  font-size: 0.875rem;
+  color: var(--muted);
+  padding-block: 16px;
+  border-block-start: 1px solid var(--line);
+}
+.final-action a:not(.button) {
+  color: inherit;
+}
+.value-next-actions {
+  flex-wrap: wrap;
+}
+.service-inquiry {
+  margin-block: 20px;
+}
 * {
   box-sizing: border-box;
 }
@@ -283,11 +356,12 @@ hr {
 .desktop-nav {
   display: flex;
   justify-content: center;
-  gap: 23px;
+  gap: 14px;
+  flex-wrap: wrap;
   flex: 1;
 }
 .desktop-nav a {
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   color: var(--ink);
   text-decoration: none;
   white-space: nowrap;
@@ -351,6 +425,10 @@ hr {
 }
 .mobile-menu {
   display: none;
+}
+.header-booking {
+  font-size: 0.875rem;
+  max-width: 10rem;
 }
 .hero {
   display: grid;
@@ -716,6 +794,9 @@ hr {
   align-items: center;
   gap: 60px;
 }
+.final-action > .container > * {
+  min-inline-size: 0;
+}
 .final-action h2 {
   font-size: 2.5rem;
 }
@@ -726,7 +807,8 @@ hr {
   color: #d5e7de;
 }
 .final-action .button {
-  flex-shrink: 0;
+  flex-shrink: 1;
+  max-inline-size: 100%;
 }
 .guide-preview {
   padding-block: 30px;
@@ -1161,9 +1243,6 @@ input[type="checkbox"] {
   .header-inner {
     gap: 18px;
   }
-  .desktop-nav a {
-    font-size: 0.77rem;
-  }
   .header-cta {
     padding-inline: 12px;
   }
@@ -1192,9 +1271,10 @@ input[type="checkbox"] {
     gap: 40px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .desktop-nav,
-  .header-cta {
+  .header-cta,
+  .header-booking {
     display: none;
   }
   .header-inner {
@@ -1237,6 +1317,8 @@ input[type="checkbox"] {
     color: var(--ink);
     font-size: 0.95rem;
   }
+}
+@media (max-width: 900px) {
   .hero {
     gap: 30px;
   }
@@ -2222,5 +2304,45 @@ input[type="checkbox"] {
   }
   .policy-content h2 {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .value-hero {
+    display: block;
+    padding-block: 24px 32px;
+  }
+  .value-hero .hero-copy {
+    padding-block: 0;
+  }
+  .value-hero h1 {
+    font-size: 2rem;
+    line-height: 1.12;
+  }
+  .value-hero .lead {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-block: 20px;
+  }
+  .value-hero .button-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  .value-hero .button {
+    width: 100%;
+  }
+  .value-hero .hero-art {
+    display: none;
+  }
+  .value-hero .quiet-booking {
+    margin-block: 18px 0;
+  }
+  .benefit-grid,
+  .service-value-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .why-content .section {
+    padding-block: 32px;
   }
 }

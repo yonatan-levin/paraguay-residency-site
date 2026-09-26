@@ -1,7 +1,7 @@
 import { supportedLocales } from "./locales";
 import type { BrandConfig } from "../domain/types";
 export const brand: BrandConfig = {
-  displayName: "Paraguay Residency Studio",
+  displayName: "Paraguay Next",
   contacts: {},
   timezone: "America/Asuncion",
   locales: [...supportedLocales],

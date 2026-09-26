@@ -148,21 +148,24 @@ export function SiteShell({
   }, []);
   const nav = (
     <>
+      <JourneyLink locale={locale} route="why-paraguay">
+        {text(locale, "Why Paraguay")}
+      </JourneyLink>
       <JourneyLink locale={locale} route="paraguay-residency">
         {text(locale, "Residency")}
       </JourneyLink>
       <JourneyLink locale={locale} route="pricing">
         {text(locale, "Packages")}
       </JourneyLink>
-      <Link href={`/${locale}/services`} lang={locale}>
+      <JourneyLink locale={locale} route="services" lang={locale}>
         {text(locale, "Relocation & business")}
-      </Link>
-      <Link href={`/${locale}/guides`} lang={locale}>
+      </JourneyLink>
+      <JourneyLink locale={locale} route="guides" lang={locale}>
         {text(locale, "Guides")}
-      </Link>
-      <Link href={`/${locale}/about`} lang={locale}>
+      </JourneyLink>
+      <JourneyLink locale={locale} route="about" lang={locale}>
         {text(locale, "About")}
-      </Link>
+      </JourneyLink>
     </>
   );
   return (
@@ -192,6 +195,15 @@ export function SiteShell({
             </nav>
           )}
           <div className="header-actions">
+            {!compact && (
+              <JourneyLink
+                locale={locale}
+                route="book"
+                className="header-booking"
+              >
+                {text(locale, "Book a consultation")}
+              </JourneyLink>
+            )}
             {route !== "internal/rtl" && (
               <details
                 ref={languageMenu}

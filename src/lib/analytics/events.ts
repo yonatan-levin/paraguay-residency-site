@@ -2,6 +2,7 @@ import { isLocale } from "../../config/locales";
 import type { Clock } from "../../domain/types";
 import { getPackage, getService } from "../../content/catalog";
 import { campaignIds } from "../../domain/selection";
+import { benefitIds, motivationIds } from "../../domain/value-first";
 export interface AnalyticsEvent {
   eventId: string;
   timestamp: string;
@@ -11,6 +12,8 @@ export interface AnalyticsEvent {
   planId?: string;
   campaign?: string;
   ctaId?: string;
+  benefit_id?: string;
+  motivation_id?: string;
   step?: number;
   outcome?: string;
   is_demo: boolean;
@@ -20,6 +23,8 @@ export interface AnalyticsAdapter {
 }
 export const eventIds = [
   "primary_cta_clicked",
+  "benefit_detail_opened",
+  "motivation_selected",
   "package_selected",
   "finder_started",
   "finder_completed",
@@ -31,6 +36,10 @@ export const eventIds = [
 ] as const;
 export const ctaIds = [
   "find-plan",
+  "explore-benefits",
+  "benefit-detail",
+  "motivation-details",
+  "why-paraguay",
   "compare-packages",
   "discuss-plan",
   "book-consultation",
@@ -51,6 +60,7 @@ export const ctaIds = [
 ] as const;
 const routeIds = [
   "home",
+  "why-paraguay",
   "paraguay-residency",
   "pricing",
   "find-my-plan",
@@ -120,6 +130,16 @@ export function sanitizeEvent(
     (ctaIds as readonly string[]).includes(input.ctaId)
   )
     event.ctaId = input.ctaId;
+  if (
+    typeof input.benefit_id === "string" &&
+    (benefitIds as readonly string[]).includes(input.benefit_id)
+  )
+    event.benefit_id = input.benefit_id;
+  if (
+    typeof input.motivation_id === "string" &&
+    (motivationIds as readonly string[]).includes(input.motivation_id)
+  )
+    event.motivation_id = input.motivation_id;
   if (
     typeof input.step === "number" &&
     Number.isInteger(input.step) &&

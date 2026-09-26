@@ -72,6 +72,14 @@ test("keyboard menu, skip link, dialog dismissal and focus recovery", async ({
   await expect(
     page.getByRole("navigation", { name: "Mobile navigation", exact: true }),
   ).not.toBeVisible();
+  // The benefits hero links to consultation; messaging remains on Contact.
+  await page.keyboard.press("Enter");
+  await page
+    .getByRole("navigation", { name: "Mobile navigation", exact: true })
+    .getByRole("link", { name: "Contact", exact: true })
+    .focus();
+  await page.keyboard.press("Enter");
+  await expect(page).toHaveURL(/\/en\/contact$/);
   const whatsapp = page
     .getByRole("button", { name: "Ask us on WhatsApp", exact: true })
     .first();

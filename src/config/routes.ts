@@ -1,6 +1,7 @@
 import { supportedLocales } from "./locales";
 import { localized } from "../lib/i18n/common";
 import type { Locale, PageDefinition } from "../domain/types";
+import { pageClaimDependencies } from "../content/content-review";
 type RouteSeed = [
   string,
   PageDefinition["template"],
@@ -13,10 +14,16 @@ const routeSeeds: RouteSeed[] = [
   [
     "home",
     "home",
-    "Your Paraguay residency, clearly planned",
-    "Explore provisional residency packages, practical preparation and coordinated support for your next chapter.",
+    "Paraguay Residency & Relocation",
+    "Explore why people consider Paraguay, what residency could enable, and the practical costs and support to plan your next step.",
     "Tu residencia en Paraguay, con un plan claro",
     "Explora paquetes provisionales, preparación práctica y apoyo coordinado para tu próximo capítulo.",
+  ],
+  [
+    "why-paraguay",
+    "why",
+    "Why Paraguay? Residency, Lifestyle & Planning",
+    "Explore the practical reasons to consider Paraguay, from a legal base and longer term planning to tax questions, everyday life and business setup.",
   ],
   [
     "paraguay-residency",
@@ -151,7 +158,7 @@ const routeSeeds: RouteSeed[] = [
   [
     "about",
     "about",
-    "About the Studio & Responsibilities",
+    "About Paraguay Next & Responsibilities",
     "Understand the working brand, provisional service responsibilities and the people details awaiting approval.",
   ],
   [
@@ -182,7 +189,7 @@ const routeSeeds: RouteSeed[] = [
     "links",
     "links",
     "Your Next Step in Paraguay",
-    "Choose residency packages, family relocation, a consultation or a local message preview.",
+    "Choose why Paraguay, residency packages, family relocation or a consultation.",
     "Tu próximo paso en Paraguay",
     "Elige paquetes de residencia, mudanza familiar, una consulta o una vista previa de mensaje.",
   ],
@@ -245,11 +252,15 @@ export const pages: PageDefinition[] = routeSeeds.map(
     commercialApproved: false,
     requiresCommercialApproval: [
       "home",
+      "why",
       "service",
       "pricing",
       "campaign",
     ].includes(template),
     contentReviewed: false,
+    ...(pageClaimDependencies[key]
+      ? { claimIds: pageClaimDependencies[key] }
+      : {}),
     cta: { routeKey: "book" },
   }),
 );

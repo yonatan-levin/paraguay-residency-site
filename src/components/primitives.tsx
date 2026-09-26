@@ -10,13 +10,22 @@ export function Section({
   children,
   className = "",
   id,
+  "data-home-section": homeSection,
+  "data-why-section": whySection,
 }: {
   children: ReactNode;
   className?: string;
   id?: string;
+  "data-home-section"?: string;
+  "data-why-section"?: string;
 }) {
   return (
-    <section id={id} className={`section ${className}`}>
+    <section
+      id={id}
+      className={`section ${className}`}
+      data-home-section={homeSection}
+      data-why-section={whySection}
+    >
       <div className="container">{children}</div>
     </section>
   );

@@ -11,6 +11,7 @@ import {
 import { usePathname, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import type {
+  Campaign,
   ContactDraft,
   FinderAnswers,
   FinderResult,
@@ -20,7 +21,13 @@ import type {
   Selection,
   SubmissionPayload,
 } from "../domain/types";
-import { journeyHref, resolveSelection } from "../domain/selection";
+import {
+  journeyHref,
+  resolveSelection,
+  selectServiceContext,
+} from "../domain/selection";
+import type { AnchorId, BenefitId, MotivationId } from "../domain/value-first";
+import { text } from "../content/ui";
 import { captureAttribution } from "../domain/attribution";
 import { createMemoryAnalytics, type ctaIds } from "../lib/analytics/events";
 
@@ -210,6 +217,11 @@ export function JourneyLink({
   children,
   className,
   cta,
+  anchor,
+  inquiryServiceId,
+  campaign,
+  benefitId,
+  motivationId,
   ...props
 }: {
   locale: Locale;
@@ -218,6 +230,11 @@ export function JourneyLink({
   children: ReactNode;
   className?: string;
   cta?: (typeof ctaIds)[number];
+  anchor?: AnchorId;
+  inquiryServiceId?: string;
+  campaign?: Campaign;
+  benefitId?: BenefitId;
+  motivationId?: MotivationId;
   "aria-label"?: string;
   "data-testid"?: string;
   lang?: string;
@@ -230,10 +247,15 @@ export function JourneyLink({
   const routeKey = pathname.split("/").slice(2).join("/") || "home";
   const journey = useJourney();
   const params = useSearchParams();
-  const chosen = selection
-    ? { campaign: context.campaign, ...selection }
-    : context;
-  const href = journeyHref(locale, route, chosen);
+  const chosen = {
+    ...(inquiryServiceId
+      ? selectServiceContext(context, inquiryServiceId).selection
+      : selection
+        ? { campaign: context.campaign, ...selection }
+        : context),
+    ...(campaign ? { campaign } : {}),
+  };
+  const href = journeyHref(locale, route, chosen, anchor);
   return (
     <Link
       {...props}
@@ -243,9 +265,9 @@ export function JourneyLink({
       onNavigate={() => {
         chooseSelection(chosen);
         if (
-          selection &&
-          (selection.serviceId !== journey.finderResult?.serviceId ||
-            selection.packageId !== journey.finderResult?.packageId)
+          (selection || inquiryServiceId) &&
+          (chosen.serviceId !== journey.finderResult?.serviceId ||
+            chosen.packageId !== journey.finderResult?.packageId)
         )
           journey.setFinderResult(undefined);
         journey.setAttribution(
@@ -275,9 +297,72 @@ export function JourneyLink({
             campaign: chosen.campaign,
             is_demo: true,
           });
+        if (benefitId)
+          journey.analytics.emit({
+            eventId: "benefit_detail_opened",
+            routeKey,
+            locale,
+            benefit_id: benefitId,
+            planId: chosen.packageId,
+            serviceId: chosen.serviceId,
+            campaign: chosen.campaign,
+            is_demo: true,
+          });
+        if (motivationId)
+          journey.analytics.emit({
+            eventId: "motivation_selected",
+            routeKey,
+            locale,
+            motivation_id: motivationId,
+            planId: chosen.packageId,
+            serviceId: chosen.serviceId,
+            campaign: chosen.campaign,
+            is_demo: true,
+          });
       }}
     >
       {children}
     </Link>
+  );
+}
+
+export function ServiceInquiry({
+  locale,
+  serviceId,
+  cta,
+  route = "book",
+  children,
+  campaign,
+}: {
+  locale: Locale;
+  serviceId: string;
+  cta?: (typeof ctaIds)[number];
+  route?: string;
+  children?: ReactNode;
+  campaign?: Campaign;
+}) {
+  const context = useSelection();
+  const result = selectServiceContext(context, serviceId);
+  return (
+    <div className="service-inquiry">
+      {result.reason === "package-cleared" && (
+        <p className="notice">
+          {text(
+            locale,
+            "This service has a different scope. Continuing will replace your selected package with this service.",
+          )}
+        </p>
+      )}
+      <JourneyLink
+        locale={locale}
+        route={route}
+        inquiryServiceId={serviceId}
+        campaign={campaign}
+        className="button"
+        cta={cta}
+      >
+        {children ?? text(locale, "Discuss this service")}
+      </JourneyLink>
+    </div>
   );
 }

@@ -1,76 +1,57 @@
-import { translate } from "../lib/i18n/common";
+import { Fragment, type ReactNode } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import type { Locale } from "../domain/types";
+import { brand } from "../config/brand";
 import { packages } from "../content/catalog";
-import { text, ui, residencyFaqs } from "../content/ui";
-import { JourneyLink } from "./journey-provider";
-import { WhatsAppButton } from "./shell";
+import { text } from "../content/ui";
 import {
-  FAQAccordion,
-  FinalAction,
-  PackageCard,
-  ProcessSteps,
-  Section,
-} from "./primitives";
+  getBenefits,
+  getMotivations,
+  getServiceValues,
+  getValueQuestions,
+  homeSectionOrder,
+  valueText,
+} from "../content/value-first";
+import { JourneyLink } from "./journey-provider";
+import { FAQAccordion, PackageCard, ProcessSteps, Section } from "./primitives";
+import { BenefitCards, ValueNextActions } from "./value-content";
 
 export function Home({ locale }: { locale: Locale }) {
-  const goals = [
-    [
-      "Your first residency",
-      "A clear starting point for documents, visits and support.",
-      "paraguay-residency",
-    ],
-    [
-      "Moving with your family",
-      "Coordinate the move around the people who matter.",
-      "lp/family-relocation",
-    ],
-    [
-      "Business & tax questions",
-      "Start with the right professional conversation.",
-      "services",
-    ],
-    [
-      "Already a resident",
-      "Discuss your next stage and what needs checking.",
-      "permanent-residency",
-    ],
-  ];
-  return (
-    <>
-      <section className="hero container">
+  const v = (key: Parameters<typeof valueText>[1]) => valueText(locale, key);
+  const sections: Record<(typeof homeSectionOrder)[number], ReactNode> = {
+    hero: (
+      <section className="hero value-hero container" data-home-section="hero">
         <div className="hero-copy">
           <p className="eyebrow">
-            {text(locale, "A new beginning, thoughtfully planned")}
+            <span lang="en" dir="ltr">
+              {brand.displayName}
+            </span>{" "}
+            · {v("descriptor")}
           </p>
-          <h1>{text(locale, "Make Paraguay your next chapter.")}</h1>
-          <p className="lead">
-            {text(
-              locale,
-              "Residency support, clear packages, and local coordination to help you prepare your documents, plan required visits, and settle in.",
-            )}
-          </p>
+          <h1>{v("homeTitle")}</h1>
+          <p className="lead">{v("homeIntro")}</p>
           <div className="button-row">
             <JourneyLink
               locale={locale}
-              route="find-my-plan"
+              route=""
+              anchor="benefits"
               className="button"
-              cta="hero-primary"
+              cta="explore-benefits"
             >
-              {text(locale, "Find my residency plan")}
+              {v("exploreBenefits")}
             </JourneyLink>
             <JourneyLink
               locale={locale}
               route="pricing"
               className="button button-outline"
             >
-              {ui[locale].compare}
+              {v("compareResidency")}
             </JourneyLink>
           </div>
-          <WhatsAppButton locale={locale} />
-          <p className="hero-note">
-            {text(locale, "Understand your options. Move at your pace.")}
+          <p className="hero-note quiet-booking">
+            <JourneyLink locale={locale} route="book">
+              {v("quietBooking")}
+            </JourneyLink>
           </p>
         </div>
         <figure className="hero-art">
@@ -98,44 +79,81 @@ export function Home({ locale }: { locale: Locale }) {
           </div>
         </figure>
       </section>
-      <div className="reassurance container">
+    ),
+    reassurance: (
+      <div className="reassurance container" data-home-section="reassurance">
         <p>{text(locale, "Clear scope before you commit")}</p>
         <p>{text(locale, "Preparation, step by step")}</p>
         <p>{text(locale, "Support around your needs")}</p>
       </div>
-      <Section>
+    ),
+    benefits: (
+      <Section id="benefits" data-home-section="benefits">
         <div className="section-heading">
-          <div>
-            <p className="eyebrow">{text(locale, "Start where you are")}</p>
-            <h2>{text(locale, "What brings you to Paraguay?")}</h2>
-          </div>
-          <p>
-            {text(
-              locale,
-              "Every move has a different starting point. Choose yours.",
-            )}
-          </p>
+          <h2>{v("benefitsTitle")}</h2>
         </div>
-        <div className="goal-grid">
-          {goals.map(([title, body, route], index) => (
-            <Link
-              key={route}
-              href={`/${locale}/${route}`}
-              className="goal-card"
-            >
-              <span className="goal-icon" aria-hidden="true">
-                {["⌂", "♧", "▤", "↗"][index]}
-              </span>
-              <h3>{translate(locale, title)}</h3>
-              <p>{translate(locale, body)}</p>
-              <span className="round-arrow" aria-hidden="true">
-                ↗
-              </span>
-            </Link>
+        <BenefitCards locale={locale} benefits={getBenefits(locale)} />
+      </Section>
+    ),
+    motivations: (
+      <Section className="soft-section" data-home-section="motivations">
+        <div className="section-heading">
+          <h2>{v("motivationsTitle")}</h2>
+          <p>{v("motivationsIntro")}</p>
+        </div>
+        <div className="goal-grid motivation-grid">
+          {getMotivations(locale).map((item) => (
+            <article className="goal-card" key={item.id}>
+              <h3>{item.title}</h3>
+              <p>{item.body}</p>
+              <JourneyLink
+                locale={locale}
+                route={item.route}
+                anchor={item.anchor}
+                motivationId={item.id}
+              >
+                {item.link}
+              </JourneyLink>
+            </article>
           ))}
         </div>
       </Section>
-      <Section className="soft-section">
+    ),
+    "service-value": (
+      <Section data-home-section="service-value">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">{v("serviceValueEyebrow")}</p>
+            <h2>{v("serviceValueTitle")}</h2>
+          </div>
+          <p>{v("serviceValueIntro")}</p>
+        </div>
+        <div className="service-value-grid">
+          {getServiceValues(locale).map((item) => (
+            <article key={item.title}>
+              <h3>{item.title}</h3>
+              <p>{item.body}</p>
+              <JourneyLink locale={locale} route={item.route}>
+                {item.link}
+              </JourneyLink>
+            </article>
+          ))}
+        </div>
+      </Section>
+    ),
+    process: (
+      <Section className="soft-section" data-home-section="process">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">{text(locale, "How it works")}</p>
+            <h2>{text(locale, "From questions to a considered plan.")}</h2>
+          </div>
+        </div>
+        <ProcessSteps locale={locale} />
+      </Section>
+    ),
+    packages: (
+      <Section data-home-section="packages">
         <div className="section-heading">
           <div>
             <p className="eyebrow">
@@ -143,12 +161,7 @@ export function Home({ locale }: { locale: Locale }) {
             </p>
             <h2>{text(locale, "Clear options. A personal fit.")}</h2>
           </div>
-          <p>
-            {text(
-              locale,
-              "The same careful preparation, with different levels of coordination. All offers remain provisional.",
-            )}
-          </p>
+          <p>{v("packagesIntro")}</p>
         </div>
         <div className="package-grid">
           {packages
@@ -163,29 +176,17 @@ export function Home({ locale }: { locale: Locale }) {
           </JourneyLink>
         </div>
       </Section>
-      <Section>
+    ),
+    evidence: (
+      <Section className="people-section" data-home-section="evidence">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">{text(locale, "How it works")}</p>
-            <h2>{text(locale, "From questions to a considered plan.")}</h2>
-          </div>
-        </div>
-        <ProcessSteps locale={locale} />
-      </Section>
-      <Section className="people-section">
-        <div className="two-column">
-          <div>
             <p className="eyebrow">{text(locale, "Who helps you")}</p>
-            <h2>
-              {text(locale, "People and responsibilities, clearly defined.")}
-            </h2>
-            <p>
-              {text(
-                locale,
-                "The right support starts with knowing who does what. Before a real engagement, the operator and any external professionals must be named in your agreed scope.",
-              )}
-            </p>
+            <h2>{v("evidenceTitle")}</h2>
           </div>
+          <p>{v("evidenceIntro")}</p>
+        </div>
+        <div className="two-column">
           <div className="role-list">
             <article>
               <span className="profile-placeholder" aria-hidden="true">
@@ -220,56 +221,32 @@ export function Home({ locale }: { locale: Locale }) {
               </div>
             </article>
           </div>
-        </div>
-      </Section>
-      <Section>
-        <div className="two-column">
-          <div>
-            <p className="eyebrow">
-              {text(locale, "Know what you will receive")}
-            </p>
-            <h2>{text(locale, "A practical plan you can follow.")}</h2>
-            <p>
-              {text(
-                locale,
-                "These sample deliverables show the kind of clarity to agree before proceeding. They are examples, not past client results.",
-              )}
-            </p>
-          </div>
           <div className="deliverables">
-            <div>
-              <strong>{text(locale, "Document preparation outline")}</strong>
-              <p>
-                {text(
-                  locale,
-                  "What to gather, what to confirm, and who reviews it.",
-                )}
-              </p>
-            </div>
-            <div>
-              <strong>{text(locale, "Local coordination plan")}</strong>
-              <p>
-                {text(
-                  locale,
-                  "Your required involvement and the support around it.",
-                )}
-              </p>
-            </div>
-            <div>
-              <strong>
-                {text(locale, "Written scope and cost breakdown")}
-              </strong>
-              <p>
-                {text(
-                  locale,
-                  "Service fees, exclusions and decisions still to be made.",
-                )}
-              </p>
-            </div>
+            {[
+              [
+                "Document preparation outline",
+                "What to gather, what to confirm, and who reviews it.",
+              ],
+              [
+                "Local coordination plan",
+                "Your required involvement and the support around it.",
+              ],
+              [
+                "Written scope and cost breakdown",
+                "Service fees, exclusions and decisions still to be made.",
+              ],
+            ].map(([title, body]) => (
+              <div key={title}>
+                <strong>{text(locale, title)}</strong>
+                <p>{text(locale, body)}</p>
+              </div>
+            ))}
           </div>
         </div>
       </Section>
-      <Section className="soft-section">
+    ),
+    questions: (
+      <Section className="soft-section" data-home-section="questions">
         <div className="two-column">
           <div>
             <p className="eyebrow">{text(locale, "Before you decide")}</p>
@@ -281,16 +258,24 @@ export function Home({ locale }: { locale: Locale }) {
               )}
             </p>
           </div>
-          <FAQAccordion locale={locale} items={residencyFaqs(locale)} />
+          <FAQAccordion locale={locale} items={getValueQuestions(locale)} />
         </div>
       </Section>
-      <FinalAction locale={locale} />
-      <Section className="guide-preview">
-        <p>{text(locale, "Preparing for your first conversation?")}</p>
-        <Link href={`/${locale}/guides/residency-requirements`}>
-          {text(locale, "Read the document preparation guide")}
-        </Link>
+    ),
+    "next-step": (
+      <Section className="final-action" data-home-section="next-step">
+        <div>
+          <h2>{v("nextTitle")}</h2>
+          <p>{v("nextIntro")}</p>
+          <JourneyLink locale={locale} route="guides/residency-requirements">
+            {text(locale, "Read the document preparation guide")}
+          </JourneyLink>
+        </div>
+        <ValueNextActions locale={locale} light />
       </Section>
-    </>
-  );
+    ),
+  };
+  return homeSectionOrder.map((id) => (
+    <Fragment key={id}>{sections[id]}</Fragment>
+  ));
 }

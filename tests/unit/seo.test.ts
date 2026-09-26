@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { pages, getPage, routePath } from "../../src/config/routes";
+import { approvedClaimReviews } from "../helpers/content-review";
 import {
   runtime,
   validateLiveConfiguration,
@@ -34,6 +35,7 @@ describe("route inventory and actual translations", () => {
   it("contains all handoff routes and complete translated counterparts", () => {
     for (const key of [
       "home",
+      "why-paraguay",
       "pricing",
       "book",
       "thank-you",
@@ -61,6 +63,19 @@ describe("route inventory and actual translations", () => {
 });
 
 describe("single fail-closed indexing gate", () => {
+  it("blocks new claims even when page and global approval flags are true", () => {
+    const page = {
+      ...getPage("home")!,
+      approved: true,
+      commercialApproved: true,
+      contentReviewed: true,
+    };
+    expect(canIndex(page, approvedRuntime, "en")).toBe(false);
+    expect(pageMetadata(page, "en", approvedRuntime).robots).toMatchObject({
+      index: false,
+    });
+    expect(buildSitemap([page], approvedRuntime)).toEqual([]);
+  });
   const approvedPage = () => ({
     ...getPage("pricing")!,
     approved: true,
@@ -69,26 +84,49 @@ describe("single fail-closed indexing gate", () => {
   });
   it("requires matching approved production origin, content, commercial status, and locale", () => {
     const page = approvedPage();
-    expect(canIndex(page, approvedRuntime, "en")).toBe(true);
+    expect(canIndex(page, approvedRuntime, "en", approvedClaimReviews())).toBe(
+      true,
+    );
     expect(
       canIndex(
         page,
         { ...approvedRuntime, siteUrl: "https://preview.example" },
         "en",
+        approvedClaimReviews(),
       ),
     ).toBe(false);
     expect(
-      canIndex({ ...page, contentReviewed: false }, approvedRuntime, "en"),
+      canIndex(
+        { ...page, contentReviewed: false },
+        approvedRuntime,
+        "en",
+        approvedClaimReviews(),
+      ),
     ).toBe(false);
     expect(
-      canIndex({ ...page, commercialApproved: false }, approvedRuntime, "en"),
+      canIndex(
+        { ...page, commercialApproved: false },
+        approvedRuntime,
+        "en",
+        approvedClaimReviews(),
+      ),
     ).toBe(false);
     expect(
-      canIndex(page, { ...approvedRuntime, completeLocales: ["en"] }, "es"),
+      canIndex(
+        page,
+        { ...approvedRuntime, completeLocales: ["en"] },
+        "es",
+        approvedClaimReviews(),
+      ),
     ).toBe(false);
-    expect(canIndex({ ...page, indexable: false }, approvedRuntime, "en")).toBe(
-      false,
-    );
+    expect(
+      canIndex(
+        { ...page, indexable: false },
+        approvedRuntime,
+        "en",
+        approvedClaimReviews(),
+      ),
+    ).toBe(false);
   });
   it("never includes form, campaign, receipt or draft pages in live sitemap", () => {
     const approved = pages.map((page) => ({
@@ -97,7 +135,11 @@ describe("single fail-closed indexing gate", () => {
       commercialApproved: true,
       contentReviewed: true,
     }));
-    const sitemap = buildSitemap(approved, approvedRuntime);
+    const sitemap = buildSitemap(
+      approved,
+      approvedRuntime,
+      approvedClaimReviews(),
+    );
     expect(
       sitemap.some(
         (entry) => entry.url === "https://approved.example/en/pricing",
@@ -115,7 +157,12 @@ describe("single fail-closed indexing gate", () => {
     ).toBe(true);
   });
   it("builds self canonical and reciprocal alternates only for real complete translations", () => {
-    const metadata = pageMetadata(approvedPage(), "es", approvedRuntime);
+    const metadata = pageMetadata(
+      approvedPage(),
+      "es",
+      approvedRuntime,
+      approvedClaimReviews(),
+    );
     expect(metadata.alternates?.canonical).toBe(
       "https://approved.example/es/pricing",
     );
@@ -140,6 +187,14 @@ describe("single fail-closed indexing gate", () => {
       expect.objectContaining({ width: 1200, height: 630 }),
     ]);
     expect(JSON.stringify(cost)).not.toContain("2,850");
+    const why = pageMetadata(getPage("why-paraguay")!, "he");
+    expect(why.openGraph?.images).toEqual([
+      expect.objectContaining({ url: "/og-why-paraguay-he.png" }),
+    ]);
+    expect(why.alternates?.canonical).toBe(
+      `${runtime.siteUrl}/he/why-paraguay`,
+    );
+    expect(why.title).toContain("Paraguay Next");
   });
 });
 

@@ -47,7 +47,7 @@ test("no-JavaScript marketing content and ordinary navigation remain available",
   const page = await context.newPage();
   await page.goto("/en");
   await expect(page.getByRole("heading", { level: 1 })).toContainText(
-    "Make Paraguay your next chapter",
+    "A legal base in Paraguay. More options for your future.",
   );
   await page
     .getByRole("link", { name: "Compare packages", exact: true })

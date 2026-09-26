@@ -2,8 +2,8 @@ import Image from "next/image";
 import type { Locale } from "../domain/types";
 import { packages } from "../content/catalog";
 import { text, ui, residencyFaqs } from "../content/ui";
-import { JourneyLink } from "./journey-provider";
-import { WhatsAppButton } from "./shell";
+import { valueText } from "../content/value-first";
+import { JourneyLink, ServiceInquiry } from "./journey-provider";
 import { FAQAccordion, PackageCard, Section } from "./primitives";
 
 export function CampaignPage({
@@ -43,18 +43,27 @@ export function CampaignPage({
                 : "Separate the service fee from the costs around it. Compare support levels, ask better questions and decide what to confirm before you commit.",
             )}
           </p>
-          <JourneyLink
-            locale={locale}
-            route={family ? "find-my-plan" : "pricing"}
-            selection={{
-              campaign,
-              ...(family ? {} : { serviceId: "temporary-residency" }),
-            }}
-            className="button"
-            cta={family ? "family-plan" : "compare-options"}
-          >
-            {action}
-          </JourneyLink>
+          {family ? (
+            <JourneyLink
+              locale={locale}
+              route="find-my-plan"
+              selection={{ campaign }}
+              className="button"
+              cta="family-plan"
+            >
+              {action}
+            </JourneyLink>
+          ) : (
+            <ServiceInquiry
+              locale={locale}
+              serviceId="temporary-residency"
+              campaign={campaign}
+              route="pricing"
+              cta="compare-options"
+            >
+              {action}
+            </ServiceInquiry>
+          )}
           <p className="hero-note">
             {text(
               locale,
@@ -104,6 +113,16 @@ export function CampaignPage({
             </p>
           </div>
           <div className="deliverables">
+            <p>
+              {valueText(locale, family ? "familyOutcome" : "campaignPurpose")}
+            </p>
+            <JourneyLink
+              locale={locale}
+              route="why-paraguay"
+              anchor={family ? "life-and-budget" : "residency"}
+            >
+              {valueText(locale, family ? "budgetLink" : "whyLink")}
+            </JourneyLink>
             {(family
               ? [
                   text(locale, "Document planning for each applicant"),
@@ -183,18 +202,27 @@ export function CampaignPage({
       <Section>
         <div className="campaign-close">
           <h2>{text(locale, "Leave with a clearer starting point.")}</h2>
-          <JourneyLink
-            locale={locale}
-            route={family ? "find-my-plan" : "pricing"}
-            selection={{
-              campaign,
-              ...(family ? {} : { serviceId: "temporary-residency" }),
-            }}
-            className="button"
-            cta={family ? "family-plan" : "compare-options"}
-          >
-            {action}
-          </JourneyLink>
+          {family ? (
+            <JourneyLink
+              locale={locale}
+              route="find-my-plan"
+              selection={{ campaign }}
+              className="button"
+              cta="family-plan"
+            >
+              {action}
+            </JourneyLink>
+          ) : (
+            <ServiceInquiry
+              locale={locale}
+              serviceId="temporary-residency"
+              campaign={campaign}
+              route="pricing"
+              cta="compare-options"
+            >
+              {action}
+            </ServiceInquiry>
+          )}
         </div>
       </Section>
     </>
@@ -214,13 +242,15 @@ export function LinksHub({ locale }: { locale: Locale }) {
           )}
         </p>
         <div className="link-choices">
+          <JourneyLink locale={locale} route="why-paraguay" className="button">
+            {text(locale, "Why Paraguay")}
+          </JourneyLink>
           <JourneyLink locale={locale} route="pricing" className="button">
             {text(locale, "Residency packages")}
           </JourneyLink>
           <JourneyLink
             locale={locale}
             route="lp/family-relocation"
-            selection={{ campaign: "family-relocation" }}
             className="button button-outline"
           >
             {text(locale, "Family relocation")}
@@ -232,9 +262,6 @@ export function LinksHub({ locale }: { locale: Locale }) {
           >
             {ui[locale].book}
           </JourneyLink>
-          <WhatsAppButton locale={locale} className="button button-outline">
-            {text(locale, "WhatsApp preview")}
-          </WhatsAppButton>
         </div>
       </div>
     </Section>

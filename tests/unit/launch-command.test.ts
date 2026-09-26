@@ -14,4 +14,6 @@ it("the native Node launch check reports pending approvals instead of failing to
     "Approve complete translations for published locales.",
   );
   expect(result.stderr).not.toContain("ERR_MODULE_NOT_FOUND");
+  expect(result.stderr).toContain("legal-base: professional review");
+  expect(result.stderr).toContain("service-delivery: operator approval");
 });
