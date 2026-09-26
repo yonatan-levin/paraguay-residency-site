@@ -1,0 +1,35 @@
+
+Running 1 test using 1 worker
+
+(node:23448) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 [chromium] › tests\e2e\finder.spec.ts:81:1 › AC-02/05/07 family answers survive Back and result stays quote-only through receipt (5.7s)
+
+
+  1) [chromium] › tests\e2e\finder.spec.ts:81:1 › AC-02/05/07 family answers survive Back and result stays quote-only through receipt 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByTestId('finder-origin')
+    Expected substring: "Recommended by your plan finder"
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toContainText" getByTestId('finder-origin') with timeout 5000ms
+      - waiting for getByTestId('finder-origin')
+
+
+      109 |     "Request a family quote",
+      110 |   );
+    > 111 |   await expect(page.getByTestId("finder-origin")).toContainText(
+          |                                                   ^
+      112 |     "Recommended by your plan finder",
+      113 |   );
+      114 |   await page.getByLabel("First name", { exact: true }).fill("Preview");
+        at C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\tests\e2e\finder.spec.ts:111:51
+
+    Error Context: test-results\finder-AC-02-05-07-family--fd482--quote-only-through-receipt-chromium\error-context.md
+
+  1 failed
+    [chromium] › tests\e2e\finder.spec.ts:81:1 › AC-02/05/07 family answers survive Back and result stays quote-only through receipt 

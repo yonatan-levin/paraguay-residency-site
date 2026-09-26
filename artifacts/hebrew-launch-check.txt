@@ -1,0 +1,16 @@
+
+> paraguay-residency-site@0.1.0 check:launch
+> node scripts/check-launch.mjs
+
+Public launch is blocked. This application is a local demo.
+- SITE_MODE is demo; this build cannot send messages or book appointments.
+- Set and approve an HTTPS production origin.
+- Approve the brand and domain.
+- Approve the legal operator.
+- Approve contact details and lead ownership.
+- Approve prices, delivery scope, external costs, and cancellation terms.
+- Obtain qualified review of regulated service content.
+- Approve privacy, retention, and processing arrangements.
+- Approve and test provider configuration before enabling integrations.
+- Approve complete translations for published locales.
+Live gateways, server validation, retention controls and explicit deployment approval are also required.

@@ -1,0 +1,11 @@
+
+Running 2 tests using 2 workers
+
+(node:43664) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:52812) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [chromium] › tests\e2e\locales.spec.ts:39:3 › de localized validation, mock failure, retry and receipt retain the selected package (694ms)
+  ok 2 [chromium] › tests\e2e\locales.spec.ts:39:3 › fr localized validation, mock failure, retry and receipt retain the selected package (718ms)
+
+  2 passed (1.7s)

@@ -1,0 +1,21 @@
+# Scale to zero between team reviews; allow two serving instances for demo traffic.
+# These editable scaling settings are not a spending cap. Builds and usage can incur charges.
+runConfig:
+  minInstances: 0
+  maxInstances: 2
+
+env:
+  - variable: SITE_MODE
+    value: demo
+    availability:
+      - BUILD
+      - RUNTIME
+  - variable: SITE_URL
+    value: https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app
+    availability:
+      - BUILD
+      - RUNTIME
+
+# SITE_URL uses the backend uri returned by Firebase, with HTTPS, rather than
+# the application's local default. Re-read the backend uri if the target changes.
+# Keep Firebase's Next.js adapter build and run commands; no scripts override.

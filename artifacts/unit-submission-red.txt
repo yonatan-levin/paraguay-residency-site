@@ -1,0 +1,198 @@
+
+ RUN  v5.0.1 C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site
+
+ ❯ tests/unit/submission.test.ts (12 tests | 10 failed) 20ms
+   ❯ minimal contact validation (3)
+     × accepts only the requested contact channel 6ms
+   ❯ submission state transitions and idempotency (5)
+     × accepts one receipt and event for concurrent identical submissions 2ms
+     × retains a key for a failed attempt retry and changes it with a changed payload 1ms
+     × reports unavailable time honestly without a receipt or success event 1ms
+     × starts empty and reading or clearing a receipt does not emit conversions 2ms
+     × converts thrown provider errors into a sanitized failure 2ms
+   ❯ mock time and messaging (3)
+     × offers future UTC slots based on injected time and displays the same instant in chosen zones 1ms
+     × refuses stale appointment slots 0ms
+     × returns a local unsent preview with selected plan 1ms
+   ❯ strict event redaction (1)
+     × drops contact data, free text, raw URLs and arbitrary IDs 2ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 10 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/submission.test.ts > minimal contact validation > accepts only the requested contact channel
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/unit/submission.test.ts:13:49
+     11| describe('minimal contact validation',()=> {
+     12|   it('accepts only the requested contact channel',()=> {
+     13|     expect(validateSubmission(payload).success).toBe(true);
+       |                                                 ^
+     14|     expect(validateSubmission({...payload,contact:{firstName:'Test',ch…
+     15|     expect(validateSubmission({...payload,contact:{...payload.contact,…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/10]⎯
+
+ FAIL  tests/unit/submission.test.ts > submission state transitions and idempotency > accepts one receipt and event for concurrent identical submissions
+AssertionError: expected 'invalid' to be 'success' // Object.is equality
+
+Expected: "success"
+Received: "invalid"
+
+ ❯ tests/unit/submission.test.ts:33:26
+     31|     const controller=createSubmissionController({leadGateway:createMoc…
+     32|     const [first,second]=await Promise.all([controller.submit(payload)…
+     33|     expect(first.status).toBe('success');
+       |                          ^
+     34|     expect(second).toEqual(first);
+     35|     expect(analytics.events.filter(event=>event.eventId==='lead_submit…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/10]⎯
+
+ FAIL  tests/unit/submission.test.ts > submission state transitions and idempotency > retains a key for a failed attempt retry and changes it with a changed payload
+AssertionError: expected 'invalid' to be 'failure' // Object.is equality
+
+Expected: "failure"
+Received: "invalid"
+
+ ❯ tests/unit/submission.test.ts:43:55
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/10]⎯
+
+ FAIL  tests/unit/submission.test.ts > submission state transitions and idempotency > reports unavailable time honestly without a receipt or success event
+AssertionError: expected 'invalid' to be 'unavailable' // Object.is equality
+
+Expected: "unavailable"
+Received: "invalid"
+
+ ❯ tests/unit/submission.test.ts:53:115
+     51|     const analytics=createMemoryAnalytics(clock);
+     52|     const controller=createSubmissionController({leadGateway:createMoc…
+     53|     expect((await controller.submit({...payload,mode:'appointment',slo…
+       |                                                                                                                   ^
+     54|     expect(controller.readReceipt()).toBeUndefined();
+     55|     expect(analytics.events.map(event=>event.eventId)).toEqual(['submi…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/10]⎯
+
+ FAIL  tests/unit/submission.test.ts > submission state transitions and idempotency > starts empty and reading or clearing a receipt does not emit conversions
+AssertionError: expected [] to have a length of 1 but got +0
+
+- Expected
++ Received
+
+- 1
++ 0
+
+ ❯ tests/unit/submission.test.ts:64:30
+     62|     controller.readReceipt();controller.readReceipt();controller.clear…
+     63|     expect(controller.readReceipt()).toBeUndefined();
+     64|     expect(analytics.events).toHaveLength(1);
+       |                              ^
+     65|   });
+     66|   it('converts thrown provider errors into a sanitized failure',async(…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/10]⎯
+
+ FAIL  tests/unit/submission.test.ts > submission state transitions and idempotency > converts thrown provider errors into a sanitized failure
+AssertionError: expected { status: 'invalid', errors: {} } to match object { status: 'failure', …(1) }
+(1 matching property omitted from actual)
+
+- Expected
++ Received
+
+  {
+-   "category": "adapter-error",
+-   "status": "failure",
++   "status": "invalid",
+  }
+
+ ❯ tests/unit/submission.test.ts:68:46
+     66|   it('converts thrown provider errors into a sanitized failure',async(…
+     67|     const controller=createSubmissionController({leadGateway:{async su…
+     68|     expect(await controller.submit(payload)).toMatchObject({status:'fa…
+       |                                              ^
+     69|   });
+     70| });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/10]⎯
+
+ FAIL  tests/unit/submission.test.ts > mock time and messaging > offers future UTC slots based on injected time and displays the same instant in chosen zones
+AssertionError: expected 0 to be greater than 0
+ ❯ tests/unit/submission.test.ts:75:26
+     73|   it('offers future UTC slots based on injected time and displays the …
+     74|     const slots=generateDemoSlots(clock);
+     75|     expect(slots.length).toBeGreaterThan(0);
+       |                          ^
+     76|     expect(slots.every(slot=>new Date(slot)>now && slot.endsWith('Z'))…
+     77|     const instant='2026-09-25T15:00:00Z';
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/10]⎯
+
+ FAIL  tests/unit/submission.test.ts > mock time and messaging > refuses stale appointment slots
+AssertionError: expected 'invalid' to be 'unavailable' // Object.is equality
+
+Expected: "unavailable"
+Received: "invalid"
+
+ ❯ tests/unit/submission.test.ts:83:110
+     81|   it('refuses stale appointment slots',async()=> {
+     82|     const controller=createSubmissionController({leadGateway:createMoc…
+     83|     expect((await controller.submit({...payload,mode:'appointment',slo…
+       |                                                                                                              ^
+     84|   });
+     85|   it('returns a local unsent preview with selected plan',()=> {
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/10]⎯
+
+ FAIL  tests/unit/submission.test.ts > mock time and messaging > returns a local unsent preview with selected plan
+AssertionError: expected '' to contain 'Guided'
+
+- Expected
++ Received
+
+- Guided
+
+ ❯ tests/unit/submission.test.ts:88:29
+     86|     const preview=createMockMessagingGateway().preview(payload.context…
+     87|     expect(preview.sent).toBe(false);
+     88|     expect(preview.message).toContain('Guided');
+       |                             ^
+     89|     expect(preview.notice).toBe('Sending is disabled in this preview.'…
+     90|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/10]⎯
+
+ FAIL  tests/unit/submission.test.ts > strict event redaction > drops contact data, free text, raw URLs and arbitrary IDs
+AssertionError: expected undefined to deeply equal { eventId: 'package_selected', …(5) }
+
+- Expected:
+{
+  "eventId": "package_selected",
+  "is_demo": true,
+  "locale": "en",
+  "planId": "temporary-guided",
+  "routeKey": "pricing",
+  "timestamp": "2026-09-24T12:00:00.000Z",
+}
+
++ Received:
+undefined
+
+ ❯ tests/unit/submission.test.ts:95:233
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/10]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  10 failed | 2 passed (12)
+   Start at  09:55:14
+   Duration  262ms (transform 52%, tests 22%, import 21%, worker 5%)
+

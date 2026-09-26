@@ -1,0 +1,40 @@
+MODE: VERIFICATION
+ROLE: VERIFIER
+STATUS: VERIFIED for the assigned bounded scope
+Verified on 2026-09-24 against optimized build jCeSgi-Jrubkpi7Mknnb8 at http://127.0.0.1:3000.
+
+Translation inventory
+Independent comparison against artifacts/i18n-common-source.json and artifacts/i18n-editorial-source.json:
+ES, FR, DE each have 459 common and 361 editorial entries, totaling 820 per language.
+All six dictionaries: zero missing entries, extra entries, empty values, placeholder mismatches or ASCII/Unicode dash punctuation matches.
+
+Server editorial separation
+src/lib/i18n/editorial.ts imports server-only.
+Probe: Essential starts with preparation guidance. Guided adds more coordination. Concierge proposes more individual logistical support. Compare the specific deliverables and confirm the scope before choosing; the tier does not change the government decision.
+The exact English sentence and its ES/FR/DE translations occur in none of the 18 JavaScript files under .next/static.
+The sentence in each requested language is present in the corresponding server response for /{locale}/paraguay-residency.
+
+Localized image assets
+All 16 expected assets exist and return HTTP 200: four locale hero SVGs, four default OG PNGs, eight campaign OG PNGs.
+Every hero is 860 by 1000; every OG PNG is 1200 by 630. Every asset has nonzero bytes and a distinct SHA256.
+All 12 tested residency/campaign pages select the expected language-specific default or campaign OG image.
+Visual samples og-default-fr.png and og-family-relocation-de.png are legible with no observed text clipping.
+
+Preview safeguards
+All 12 sampled pages return HTTP 200, correct HTML language, robots noindex and X-Robots-Tag noindex.
+All 16 assets also return X-Robots-Tag noindex.
+next.config.ts SHA256 is unchanged from prototype baseline: 0e2e3c9628752cc7810ab9ad6c257395271871a85de4b97d54d2c1f7047d5519.
+Importing next.config.ts in an isolated Node process with SITE_MODE=live throws the expected Live mode is unavailable error. No live process or deployment was started.
+validateLiveConfiguration, canIndex and mock lead/booking functions are unchanged from artifacts/locale-baseline-src.
+Current runtime remains demo with all approvals and external integrations false.
+
+Tests independently run
+npm test -- tests/unit/locales.test.ts tests/unit/translations.test.ts tests/unit/seo.test.ts
+Result: 3 files passed, 23 tests passed, 0 failures; 415 ms test duration.
+
+Limits
+Full browser suite, responsive interaction QA, build and lint are owned by root/QA and were intentionally not duplicated.
+Coverage percentage was not measured in this bounded check.
+Native speaker and professional publication review remains a launch requirement.
+No code changes, configuration changes, server changes, Git operations or deployments performed.
+HANDOFF_TO: QA

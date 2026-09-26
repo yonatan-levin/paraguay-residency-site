@@ -1,0 +1,478 @@
+{
+  "sourceSha256": "62c6bd2f5f6bc5ba6d53aedf46ee890d8d33f8256d354b4f4617b4b1b1546828",
+  "files": 94,
+  "lineEndingPolicy": "Git text normalization only; binary bytes unchanged",
+  "mismatches": [],
+  "results": [
+    {
+      "path": ".env.example",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "eslint.config.mjs",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "next.config.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "package-lock.json",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "package.json",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "playwright.config.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/hero-editorial-de.svg",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/hero-editorial-es.svg",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/hero-editorial-fr.svg",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/hero-editorial-he.svg",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/hero-editorial.svg",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/og-default-de.png",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/og-default-es.png",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/og-default-fr.png",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/og-default-he.png",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/og-default.png",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/og-default.svg",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/og-family-relocation-de.png",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/og-family-relocation-en.png",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/og-family-relocation-es.png",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/og-family-relocation-fr.png",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/og-family-relocation-he.png",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/og-residency-cost-de.png",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/og-residency-cost-en.png",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/og-residency-cost-es.png",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/og-residency-cost-fr.png",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "public/og-residency-cost-he.png",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "scripts/check-launch.mjs",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "scripts/lighthouse.mjs",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "scripts/render-social-assets.mjs",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "scripts/source-manifest.mjs",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/app/(entry)/page.tsx",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/app/(site)/[locale]/[[...slug]]/page.tsx",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/app/(site)/[locale]/layout.tsx",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/app/(site)/[locale]/not-found.tsx",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/app/globals.css",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/app/icon.svg",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/app/robots.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/app/sitemap.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/application/submission.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/components/booking.tsx",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/components/campaigns.tsx",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/components/content-pages.tsx",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/components/finder.tsx",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/components/home.tsx",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/components/journey-pages.tsx",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/components/journey-provider.tsx",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/components/pricing.tsx",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/components/primitives.tsx",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/components/shell.tsx",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/config/brand.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/config/locales.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/config/routes.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/config/runtime.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/content/catalog.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/content/guide.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/content/service-details.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/content/translations/de-common.json",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/content/translations/de-editorial.json",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/content/translations/es-common.json",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/content/translations/es-editorial.json",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/content/translations/fr-common.json",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/content/translations/fr-editorial.json",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/content/translations/he-common.json",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/content/translations/he-editorial.json",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/content/ui.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/domain/attribution.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/domain/finder.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/domain/pricing.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/domain/selection.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/domain/types.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/infrastructure/mock/gateways.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/lib/analytics/events.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/lib/i18n/common.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/lib/i18n/editorial.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/lib/seo/metadata.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "src/proxy.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "tests/e2e/accessibility.spec.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "tests/e2e/finder.spec.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "tests/e2e/hebrew.spec.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "tests/e2e/journeys.spec.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "tests/e2e/locales.spec.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "tests/e2e/routes.spec.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "tests/e2e/smoke.spec.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "tests/unit/business.test.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "tests/unit/launch-command.test.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "tests/unit/locales.test.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "tests/unit/seo.test.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "tests/unit/submission.test.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "tests/unit/translations.test.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "tsconfig.json",
+      "sourceMatches": true,
+      "stagedMatches": true
+    },
+    {
+      "path": "vitest.config.ts",
+      "sourceMatches": true,
+      "stagedMatches": true
+    }
+  ]
+}

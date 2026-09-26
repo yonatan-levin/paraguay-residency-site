@@ -1,0 +1,35 @@
+
+Running 1 test using 1 worker
+
+(node:51172) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 [chromium] › tests\e2e\hebrew.spec.ts:6:1 › appointment draft survives language changes without changing the UTC instant (5.5s)
+
+
+  1) [chromium] › tests\e2e\hebrew.spec.ts:6:1 › appointment draft survives language changes without changing the UTC instant 
+
+    Error: expect(locator).toHaveValue(expected) failed
+
+    Locator: locator('input[name="slotUtc"]:checked')
+    Expected: "on"
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toHaveValue" locator('input[name="slotUtc"]:checked') with timeout 5000ms
+      - waiting for locator('input[name="slotUtc"]:checked')
+
+
+      18 |     await expect(page.locator('input[name="mode"]').nth(1)).toBeChecked();
+      19 |     await expect(page.locator("#timeZone")).toHaveValue("Asia/Jerusalem");
+    > 20 |     await expect(page.locator('input[name="slotUtc"]:checked')).toHaveValue(instant);
+         |                                                                 ^
+      21 |     await expect(page.locator("#firstName")).toHaveValue("בדיקה Preview");
+      22 |     await expect(page.locator("#email")).toHaveValue("preview@example.test");
+      23 |   }
+        at C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\tests\e2e\hebrew.spec.ts:20:65
+
+    Error Context: test-results\hebrew-appointment-draft-s-1009d-ut-changing-the-UTC-instant-chromium\error-context.md
+
+  1 failed
+    [chromium] › tests\e2e\hebrew.spec.ts:6:1 › appointment draft survives language changes without changing the UTC instant 

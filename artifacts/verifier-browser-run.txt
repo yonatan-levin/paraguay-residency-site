@@ -1,0 +1,28 @@
+
+Running 16 tests using 2 workers
+
+
+
+(node:20368) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:45036) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[1/16] [chromium] › tests\e2e\finder.spec.ts:3:1 › AC-02 family campaign reaches editable family finder without contact gate
+[2/16] [chromium] › tests\e2e\finder.spec.ts:16:1 › AC-03 existing temporary resident receives upgrade path
+[3/16] [chromium] › tests\e2e\finder.spec.ts:40:1 › AC-04 business goal skips residency stage and routes to business inquiry
+[4/16] [chromium] › tests\e2e\finder.spec.ts:63:1 › AC-05 changing a deep-linked goal clears incompatible plan before skipping
+[5/16] [chromium] › tests\e2e\finder.spec.ts:80:1 › AC-02/05/07 family answers survive Back and result stays quote-only through receipt
+[6/16] [chromium] › tests\e2e\finder.spec.ts:120:1 › AC-17 language switch preserves a non-campaign family quote and in-memory draft
+[7/16] [chromium] › tests\e2e\journeys.spec.ts:3:1 › AC-01 selected Guided plan and catalog price survive inquiry and receipt
+[8/16] [chromium] › tests\e2e\journeys.spec.ts:33:1 › AC-06 invalid selection and direct receipt recover honestly
+[9/16] [chromium] › tests\e2e\journeys.spec.ts:54:1 › AC-10 simulated failure keeps draft and allows successful retry
+[10/16] [chromium] › tests\e2e\journeys.spec.ts:75:1 › AC-12 WhatsApp is an accessible local preview and makes no provider requests
+[11/16] [chromium] › tests\e2e\journeys.spec.ts:96:1 › AC-09/10 demo appointment retains UTC selection across zones and recovers from unavailable time
+[12/16] [chromium] › tests\e2e\journeys.spec.ts:139:1 › Spanish validation and WhatsApp callback require only the chosen channel
+[13/16] [chromium] › tests\e2e\journeys.spec.ts:164:1 › changing pricing journey clears an incompatible selected package
+[14/16] [chromium] › tests\e2e\smoke.spec.ts:3:1 › preview marketing, canonical and Spanish equivalent retain plan context
+[15/16] [chromium] › tests\e2e\smoke.spec.ts:24:1 › no-JavaScript marketing content and ordinary navigation remain available
+[16/16] [chromium] › tests\e2e\smoke.spec.ts:44:1 › unknown routes and unpublished translations return real 404s
+  16 passed (4.9s)

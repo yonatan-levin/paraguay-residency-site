@@ -1,0 +1,145 @@
+
+> paraguay-residency-site@0.1.0 test
+> vitest run tests/unit/locales.test.ts tests/unit/translations.test.ts
+
+
+ RUN  v5.0.1 C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site
+
+ ❯ tests/unit/translations.test.ts (4 tests | 3 failed) 12ms
+   ❯ translation contract (4)
+     × recognizes all requested languages and rejects arbitrary locale values 5ms
+     × common dictionaries have identical complete keys, matching parameters and no dash punctuation 2ms
+     × editorial dictionaries have identical complete keys, matching parameters and no dash punctuation 3ms
+ ❯ tests/unit/locales.test.ts (15 tests | 7 failed) 33ms
+   ❯ complete public language journeys (15)
+     × publishes every public route in en with reciprocal metadata 5ms
+     × publishes every public route in es with reciprocal metadata 1ms
+     × publishes every public route in fr with reciprocal metadata 1ms
+     × publishes every public route in de with reciprocal metadata 0ms
+     × publishes every public route in he with reciprocal metadata 0ms
+     × accepts he submissions and preserves selected package in an unsent receipt 2ms
+     × localizes he USD prices, time and selected package message 0ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 10 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/locales.test.ts > complete public language journeys > publishes every public route in en with reciprocal metadata
+ FAIL  tests/unit/locales.test.ts > complete public language journeys > publishes every public route in es with reciprocal metadata
+ FAIL  tests/unit/locales.test.ts > complete public language journeys > publishes every public route in fr with reciprocal metadata
+ FAIL  tests/unit/locales.test.ts > complete public language journeys > publishes every public route in de with reciprocal metadata
+AssertionError: expected { Object (en, es, ...) } to have property "he"
+ ❯ tests/unit/locales.test.ts:57:46
+     55|         expect(meta.robots).toMatchObject({ index: false });
+     56|         for (const counterpart of requestedLocales)
+     57|           expect(meta.alternates?.languages).toHaveProperty(counterpar…
+       |                                              ^
+     58|         expect(meta.openGraph).toHaveProperty(
+     59|           "locale",
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/10]⎯
+
+ FAIL  tests/unit/locales.test.ts > complete public language journeys > publishes every public route in he with reciprocal metadata
+AssertionError: he/home: expected undefined to be defined
+ ❯ tests/unit/locales.test.ts:49:11
+     47|           getPage(page.key, locale),
+     48|           `${locale}/${page.key}`,
+     49|         ).toBeDefined();
+       |           ^
+     50|         expect(routePath(locale, page.key)).toBe(
+     51|           `/${locale}${page.path ? `/${page.path}` : ""}`,
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/10]⎯
+
+ FAIL  tests/unit/locales.test.ts > complete public language journeys > accepts he submissions and preserves selected package in an unsent receipt
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/unit/locales.test.ts:69:51
+     67|     async (locale) => {
+     68|       const payload = request(locale);
+     69|       expect(validateSubmission(payload).success).toBe(true);
+       |                                                   ^
+     70|       const controller = createSubmissionController({
+     71|         leadGateway: createMockLeadGateway(),
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/10]⎯
+
+ FAIL  tests/unit/locales.test.ts > complete public language journeys > localizes he USD prices, time and selected package message
+AssertionError: expected undefined to be truthy
+
+- Expected:
+true
+
++ Received:
+undefined
+
+ ❯ tests/unit/locales.test.ts:113:33
+    111|       const locale = language as Locale;
+    112|       const plan = getPackage("temporary-guided")!;
+    113|       expect(plan.name[locale]).toBeTruthy();
+       |                                 ^
+    114|       expect(plan.name[locale]).not.toBe(plan.name.en);
+    115|       const expected = new Intl.NumberFormat(
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/10]⎯
+
+ FAIL  tests/unit/translations.test.ts > translation contract > recognizes all requested languages and rejects arbitrary locale values
+AssertionError: expected [ 'en', 'es', 'fr', 'de' ] to deeply equal [ 'en', 'es', 'fr', 'de', 'he' ]
+
+- Expected
++ Received
+
+  [
+    "en",
+    "es",
+    "fr",
+    "de",
+-   "he",
+  ]
+
+ ❯ tests/unit/translations.test.ts:11:30
+      9| describe("translation contract", () => {
+     10|   it("recognizes all requested languages and rejects arbitrary locale …
+     11|     expect(supportedLocales).toEqual(["en", "es", "fr", "de", "he"]);
+       |                              ^
+     12|     for (const value of [undefined, null, "FR", "xx", "en-US", "../en"…
+     13|       expect(isLocale(value)).toBe(false);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/10]⎯
+
+ FAIL  tests/unit/translations.test.ts > translation contract > common dictionaries have identical complete keys, matching parameters and no dash punctuation
+Error: ENOENT: no such file or directory, open 'C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\src\content\translations\he-common.json'
+ ❯ tests/unit/translations.test.ts:20:13
+     18|         (locale) =>
+     19|           JSON.parse(
+     20|             readFileSync(
+       |             ^
+     21|               new URL(
+     22|                 `../../src/content/translations/${locale}-${group}.jso…
+ ❯ tests/unit/translations.test.ts:17:53
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/10]⎯
+
+ FAIL  tests/unit/translations.test.ts > translation contract > editorial dictionaries have identical complete keys, matching parameters and no dash punctuation
+Error: ENOENT: no such file or directory, open 'C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\src\content\translations\he-editorial.json'
+ ❯ tests/unit/translations.test.ts:20:13
+     18|         (locale) =>
+     19|           JSON.parse(
+     20|             readFileSync(
+       |             ^
+     21|               new URL(
+     22|                 `../../src/content/translations/${locale}-${group}.jso…
+ ❯ tests/unit/translations.test.ts:17:53
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/10]⎯
+
+
+ Test Files  2 failed (2)
+      Tests  10 failed | 9 passed (19)
+   Start at  12:15:01
+   Duration  586ms (import 53%, transform 36%, tests 8%, worker 2%)
+
