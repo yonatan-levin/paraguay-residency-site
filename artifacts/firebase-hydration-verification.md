@@ -1,8 +1,8 @@
-# Firebase interaction verification
+# Historical Firebase hydration verification
 
 Checked on 2026-09-25. Fixed application source: `a89512521040b0313b3c671c54ef18e4f2f22ac8`.
 
-**Hosted acceptance failed: 219 passed, 3 failed.** The delayed hydration fix passes its focused tests, but immediate navigation after changing a journey can still carry an incompatible package. Final hosted QA is not accepted. The three review cycle cap has been reached; remaining work is recorded in [issue #7](https://github.com/yonatan-levin/paraguay-residency-site/issues/7).
+**Historical result: 219 passed, 3 failed on the source above.** The delayed hydration fix passed its focused tests, but immediate navigation after changing a journey could still carry an incompatible package. Work stopped at the three review cycle cap. The owner later authorized an additional focused cycle, which resolved those failures: source `3d4061dc30affef67728d6e59a69432903be1b2c` passed all 230 hosted checks. See [selection transition verification](firebase-selection-verification.md) and [issue #7](https://github.com/yonatan-levin/paraguay-residency-site/issues/7) for the subsequent evidence. The results below preserve the original hydration investigation.
 
 ## Reproduction before implementation
 
@@ -33,11 +33,11 @@ Build the reviewed source, then run `npm run test:e2e -- tests/e2e/hydration.spe
 
 The two existing privacy tests now derive the only permitted origin from Playwright's configured base URL. Requests to another host, protocol or port remain failures. This permits the same assertions on local and hosted builds.
 
-## Remaining hosted failures
+## Hosted failures remaining at the historical stop
 
 - Chromium `finder.spec.ts`: open `/en/find-my-plan?plan=temporary-concierge`, select Business setup and immediately click Skip to booking. The previous Concierge package remains.
 - Chromium and mobile Chromium `journeys.spec.ts`: open `/en/pricing?plan=temporary-guided`, select Permanent residency upgrade and immediately click Talk through your options. Booking can still retain Guided.
 
-Code inspection explains the remaining window: `useSelection` prefers the current URL query while `router.replace` is pending, even though the in-memory selection and visible journey have changed. Dependent links can therefore use the previous package. The proposed next fix is to make an explicit journey change authoritative immediately while URL synchronization is pending, retaining normal deep-link and browser navigation behavior. First add deterministic delayed-navigation regressions, then validate the transition and repeat hosted acceptance. No further implementation was attempted after the review cycle cap.
+Code inspection explained the remaining window: `useSelection` preferred the current URL query while `router.replace` was pending, even though the in-memory selection and visible journey had changed. Dependent links could therefore use the previous package. The proposed next fix was to make an explicit journey change authoritative immediately while URL synchronization was pending, retaining normal deep-link and browser navigation behavior. No further implementation was attempted at that stop. The separately authorized correction and deterministic delayed-navigation regressions are documented in the subsequent selection verification linked above.
 
 For hosted verification, use the command in [the Firebase hosting guide](../docs/FIREBASE_HOSTING.md). The longer hosted timeout accommodates exhaustive link requests; retries remain disabled. Deployment identity and the full hosted regression belong in [issue #7](https://github.com/yonatan-levin/paraguay-residency-site/issues/7); independent manual observations are in [the hosted QA report](firebase-hosted-qa.md).

@@ -4,13 +4,50 @@ MODE: EXECUTE · ROLE: QA · QA_TYPE: MANUAL_BROWSER_QA / FEATURE_VALIDATION · 
 
 ## Summary
 
-**PARTIAL / NOT ACCEPTED.** Corrected deployment `a89512521040b0313b3c671c54ef18e4f2f22ac8` passes the independently checked native-disabled guards. Root's complete hosted regression still reports **219 passing / 3 failing** checks involving package context during an asynchronous route transition. The third review cycle is exhausted; testing and implementation stopped on root instruction. The owner must authorize a further cycle before additional work.
+**PASS for the authorized team demo on source `3d4061dc30affef67728d6e59a69432903be1b2c`.** Immediate conversion links now reflect the selected journey before asynchronous URL synchronization finishes. Independent manual checks passed for the targeted conversion flows and all 50 representative locale/viewport combinations. Root's fresh hosted regression completed **230 passing / 0 failing / 0 retries** checks in 3.2 minutes. QA independently read its result and relevant test entries. This is not business launch or merge approval.
 
-The initial deployment's broader hydrated smoke remains below as explicitly historical evidence. It does not override the current failing acceptance gate.
+The owner authorized one additional focused fix and validation cycle after the earlier cap. The September 25 failures below are preserved as historical evidence and are superseded by this deployment's results.
 
 This report records observed browser and HTTP behavior. Cloud rollout identity was supplied by the deploying root agent; QA did not modify cloud resources, repository code, tests, configuration, or GitHub.
 
-## Current deployment retest
+## Current deployment: September 26 selection transition retest
+
+- Reviewed/deployed source: `3d4061dc30affef67728d6e59a69432903be1b2c`; local HEAD independently matched before testing.
+- Origin: `https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app`.
+- Root supplied Cloud Build `fb191d68-b688-474e-9956-aef9f80fe4fe`, SUCCESS, created `2026-09-26T21:18:14.153116629Z`, finished `2026-09-26T21:20:16.717847Z`. Root independently verified revision `paraguay-prototype-build-2026-09-26-001` Ready with 100% traffic. QA did not query the cloud control plane.
+- Windows, agent-browser 0.32.1, HeadlessChrome/152.0.0.0. Isolated namespace `firebase-selection-qa`, session `firebase-selection-qa-cfd5474485e0`. Representative viewports: 390 × 844 and 1440 × 1000.
+- Contracts: `tests/e2e/selection-transition.spec.ts`, `hydration.spec.ts`, `hebrew.spec.ts`, `journeys.spec.ts`, and the existing hosting/localization evidence. Applied SDLC, agent-browser and verification-before-completion skills.
+- Fixture-only contact data. No filled-form screenshot, receipt screenshot, raw HAR or provider credentials were saved.
+
+| Current check | Direct observation | Status |
+| --- | --- | --- |
+| Immediate pricing conversion | On EN pricing with Guided, activated permanent residency and inspected the next animation frame. The address bar still held `plan=temporary-guided`, while booking, brand and Hebrew language links already held `service=permanent-residency`. Clicking the booking link immediately reached the permanent-residency booking page without Guided. This was a browser DOM activation, without a URL-settlement wait before clicking. | PASS |
+| Immediate finder clearing with family campaign | At 390 px, changed the finder goal from an incoming Concierge selection to business. While the address bar still contained Concierge, skip, brand and Hebrew language links contained only `campaign=family-relocation`. Immediate skip navigation reached booking with no plan/service and displayed the neutral starting point. | PASS |
+| Five-language family appointment draft | Hebrew family campaign → Guided booking → FR → DE → ES → EN → HE retained the plan, service, campaign, mixed Hebrew/Latin name and notes, fixture email, appointment mode, and Asia/Jerusalem timezone. Each destination had the expected language/direction. The summary and receipt requested a family quote without inventing a total. | PASS |
+| UTC invariant | Across those locale changes, selected UTC value remained `2026-09-27T13:00:00.000Z`. Asia/Jerusalem displayed 16:00; changing to UTC displayed 13:00 without changing the instant. | PASS |
+| Simulated failure and retry | Hebrew failure displayed the translated error and kept the draft and selected slot. Successful retry reached a Hebrew receipt containing Guided, family quote state and the same simulated appointment. The receipt explicitly said no appointment or message was sent. | PASS |
+| Local WhatsApp preview and keyboard dismissal | EN contact with Guided opened a local dialog naming Guided and explaining that sending was disabled. Escape closed it and returned focus to the WhatsApp trigger. | PASS |
+| Observed privacy and network boundary | Booking failure and WhatsApp states had empty cookies and zero localStorage/sessionStorage entries. The receipt URL contained selection context only. A fresh request log for contact/WhatsApp recorded 14 requests, all same-origin GET with status 200; resource entries contained no external origin. No raw capture was exported. | PASS for the observed interval |
+| Current responsive/metadata matrix | Home, pricing, booking, family campaign and privacy in EN/ES/FR/DE/HE at both widths: 25 URLs and 50 pairs. All had a localized H1, expected `lang` and direction, matching Firebase canonical, six alternate links, `noindex, follow`, no broken image, and document width equal to viewport. Matrix validation returned 50 rows and zero failures. | PASS |
+| Hebrew server HTML and disabled SSR controls | Independent HTTP GET for Hebrew booking returned 200 at `Sat, 26 Sep 2026 21:28:53 GMT`, Hebrew RTL HTML and `X-Robots-Tag: noindex, follow`. Server HTML included the disabled mode fieldset and disabled submit button. | PASS for inspected HTML |
+| Runtime diagnostics | At the end of normal browser flows and the route sweep, `errors --json` returned an empty errors list and `console --json` returned an empty messages list. | PASS for the normal session |
+| Fresh visual evidence | Visually inspected the unfilled Hebrew home screenshots at 390 × 844 and 1440 × 1000. Main text, actions, language control and navigation were usable; mobile sticky action remained visible. This is a representative visual inspection, not a complete element or translation audit. | PASS within scope |
+| Deterministic pending navigation, empty selection, rapid changes/history, modified clicks and no-JS | Root ran the complete hosted suite with retries disabled and a 120-second per-test limit. QA read the log entries for all eight transition tests, five hydration tests and the final 230-pass result. These automated checks cover the timing and no-JS cases beyond the manual actions above. | PASS, executed by root |
+
+Current screenshot evidence: [Hebrew mobile](firebase-selection-he-390.png) and [Hebrew desktop](firebase-selection-he-1440.png). The older `firebase-hosted-he-*.png` files below remain historical.
+
+Raw matrix metadata, containing no contact fields: `C:\Users\Yonatan Levin\AppData\Local\Temp\firebase-selection-qa-e47bfb03ede9463a88594cde608384dc\matrix.json`. Root's hosted test log, independently read by QA: `C:\Users\Yonatan Levin\AppData\Local\Temp\paraguay-track-a47fbe5e7b154edd8602afe2450f7df6\firebase-selection-hosted-e2e.txt`. Committed summaries: [deployment manifest](firebase-deployment.json) and [selection verification](firebase-selection-verification.md).
+
+### Current limitations and tooling observations
+
+- A separate attempted agent-browser script-abort check did not block the JavaScript requests; the request log showed status 200 and the page hydrated. No manual no-JS PASS is claimed from that attempt. Root's actual JavaScript-disabled/held-script hosted tests passed, and the independent server HTML check above confirms the inspected disabled controls.
+- A semantic CLI link lookup missed a visible pricing link once. Fresh DOM inspection and activation completed the flow. A read issued before finder navigation completed also found no booking summary; waiting for the destination then confirmed the correct result. Neither tooling timing event reproduced a product failure.
+- Both owned browser sessions were closed. QA changed only this evidence file and the two new unfilled screenshots.
+- No new product blocker was observed. Existing parked issues #2–5 and #8 remain unchanged. This pass does not establish professional translation/legal approval, full WCAG conformance, real-provider operation, billing cost, cold-start performance, or public business launch readiness.
+
+## Historical September 25 deployment retest
+
+At the end of that earlier cycle the result was **PARTIAL / NOT ACCEPTED**, with 219 passing and three failing hosted checks. Work stopped at the cap until the owner authorized the focused continuation reported above. The following observations belong to the earlier source only.
 
 - Corrected source: `a89512521040b0313b3c671c54ef18e4f2f22ac8`; local HEAD independently matched.
 - Deployment identity supplied by root: Cloud Build `2aad9898-ab41-45f6-b5ae-bfb399fedc97`; Cloud Run revision `paraguay-prototype-build-2026-09-25-002`, reported Ready with 100% traffic. QA did not independently query cloud control-plane state.
@@ -30,7 +67,7 @@ This report records observed browser and HTTP behavior. Cloud rollout identity w
 
 The deliberately blocked-script browser naturally generates aborted asset requests; it is a fault-injection check, not normal runtime evidence. No current-build no-console-errors or complete current-build five-language responsive verdict is claimed. The initial 50-pair result below belongs to the first revision.
 
-### Current release blocker
+### Historical September 25 release blocker
 
 **BLOCKER · FRONTEND · finder/pricing route transitions.** Root reports that immediately following a goal/journey change with skip/booking navigation can carry the previous selected package. Three hosted tests remain red: finder goal-change skip, desktop pricing journey change, and mobile pricing journey change. Root's proposed direction is to make conversion links reflect the new selection while the asynchronous URL update settles, then verify deterministic immediate-click regression cases.
 
@@ -94,8 +131,14 @@ Responsible role: FRONTEND. On `/he` at 390 px, `.art-note` has right bound 395 
 - Root owns the full hosted regression, source identity, cloud build and release decision. This QA task did not rerun unit tests or change runtime configuration.
 - The owned browser session was closed at the end of the initial pass.
 
-## Next step and final status
+## Historical September 25 next step
 
 **NOT ACCEPTED.** Root must present the three remaining hosted failures and the proposed route-transition fix to the owner because the three-cycle cap is reached. After authorization and correction, verify immediate-click package context, rerun the affected hosted tests, and complete the interrupted current-build smoke. This report is evidence for that decision, not approval to deploy another revision or merge.
 
-HANDOFF_TO: HUMAN / root for continuation authorization; FRONTEND owns the proposed fix.
+At that point, the handoff was to HUMAN / root for continuation authorization and FRONTEND for the proposed fix. Authorization, correction and the fresh retest are documented at the top of this report.
+
+## Current final status
+
+**PASS for the authorized Firebase team demo at `3d4061dc30affef67728d6e59a69432903be1b2c`.** No unresolved finding from the targeted selection transition repair remains in the observed manual checks or root's 230-test hosted run. Existing parked findings and business launch prerequisites remain outside this fix. Root owns final evidence reconciliation, GitHub tracking and handoff; merge and business launch still require human approval.
+
+HANDOFF_TO: root / HUMAN for team demo review.
