@@ -14,7 +14,12 @@ import { formatPrice, priceBasisLabel } from "../domain/pricing";
 import { localeDirections } from "../config/locales";
 import { journeyHref } from "../domain/selection";
 import { text, ui } from "../content/ui";
-import { JourneyLink, useJourney, useSelection } from "./journey-provider";
+import {
+  JourneyLink,
+  useJourney,
+  useSelection,
+  useChooseSelection,
+} from "./journey-provider";
 import { PageIntro, Section } from "./primitives";
 import { useHydrated } from "./use-hydrated";
 
@@ -24,6 +29,7 @@ export function PlanFinder({ locale }: { locale: Locale }) {
   const router = useRouter();
   const { answers, setAnswers } = journey;
   const selection = useSelection();
+  const chooseSelection = useChooseSelection();
   const [step, setStep] = useState(0);
   const [complete, setComplete] = useState(false);
   const heading = useRef<HTMLHeadingElement>(null);
@@ -224,7 +230,7 @@ export function PlanFinder({ locale }: { locale: Locale }) {
     }
     journey.setAnswers(updateFinderAnswer(journey.answers, current, value));
     journey.setFinderResult(undefined);
-    journey.setSelection({ campaign: selection.campaign });
+    chooseSelection({ campaign: selection.campaign });
     router.replace(
       journeyHref(locale, "find-my-plan", { campaign: selection.campaign }),
       { scroll: false },
@@ -235,7 +241,7 @@ export function PlanFinder({ locale }: { locale: Locale }) {
     else {
       const result = recommendPlan(journey.answers);
       journey.setFinderResult(result);
-      journey.setSelection({
+      chooseSelection({
         serviceId: result.serviceId,
         packageId: result.packageId,
         campaign: selection.campaign,

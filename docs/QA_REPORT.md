@@ -1,10 +1,12 @@
 # Prototype QA evidence
 
-## Hebrew and GitHub publication
+The sections below preserve the original local delivery evidence. Current Firebase deployment identity and hosted acceptance are recorded in [the deployment evidence](../artifacts/firebase-deployment.json), [the hosted QA report](../artifacts/firebase-hosted-qa.md) and [issue #7](https://github.com/yonatan-levin/paraguay-residency-site/issues/7). Historical local results do not establish the result of a later hosted build.
+
+## Historical Hebrew and GitHub publication
 
 The complete prototype now covers **29 public routes in five languages, 145 public URLs**. Hebrew adds 459 common and 361 editorial messages, actual right to left server and client rendering, translated social artwork, isolated mixed text and preserved appointment drafts. English, Spanish, French and German retain full coverage. Prices remain provisional USD fixtures; integrations remain mocked and every preview remains noindex.
 
-Validated source SHA256: **`62c6bd2f5f6bc5ba6d53aedf46ee890d8d33f8256d354b4f4617b4b1b1546828`**, 94 files in `artifacts/source-manifest.json`. Optimized build: `Z4gZdLWq2bcEoQckTmphI`. GitHub delivery is tracked in [issue #1](https://github.com/yonatan-levin/paraguay-residency-site/issues/1). Source is published for review in the private repository; no live deployment or merge is authorized.
+Validated source SHA256: **`62c6bd2f5f6bc5ba6d53aedf46ee890d8d33f8256d354b4f4617b4b1b1546828`**, 94 files in `artifacts/source-manifest.json`. Optimized build: `Z4gZdLWq2bcEoQckTmphI`. GitHub delivery is tracked in [issue #1](https://github.com/yonatan-levin/paraguay-residency-site/issues/1). Source was initially published privately. The owner subsequently authorized the public repository and Firebase team demo tracked in issue #7. A merge and business launch remain unapproved.
 
 | Check | Actual result | Evidence under `artifacts/` |
 |---|---|---|

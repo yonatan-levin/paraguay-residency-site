@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Locale } from "../domain/types";
 import { localeDirections } from "../config/locales";
@@ -12,7 +11,12 @@ import {
 } from "../domain/pricing";
 import { journeyHref } from "../domain/selection";
 import { text, ui } from "../content/ui";
-import { JourneyLink, useJourney, useSelection } from "./journey-provider";
+import {
+  JourneyLink,
+  useJourney,
+  useSelection,
+  useChooseSelection,
+} from "./journey-provider";
 import { PackageCard, PageIntro, Section } from "./primitives";
 import { useHydrated } from "./use-hydrated";
 
@@ -20,16 +24,16 @@ export function Pricing({ locale }: { locale: Locale }) {
   const hydrated = useHydrated();
   const selection = useSelection();
   const router = useRouter();
-  const { setSelection, setFinderResult } = useJourney();
-  const [journey, setJourney] = useState(
+  const { setFinderResult } = useJourney();
+  const chooseSelection = useChooseSelection();
+  const journey =
     selection.serviceId === "permanent-residency"
       ? "upgrade"
       : ["investor-residency", "business-route"].includes(
             selection.serviceId ?? "",
           )
         ? "investment"
-        : "first",
-  );
+        : "first";
   function changeJourney(value: string) {
     const nextSelection = {
       serviceId:
@@ -40,8 +44,7 @@ export function Pricing({ locale }: { locale: Locale }) {
             : "temporary-residency",
       campaign: selection.campaign,
     };
-    setJourney(value);
-    setSelection(nextSelection);
+    chooseSelection(nextSelection);
     setFinderResult(undefined);
     router.replace(journeyHref(locale, "pricing", nextSelection), {
       scroll: false,

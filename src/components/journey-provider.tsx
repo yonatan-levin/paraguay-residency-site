@@ -2,6 +2,7 @@
 
 import {
   createContext,
+  useCallback,
   useContext,
   useEffect,
   useState,
@@ -28,8 +29,15 @@ const emptyDraft: ContactDraft = {
   channel: "email",
   marketingConsent: false,
 };
+type SelectionState = { value: Selection; pendingFrom?: string };
+
 function useJourneyState() {
-  const [selection, setSelection] = useState<Selection>({});
+  const [selectionState, setSelectionState] = useState<SelectionState>({
+    value: {},
+  });
+  const setSelection = useCallback((value: Selection) => {
+    setSelectionState({ value });
+  }, []);
   const [answers, setAnswers] = useState<FinderAnswers>({});
   const [finderResult, setFinderResult] = useState<FinderResult>();
   const [draft, setDraft] = useState<ContactDraft>(emptyDraft);
@@ -43,7 +51,8 @@ function useJourneyState() {
   const [entryPageKey, setEntryPageKey] = useState<string>();
   const [analytics] = useState(() => createMemoryAnalytics());
   return {
-    selection,
+    selectionState,
+    setSelectionState,
     setSelection,
     answers,
     setAnswers,
@@ -84,8 +93,12 @@ export function useJourney() {
 }
 
 export function useSelection(): Selection {
+  const pathname = usePathname();
   const params = useSearchParams();
-  const { selection } = useJourney();
+  const { selectionState } = useJourney();
+  const selection = selectionState.value;
+  // An explicit choice, including an empty one, wins while its old URL is loading.
+  if (selectionState.pendingFrom === `${pathname}?${params}`) return selection;
   const hasSelection = params.has("plan") || params.has("service");
   const parsed = resolveSelection({
     plan: params.get("plan") ?? undefined,
@@ -98,6 +111,15 @@ export function useSelection(): Selection {
         ...selection,
         ...(parsed.campaign ? { campaign: parsed.campaign } : {}),
       };
+}
+
+export function useChooseSelection() {
+  const pathname = usePathname();
+  const params = useSearchParams();
+  const { setSelectionState } = useJourney();
+  return (value: Selection) => {
+    setSelectionState({ value, pendingFrom: `${pathname}?${params}` });
+  };
 }
 
 export function useLeadContext(locale: Locale): LeadContext {
@@ -124,8 +146,15 @@ export function useLeadContext(locale: Locale): LeadContext {
 export function CaptureJourneyEntry() {
   const pathname = usePathname();
   const params = useSearchParams();
-  const { setEntryPageKey, setAttribution, setSelection, setFinderResult } =
-    useJourney();
+  const {
+    setEntryPageKey,
+    setAttribution,
+    setSelectionState,
+    selectionState,
+    setFinderResult,
+  } = useJourney();
+  const pendingFrom = selectionState.pendingFrom;
+  const sourceUrl = `${pathname}?${params}`;
   useEffect(() => {
     setEntryPageKey(
       (previous) =>
@@ -134,31 +163,42 @@ export function CaptureJourneyEntry() {
     setAttribution((previous) =>
       captureAttribution(previous, Object.fromEntries(params.entries())),
     );
+    if (pendingFrom === sourceUrl) return;
     const selection = resolveSelection({
       plan: params.get("plan") ?? undefined,
       service: params.get("service") ?? undefined,
       campaign: params.get("campaign") ?? undefined,
     });
-    if (params.has("plan") || params.has("service")) {
-      setSelection(selection);
+    const hasSelection = params.has("plan") || params.has("service");
+    setSelectionState((previous) => {
+      // A stale URL effect must not replace a newer explicit choice. Leaving its
+      // source URL permanently retires the override, including Back/Forward.
+      if (previous.pendingFrom === sourceUrl) return previous;
+      return {
+        value: hasSelection
+          ? selection
+          : selection.campaign
+            ? { ...previous.value, campaign: selection.campaign }
+            : previous.value,
+      };
+    });
+    if (hasSelection) {
       setFinderResult((previous) =>
         previous?.serviceId === selection.serviceId &&
         previous?.packageId === selection.packageId
           ? previous
           : undefined,
       );
-    } else if (selection.campaign)
-      setSelection((previous) => ({
-        ...previous,
-        campaign: selection.campaign,
-      }));
+    }
   }, [
     pathname,
     params,
     setEntryPageKey,
     setAttribution,
-    setSelection,
+    setSelectionState,
     setFinderResult,
+    pendingFrom,
+    sourceUrl,
   ]);
   return null;
 }
@@ -185,6 +225,7 @@ export function JourneyLink({
   "aria-current"?: "page";
 }) {
   const context = useSelection();
+  const chooseSelection = useChooseSelection();
   const pathname = usePathname();
   const routeKey = pathname.split("/").slice(2).join("/") || "home";
   const journey = useJourney();
@@ -198,8 +239,9 @@ export function JourneyLink({
       {...props}
       href={href}
       className={className}
-      onClick={() => {
-        journey.setSelection(chosen);
+      // Next excludes modified clicks so another tab cannot change this journey.
+      onNavigate={() => {
+        chooseSelection(chosen);
         if (
           selection &&
           (selection.serviceId !== journey.finderResult?.serviceId ||
