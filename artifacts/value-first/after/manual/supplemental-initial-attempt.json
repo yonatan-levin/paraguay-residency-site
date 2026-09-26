@@ -1,0 +1,68 @@
+{
+  "method": "Installed Playwright and axe fallback: agent-browser a11y returned Unknown command, and its CLI exposes no JavaScript disable setting.",
+  "checks": [
+    {
+      "check": "en Why accessibility",
+      "status": "PASS",
+      "violations": 0,
+      "passes": 23,
+      "incomplete": 1,
+      "sections": 8,
+      "sources": 3
+    },
+    {
+      "check": "es Why accessibility",
+      "status": "PASS",
+      "violations": 0,
+      "passes": 23,
+      "incomplete": 1,
+      "sections": 8,
+      "sources": 3
+    },
+    {
+      "check": "fr Why accessibility",
+      "status": "PASS",
+      "violations": 0,
+      "passes": 23,
+      "incomplete": 1,
+      "sections": 8,
+      "sources": 3
+    },
+    {
+      "check": "de Why accessibility",
+      "status": "PASS",
+      "violations": 0,
+      "passes": 23,
+      "incomplete": 1,
+      "sections": 8,
+      "sources": 3
+    },
+    {
+      "check": "he Why accessibility",
+      "status": "PASS",
+      "violations": 0,
+      "passes": 22,
+      "incomplete": 1,
+      "sections": 8,
+      "sources": 3
+    },
+    {
+      "check": "JavaScript disabled cost CTA 1",
+      "status": "PASS",
+      "javaScriptEnabled": false,
+      "href": "/en/pricing?service=temporary-residency&plan=temporary-guided&campaign=residency-cost",
+      "destination": "http://127.0.0.1:52942/en/pricing?service=temporary-residency&plan=temporary-guided&campaign=residency-cost"
+    },
+    {
+      "check": "JavaScript disabled cost CTA 2",
+      "status": "PASS",
+      "javaScriptEnabled": false,
+      "href": "/en/pricing?service=temporary-residency&plan=temporary-guided&campaign=residency-cost",
+      "destination": "http://127.0.0.1:52942/en/pricing?service=temporary-residency&plan=temporary-guided&campaign=residency-cost"
+    }
+  ],
+  "errors": [],
+  "browser": "153.0.8010.12",
+  "status": "FAIL",
+  "failure": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.why-overview a').nth(2)\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"/en/why-paraguay?service=temporary-residency&plan=temporary-guided#financial-planning\">Tax planning worth understanding</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <aside aria-label=\"Next step\" class=\"mobile-conversion\">…</aside> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\n    at C:\\Users\\Yonatan Levin\\AppData\\Local\\Temp\\paraguay-value-baseline-739db81c1c28402cbe8b71bac0b94987\\supplemental-qa.mjs:41:50"
+}

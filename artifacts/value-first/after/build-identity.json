@@ -1,0 +1,13 @@
+{
+  "capturedAt": "2026-09-26T22:59:13.1182831Z",
+  "baseCommit": "6b5c6ba7a104cc2f8f9671fa34d6be27eea848b6",
+  "codeCommit": "d96c06893a55b56c8b563d75fcca0c4019c2cad4",
+  "branch": "update/value-first",
+  "buildId": "s8gB49V7pfMaPKdhDCvbw",
+  "sourceSha256": "b0b066e3a52e197b54075355e3a785aa3512f8d205fc13c29ecfc4991be07d1b",
+  "sourceFileCount": 111,
+  "sourceManifest": "source-manifest.json",
+  "serverUrl": "http://127.0.0.1:52942",
+  "rootGateLogs": "gates/",
+  "publication": "Local commits only. No code push, deployment or live services."
+}

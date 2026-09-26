@@ -6,7 +6,8 @@ Every route in this prototype is **noindex**. The “eventual indexing” column
 
 | Stable destination | English path | Spanish, French, German and Hebrew | Purpose / primary action | Eventual indexing |
 |---|---|---|---|---|
-| Home | `/en` | `/es`, `/fr`, `/de`, `/he` | Introduce residency support; finder or compare | Index after approval |
+| Home | `/en` | `/es`, `/fr`, `/de`, `/he` | Explain the opportunity, then paid assistance; benefits anchor, packages or consultation | Index after approval |
+| Why Paraguay | `/en/why-paraguay` | `/es/why-paraguay`, `/fr/why-paraguay`, `/de/why-paraguay`, `/he/why-paraguay` | Evaluate residency, a second base, finances, everyday costs and business; finder, packages or consultation | Index after claim and publication approval |
 | Residency | `/en/paraguay-residency` | `/es/paraguay-residency`, `/fr/paraguay-residency`, `/de/paraguay-residency`, `/he/paraguay-residency` | Commercial residency-assistance overview; compare plans | Index after approval |
 | Pricing | `/en/pricing` | `/es/pricing`, `/fr/pricing`, `/de/pricing`, `/he/pricing` | Residency costs/package scope; choose route then support level | Index after approval |
 | Finder | `/en/find-my-plan` | `/es/find-my-plan`, `/fr/find-my-plan`, `/de/find-my-plan`, `/he/find-my-plan` | Needs-based starting point; discuss or compare | Noindex |
@@ -40,7 +41,9 @@ An internal RTL fixture is nonindexable and absent from public navigation, `href
 
 ## Navigation and context
 
-Primary navigation is Residency / Packages / Relocation & Business / Guides / About, language selection, and Find my plan. Direct consultation remains available through contact/menu paths so the finder is optional. Footer links include services, contact, and policy drafts; no dead hash-only destinations.
+Primary navigation is Why Paraguay / Residency / Packages / Relocation & Business / Guides / About, language selection, and Find my plan. Direct consultation remains available in navigation and the homepage hero so the finder is optional. Footer links include services, contact, and policy drafts; no dead hash-only destinations.
+
+The homepage benefits link uses the native `#benefits` anchor. Registered links into Why Paraguay include `#second-base`, `#financial-planning` and `#life-and-budget`; their headings and explanatory copy are in initial HTML. Route bound anchor validation keeps fragments separate from route IDs and selection parameters. Informational motivation links preserve the current selection without answering finder questions. An explicit service inquiry preserves a compatible package and explains any incompatible package removal beside the action.
 
 Use stable service/package identifiers in allowlisted `service` and `plan` parameters. Context links never serialize contact drafts, notes, nationality/country answers, raw referrer strings, or arbitrary return URLs. Unknown or incompatible IDs resolve safely and cannot produce a mismatched package/price. Recognized campaign attribution is captured in memory; direct navigation does not overwrite it.
 
@@ -66,6 +69,7 @@ One shared `canIndex(page, environment)` policy returns true only when all of th
 4. Required content review is approved.
 5. Required commercial information is approved separately from content wording.
 6. The route’s locale is complete and approved for publication.
+7. Every required claim dependency has its applicable official source check and professional or editorial review, operator approval where required, and locale publication approval. Missing dependencies and source checked drafts fail closed even if page and global approvals are true.
 
 Any missing value fails closed. Every preview emits robots `noindex` metadata and a matching HTTP `X-Robots-Tag` where the framework supports it. Keep crawlers able to read noindex directives; do not combine an inaccessible robots policy with the expectation that a crawler sees a page’s metadata. Robots settings are never presented as access control.
 
@@ -73,7 +77,9 @@ The sitemap uses the same policy and canonical route inventory. Demo mode contri
 
 ## Intent and internal linking
 
-Residency overview owns commercial assistance; pricing owns package/cost comparison; the guide owns preparation/document questions. Permanent-residency, relocation, tax, and company pages own their specific services. Do not multiply near-identical nationality or cost pages.
+Why Paraguay owns broad evaluation of the country and what residency may enable. Residency overview owns commercial assistance; pricing owns package/cost comparison; the guide owns preparation/document questions. Permanent-residency, relocation, tax, and company pages own their specific services. Do not multiply near-identical nationality or cost pages.
+
+The social link hub has four destinations: Why Paraguay, residency packages, family relocation and consultation. Cost and family campaigns retain their direct intent. Homepage, Why and campaign share assets use Paraguay Next and matching localized messages without provisional amounts or unapproved legal outcomes. Query parameters never supply share image wording.
 
 Residency links to pricing and the requirements guide. The guide links to relevant services with a contextual consultation action. Each service template includes its intended customer, included assistance, exclusions, process, relevant package or quote, practical questions, and contextual inquiry. Service copy must be distinct enough to answer that service’s questions; unapproved pages cannot become thin indexable production placeholders.
 

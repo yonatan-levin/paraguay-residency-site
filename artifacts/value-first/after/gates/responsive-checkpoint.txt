@@ -1,0 +1,18 @@
+
+> paraguay-residency-site@0.1.0 test:e2e
+> playwright test tests/e2e/value-first.spec.ts --grep home reflows --project=chromium --reporter=list
+
+
+Running 5 tests using 2 workers
+
+(node:64824) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:36100) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 2 [chromium] › tests\e2e\value-first.spec.ts:143:3 › es home reflows and exposes its mobile consultation link (1.9s)
+  ok 1 [chromium] › tests\e2e\value-first.spec.ts:143:3 › en home reflows and exposes its mobile consultation link (1.9s)
+  ok 4 [chromium] › tests\e2e\value-first.spec.ts:143:3 › de home reflows and exposes its mobile consultation link (1.4s)
+  ok 3 [chromium] › tests\e2e\value-first.spec.ts:143:3 › fr home reflows and exposes its mobile consultation link (1.5s)
+  ok 5 [chromium] › tests\e2e\value-first.spec.ts:143:3 › he home reflows and exposes its mobile consultation link (1.7s)
+
+  5 passed (9.3s)

@@ -49,7 +49,7 @@
       { "route": "/en/pricing", "performance": 85, "accessibility": 100, "bestPractices": 100, "seo": 66, "lcpMs": 4363.282625738848, "cls": 0, "tbtMs": 59 },
       { "route": "/en/lp/family-relocation", "performance": 86, "accessibility": 100, "bestPractices": 100, "seo": 69, "lcpMs": 4213.994822616819, "cls": 0, "tbtMs": 23.5 }
     ],
-    "interpretation": "Preexisting local lab performance is below the original 95 target. SEO deduction is expected from required noindex headers and meta. These are single-run simulated lab results, not field measurements or conversion evidence. Repeat the same method on the updated production build."
+    "interpretation": "Preexisting local lab performance is below the original 90 aim. SEO deduction is expected from required noindex headers and meta. These are single-run simulated lab results, not field measurements or conversion evidence. Repeat the same method on the updated production build. The threshold wording was corrected during final QA; measured scores are unchanged."
   },
   "preexistingFailures": [],
   "limits": [

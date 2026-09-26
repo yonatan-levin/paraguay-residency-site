@@ -9,7 +9,7 @@ This document records product and architecture decisions for the demo prototype,
 | Application location | Standalone `paraguay-residency-site` beneath the inspected workspace | No existing application was present; preserve the source handoff and unrelated workspace files |
 | Stack | Next.js App Router, React, strict TypeScript, npm, small CSS component system | Follows the source handoff for an empty workspace; keep content server-rendered and interactions isolated |
 | Content storage | Typed local content, no database or CMS | The prototype needs reviewable fixtures and deterministic editing, not an operating backend |
-| Brand | Paraguay Residency Studio | Explicitly provisional; no assumption that Este a Oeste is the legal provider |
+| Brand | Paraguay Next, with the descriptor Residency, Relocation & Business Setup | Working public brand from the incremental brief; legal operator and production domain remain unapproved |
 | Operating mode | Demo with local mocks, publicly accessible team preview authorized | No real booking, lead delivery, messaging, payment or analytics; hosting does not approve business operation |
 | Currency | USD integer minor units, shared formatter | No exchange-rate service, duplicated display amounts, or floating-point business arithmetic |
 | Languages | Complete English, Spanish, French, German and Hebrew across all public pages | User requested full language parity, including Hebrew and the previously missing Spanish pages |
@@ -34,6 +34,18 @@ This document records product and architecture decisions for the demo prototype,
 | Website wording | No hyphens or dash punctuation in authored copy | Use natural sentence punctuation and wording; price ranges use localized connecting words. Technical identifiers and URLs retain their required spelling. |
 | SEO | Every preview page noindex; no preview URLs in sitemap | Public demo access is authorized; robots directives are not access protection, and only test data belongs in the demo |
 | Live readiness | Fail closed with missing-input errors | Passing a build never approves launch or automatically enables providers |
+
+## Benefits first communication
+
+The incremental `CODEX_UPDATE_PARAGUAY_NEXT_VALUE_FIRST.md` overrides the original homepage, navigation and specified introductions. `VALUE_FIRST_PLAN.md` records the implementation contract. The existing application, catalog, routes and conversion state remain the foundation; this is not a replacement site.
+
+Home explains the opportunity before the assistance: visible benefit cards and informational motivations precede the separate Paraguay Next service value, process and package sections. `/[locale]/why-paraguay` owns broader evaluation of residency, a second base, financial questions, everyday budgets and local business. Pricing and consultation remain direct routes; the finder is optional.
+
+Motivation links are ordinary information destinations. They do not infer household, nationality, eligibility or a package. Information browsing preserves selected context. An explicit service inquiry retains a compatible package; if the service is incompatible, an adjacent explanation precedes clearing the old package. Private drafts, campaign context and the existing pending navigation safeguards remain intact.
+
+Legal and tax statements have explicit claim dependencies in addition to page approval. A checked official source is not professional approval. Draft claims cannot become indexable merely by setting page or global approval flags. Source, qualified review, operator scope approval and translation publication approval are separate requirements. Preview content remains visible and noindex while those approvals are pending.
+
+The update is local only. It does not publish new code, replace the hosted team demo or authorize a live integration. Current update evidence belongs in `VALUE_FIRST_QA.md`; the previous `QA_REPORT.md` remains historical evidence for its own artifact.
 
 ## Commercial fixture policy
 
@@ -88,7 +100,7 @@ These inputs do not block a local demonstration. They block the corresponding cl
 | Final prices, taxes and fee inclusions | Commercial owner | Provisional fixture amounts and unknown exclusions | Signed catalog and recurring/third-party fee disclosures |
 | Family/child pricing and shared fees | Commercial owner | Request a family quote | Documented policy; no implicit multiplication |
 | Package delivery, duration and aftercare | Operations owner | Provisional deliverables; no guaranteed timing | Service scope, dependency boundaries, support commitments |
-| Residency, investor, company, tax, banking, property and citizenship statements | Qualified professional reviewers | General preparation and scoped assistance only | Route-by-route factual review with real names/dates where published |
+| Residency, investor, company, tax, banking, property and citizenship statements | Qualified professional reviewers | General preparation and scoped assistance; bounded source checked residency/tax draft claims with separate approval gates | Route-by-route factual review with real names/dates where published |
 | Cancellation, refund, privacy and terms | Legal/privacy owner | Clearly labeled policy drafts | Jurisdiction-specific reviewed policies and consent/lawful-basis decisions |
 | Photos, people imagery, testimonials and author/reviewer attribution | Content owner | Original neutral artwork; no invented proof | Rights/permissions and factual approvals |
 | English, Spanish, French, German and Hebrew publication review | Language/content owner | All public pages and conversion journeys translated; Hebrew uses right to left layouts | Native language and qualified professional review for intended markets; confirm staffed languages separately |

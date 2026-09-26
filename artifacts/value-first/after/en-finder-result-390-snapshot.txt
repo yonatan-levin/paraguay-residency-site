@@ -1,0 +1,66 @@
+- link "Skip to content" [ref=e1]
+- StaticText "Website preview. Offers are provisional and no real booking or message will be sent."
+- banner
+  - link "Paraguay Next" [ref=e2]
+    - StaticText "Paraguay"
+    - StaticText "Next"
+  - group
+    - DisclosureTriangle "Select language: EN" [expanded=false]
+      - StaticText "EN"
+      - StaticText "⌄"
+  - group
+    - DisclosureTriangle "Open navigation" [expanded=false]
+      - StaticText "☰"
+- main
+  - heading "Find your starting point" [level=1, ref=e3]
+  - paragraph
+    - StaticText "A short guide to the support that may suit you. This is not a legal eligibility decision."
+  - link "Skip to booking" [ref=e6]
+  - link "Compare packages" [ref=e7]
+  - generic
+    - paragraph
+      - StaticText "A possible starting point"
+    - heading "Guided" [level=2, ref=e18]
+    - paragraph
+      - StaticText "First residency"
+    - paragraph
+      - StaticText "$2,850"
+    - paragraph
+      - StaticText "per applicant"
+    - paragraph
+      - StaticText "Illustrative USD price. Subject to confirmation"
+    - heading "Why this may fit" [level=3, ref=e19]
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "You value more coordination between the required steps."
+    - strong
+      - StaticText "Still to be confirmed"
+    - paragraph
+      - StaticText "Professional review, your exact delivery scope, required visits and external costs. Timing preferences never imply faster approval."
+    - link "Discuss this plan" [ref=e20]
+    - link "Compare alternatives" [ref=e21]
+    - button "Edit my answers" [ref=e22]
+- contentinfo
+  - StaticText "Paraguay"
+  - StaticText "Next"
+  - paragraph
+    - StaticText "Your Paraguay residency, clearly planned and personally supported."
+  - paragraph
+    - StaticText "Working brand. Legal operator and business contacts pending owner approval."
+  - navigation "Explore" [ref=e4]
+    - heading "Your next step" [level=2, ref=e8]
+    - link "Compare packages" [ref=e9]
+    - link "Book a consultation" [ref=e10]
+    - link "Contact" [ref=e11]
+    - link "All services" [ref=e12]
+  - navigation "Resources and policies" [ref=e5]
+    - heading "Useful information" [level=2, ref=e13]
+    - link "Preparation guide" [ref=e14]
+    - link "Privacy draft" [ref=e15]
+    - link "Terms draft" [ref=e16]
+    - link "Disclaimer draft" [ref=e17]
+  - StaticText "A considered move begins with clear information."
+  - StaticText "Demo website · USD · No live services"
+- alert
+  - StaticText "Find your starting point"

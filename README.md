@@ -1,6 +1,8 @@
-# Paraguay Residency Studio prototype
+# Paraguay Next prototype
 
 A complete demo website for reviewing residency and relocation journeys. The brand, prices, scope, people, and business policies are provisional. Requests, appointments, WhatsApp messages, and analytics remain local simulations. **No real booking or message is sent.** The source repository is public for team collaboration. The [hosted team preview](https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app) uses the dedicated Firebase project with authorized Blaze usage billing. See [the hosting guide](docs/FIREBASE_HOSTING.md) for setup and [issue #7](https://github.com/yonatan-levin/paraguay-residency-site/issues/7) for the deployed revision and hosted verification status.
+
+The benefits first update is on the local `update/value-first` branch, tracked in [issue #9](https://github.com/yonatan-levin/paraguay-residency-site/issues/9). It has not been pushed or deployed, so the hosted preview and a fresh remote clone do not include it. Use this existing checkout to review the update, following the build and start commands below. Its evidence and limitations are in [VALUE_FIRST_QA.md](docs/VALUE_FIRST_QA.md).
 
 ## Run on Windows / PowerShell
 
@@ -44,10 +46,11 @@ Run `npm run perf` with the production server running to produce mobile Lighthou
 
 `npm run check:launch` intentionally exits unsuccessfully and lists missing approvals. It does not provision, send, or deploy anything.
 
-The included CI workflow runs type checking, lint, unit tests, build, and browser checks. See [the actual QA results](docs/QA_REPORT.md) for local evidence and limitations, and [GitHub Actions](https://github.com/yonatan-levin/paraguay-residency-site/actions) for hosted runs on each commit. Work is tracked in [issue #1](https://github.com/yonatan-levin/paraguay-residency-site/issues/1); the outstanding mobile performance target is [issue #2](https://github.com/yonatan-levin/paraguay-residency-site/issues/2).
+The included CI workflow runs type checking, lint, unit tests, build, and browser checks. See [the current update QA results](docs/VALUE_FIRST_QA.md) for local evidence and limitations; [the earlier QA report](docs/QA_REPORT.md) remains historical. [GitHub Actions](https://github.com/yonatan-levin/paraguay-residency-site/actions) covers published commits, not this unpushed update. Current work is tracked in [issue #9](https://github.com/yonatan-levin/paraguay-residency-site/issues/9); the outstanding mobile performance target is [issue #2](https://github.com/yonatan-levin/paraguay-residency-site/issues/2).
 
 ## Review the journeys
 
+- Start on the homepage to compare residency benefits with the separate value of paid assistance. Open `/en/why-paraguay` for status distinctions, financial questions, a household budget framework and local business considerations. Pricing and booking remain directly accessible.
 - Choose a package on `/en/pricing`, discuss it, submit test details, and inspect the simulated receipt. The package and provisional price stay visible throughout.
 - Use `/en/find-my-plan` for a needs-based starting point. Results do not require contact details. Family requests receive a quote flag, never an invented household total.
 - Try both conversation and demo-time modes on `/en/book`; change the timezone and use the demo outcome control to exercise failure, unavailable-time, and retry behavior.
@@ -72,7 +75,7 @@ Next.js App Router server-renders marketing content; small client components han
 | `src/components/`, `src/app/` | Reusable UI, conversion flows, and route composition |
 | `public/` | Original local editorial illustration and social preview assets |
 
-Change prices only in the catalog; never copy amounts into a page, translation, metadata, or image. Fixed/range/quote and included/excluded/optional/unknown remain distinct. Editing copy does not approve a commercial offer. Keep actual people, credentials, testimonials, contacts, and legal claims absent until verified and authorized.
+Change prices only in the catalog; never copy amounts into a page, translation, metadata, or image. Fixed/range/quote and included/excluded/optional/unknown remain distinct. Editing copy does not approve a commercial offer. Keep actual people, credentials, testimonials and contacts absent until verified and authorized. The supplied source checked legal and tax explanations appear as draft preview content; their professional, operator and language approvals remain separate release requirements.
 
 For translation edits, see [the language contract](docs/LOCALIZATION.md). Keep each English key and named placeholder identical across dictionaries. Run `npm run assets:social` after editing artwork translations. Authored visible copy avoids hyphens and dash punctuation; route slugs, identifiers and customer supplied data retain their required formatting. Translation completeness does not imply approval by a native speaking professional or staffed support in that language.
 
@@ -81,6 +84,9 @@ Contact drafts, finder answers, and receipts exist only in browser memory. Reloa
 ## Delivery documents
 
 - [Source handoff](docs/CODEX_HANDOFF_PARAGUAY_SITE.md)
+- [Benefits first update brief](docs/CODEX_UPDATE_PARAGUAY_NEXT_VALUE_FIRST.md)
+- [Benefits first implementation contract](docs/VALUE_FIRST_PLAN.md)
+- [Benefits first QA and before/after evidence](docs/VALUE_FIRST_QA.md)
 - [Implementation plan](docs/IMPLEMENTATION_PLAN.md)
 - [Defaults and unresolved business decisions](docs/DECISIONS.md)
 - [Routes, translations, and SEO rules](docs/ROUTES_AND_SEO.md)
@@ -88,4 +94,4 @@ Contact drafts, finder answers, and receipts exist only in browser memory. Reloa
 - [Launch checklist](docs/LAUNCH_CHECKLIST.md)
 - [Firebase setup, deployment and rollback](docs/FIREBASE_HOSTING.md)
 
-Original handoff files remain untouched in the parent workspace. Code is reviewed on `prototype/hebrew` in the public repository. [Issue #7](https://github.com/yonatan-levin/paraguay-residency-site/issues/7) tracks Firebase hosting and public team access. GitHub publication and a hosted demo do not approve the business launch.
+Original handoff files remain untouched in the parent workspace. The earlier published code is on `prototype/hebrew` in the public repository; this update remains local on `update/value-first`. [Issue #7](https://github.com/yonatan-levin/paraguay-residency-site/issues/7) tracks Firebase hosting and public team access. GitHub publication and a hosted demo do not approve the business launch.

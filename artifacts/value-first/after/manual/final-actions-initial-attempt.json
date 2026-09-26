@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "check": "NoJS final Why pricing action after ordinary scroll",
+      "status": "PASS",
+      "destination": "http://127.0.0.1:52942/en/pricing?service=temporary-residency&plan=temporary-guided"
+    }
+  ],
+  "method": "Playwright supplement to agent-browser manual checks",
+  "browser": "153.0.8010.12",
+  "menuContrastManual": {
+    "axeIncomplete": "color-contrast",
+    "target": "summary[aria-label=\"Open navigation\"]",
+    "colors": {
+      "text": "☰",
+      "color": "rgb(20, 43, 59)",
+      "background": "rgba(0, 0, 0, 0)",
+      "ancestors": [
+        {
+          "tag": "DETAILS",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tag": "BODY",
+          "background": "rgb(247, 248, 245)"
+        }
+      ]
+    },
+    "observation": "Dark navigation glyph is visibly distinct in mobile screenshots; axe cannot automatically determine its contrast. This is not a complete manual accessibility certification."
+  },
+  "status": "FAIL",
+  "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('navigation', { name: 'Explore', exact: true }).getByRole('link', { name: 'Book a consultation', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"/en/book?service=temporary-residency&plan=temporary-guided\">Book a consultation</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not stable\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\n    at C:\\Users\\Yonatan Levin\\AppData\\Local\\Temp\\paraguay-value-baseline-739db81c1c28402cbe8b71bac0b94987\\final-actions.mjs:25:136"
+}

@@ -38,14 +38,18 @@ The prototype remains in demo mode, with provisional prices, local mocks and noi
 | Live-readiness validator | Engineering owner | Requires final acceptance | Actionable errors for missing identity, origin, approvals, providers and secure operating controls; never silently falls back to live |
 | Metadata and crawl policy | SEO / content owner | Preview noindex | Approved production canonicals, complete reciprocal translations, redirect map, source-of-truth sitemap and no draft URLs |
 | Search-console ownership | SEO / domain owner | Not configured | Ownership verification plan and responsible operator; no assumption that sitemap submission guarantees indexing |
-| Functional/browser regression | QA owner | See `QA_REPORT.md` | Passing business/state tests, all route/CTA checks, Chromium mobile/desktop and WebKit evidence on the final build |
-| Accessibility and responsive behavior | QA / design owner | See `QA_REPORT.md` | Keyboard/error/focus checks, automated scans, 200% zoom, 320 CSS-pixel reflow, no blocked CTAs or overflow |
+| Functional/browser regression | QA owner | Current update: `VALUE_FIRST_QA.md`; earlier artifact: `QA_REPORT.md` | Passing business/state tests, all route/CTA checks, Chromium mobile/desktop and WebKit evidence on the final build |
+| Accessibility and responsive behavior | QA / design owner | Current update: `VALUE_FIRST_QA.md`; native checks remain separate | Keyboard/error/focus checks, automated scans, 200% zoom, 320 CSS-pixel reflow, no blocked CTAs or overflow; distinguish the executed equivalent zoom model from native browser/device checks |
 | Native mobile browsers | QA owner | Separate real-device check required | iOS/Android and relevant social in-app browser checks; emulation is not equivalent evidence |
-| Performance | Engineering / QA owner | Current Hebrew mobile sample: home 92, pricing and campaign 85; 90 aim not met throughout | Resolve GitHub issue #2, repeat audits across all languages, review asset budget and define the field plan for LCP/INP/CLS; earlier four language scores of 77 to 87 are historical; see current QA report |
+| Performance | Engineering / QA owner | Update EN samples: home 91 then 79 on repeat; pricing 92, family campaign 93. Consistent 90 aim remains unproven | Resolve GitHub issue #2, investigate repeatability and repeat audits across all languages; review asset budget and define the field plan for LCP/INP/CLS. See `VALUE_FIRST_QA.md`; earlier scores describe older artifacts |
 | Live integration rollback | Engineering / operations owner | Not configured | Ability to disable sending/tracking, restore safe mode, preserve accepted request integrity and communicate outages |
 | Business launch authorization | Business owner | Not granted; public demo separately authorized | Explicit approval of reviewed business release and target; demo hosting does not satisfy the operating, content or integration gates |
 
 ## Fail-closed release policy
+
+The benefits first update adds a claim release gate for homepage, Why Paraguay and the affected supporting content, including metadata and social assertions. Before publication, obtain genuine review of the legal base and status distinctions, conditional longer term route and income source explanation. The presence of official source links or an inspection date does not satisfy qualified professional review. Confirm paid service delivery statements with the operator separately and approve their meaning in English, Spanish, French, German and Hebrew.
+
+Use `VALUE_FIRST_QA.md` for this update's factual verification and before/after comparison. Participant comprehension sessions and physical device testing remain separate from automated browser checks. The update itself authorizes no push, deployment, indexing change or live service activation; an earlier hosted demo is not approval to publish the revised artifact.
 
 Changing the runtime label is not sufficient to launch. An attempted live configuration must fail with actionable missing-input errors while any required gate remains unapproved. Keep content approval separate from price/scope approval. Do not manufacture evidence, use competitor contacts, enable real endpoints, invent real team facts, or remove noindex to obtain a green build or SEO score.
 
