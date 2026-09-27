@@ -1,0 +1,12 @@
+
+> paraguay-residency-site@0.1.0 test:e2e
+> playwright test tests/e2e/finder-placement.spec.ts --project=chromium --grep es desktop --timeout=120000 --output=artifacts/publication-f2ae675/focused-result --reporter=list
+
+
+Running 1 test using 1 worker
+
+(node:63496) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [chromium] › tests\e2e\finder-placement.spec.ts:19:5 › es desktop homepage exposes the finder in the hero and preserves journey context (2.2s)
+
+  1 passed (24.0s)

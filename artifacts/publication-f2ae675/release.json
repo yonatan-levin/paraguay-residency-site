@@ -1,0 +1,33 @@
+{
+  "publishedOn": "2026-09-27",
+  "sourceCommit": "f2ae675d78fd8987097d9a80f45d031ea8269ccc",
+  "sourceBranch": "update/value-first",
+  "sourceFingerprint": "123ff6739ee122dc7738ea8e670533fa0be4d8128b95f8ac9096c415d346d02a",
+  "sourceFilesVerified": 115,
+  "sourceMismatches": 0,
+  "project": "paraguay-residency-site",
+  "backend": "paraguay-prototype",
+  "region": "us-central1",
+  "url": "https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app",
+  "sourceArchive": "gs://firebaseapphosting-sources-236755616004-us-central1/paraguay-prototype--68120-6NbWLE0Ee7Yr-.zip",
+  "cloudBuild": { "id": "2a64e92a-fda7-487b-8d19-76ae603bafab", "status": "SUCCESS", "finishedAt": "2026-09-27T09:49:05.922505Z" },
+  "rollout": { "id": "build-2026-09-27-001", "state": "SUCCEEDED", "updatedAt": "2026-09-27T09:49:45.389416Z" },
+  "cloudRun": { "revision": "paraguay-prototype-build-2026-09-27-001", "ready": true, "trafficPercent": 100 },
+  "previousSuccessfulRollout": "build-2026-09-26-001",
+  "checks": {
+    "unitPassed": 130,
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "initialHostedPassed": 266,
+    "initialHostedFailed": 1,
+    "initialHostedDurationMinutes": 5.5,
+    "initialHostedRetries": 0,
+    "interruption": "Spanish desktop finder navigation failed before page load with net::ERR_NETWORK_CHANGED",
+    "focusedRecheckPassed": 1,
+    "focusedRecheckFailed": 0,
+    "distinctHostedCasesWithPassingResults": 267,
+    "httpRouteChecksPassed": 20
+  },
+  "restrictions": ["Public demo", "Noindex", "Provisional prices", "Mocked integrations", "No GitHub push or merge", "No billing or capacity change"],
+  "trackingIssue": "https://github.com/yonatan-levin/paraguay-residency-site/issues/7"
+}
