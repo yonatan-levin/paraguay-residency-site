@@ -1,0 +1,38 @@
+
+Running 1 test using 1 worker
+
+(node:88944) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 [chromium] › tests\e2e\finder-placement.spec.ts:19:5 › en desktop homepage exposes the finder in the hero and preserves journey context (5.5s)
+Testing stopped early after 1 maximum allowed failures.
+
+
+  1) [chromium] › tests\e2e\finder-placement.spec.ts:19:5 › en desktop homepage exposes the finder in the hero and preserves journey context 
+
+    Error: expect(locator).toBeInViewport() failed
+
+    Locator: locator('[data-home-section="hero"]').getByRole('link', { name: 'Find my plan', exact: true })
+    Expected: in viewport
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeInViewport" locator('[data-home-section="hero"]').getByRole('link', { name: 'Find my plan', exact: true }) with timeout 5000ms
+      - waiting for locator('[data-home-section="hero"]').getByRole('link', { name: 'Find my plan', exact: true })
+
+
+      30 |       });
+      31 |
+    > 32 |       await expect(finder).toBeInViewport();
+         |                            ^
+      33 |       await expect(
+      34 |         page.getByRole("banner").getByRole("link", {
+      35 |           name: finderLabels[locale],
+        at C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\tests\e2e\finder-placement.spec.ts:32:28
+
+    Error Context: test-results\finder-placement-en-deskto-19b07-d-preserves-journey-context-chromium\error-context.md
+
+  1 failed
+    [chromium] › tests\e2e\finder-placement.spec.ts:19:5 › en desktop homepage exposes the finder in the hero and preserves journey context 
+  1 error was not a part of any test, see above for details
+Expected baseline failure before source changes: the existing homepage hero does not contain a Find my plan link. This proves the placement regression test detects the requested missing behavior.

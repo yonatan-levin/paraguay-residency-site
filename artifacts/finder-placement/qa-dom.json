@@ -1,0 +1,74 @@
+{
+  "dir": "ltr",
+  "documentWidth": 390,
+  "headerFinderCount": 0,
+  "heroLinks": [
+    {
+      "href": "http://127.0.0.1:52942/de/find-my-plan?service=temporary-residency&plan=temporary-essential&campaign=residency-cost",
+      "rect": {
+        "bottom": 591.421875,
+        "height": 48.15625,
+        "left": 20,
+        "right": 370,
+        "top": 543.265625,
+        "width": 350,
+        "x": 20,
+        "y": 543.265625
+      },
+      "text": "Mein Paket finden",
+      "visible": true
+    },
+    {
+      "href": "http://127.0.0.1:52942/de/pricing?service=temporary-residency&plan=temporary-essential&campaign=residency-cost",
+      "rect": {
+        "bottom": 649.578125,
+        "height": 48.15625,
+        "left": 20,
+        "right": 370,
+        "top": 601.421875,
+        "width": 350,
+        "x": 20,
+        "y": 601.421875
+      },
+      "text": "Aufenthaltspakete vergleichen",
+      "visible": true
+    },
+    {
+      "href": "http://127.0.0.1:52942/de?service=temporary-residency&plan=temporary-essential&campaign=residency-cost#benefits",
+      "rect": {
+        "bottom": 700.265625,
+        "height": 45.6875,
+        "left": 20,
+        "right": 370,
+        "top": 654.578125,
+        "width": 350,
+        "x": 20,
+        "y": 654.578125
+      },
+      "text": "Möglichkeiten entdecken",
+      "visible": true
+    },
+    {
+      "href": "http://127.0.0.1:52942/de/book?service=temporary-residency&plan=temporary-essential&campaign=residency-cost",
+      "rect": {
+        "bottom": 757.953125,
+        "height": 37.6875,
+        "left": 20,
+        "right": 360.859375,
+        "top": 720.265625,
+        "width": 340.859375,
+        "x": 20,
+        "y": 720.265625
+      },
+      "text": "Wissen Sie bereits, was Sie brauchen? Buchen Sie ein Beratungsgespräch",
+      "visible": true
+    }
+  ],
+  "lang": "de",
+  "url": "http://127.0.0.1:52942/de?plan=temporary-essential&campaign=residency-cost",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  }
+}

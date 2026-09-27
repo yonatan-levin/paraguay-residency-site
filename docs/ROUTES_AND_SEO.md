@@ -41,7 +41,7 @@ An internal RTL fixture is nonindexable and absent from public navigation, `href
 
 ## Navigation and context
 
-Primary navigation is Why Paraguay / Residency / Packages / Relocation & Business / Guides / About, language selection, and Find my plan. Direct consultation remains available in navigation and the homepage hero so the finder is optional. Footer links include services, contact, and policy drafts; no dead hash-only destinations.
+Primary navigation is Why Paraguay / Residency / Packages / Relocation & Business / Guides / About and language selection. Find my plan is the primary homepage hero action, outside the shared header. Package comparison remains beside it, with benefits and consultation links directly below. Direct consultation also remains available in navigation, so the finder is optional. Existing in-page finder links and the mobile conversion bar remain available. Footer links include services, contact, and policy drafts; no dead hash-only destinations.
 
 The homepage benefits link uses the native `#benefits` anchor. Registered links into Why Paraguay include `#second-base`, `#financial-planning` and `#life-and-budget`; their headings and explanatory copy are in initial HTML. Route bound anchor validation keeps fragments separate from route IDs and selection parameters. Informational motivation links preserve the current selection without answering finder questions. An explicit service inquiry preserves a compatible package and explains any incompatible package removal beside the action.
 

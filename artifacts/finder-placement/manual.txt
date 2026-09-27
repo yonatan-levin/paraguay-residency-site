@@ -1,0 +1,21 @@
+null
+http://127.0.0.1:52942/en?service=temporary-residency&plan=temporary-essential
+http://127.0.0.1:52942/en/find-my-plan?service=temporary-residency&plan=temporary-essential
+{
+  "content": 320,
+  "dir": "rtl",
+  "headerFinders": 0,
+  "heroFinder": {
+    "bottom": 518.890625,
+    "height": 48.15625,
+    "left": 20,
+    "right": 300,
+    "top": 470.734375,
+    "width": 280,
+    "x": 20,
+    "y": 470.734375
+  },
+  "lang": "he",
+  "url": "http://127.0.0.1:52942/he?plan=temporary-essential&campaign=residency-cost",
+  "width": 320
+}

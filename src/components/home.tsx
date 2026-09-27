@@ -3,7 +3,7 @@ import Image from "next/image";
 import type { Locale } from "../domain/types";
 import { brand } from "../config/brand";
 import { packages } from "../content/catalog";
-import { text } from "../content/ui";
+import { text, ui } from "../content/ui";
 import {
   getBenefits,
   getMotivations,
@@ -33,12 +33,11 @@ export function Home({ locale }: { locale: Locale }) {
           <div className="button-row">
             <JourneyLink
               locale={locale}
-              route=""
-              anchor="benefits"
+              route="find-my-plan"
               className="button"
-              cta="explore-benefits"
+              cta="find-plan"
             >
-              {v("exploreBenefits")}
+              {ui[locale].plan}
             </JourneyLink>
             <JourneyLink
               locale={locale}
@@ -48,6 +47,17 @@ export function Home({ locale }: { locale: Locale }) {
               {v("compareResidency")}
             </JourneyLink>
           </div>
+          <p className="hero-note">
+            <JourneyLink
+              locale={locale}
+              route=""
+              anchor="benefits"
+              className="text-button"
+              cta="explore-benefits"
+            >
+              {v("exploreBenefits")}
+            </JourneyLink>
+          </p>
           <p className="hero-note quiet-booking">
             <JourneyLink locale={locale} route="book">
               {v("quietBooking")}

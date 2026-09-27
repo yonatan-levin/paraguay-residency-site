@@ -242,16 +242,6 @@ export function SiteShell({
                 </nav>
               </details>
             )}
-            {!compact && (
-              <JourneyLink
-                locale={locale}
-                route="find-my-plan"
-                className="button header-cta"
-                cta="find-plan"
-              >
-                {ui[locale].plan}
-              </JourneyLink>
-            )}
           </div>
           {!compact && (
             <details

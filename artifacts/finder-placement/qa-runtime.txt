@@ -1,0 +1,12 @@
+Observed after keyboard navigation to the German finder, session finder-qa-cfd5474485e0:
+
+agent-browser --session finder-qa-cfd5474485e0 errors
+Output: empty; no page-error entries returned.
+
+agent-browser --session finder-qa-cfd5474485e0 console
+Output: empty; no console entries returned.
+
+agent-browser --session finder-qa-cfd5474485e0 close
+Output: Browser closed (success, exit 0).
+
+These are recorded observations of empty tool outputs, not a network audit.
