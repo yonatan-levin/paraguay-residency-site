@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { pages, getPage, routePath } from "../../src/config/routes";
 import { approvedClaimReviews } from "../helpers/content-review";
+import type { ClaimId } from "../../src/content/content-review";
 import {
   runtime,
   validateLiveConfiguration,
@@ -63,6 +64,53 @@ describe("route inventory and actual translations", () => {
 });
 
 describe("single fail-closed indexing gate", () => {
+  it.each([
+    ["foreign-dividends", ["home", "why-paraguay", "tax-planning"]],
+    [
+      "us-llc-income",
+      ["home", "why-paraguay", "tax-planning", "company-formation/us"],
+    ],
+    [
+      "paraguay-company-tax",
+      ["why-paraguay", "tax-planning", "company-formation/paraguay"],
+    ],
+    [
+      "tax-residency-boundary",
+      [
+        "home",
+        "why-paraguay",
+        "tax-planning",
+        "company-formation/us",
+        "company-formation/paraguay",
+      ],
+    ],
+  ] as const)(
+    "keeps all pages asserting %s out of indexing until that claim is approved",
+    (id, keys) => {
+      for (const key of keys) {
+        const page = {
+          ...getPage(key)!,
+          approved: true,
+          commercialApproved: true,
+          contentReviewed: true,
+        };
+        const claimId = id as ClaimId;
+        const reviews = approvedClaimReviews();
+        expect(reviews[claimId]).toBeDefined();
+        expect(canIndex(page, approvedRuntime, "en", reviews)).toBe(true);
+        reviews[claimId]!.content.status = "draft";
+        expect(canIndex(page, approvedRuntime, "en", reviews)).toBe(false);
+        expect(
+          pageMetadata(page, "en", approvedRuntime, reviews).robots,
+        ).toMatchObject({
+          index: false,
+        });
+        expect(buildSitemap([page], approvedRuntime, reviews)).toEqual([]);
+        delete reviews[claimId];
+        expect(canIndex(page, approvedRuntime, "en", reviews)).toBe(false);
+      }
+    },
+  );
   it("blocks new claims even when page and global approval flags are true", () => {
     const page = {
       ...getPage("home")!,

@@ -75,6 +75,18 @@
   padding-block: 16px;
   border-block-start: 1px solid var(--line);
 }
+.tax-opportunities {
+  display: grid;
+  gap: 24px;
+  margin-block-start: 24px;
+}
+.tax-opportunities .benefit-grid {
+  align-items: start;
+}
+.tax-opportunities .tax-sources {
+  font-size: 0.875rem;
+  margin-block-start: 16px;
+}
 .final-action a:not(.button) {
   color: inherit;
 }

@@ -109,6 +109,14 @@ These inputs do not block a local demonstration. They block the corresponding cl
 
 ## Evidence and review boundaries
 
+### Tax opportunities and company structures
+
+The tax content increment explains both a foreign owned US LLC and a Paraguayan EAS or SRL within the existing pages. The specific personal foreign dividend example is attributed to DNIT nonbinding consultation 380. It illustrates a possible absence of Paraguayan personal income tax, not a universal statutory 0% rate or automatic treatment of LLC distributions. The separate US example requires a nonresident individual owner, single member treatment without a corporate election, and foreign source income that is not effectively connected with a US business. Other jurisdictions, state obligations and information filings remain separate.
+
+The local company explanation uses ordinary 10% IRE on net taxable income and keeps dividend taxes, VAT, administration and Article 6 foreign income rules visible. A foreign customer or US LLC does not by itself turn work performed from Paraguay into foreign source income. A residence permit is distinct from tax residence and departure from another tax system. No combined worldwide zero tax result is established by the research.
+
+These claims use the existing source and approval registry. `foreign-dividends`, `us-llc-income`, `paraguay-company-tax` and `tax-residency-boundary` require professional review and approval of each locale. All remain draft. The shared presentation is server rendered and introduces no eligibility model, calculator, service, price or journey state. Informational comparison links preserve selection; an explicit service inquiry keeps the existing compatibility rules. The research and implementation contract is in `TAX_OPPORTUNITIES_SPEC.md`; tracking belongs in GitHub issue #10.
+
 No legal thresholds, document validity periods, eligibility decisions, passport-access counts, pension-tax claims, or approval timelines are inferred from a competitor. The preparatory guide names questions to confirm and clearly separates supplied official sources from actual professional review. Source links alone do not establish that the website’s wording was reviewed.
 
 Production performance targets in the handoff are future field targets. Local Lighthouse results are a laboratory baseline only; native iOS/Android behavior requires separate device checks. Actual executed evidence belongs in `QA_REPORT.md`; unresolved public-launch conditions belong in `LAUNCH_CHECKLIST.md`.

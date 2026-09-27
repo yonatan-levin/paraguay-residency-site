@@ -58,12 +58,12 @@ const benefitCopy: {
   },
   {
     id: "tax-planning",
-    title: "Tax planning worth understanding",
-    body: "Paraguay’s personal income tax focuses on Paraguayan source income. How your income is classified matters to the plan you make.",
+    title: "Could your foreign dividends mean no Paraguayan personal income tax?",
+    body: "Qualifying foreign dividends may fall outside Paraguayan personal income tax. DNIT’s nonbinding consultation 380 gives a concrete example worth exploring for your own circumstances.",
     qualification:
-      "Payment from abroad does not by itself establish that income is foreign source. Review your situation before making decisions.",
-    link: "Explore individual tax questions",
-    claimIds: ["income-source"],
+      "The conclusion is fact specific, not a universal 0% rate. Payment from abroad does not by itself establish that income is foreign source, and other countries may still tax it.",
+    link: "Explore the tax opportunities and structures",
+    claimIds: ["income-source", "foreign-dividends"],
   },
   {
     id: "life-and-budget",
@@ -112,9 +112,9 @@ const motivationCopy: {
   },
   {
     id: "financial-planning",
-    title: "Understand the financial implications",
-    body: "Look at income source questions and the practical budget for your plans before choosing a service.",
-    link: "Explore financial planning questions",
+    title: "Keep more of what you earn",
+    body: "Explore qualifying foreign income opportunities, a US LLC and a Paraguay company, with the conditions that determine whether either fits your plan.",
+    link: "Compare the tax planning options",
   },
 ];
 export function getMotivations(locale: Locale) {
@@ -176,8 +176,8 @@ const questions = [
     "Start by confirming the presence and continuing obligations of the status you are considering. Do not assume that approval removes future responsibilities or creates a route to citizenship on a promised timeline.",
   ],
   [
-    "Does receiving income from abroad settle my tax position?",
-    "No. The payer’s location alone does not establish the income source. Activities, assets, rights and applicable rules matter. Immigration status and individual tax treatment require separate review.",
+    "Can a US LLC and Paraguay residency mean zero tax?",
+    "There are specific opportunities to assess, not an automatic combined exemption. Qualifying foreign dividends may fall outside Paraguayan personal income tax under the facts considered in DNIT’s nonbinding consultation 380. Separately, a single member US LLC with no corporate election may have qualifying foreign source income outside US federal income tax for an owner who is not a US citizen or US tax resident, when that income is not effectively connected with a US business. Services performed from Paraguay, LLC distribution classification, filing duties and taxes in other countries need separate review. Residency alone does not establish the result.",
   ],
   [
     "What would I pay Paraguay Next to do?",
@@ -200,18 +200,20 @@ export function getOutcomeIntro(route: string, locale: Locale) {
     relocation:
       "Make the move work for your daily life. Explore housing, arrival logistics, healthcare and household priorities before choosing the practical support to coordinate.",
     "tax-planning":
-      "Understand how your income and activities may fit Paraguay’s source rules before making financial decisions. A payment from abroad alone does not establish foreign source income, and immigration status does not settle your individual tax position.",
+      "Explore whether your international income could benefit from Paraguay’s source rules and an appropriate business structure. Start with the foreign dividend opportunity, compare a US LLC with a local company, and prepare the facts a qualified adviser needs to assess your case.",
+    "company-formation/us":
+      "Build an international business structure around how you actually earn. A US LLC may offer a useful federal tax position for some nonresident owners, while local taxes, reporting and your work location remain part of the decision.",
     "company-formation/paraguay":
-      "Turn a local business idea into a set of decisions you can evaluate. Company formation, accounting, banking and personal residency are separate workstreams with their own requirements.",
+      "Give your local business a structure you can plan around. Compare Paraguay’s ordinary company income tax regime with the costs of incorporation, accounting and ongoing administration, separately from your personal residency.",
   };
   return intros[route] ? editorialText(locale, intros[route]) : undefined;
 }
 
 export const valueFirstCopy = {
   descriptor: "Residency, Relocation & Business Setup",
-  homeTitle: "A legal base in Paraguay. More options for your future.",
+  homeTitle: "A base in Paraguay. A smarter plan for your income.",
   homeIntro:
-    "Considering a new home, a second base, or a local business? Explore what Paraguayan residency could offer, understand the costs and commitments, and get practical support to move forward.",
+    "Explore how to keep more of your international income, establish a new home or build a business. Discover what residency could enable, which tax opportunities may fit your circumstances, and the practical support to move forward.",
   exploreBenefits: "Explore the benefits",
   compareResidency: "Compare residency packages",
   quietBooking: "Already know what you need? Book a consultation",
@@ -252,7 +254,7 @@ export const valueFirstCopy = {
   secondQuestions:
     "Before planning around a status, confirm required local steps, continuing obligations and how a change in your circumstances would affect the plan. No minimum stay or citizenship timeline is promised here.",
   permanentLink: "Explore permanent residency planning",
-  financialTitle: "Understand the financial implications",
+  financialTitle: "Keep more of your international income, when the facts fit.",
   financialBody:
     "Paraguay’s personal income tax is based on Paraguayan source income. The classification can depend on where activities take place and how assets, rights or particular services relate to Paraguay.",
   financialQualification:

@@ -8,10 +8,10 @@ test("home explains benefits before assistance and keeps direct actions", async 
   const response = await request.get("/en?plan=temporary-guided");
   const html = await response.text();
   expect(html).toContain(
-    "A legal base in Paraguay. More options for your future.",
+    "A base in Paraguay. A smarter plan for your income.",
   );
   expect(html).toContain(
-    "Payment from abroad does not by itself establish that income is foreign source.",
+    "Payment from abroad does not by itself establish that income is foreign source",
   );
   await page.goto("/en?plan=temporary-guided");
   await expect(page.locator("h1")).toHaveCount(1);
@@ -135,7 +135,7 @@ test("Why Paraguay is substantive and usable without JavaScript", async ({
   );
   await expect(page.locator("main [data-why-section]")).toHaveCount(8);
   await expect(page.locator("#financial-planning")).toContainText(
-    "Payment from abroad",
+    "using a US LLC or receiving payment abroad does not by itself make the income foreign source",
   );
   await expect(page.locator("#life-and-budget li")).toHaveCount(8);
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute(

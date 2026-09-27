@@ -42,7 +42,7 @@ export function SourceNote({
   source,
 }: {
   locale: Locale;
-  source: keyof typeof regulatorySources;
+  source: "R1" | "R2" | "R3";
 }) {
   return (
     <p className="source-note">

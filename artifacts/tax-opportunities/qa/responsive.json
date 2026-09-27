@@ -1,0 +1,2881 @@
+{
+  "capturedAt": "2026-09-27T00:23:53.946Z",
+  "buildId": "o-lKvcROyw9eIxuZzFLfd",
+  "records": [
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 7653.015625,
+            "height": 49.0625,
+            "left": 20,
+            "right": 300,
+            "top": 7603.953125,
+            "width": 280,
+            "x": 20,
+            "y": 7603.953125
+          },
+          "href": "/en/tax-planning",
+          "text": "Explore my tax options",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 7694.40625,
+            "height": 26.390625,
+            "left": 20,
+            "right": 300,
+            "top": 7668.015625,
+            "width": 280,
+            "x": 20,
+            "y": 7668.015625
+          },
+          "href": "/en/company-formation/us",
+          "text": "Explore US company setup",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 7735.796875,
+            "height": 26.390625,
+            "left": 20,
+            "right": 300,
+            "top": 7709.40625,
+            "width": 280,
+            "x": 20,
+            "y": 7709.40625
+          },
+          "href": "/en/company-formation/paraguay",
+          "text": "Explore Paraguay company setup",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 7927.46875,
+            "height": 26.390625,
+            "left": 20,
+            "right": 300,
+            "top": 7901.078125,
+            "width": 280,
+            "x": 20,
+            "y": 7901.078125
+          },
+          "href": "/en/why-paraguay#life-and-budget",
+          "text": "Explore life and budget questions",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Potential 0% Paraguayan personal income tax on qualifying foreign dividends\n\nIn nonbinding consultation 380, DNIT concluded that the foreign dividends described in that case were outside Paraguayan national taxes because their source was foreign. This is a concrete opportunity to investigate for people receiving dividends from a company abroad.\n\nThe answer depends on the facts and is not a universal 0% tax rate. A US LLC distribution is not automatically a foreign dividend. Your income classification and obligations in every relevant country need separate review.\n\nDNIT: nonbinding consultation 380 on foreign dividends",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Working from Paraguay changes the question\n\nIf you are working from Paraguay for foreign clients, using a US LLC or receiving payment abroad does not by itself make the income foreign source under Paraguayan rules. Where services are performed matters. The US LLC example does not establish an exemption in Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 320,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "en",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 5660.171875,
+            "height": 1475.4375,
+            "left": 20,
+            "right": 300,
+            "top": 4184.734375,
+            "width": 280,
+            "x": 20,
+            "y": 4184.734375
+          },
+          "id": "us",
+          "text": "A US LLC for an international business\n\nA US LLC can be worth considering for an international business whose owner and activities are outside the United States. Its federal income tax treatment usually follows the owner when it has one member and has not elected corporate taxation.\n\nFor owners who are not US citizens or US tax residents, qualifying foreign source income that is not effectively connected with a US trade or business may fall outside US federal income tax. The LLC itself is not a tax exemption.\n\nA case to review: a nonresident owner provides consulting entirely outside the US through a single member LLC, has not elected corporate taxation and has no income effectively connected with a US business. That income may have no US federal income tax, but the countries where the owner lives and works still matter.\n\nFiling can remain mandatory even when no income tax is due. A foreign owned disregarded LLC may need Form 5472 and a pro forma Form 1120 for reportable related party transactions. State taxes, fees, withholding and other countries’ taxes must also be checked.\n\nIRS: single member LLC treatment\nIRS: nonresident exclusions from income\nIRS: where personal service income is sourced\nIRS: effectively connected income\nIRS: Form 5472 reporting instructions",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6638.953125,
+            "height": 954.78125,
+            "left": 20,
+            "right": 300,
+            "top": 5684.171875,
+            "width": 280,
+            "x": 20,
+            "y": 5684.171875
+          },
+          "id": "paraguay",
+          "text": "A Paraguay company for local operations\n\nAn EAS or SRL gives a local business a Paraguayan company structure, distinct from a US LLC. Consider it when your plan involves operating in Paraguay and you need to organize company administration alongside your personal residency.\n\nOrdinary company income tax is 10% IRE on net taxable income. That provides a concrete starting point for comparing your operating structure and costs, rather than treating all business revenue as tax free.\n\nDividend taxes, VAT and reporting may also apply. Foreign customers do not create a blanket exemption: Article 6 has specific rules for foreign income of IRE taxpayers. Company formation does not guarantee a bank account.\n\nDNIT: Law 6380/19, income source and business taxes\nMIC: Paraguayan EAS, SA and SRL company forms",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/en/why-paraguay",
+      "width": 320
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 6739.34375,
+            "height": 49.0625,
+            "left": 20,
+            "right": 340,
+            "top": 6690.28125,
+            "width": 320,
+            "x": 20,
+            "y": 6690.28125
+          },
+          "href": "/en/tax-planning",
+          "text": "Explore my tax options",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6780.734375,
+            "height": 26.390625,
+            "left": 20,
+            "right": 340,
+            "top": 6754.34375,
+            "width": 320,
+            "x": 20,
+            "y": 6754.34375
+          },
+          "href": "/en/company-formation/us",
+          "text": "Explore US company setup",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6822.125,
+            "height": 26.390625,
+            "left": 20,
+            "right": 340,
+            "top": 6795.734375,
+            "width": 320,
+            "x": 20,
+            "y": 6795.734375
+          },
+          "href": "/en/company-formation/paraguay",
+          "text": "Explore Paraguay company setup",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6990.703125,
+            "height": 26.390625,
+            "left": 20,
+            "right": 340,
+            "top": 6964.3125,
+            "width": 320,
+            "x": 20,
+            "y": 6964.3125
+          },
+          "href": "/en/why-paraguay#life-and-budget",
+          "text": "Explore life and budget questions",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Potential 0% Paraguayan personal income tax on qualifying foreign dividends\n\nIn nonbinding consultation 380, DNIT concluded that the foreign dividends described in that case were outside Paraguayan national taxes because their source was foreign. This is a concrete opportunity to investigate for people receiving dividends from a company abroad.\n\nThe answer depends on the facts and is not a universal 0% tax rate. A US LLC distribution is not automatically a foreign dividend. Your income classification and obligations in every relevant country need separate review.\n\nDNIT: nonbinding consultation 380 on foreign dividends",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Working from Paraguay changes the question\n\nIf you are working from Paraguay for foreign clients, using a US LLC or receiving payment abroad does not by itself make the income foreign source under Paraguayan rules. Where services are performed matters. The US LLC example does not establish an exemption in Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 360,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "en",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 4953.640625,
+            "height": 1278.890625,
+            "left": 20,
+            "right": 340,
+            "top": 3674.75,
+            "width": 320,
+            "x": 20,
+            "y": 3674.75
+          },
+          "id": "us",
+          "text": "A US LLC for an international business\n\nA US LLC can be worth considering for an international business whose owner and activities are outside the United States. Its federal income tax treatment usually follows the owner when it has one member and has not elected corporate taxation.\n\nFor owners who are not US citizens or US tax residents, qualifying foreign source income that is not effectively connected with a US trade or business may fall outside US federal income tax. The LLC itself is not a tax exemption.\n\nA case to review: a nonresident owner provides consulting entirely outside the US through a single member LLC, has not elected corporate taxation and has no income effectively connected with a US business. That income may have no US federal income tax, but the countries where the owner lives and works still matter.\n\nFiling can remain mandatory even when no income tax is due. A foreign owned disregarded LLC may need Form 5472 and a pro forma Form 1120 for reportable related party transactions. State taxes, fees, withholding and other countries’ taxes must also be checked.\n\nIRS: single member LLC treatment\nIRS: nonresident exclusions from income\nIRS: where personal service income is sourced\nIRS: effectively connected income\nIRS: Form 5472 reporting instructions",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5804.453125,
+            "height": 826.8125,
+            "left": 20,
+            "right": 340,
+            "top": 4977.640625,
+            "width": 320,
+            "x": 20,
+            "y": 4977.640625
+          },
+          "id": "paraguay",
+          "text": "A Paraguay company for local operations\n\nAn EAS or SRL gives a local business a Paraguayan company structure, distinct from a US LLC. Consider it when your plan involves operating in Paraguay and you need to organize company administration alongside your personal residency.\n\nOrdinary company income tax is 10% IRE on net taxable income. That provides a concrete starting point for comparing your operating structure and costs, rather than treating all business revenue as tax free.\n\nDividend taxes, VAT and reporting may also apply. Foreign customers do not create a blanket exemption: Article 6 has specific rules for foreign income of IRE taxpayers. Company formation does not guarantee a bank account.\n\nDNIT: Law 6380/19, income source and business taxes\nMIC: Paraguayan EAS, SA and SRL company forms",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/en/why-paraguay",
+      "width": 360
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 6375.9375,
+            "height": 49.0625,
+            "left": 20,
+            "right": 370,
+            "top": 6326.875,
+            "width": 350,
+            "x": 20,
+            "y": 6326.875
+          },
+          "href": "/en/tax-planning",
+          "text": "Explore my tax options",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6417.328125,
+            "height": 26.390625,
+            "left": 20,
+            "right": 370,
+            "top": 6390.9375,
+            "width": 350,
+            "x": 20,
+            "y": 6390.9375
+          },
+          "href": "/en/company-formation/us",
+          "text": "Explore US company setup",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6458.71875,
+            "height": 26.390625,
+            "left": 20,
+            "right": 370,
+            "top": 6432.328125,
+            "width": 350,
+            "x": 20,
+            "y": 6432.328125
+          },
+          "href": "/en/company-formation/paraguay",
+          "text": "Explore Paraguay company setup",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6627.296875,
+            "height": 26.390625,
+            "left": 20,
+            "right": 370,
+            "top": 6600.90625,
+            "width": 350,
+            "x": 20,
+            "y": 6600.90625
+          },
+          "href": "/en/why-paraguay#life-and-budget",
+          "text": "Explore life and budget questions",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Potential 0% Paraguayan personal income tax on qualifying foreign dividends\n\nIn nonbinding consultation 380, DNIT concluded that the foreign dividends described in that case were outside Paraguayan national taxes because their source was foreign. This is a concrete opportunity to investigate for people receiving dividends from a company abroad.\n\nThe answer depends on the facts and is not a universal 0% tax rate. A US LLC distribution is not automatically a foreign dividend. Your income classification and obligations in every relevant country need separate review.\n\nDNIT: nonbinding consultation 380 on foreign dividends",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Working from Paraguay changes the question\n\nIf you are working from Paraguay for foreign clients, using a US LLC or receiving payment abroad does not by itself make the income foreign source under Paraguayan rules. Where services are performed matters. The US LLC example does not establish an exemption in Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 390,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "en",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 4694.203125,
+            "height": 1159.125,
+            "left": 20,
+            "right": 370,
+            "top": 3535.078125,
+            "width": 350,
+            "x": 20,
+            "y": 3535.078125
+          },
+          "id": "us",
+          "text": "A US LLC for an international business\n\nA US LLC can be worth considering for an international business whose owner and activities are outside the United States. Its federal income tax treatment usually follows the owner when it has one member and has not elected corporate taxation.\n\nFor owners who are not US citizens or US tax residents, qualifying foreign source income that is not effectively connected with a US trade or business may fall outside US federal income tax. The LLC itself is not a tax exemption.\n\nA case to review: a nonresident owner provides consulting entirely outside the US through a single member LLC, has not elected corporate taxation and has no income effectively connected with a US business. That income may have no US federal income tax, but the countries where the owner lives and works still matter.\n\nFiling can remain mandatory even when no income tax is due. A foreign owned disregarded LLC may need Form 5472 and a pro forma Form 1120 for reportable related party transactions. State taxes, fees, withholding and other countries’ taxes must also be checked.\n\nIRS: single member LLC treatment\nIRS: nonresident exclusions from income\nIRS: where personal service income is sourced\nIRS: effectively connected income\nIRS: Form 5472 reporting instructions",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5493.828125,
+            "height": 775.625,
+            "left": 20,
+            "right": 370,
+            "top": 4718.203125,
+            "width": 350,
+            "x": 20,
+            "y": 4718.203125
+          },
+          "id": "paraguay",
+          "text": "A Paraguay company for local operations\n\nAn EAS or SRL gives a local business a Paraguayan company structure, distinct from a US LLC. Consider it when your plan involves operating in Paraguay and you need to organize company administration alongside your personal residency.\n\nOrdinary company income tax is 10% IRE on net taxable income. That provides a concrete starting point for comparing your operating structure and costs, rather than treating all business revenue as tax free.\n\nDividend taxes, VAT and reporting may also apply. Foreign customers do not create a blanket exemption: Article 6 has specific rules for foreign income of IRE taxpayers. Company formation does not guarantee a bank account.\n\nDNIT: Law 6380/19, income source and business taxes\nMIC: Paraguayan EAS, SA and SRL company forms",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/en/why-paraguay",
+      "width": 390
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 4538.078125,
+            "height": 49.0625,
+            "left": 20,
+            "right": 748,
+            "top": 4489.015625,
+            "width": 728,
+            "x": 20,
+            "y": 4489.015625
+          },
+          "href": "/en/tax-planning",
+          "text": "Explore my tax options",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 4581.125,
+            "height": 28.046875,
+            "left": 20,
+            "right": 748,
+            "top": 4553.078125,
+            "width": 728,
+            "x": 20,
+            "y": 4553.078125
+          },
+          "href": "/en/company-formation/us",
+          "text": "Explore US company setup",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 4624.171875,
+            "height": 28.046875,
+            "left": 20,
+            "right": 748,
+            "top": 4596.125,
+            "width": 728,
+            "x": 20,
+            "y": 4596.125
+          },
+          "href": "/en/company-formation/paraguay",
+          "text": "Explore Paraguay company setup",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 4771.3125,
+            "height": 28.046875,
+            "left": 20,
+            "right": 748,
+            "top": 4743.265625,
+            "width": 728,
+            "x": 20,
+            "y": 4743.265625
+          },
+          "href": "/en/why-paraguay#life-and-budget",
+          "text": "Explore life and budget questions",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Potential 0% Paraguayan personal income tax on qualifying foreign dividends\n\nIn nonbinding consultation 380, DNIT concluded that the foreign dividends described in that case were outside Paraguayan national taxes because their source was foreign. This is a concrete opportunity to investigate for people receiving dividends from a company abroad.\n\nThe answer depends on the facts and is not a universal 0% tax rate. A US LLC distribution is not automatically a foreign dividend. Your income classification and obligations in every relevant country need separate review.\n\nDNIT: nonbinding consultation 380 on foreign dividends",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Working from Paraguay changes the question\n\nIf you are working from Paraguay for foreign clients, using a US LLC or receiving payment abroad does not by itself make the income foreign source under Paraguayan rules. Where services are performed matters. The US LLC example does not establish an exemption in Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 768,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "en",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 3893.75,
+            "height": 1159.125,
+            "left": 20,
+            "right": 372,
+            "top": 2734.625,
+            "width": 352,
+            "x": 20,
+            "y": 2734.625
+          },
+          "id": "us",
+          "text": "A US LLC for an international business\n\nA US LLC can be worth considering for an international business whose owner and activities are outside the United States. Its federal income tax treatment usually follows the owner when it has one member and has not elected corporate taxation.\n\nFor owners who are not US citizens or US tax residents, qualifying foreign source income that is not effectively connected with a US trade or business may fall outside US federal income tax. The LLC itself is not a tax exemption.\n\nA case to review: a nonresident owner provides consulting entirely outside the US through a single member LLC, has not elected corporate taxation and has no income effectively connected with a US business. That income may have no US federal income tax, but the countries where the owner lives and works still matter.\n\nFiling can remain mandatory even when no income tax is due. A foreign owned disregarded LLC may need Form 5472 and a pro forma Form 1120 for reportable related party transactions. State taxes, fees, withholding and other countries’ taxes must also be checked.\n\nIRS: single member LLC treatment\nIRS: nonresident exclusions from income\nIRS: where personal service income is sourced\nIRS: effectively connected income\nIRS: Form 5472 reporting instructions",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 3510.25,
+            "height": 775.625,
+            "left": 396,
+            "right": 748,
+            "top": 2734.625,
+            "width": 352,
+            "x": 396,
+            "y": 2734.625
+          },
+          "id": "paraguay",
+          "text": "A Paraguay company for local operations\n\nAn EAS or SRL gives a local business a Paraguayan company structure, distinct from a US LLC. Consider it when your plan involves operating in Paraguay and you need to organize company administration alongside your personal residency.\n\nOrdinary company income tax is 10% IRE on net taxable income. That provides a concrete starting point for comparing your operating structure and costs, rather than treating all business revenue as tax free.\n\nDividend taxes, VAT and reporting may also apply. Foreign customers do not create a blanket exemption: Article 6 has specific rules for foreign income of IRE taxpayers. Company formation does not guarantee a bank account.\n\nDNIT: Law 6380/19, income source and business taxes\nMIC: Paraguayan EAS, SA and SRL company forms",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/en/why-paraguay",
+      "width": 768
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 4351.890625,
+            "height": 49.0625,
+            "left": 310,
+            "right": 1130,
+            "top": 4302.828125,
+            "width": 820,
+            "x": 310,
+            "y": 4302.828125
+          },
+          "href": "/en/tax-planning",
+          "text": "Explore my tax options",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 4394.9375,
+            "height": 28.046875,
+            "left": 310,
+            "right": 1130,
+            "top": 4366.890625,
+            "width": 820,
+            "x": 310,
+            "y": 4366.890625
+          },
+          "href": "/en/company-formation/us",
+          "text": "Explore US company setup",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 4437.984375,
+            "height": 28.046875,
+            "left": 310,
+            "right": 1130,
+            "top": 4409.9375,
+            "width": 820,
+            "x": 310,
+            "y": 4409.9375
+          },
+          "href": "/en/company-formation/paraguay",
+          "text": "Explore Paraguay company setup",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 4585.125,
+            "height": 28.046875,
+            "left": 310,
+            "right": 1130,
+            "top": 4557.078125,
+            "width": 820,
+            "x": 310,
+            "y": 4557.078125
+          },
+          "href": "/en/why-paraguay#life-and-budget",
+          "text": "Explore life and budget questions",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Potential 0% Paraguayan personal income tax on qualifying foreign dividends\n\nIn nonbinding consultation 380, DNIT concluded that the foreign dividends described in that case were outside Paraguayan national taxes because their source was foreign. This is a concrete opportunity to investigate for people receiving dividends from a company abroad.\n\nThe answer depends on the facts and is not a universal 0% tax rate. A US LLC distribution is not automatically a foreign dividend. Your income classification and obligations in every relevant country need separate review.\n\nDNIT: nonbinding consultation 380 on foreign dividends",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Working from Paraguay changes the question\n\nIf you are working from Paraguay for foreign clients, using a US LLC or receiving payment abroad does not by itself make the income foreign source under Paraguayan rules. Where services are performed matters. The US LLC example does not establish an exemption in Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 1440,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "en",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 3735.609375,
+            "height": 1036.859375,
+            "left": 310,
+            "right": 708,
+            "top": 2698.75,
+            "width": 398,
+            "x": 310,
+            "y": 2698.75
+          },
+          "id": "us",
+          "text": "A US LLC for an international business\n\nA US LLC can be worth considering for an international business whose owner and activities are outside the United States. Its federal income tax treatment usually follows the owner when it has one member and has not elected corporate taxation.\n\nFor owners who are not US citizens or US tax residents, qualifying foreign source income that is not effectively connected with a US trade or business may fall outside US federal income tax. The LLC itself is not a tax exemption.\n\nA case to review: a nonresident owner provides consulting entirely outside the US through a single member LLC, has not elected corporate taxation and has no income effectively connected with a US business. That income may have no US federal income tax, but the countries where the owner lives and works still matter.\n\nFiling can remain mandatory even when no income tax is due. A foreign owned disregarded LLC may need Form 5472 and a pro forma Form 1120 for reportable related party transactions. State taxes, fees, withholding and other countries’ taxes must also be checked.\n\nIRS: single member LLC treatment\nIRS: nonresident exclusions from income\nIRS: where personal service income is sourced\nIRS: effectively connected income\nIRS: Form 5472 reporting instructions",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 3423.1875,
+            "height": 724.4375,
+            "left": 732,
+            "right": 1130,
+            "top": 2698.75,
+            "width": 398,
+            "x": 732,
+            "y": 2698.75
+          },
+          "id": "paraguay",
+          "text": "A Paraguay company for local operations\n\nAn EAS or SRL gives a local business a Paraguayan company structure, distinct from a US LLC. Consider it when your plan involves operating in Paraguay and you need to organize company administration alongside your personal residency.\n\nOrdinary company income tax is 10% IRE on net taxable income. That provides a concrete starting point for comparing your operating structure and costs, rather than treating all business revenue as tax free.\n\nDividend taxes, VAT and reporting may also apply. Foreign customers do not create a blanket exemption: Article 6 has specific rules for foreign income of IRE taxpayers. Company formation does not guarantee a bank account.\n\nDNIT: Law 6380/19, income source and business taxes\nMIC: Paraguayan EAS, SA and SRL company forms",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/en/why-paraguay",
+      "width": 1440
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 8949.140625,
+            "height": 49.0625,
+            "left": 20,
+            "right": 300,
+            "top": 8900.078125,
+            "width": 280,
+            "x": 20,
+            "y": 8900.078125
+          },
+          "href": "/es/tax-planning",
+          "text": "Explorar mis opciones fiscales",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 9016.921875,
+            "height": 52.78125,
+            "left": 20,
+            "right": 300,
+            "top": 8964.140625,
+            "width": 280,
+            "x": 20,
+            "y": 8964.140625
+          },
+          "href": "/es/company-formation/us",
+          "text": "Explorar la creación de una empresa en Estados Unidos",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 9084.703125,
+            "height": 52.78125,
+            "left": 20,
+            "right": 300,
+            "top": 9031.921875,
+            "width": 280,
+            "x": 20,
+            "y": 9031.921875
+          },
+          "href": "/es/company-formation/paraguay",
+          "text": "Explorar la creación de una empresa en Paraguay",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 9302.765625,
+            "height": 52.78125,
+            "left": 20,
+            "right": 300,
+            "top": 9249.984375,
+            "width": 280,
+            "x": 20,
+            "y": 9249.984375
+          },
+          "href": "/es/why-paraguay#life-and-budget",
+          "text": "Explore cuestiones de vida y presupuesto",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Posible 0% de impuesto paraguayo a la renta personal sobre dividendos extranjeros que cumplan las condiciones\n\nEn la consulta no vinculante 380, la DNIT concluyó que los dividendos extranjeros descritos en ese caso quedaban fuera de los impuestos nacionales paraguayos por ser de fuente extranjera. Es una oportunidad concreta que pueden estudiar quienes reciben dividendos de una empresa en el exterior.\n\nLa conclusión depende de los hechos y no establece una tasa universal del 0%. Una distribución de una LLC estadounidense no es automáticamente un dividendo extranjero. La clasificación de tus ingresos y tus obligaciones en cada país relevante requieren una revisión independiente.\n\nDNIT: consulta no vinculante 380 sobre dividendos extranjeros",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Trabajar desde Paraguay cambia el análisis\n\nSi trabajas desde Paraguay para clientes extranjeros, usar una LLC estadounidense o cobrar en el exterior no convierte por sí solo tus ingresos en renta de fuente extranjera según las normas paraguayas. El lugar donde se prestan los servicios importa. El ejemplo de la LLC estadounidense no demuestra una exención en Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 320,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "es",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 6653.296875,
+            "height": 1987.078125,
+            "left": 20,
+            "right": 300,
+            "top": 4666.21875,
+            "width": 280,
+            "x": 20,
+            "y": 4666.21875
+          },
+          "id": "us",
+          "text": "Una LLC estadounidense para un negocio internacional\n\nUna LLC estadounidense puede ser una opción para un negocio internacional cuyo propietario y actividades estén fuera de Estados Unidos. Cuando tiene un único socio y no ha optado por tributar como sociedad, su tratamiento en el impuesto federal sobre la renta suele seguir el de su propietario.\n\nPara propietarios que no son ciudadanos ni residentes fiscales de Estados Unidos, los ingresos de fuente extranjera que cumplan los requisitos y no estén efectivamente vinculados con una actividad comercial o empresarial en Estados Unidos pueden quedar fuera del impuesto federal estadounidense sobre la renta. La LLC no constituye por sí misma una exención fiscal.\n\nUn caso para evaluar: un propietario no residente presta servicios de consultoría íntegramente fuera de Estados Unidos mediante una LLC con un único socio, no ha optado por tributar como sociedad y no tiene ingresos efectivamente vinculados con un negocio estadounidense. Esos ingresos podrían no estar sujetos al impuesto federal estadounidense sobre la renta, pero los países donde el propietario vive y trabaja siguen siendo relevantes.\n\nLa presentación de declaraciones puede seguir siendo obligatoria aunque no haya impuesto sobre la renta a pagar. Una LLC de propiedad extranjera que no se considera separada de su propietario a efectos fiscales puede necesitar el Formulario 5472 y un Formulario 1120 pro forma por operaciones declarables con partes relacionadas. También deben revisarse los impuestos estatales, las tasas, las retenciones y los impuestos de otros países.\n\nIRS: tratamiento de las LLC con un único socio\nIRS: exclusiones de ingresos para no residentes\nIRS: determinación de la fuente de ingresos por servicios personales\nIRS: ingresos efectivamente vinculados con una actividad empresarial en Estados Unidos\nIRS: instrucciones de declaración del Formulario 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 7783.140625,
+            "height": 1105.84375,
+            "left": 20,
+            "right": 300,
+            "top": 6677.296875,
+            "width": 280,
+            "x": 20,
+            "y": 6677.296875
+          },
+          "id": "paraguay",
+          "text": "Una empresa paraguaya para operar localmente\n\nUna EAS o SRL ofrece a un negocio local una estructura societaria paraguaya, distinta de una LLC estadounidense. Considérala si tu proyecto incluye operar en Paraguay y necesitas organizar la administración de la empresa junto con tu residencia personal.\n\nEl impuesto empresarial ordinario es el IRE del 10% sobre la renta neta imponible. Es un punto de partida concreto para comparar tu estructura operativa y sus costos, sin asumir que todos los ingresos del negocio están libres de impuestos.\n\nTambién pueden corresponder impuestos sobre dividendos, IVA y obligaciones de declaración. Tener clientes extranjeros no genera una exención general: el artículo 6 establece reglas específicas para los ingresos del exterior de los contribuyentes del IRE. Constituir una empresa no garantiza una cuenta bancaria.\n\nDNIT: Ley 6380/19, fuente de los ingresos e impuestos empresariales\nMIC: formas societarias paraguayas EAS, SA y SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/es/why-paraguay",
+      "width": 320
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 7950.375,
+            "height": 49.0625,
+            "left": 20,
+            "right": 340,
+            "top": 7901.3125,
+            "width": 320,
+            "x": 20,
+            "y": 7901.3125
+          },
+          "href": "/es/tax-planning",
+          "text": "Explorar mis opciones fiscales",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 8018.15625,
+            "height": 52.78125,
+            "left": 20,
+            "right": 340,
+            "top": 7965.375,
+            "width": 320,
+            "x": 20,
+            "y": 7965.375
+          },
+          "href": "/es/company-formation/us",
+          "text": "Explorar la creación de una empresa en Estados Unidos",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 8085.9375,
+            "height": 52.78125,
+            "left": 20,
+            "right": 340,
+            "top": 8033.15625,
+            "width": 320,
+            "x": 20,
+            "y": 8033.15625
+          },
+          "href": "/es/company-formation/paraguay",
+          "text": "Explorar la creación de una empresa en Paraguay",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 8277.609375,
+            "height": 26.390625,
+            "left": 20,
+            "right": 340,
+            "top": 8251.21875,
+            "width": 320,
+            "x": 20,
+            "y": 8251.21875
+          },
+          "href": "/es/why-paraguay#life-and-budget",
+          "text": "Explore cuestiones de vida y presupuesto",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Posible 0% de impuesto paraguayo a la renta personal sobre dividendos extranjeros que cumplan las condiciones\n\nEn la consulta no vinculante 380, la DNIT concluyó que los dividendos extranjeros descritos en ese caso quedaban fuera de los impuestos nacionales paraguayos por ser de fuente extranjera. Es una oportunidad concreta que pueden estudiar quienes reciben dividendos de una empresa en el exterior.\n\nLa conclusión depende de los hechos y no establece una tasa universal del 0%. Una distribución de una LLC estadounidense no es automáticamente un dividendo extranjero. La clasificación de tus ingresos y tus obligaciones en cada país relevante requieren una revisión independiente.\n\nDNIT: consulta no vinculante 380 sobre dividendos extranjeros",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Trabajar desde Paraguay cambia el análisis\n\nSi trabajas desde Paraguay para clientes extranjeros, usar una LLC estadounidense o cobrar en el exterior no convierte por sí solo tus ingresos en renta de fuente extranjera según las normas paraguayas. El lugar donde se prestan los servicios importa. El ejemplo de la LLC estadounidense no demuestra una exención en Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 360,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "es",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 5908.046875,
+            "height": 1720.15625,
+            "left": 20,
+            "right": 340,
+            "top": 4187.890625,
+            "width": 320,
+            "x": 20,
+            "y": 4187.890625
+          },
+          "id": "us",
+          "text": "Una LLC estadounidense para un negocio internacional\n\nUna LLC estadounidense puede ser una opción para un negocio internacional cuyo propietario y actividades estén fuera de Estados Unidos. Cuando tiene un único socio y no ha optado por tributar como sociedad, su tratamiento en el impuesto federal sobre la renta suele seguir el de su propietario.\n\nPara propietarios que no son ciudadanos ni residentes fiscales de Estados Unidos, los ingresos de fuente extranjera que cumplan los requisitos y no estén efectivamente vinculados con una actividad comercial o empresarial en Estados Unidos pueden quedar fuera del impuesto federal estadounidense sobre la renta. La LLC no constituye por sí misma una exención fiscal.\n\nUn caso para evaluar: un propietario no residente presta servicios de consultoría íntegramente fuera de Estados Unidos mediante una LLC con un único socio, no ha optado por tributar como sociedad y no tiene ingresos efectivamente vinculados con un negocio estadounidense. Esos ingresos podrían no estar sujetos al impuesto federal estadounidense sobre la renta, pero los países donde el propietario vive y trabaja siguen siendo relevantes.\n\nLa presentación de declaraciones puede seguir siendo obligatoria aunque no haya impuesto sobre la renta a pagar. Una LLC de propiedad extranjera que no se considera separada de su propietario a efectos fiscales puede necesitar el Formulario 5472 y un Formulario 1120 pro forma por operaciones declarables con partes relacionadas. También deben revisarse los impuestos estatales, las tasas, las retenciones y los impuestos de otros países.\n\nIRS: tratamiento de las LLC con un único socio\nIRS: exclusiones de ingresos para no residentes\nIRS: determinación de la fuente de ingresos por servicios personales\nIRS: ingresos efectivamente vinculados con una actividad empresarial en Estados Unidos\nIRS: instrucciones de declaración del Formulario 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6886.828125,
+            "height": 954.78125,
+            "left": 20,
+            "right": 340,
+            "top": 5932.046875,
+            "width": 320,
+            "x": 20,
+            "y": 5932.046875
+          },
+          "id": "paraguay",
+          "text": "Una empresa paraguaya para operar localmente\n\nUna EAS o SRL ofrece a un negocio local una estructura societaria paraguaya, distinta de una LLC estadounidense. Considérala si tu proyecto incluye operar en Paraguay y necesitas organizar la administración de la empresa junto con tu residencia personal.\n\nEl impuesto empresarial ordinario es el IRE del 10% sobre la renta neta imponible. Es un punto de partida concreto para comparar tu estructura operativa y sus costos, sin asumir que todos los ingresos del negocio están libres de impuestos.\n\nTambién pueden corresponder impuestos sobre dividendos, IVA y obligaciones de declaración. Tener clientes extranjeros no genera una exención general: el artículo 6 establece reglas específicas para los ingresos del exterior de los contribuyentes del IRE. Constituir una empresa no garantiza una cuenta bancaria.\n\nDNIT: Ley 6380/19, fuente de los ingresos e impuestos empresariales\nMIC: formas societarias paraguayas EAS, SA y SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/es/why-paraguay",
+      "width": 360
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 7474.84375,
+            "height": 49.0625,
+            "left": 20,
+            "right": 370,
+            "top": 7425.78125,
+            "width": 350,
+            "x": 20,
+            "y": 7425.78125
+          },
+          "href": "/es/tax-planning",
+          "text": "Explorar mis opciones fiscales",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 7542.625,
+            "height": 52.78125,
+            "left": 20,
+            "right": 370,
+            "top": 7489.84375,
+            "width": 350,
+            "x": 20,
+            "y": 7489.84375
+          },
+          "href": "/es/company-formation/us",
+          "text": "Explorar la creación de una empresa en Estados Unidos",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 7610.40625,
+            "height": 52.78125,
+            "left": 20,
+            "right": 370,
+            "top": 7557.625,
+            "width": 350,
+            "x": 20,
+            "y": 7557.625
+          },
+          "href": "/es/company-formation/paraguay",
+          "text": "Explorar la creación de una empresa en Paraguay",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 7802.078125,
+            "height": 26.390625,
+            "left": 20,
+            "right": 370,
+            "top": 7775.6875,
+            "width": 350,
+            "x": 20,
+            "y": 7775.6875
+          },
+          "href": "/es/why-paraguay#life-and-budget",
+          "text": "Explore cuestiones de vida y presupuesto",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Posible 0% de impuesto paraguayo a la renta personal sobre dividendos extranjeros que cumplan las condiciones\n\nEn la consulta no vinculante 380, la DNIT concluyó que los dividendos extranjeros descritos en ese caso quedaban fuera de los impuestos nacionales paraguayos por ser de fuente extranjera. Es una oportunidad concreta que pueden estudiar quienes reciben dividendos de una empresa en el exterior.\n\nLa conclusión depende de los hechos y no establece una tasa universal del 0%. Una distribución de una LLC estadounidense no es automáticamente un dividendo extranjero. La clasificación de tus ingresos y tus obligaciones en cada país relevante requieren una revisión independiente.\n\nDNIT: consulta no vinculante 380 sobre dividendos extranjeros",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Trabajar desde Paraguay cambia el análisis\n\nSi trabajas desde Paraguay para clientes extranjeros, usar una LLC estadounidense o cobrar en el exterior no convierte por sí solo tus ingresos en renta de fuente extranjera según las normas paraguayas. El lugar donde se prestan los servicios importa. El ejemplo de la LLC estadounidense no demuestra una exención en Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 390,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "es",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 5535.6875,
+            "height": 1597.703125,
+            "left": 20,
+            "right": 370,
+            "top": 3937.984375,
+            "width": 350,
+            "x": 20,
+            "y": 3937.984375
+          },
+          "id": "us",
+          "text": "Una LLC estadounidense para un negocio internacional\n\nUna LLC estadounidense puede ser una opción para un negocio internacional cuyo propietario y actividades estén fuera de Estados Unidos. Cuando tiene un único socio y no ha optado por tributar como sociedad, su tratamiento en el impuesto federal sobre la renta suele seguir el de su propietario.\n\nPara propietarios que no son ciudadanos ni residentes fiscales de Estados Unidos, los ingresos de fuente extranjera que cumplan los requisitos y no estén efectivamente vinculados con una actividad comercial o empresarial en Estados Unidos pueden quedar fuera del impuesto federal estadounidense sobre la renta. La LLC no constituye por sí misma una exención fiscal.\n\nUn caso para evaluar: un propietario no residente presta servicios de consultoría íntegramente fuera de Estados Unidos mediante una LLC con un único socio, no ha optado por tributar como sociedad y no tiene ingresos efectivamente vinculados con un negocio estadounidense. Esos ingresos podrían no estar sujetos al impuesto federal estadounidense sobre la renta, pero los países donde el propietario vive y trabaja siguen siendo relevantes.\n\nLa presentación de declaraciones puede seguir siendo obligatoria aunque no haya impuesto sobre la renta a pagar. Una LLC de propiedad extranjera que no se considera separada de su propietario a efectos fiscales puede necesitar el Formulario 5472 y un Formulario 1120 pro forma por operaciones declarables con partes relacionadas. También deben revisarse los impuestos estatales, las tasas, las retenciones y los impuestos de otros países.\n\nIRS: tratamiento de las LLC con un único socio\nIRS: exclusiones de ingresos para no residentes\nIRS: determinación de la fuente de ingresos por servicios personales\nIRS: ingresos efectivamente vinculados con una actividad empresarial en Estados Unidos\nIRS: instrucciones de declaración del Formulario 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6437.6875,
+            "height": 878,
+            "left": 20,
+            "right": 370,
+            "top": 5559.6875,
+            "width": 350,
+            "x": 20,
+            "y": 5559.6875
+          },
+          "id": "paraguay",
+          "text": "Una empresa paraguaya para operar localmente\n\nUna EAS o SRL ofrece a un negocio local una estructura societaria paraguaya, distinta de una LLC estadounidense. Considérala si tu proyecto incluye operar en Paraguay y necesitas organizar la administración de la empresa junto con tu residencia personal.\n\nEl impuesto empresarial ordinario es el IRE del 10% sobre la renta neta imponible. Es un punto de partida concreto para comparar tu estructura operativa y sus costos, sin asumir que todos los ingresos del negocio están libres de impuestos.\n\nTambién pueden corresponder impuestos sobre dividendos, IVA y obligaciones de declaración. Tener clientes extranjeros no genera una exención general: el artículo 6 establece reglas específicas para los ingresos del exterior de los contribuyentes del IRE. Constituir una empresa no garantiza una cuenta bancaria.\n\nDNIT: Ley 6380/19, fuente de los ingresos e impuestos empresariales\nMIC: formas societarias paraguayas EAS, SA y SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/es/why-paraguay",
+      "width": 390
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 5190.984375,
+            "height": 49.0625,
+            "left": 20,
+            "right": 748,
+            "top": 5141.921875,
+            "width": 728,
+            "x": 20,
+            "y": 5141.921875
+          },
+          "href": "/es/tax-planning",
+          "text": "Explorar mis opciones fiscales",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5234.03125,
+            "height": 28.046875,
+            "left": 20,
+            "right": 748,
+            "top": 5205.984375,
+            "width": 728,
+            "x": 20,
+            "y": 5205.984375
+          },
+          "href": "/es/company-formation/us",
+          "text": "Explorar la creación de una empresa en Estados Unidos",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5277.078125,
+            "height": 28.046875,
+            "left": 20,
+            "right": 748,
+            "top": 5249.03125,
+            "width": 728,
+            "x": 20,
+            "y": 5249.03125
+          },
+          "href": "/es/company-formation/paraguay",
+          "text": "Explorar la creación de una empresa en Paraguay",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5447.3125,
+            "height": 28.046875,
+            "left": 20,
+            "right": 748,
+            "top": 5419.265625,
+            "width": 728,
+            "x": 20,
+            "y": 5419.265625
+          },
+          "href": "/es/why-paraguay#life-and-budget",
+          "text": "Explore cuestiones de vida y presupuesto",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Posible 0% de impuesto paraguayo a la renta personal sobre dividendos extranjeros que cumplan las condiciones\n\nEn la consulta no vinculante 380, la DNIT concluyó que los dividendos extranjeros descritos en ese caso quedaban fuera de los impuestos nacionales paraguayos por ser de fuente extranjera. Es una oportunidad concreta que pueden estudiar quienes reciben dividendos de una empresa en el exterior.\n\nLa conclusión depende de los hechos y no establece una tasa universal del 0%. Una distribución de una LLC estadounidense no es automáticamente un dividendo extranjero. La clasificación de tus ingresos y tus obligaciones en cada país relevante requieren una revisión independiente.\n\nDNIT: consulta no vinculante 380 sobre dividendos extranjeros",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Trabajar desde Paraguay cambia el análisis\n\nSi trabajas desde Paraguay para clientes extranjeros, usar una LLC estadounidense o cobrar en el exterior no convierte por sí solo tus ingresos en renta de fuente extranjera según las normas paraguayas. El lugar donde se prestan los servicios importa. El ejemplo de la LLC estadounidense no demuestra una exención en Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 768,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "es",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 4490.5625,
+            "height": 1597.703125,
+            "left": 20,
+            "right": 372,
+            "top": 2892.859375,
+            "width": 352,
+            "x": 20,
+            "y": 2892.859375
+          },
+          "id": "us",
+          "text": "Una LLC estadounidense para un negocio internacional\n\nUna LLC estadounidense puede ser una opción para un negocio internacional cuyo propietario y actividades estén fuera de Estados Unidos. Cuando tiene un único socio y no ha optado por tributar como sociedad, su tratamiento en el impuesto federal sobre la renta suele seguir el de su propietario.\n\nPara propietarios que no son ciudadanos ni residentes fiscales de Estados Unidos, los ingresos de fuente extranjera que cumplan los requisitos y no estén efectivamente vinculados con una actividad comercial o empresarial en Estados Unidos pueden quedar fuera del impuesto federal estadounidense sobre la renta. La LLC no constituye por sí misma una exención fiscal.\n\nUn caso para evaluar: un propietario no residente presta servicios de consultoría íntegramente fuera de Estados Unidos mediante una LLC con un único socio, no ha optado por tributar como sociedad y no tiene ingresos efectivamente vinculados con un negocio estadounidense. Esos ingresos podrían no estar sujetos al impuesto federal estadounidense sobre la renta, pero los países donde el propietario vive y trabaja siguen siendo relevantes.\n\nLa presentación de declaraciones puede seguir siendo obligatoria aunque no haya impuesto sobre la renta a pagar. Una LLC de propiedad extranjera que no se considera separada de su propietario a efectos fiscales puede necesitar el Formulario 5472 y un Formulario 1120 pro forma por operaciones declarables con partes relacionadas. También deben revisarse los impuestos estatales, las tasas, las retenciones y los impuestos de otros países.\n\nIRS: tratamiento de las LLC con un único socio\nIRS: exclusiones de ingresos para no residentes\nIRS: determinación de la fuente de ingresos por servicios personales\nIRS: ingresos efectivamente vinculados con una actividad empresarial en Estados Unidos\nIRS: instrucciones de declaración del Formulario 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 3770.859375,
+            "height": 878,
+            "left": 396,
+            "right": 748,
+            "top": 2892.859375,
+            "width": 352,
+            "x": 396,
+            "y": 2892.859375
+          },
+          "id": "paraguay",
+          "text": "Una empresa paraguaya para operar localmente\n\nUna EAS o SRL ofrece a un negocio local una estructura societaria paraguaya, distinta de una LLC estadounidense. Considérala si tu proyecto incluye operar en Paraguay y necesitas organizar la administración de la empresa junto con tu residencia personal.\n\nEl impuesto empresarial ordinario es el IRE del 10% sobre la renta neta imponible. Es un punto de partida concreto para comparar tu estructura operativa y sus costos, sin asumir que todos los ingresos del negocio están libres de impuestos.\n\nTambién pueden corresponder impuestos sobre dividendos, IVA y obligaciones de declaración. Tener clientes extranjeros no genera una exención general: el artículo 6 establece reglas específicas para los ingresos del exterior de los contribuyentes del IRE. Constituir una empresa no garantiza una cuenta bancaria.\n\nDNIT: Ley 6380/19, fuente de los ingresos e impuestos empresariales\nMIC: formas societarias paraguayas EAS, SA y SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/es/why-paraguay",
+      "width": 768
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 5013.453125,
+            "height": 49.0625,
+            "left": 310,
+            "right": 1130,
+            "top": 4964.390625,
+            "width": 820,
+            "x": 310,
+            "y": 4964.390625
+          },
+          "href": "/es/tax-planning",
+          "text": "Explorar mis opciones fiscales",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5056.5,
+            "height": 28.046875,
+            "left": 310,
+            "right": 1130,
+            "top": 5028.453125,
+            "width": 820,
+            "x": 310,
+            "y": 5028.453125
+          },
+          "href": "/es/company-formation/us",
+          "text": "Explorar la creación de una empresa en Estados Unidos",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5099.546875,
+            "height": 28.046875,
+            "left": 310,
+            "right": 1130,
+            "top": 5071.5,
+            "width": 820,
+            "x": 310,
+            "y": 5071.5
+          },
+          "href": "/es/company-formation/paraguay",
+          "text": "Explorar la creación de una empresa en Paraguay",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5246.6875,
+            "height": 28.046875,
+            "left": 310,
+            "right": 1130,
+            "top": 5218.640625,
+            "width": 820,
+            "x": 310,
+            "y": 5218.640625
+          },
+          "href": "/es/why-paraguay#life-and-budget",
+          "text": "Explore cuestiones de vida y presupuesto",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Posible 0% de impuesto paraguayo a la renta personal sobre dividendos extranjeros que cumplan las condiciones\n\nEn la consulta no vinculante 380, la DNIT concluyó que los dividendos extranjeros descritos en ese caso quedaban fuera de los impuestos nacionales paraguayos por ser de fuente extranjera. Es una oportunidad concreta que pueden estudiar quienes reciben dividendos de una empresa en el exterior.\n\nLa conclusión depende de los hechos y no establece una tasa universal del 0%. Una distribución de una LLC estadounidense no es automáticamente un dividendo extranjero. La clasificación de tus ingresos y tus obligaciones en cada país relevante requieren una revisión independiente.\n\nDNIT: consulta no vinculante 380 sobre dividendos extranjeros",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Trabajar desde Paraguay cambia el análisis\n\nSi trabajas desde Paraguay para clientes extranjeros, usar una LLC estadounidense o cobrar en el exterior no convierte por sí solo tus ingresos en renta de fuente extranjera según las normas paraguayas. El lugar donde se prestan los servicios importa. El ejemplo de la LLC estadounidense no demuestra una exención en Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 1440,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "es",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 4313.03125,
+            "height": 1381.265625,
+            "left": 310,
+            "right": 708,
+            "top": 2931.765625,
+            "width": 398,
+            "x": 310,
+            "y": 2931.765625
+          },
+          "id": "us",
+          "text": "Una LLC estadounidense para un negocio internacional\n\nUna LLC estadounidense puede ser una opción para un negocio internacional cuyo propietario y actividades estén fuera de Estados Unidos. Cuando tiene un único socio y no ha optado por tributar como sociedad, su tratamiento en el impuesto federal sobre la renta suele seguir el de su propietario.\n\nPara propietarios que no son ciudadanos ni residentes fiscales de Estados Unidos, los ingresos de fuente extranjera que cumplan los requisitos y no estén efectivamente vinculados con una actividad comercial o empresarial en Estados Unidos pueden quedar fuera del impuesto federal estadounidense sobre la renta. La LLC no constituye por sí misma una exención fiscal.\n\nUn caso para evaluar: un propietario no residente presta servicios de consultoría íntegramente fuera de Estados Unidos mediante una LLC con un único socio, no ha optado por tributar como sociedad y no tiene ingresos efectivamente vinculados con un negocio estadounidense. Esos ingresos podrían no estar sujetos al impuesto federal estadounidense sobre la renta, pero los países donde el propietario vive y trabaja siguen siendo relevantes.\n\nLa presentación de declaraciones puede seguir siendo obligatoria aunque no haya impuesto sobre la renta a pagar. Una LLC de propiedad extranjera que no se considera separada de su propietario a efectos fiscales puede necesitar el Formulario 5472 y un Formulario 1120 pro forma por operaciones declarables con partes relacionadas. También deben revisarse los impuestos estatales, las tasas, las retenciones y los impuestos de otros países.\n\nIRS: tratamiento de las LLC con un único socio\nIRS: exclusiones de ingresos para no residentes\nIRS: determinación de la fuente de ingresos por servicios personales\nIRS: ingresos efectivamente vinculados con una actividad empresarial en Estados Unidos\nIRS: instrucciones de declaración del Formulario 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 3707.390625,
+            "height": 775.625,
+            "left": 732,
+            "right": 1130,
+            "top": 2931.765625,
+            "width": 398,
+            "x": 732,
+            "y": 2931.765625
+          },
+          "id": "paraguay",
+          "text": "Una empresa paraguaya para operar localmente\n\nUna EAS o SRL ofrece a un negocio local una estructura societaria paraguaya, distinta de una LLC estadounidense. Considérala si tu proyecto incluye operar en Paraguay y necesitas organizar la administración de la empresa junto con tu residencia personal.\n\nEl impuesto empresarial ordinario es el IRE del 10% sobre la renta neta imponible. Es un punto de partida concreto para comparar tu estructura operativa y sus costos, sin asumir que todos los ingresos del negocio están libres de impuestos.\n\nTambién pueden corresponder impuestos sobre dividendos, IVA y obligaciones de declaración. Tener clientes extranjeros no genera una exención general: el artículo 6 establece reglas específicas para los ingresos del exterior de los contribuyentes del IRE. Constituir una empresa no garantiza una cuenta bancaria.\n\nDNIT: Ley 6380/19, fuente de los ingresos e impuestos empresariales\nMIC: formas societarias paraguayas EAS, SA y SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/es/why-paraguay",
+      "width": 1440
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 9214.34375,
+            "height": 49.0625,
+            "left": 20,
+            "right": 300,
+            "top": 9165.28125,
+            "width": 280,
+            "x": 20,
+            "y": 9165.28125
+          },
+          "href": "/fr/tax-planning",
+          "text": "Explorer mes options fiscales",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 9282.125,
+            "height": 52.78125,
+            "left": 20,
+            "right": 300,
+            "top": 9229.34375,
+            "width": 280,
+            "x": 20,
+            "y": 9229.34375
+          },
+          "href": "/fr/company-formation/us",
+          "text": "Explorer la création d’une société aux États Unis",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 9349.90625,
+            "height": 52.78125,
+            "left": 20,
+            "right": 300,
+            "top": 9297.125,
+            "width": 280,
+            "x": 20,
+            "y": 9297.125
+          },
+          "href": "/fr/company-formation/paraguay",
+          "text": "Explorer la création d’une société au Paraguay",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 9567.96875,
+            "height": 52.78125,
+            "left": 20,
+            "right": 300,
+            "top": 9515.1875,
+            "width": 280,
+            "x": 20,
+            "y": 9515.1875
+          },
+          "href": "/fr/why-paraguay#life-and-budget",
+          "text": "Explorer les questions de quotidien et de budget",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Possibilité de 0% d’impôt paraguayen sur le revenu des personnes physiques pour certains dividendes de source étrangère\n\nDans la consultation non contraignante 380, la DNIT a conclu que les dividendes étrangers décrits dans ce cas ne relevaient pas des impôts nationaux paraguayens, car leur source était étrangère. C’est une possibilité concrète à étudier pour les personnes qui reçoivent des dividendes d’une société à l’étranger.\n\nLa conclusion dépend des faits et ne constitue pas un taux universel de 0%. Une distribution d’une LLC américaine n’est pas automatiquement un dividende de source étrangère. La qualification de vos revenus et vos obligations dans chaque pays concerné nécessitent une analyse distincte.\n\nDNIT : consultation non contraignante 380 sur les dividendes étrangers",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Travailler depuis le Paraguay change l’analyse\n\nSi vous travaillez depuis le Paraguay pour des clients étrangers, utiliser une LLC américaine ou recevoir le paiement à l’étranger ne suffit pas à donner aux revenus une source étrangère selon les règles paraguayennes. Le lieu de réalisation des prestations compte. L’exemple de la LLC américaine n’établit pas une exonération au Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 320,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "fr",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 6817.828125,
+            "height": 1870.515625,
+            "left": 20,
+            "right": 300,
+            "top": 4947.3125,
+            "width": 280,
+            "x": 20,
+            "y": 4947.3125
+          },
+          "id": "us",
+          "text": "Une LLC américaine pour une activité internationale\n\nUne LLC américaine peut être une option pour une activité internationale dont le propriétaire et les opérations se situent hors des États Unis. Lorsqu’elle a un associé unique et n’a pas opté pour l’imposition comme société, son traitement au regard de l’impôt fédéral sur le revenu suit généralement celui de son propriétaire.\n\nPour les propriétaires qui ne sont ni citoyens ni résidents fiscaux des États Unis, les revenus admissibles de source étrangère sans lien effectif avec une activité commerciale ou professionnelle américaine peuvent ne pas relever de l’impôt fédéral américain sur le revenu. La LLC ne constitue pas en elle même une exonération fiscale.\n\nUn cas à examiner : un propriétaire non résident fournit des prestations de conseil entièrement hors des États Unis par une LLC à associé unique, n’a pas opté pour l’imposition comme société et ne perçoit aucun revenu effectivement lié à une activité américaine. Ces revenus peuvent ne pas être soumis à l’impôt fédéral américain sur le revenu, mais les pays où le propriétaire vit et travaille restent déterminants.\n\nDes déclarations peuvent rester obligatoires même sans impôt sur le revenu à payer. Une LLC détenue par un propriétaire étranger et non considérée comme une entité fiscale distincte peut devoir déposer le formulaire 5472 et un formulaire 1120 pro forma pour certaines opérations déclarables entre parties liées. Les impôts des États, les frais, les retenues à la source et les impôts d’autres pays doivent également être examinés.\n\nIRS : traitement des LLC à associé unique\nIRS : revenus exclus de l’imposition des non résidents\nIRS : détermination de la source des revenus de prestations personnelles\nIRS : revenus effectivement liés à une activité américaine\nIRS : instructions déclaratives du formulaire 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 8045.234375,
+            "height": 1203.40625,
+            "left": 20,
+            "right": 300,
+            "top": 6841.828125,
+            "width": 280,
+            "x": 20,
+            "y": 6841.828125
+          },
+          "id": "paraguay",
+          "text": "Une société paraguayenne pour une activité locale\n\nUne EAS ou une SRL apporte à une activité locale une structure sociétaire paraguayenne, distincte d’une LLC américaine. Envisagez cette option si votre projet comprend une activité au Paraguay et si vous devez organiser l’administration de l’entreprise en parallèle de votre résidence personnelle.\n\nL’impôt ordinaire sur les bénéfices des entreprises est l’IRE, à 10% du bénéfice net imposable. C’est un point de départ concret pour comparer votre structure opérationnelle et ses coûts, sans considérer tout le chiffre d’affaires comme exonéré.\n\nDes impôts sur les dividendes, la TVA et des obligations déclaratives peuvent aussi s’appliquer. Des clients étrangers ne créent pas d’exonération générale : l’article 6 prévoit des règles particulières pour les revenus étrangers des contribuables soumis à l’IRE. La création d’une société ne garantit pas l’ouverture d’un compte bancaire.\n\nDNIT : loi 6380/19, source des revenus et fiscalité des entreprises\nMIC : formes de sociétés paraguayennes EAS, SA et SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/fr/why-paraguay",
+      "width": 320
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 8175.65625,
+            "height": 49.0625,
+            "left": 20,
+            "right": 340,
+            "top": 8126.59375,
+            "width": 320,
+            "x": 20,
+            "y": 8126.59375
+          },
+          "href": "/fr/tax-planning",
+          "text": "Explorer mes options fiscales",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 8243.4375,
+            "height": 52.78125,
+            "left": 20,
+            "right": 340,
+            "top": 8190.65625,
+            "width": 320,
+            "x": 20,
+            "y": 8190.65625
+          },
+          "href": "/fr/company-formation/us",
+          "text": "Explorer la création d’une société aux États Unis",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 8311.21875,
+            "height": 52.78125,
+            "left": 20,
+            "right": 340,
+            "top": 8258.4375,
+            "width": 320,
+            "x": 20,
+            "y": 8258.4375
+          },
+          "href": "/fr/company-formation/paraguay",
+          "text": "Explorer la création d’une société au Paraguay",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 8529.28125,
+            "height": 52.78125,
+            "left": 20,
+            "right": 340,
+            "top": 8476.5,
+            "width": 320,
+            "x": 20,
+            "y": 8476.5
+          },
+          "href": "/fr/why-paraguay#life-and-budget",
+          "text": "Explorer les questions de quotidien et de budget",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Possibilité de 0% d’impôt paraguayen sur le revenu des personnes physiques pour certains dividendes de source étrangère\n\nDans la consultation non contraignante 380, la DNIT a conclu que les dividendes étrangers décrits dans ce cas ne relevaient pas des impôts nationaux paraguayens, car leur source était étrangère. C’est une possibilité concrète à étudier pour les personnes qui reçoivent des dividendes d’une société à l’étranger.\n\nLa conclusion dépend des faits et ne constitue pas un taux universel de 0%. Une distribution d’une LLC américaine n’est pas automatiquement un dividende de source étrangère. La qualification de vos revenus et vos obligations dans chaque pays concerné nécessitent une analyse distincte.\n\nDNIT : consultation non contraignante 380 sur les dividendes étrangers",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Travailler depuis le Paraguay change l’analyse\n\nSi vous travaillez depuis le Paraguay pour des clients étrangers, utiliser une LLC américaine ou recevoir le paiement à l’étranger ne suffit pas à donner aux revenus une source étrangère selon les règles paraguayennes. Le lieu de réalisation des prestations compte. L’exemple de la LLC américaine n’établit pas une exonération au Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 360,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "fr",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 6055.75,
+            "height": 1651.390625,
+            "left": 20,
+            "right": 340,
+            "top": 4404.359375,
+            "width": 320,
+            "x": 20,
+            "y": 4404.359375
+          },
+          "id": "us",
+          "text": "Une LLC américaine pour une activité internationale\n\nUne LLC américaine peut être une option pour une activité internationale dont le propriétaire et les opérations se situent hors des États Unis. Lorsqu’elle a un associé unique et n’a pas opté pour l’imposition comme société, son traitement au regard de l’impôt fédéral sur le revenu suit généralement celui de son propriétaire.\n\nPour les propriétaires qui ne sont ni citoyens ni résidents fiscaux des États Unis, les revenus admissibles de source étrangère sans lien effectif avec une activité commerciale ou professionnelle américaine peuvent ne pas relever de l’impôt fédéral américain sur le revenu. La LLC ne constitue pas en elle même une exonération fiscale.\n\nUn cas à examiner : un propriétaire non résident fournit des prestations de conseil entièrement hors des États Unis par une LLC à associé unique, n’a pas opté pour l’imposition comme société et ne perçoit aucun revenu effectivement lié à une activité américaine. Ces revenus peuvent ne pas être soumis à l’impôt fédéral américain sur le revenu, mais les pays où le propriétaire vit et travaille restent déterminants.\n\nDes déclarations peuvent rester obligatoires même sans impôt sur le revenu à payer. Une LLC détenue par un propriétaire étranger et non considérée comme une entité fiscale distincte peut devoir déposer le formulaire 5472 et un formulaire 1120 pro forma pour certaines opérations déclarables entre parties liées. Les impôts des États, les frais, les retenues à la source et les impôts d’autres pays doivent également être examinés.\n\nIRS : traitement des LLC à associé unique\nIRS : revenus exclus de l’imposition des non résidents\nIRS : détermination de la source des revenus de prestations personnelles\nIRS : revenus effectivement liés à une activité américaine\nIRS : instructions déclaratives du formulaire 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 7085.71875,
+            "height": 1005.96875,
+            "left": 20,
+            "right": 340,
+            "top": 6079.75,
+            "width": 320,
+            "x": 20,
+            "y": 6079.75
+          },
+          "id": "paraguay",
+          "text": "Une société paraguayenne pour une activité locale\n\nUne EAS ou une SRL apporte à une activité locale une structure sociétaire paraguayenne, distincte d’une LLC américaine. Envisagez cette option si votre projet comprend une activité au Paraguay et si vous devez organiser l’administration de l’entreprise en parallèle de votre résidence personnelle.\n\nL’impôt ordinaire sur les bénéfices des entreprises est l’IRE, à 10% du bénéfice net imposable. C’est un point de départ concret pour comparer votre structure opérationnelle et ses coûts, sans considérer tout le chiffre d’affaires comme exonéré.\n\nDes impôts sur les dividendes, la TVA et des obligations déclaratives peuvent aussi s’appliquer. Des clients étrangers ne créent pas d’exonération générale : l’article 6 prévoit des règles particulières pour les revenus étrangers des contribuables soumis à l’IRE. La création d’une société ne garantit pas l’ouverture d’un compte bancaire.\n\nDNIT : loi 6380/19, source des revenus et fiscalité des entreprises\nMIC : formes de sociétés paraguayennes EAS, SA et SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/fr/why-paraguay",
+      "width": 360
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 7606.59375,
+            "height": 49.0625,
+            "left": 20,
+            "right": 370,
+            "top": 7557.53125,
+            "width": 350,
+            "x": 20,
+            "y": 7557.53125
+          },
+          "href": "/fr/tax-planning",
+          "text": "Explorer mes options fiscales",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 7647.984375,
+            "height": 26.390625,
+            "left": 20,
+            "right": 370,
+            "top": 7621.59375,
+            "width": 350,
+            "x": 20,
+            "y": 7621.59375
+          },
+          "href": "/fr/company-formation/us",
+          "text": "Explorer la création d’une société aux États Unis",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 7689.375,
+            "height": 26.390625,
+            "left": 20,
+            "right": 370,
+            "top": 7662.984375,
+            "width": 350,
+            "x": 20,
+            "y": 7662.984375
+          },
+          "href": "/fr/company-formation/paraguay",
+          "text": "Explorer la création d’une société au Paraguay",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 7881.046875,
+            "height": 26.390625,
+            "left": 20,
+            "right": 370,
+            "top": 7854.65625,
+            "width": 350,
+            "x": 20,
+            "y": 7854.65625
+          },
+          "href": "/fr/why-paraguay#life-and-budget",
+          "text": "Explorer les questions de quotidien et de budget",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Possibilité de 0% d’impôt paraguayen sur le revenu des personnes physiques pour certains dividendes de source étrangère\n\nDans la consultation non contraignante 380, la DNIT a conclu que les dividendes étrangers décrits dans ce cas ne relevaient pas des impôts nationaux paraguayens, car leur source était étrangère. C’est une possibilité concrète à étudier pour les personnes qui reçoivent des dividendes d’une société à l’étranger.\n\nLa conclusion dépend des faits et ne constitue pas un taux universel de 0%. Une distribution d’une LLC américaine n’est pas automatiquement un dividende de source étrangère. La qualification de vos revenus et vos obligations dans chaque pays concerné nécessitent une analyse distincte.\n\nDNIT : consultation non contraignante 380 sur les dividendes étrangers",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Travailler depuis le Paraguay change l’analyse\n\nSi vous travaillez depuis le Paraguay pour des clients étrangers, utiliser une LLC américaine ou recevoir le paiement à l’étranger ne suffit pas à donner aux revenus une source étrangère selon les règles paraguayennes. Le lieu de réalisation des prestations compte. L’exemple de la LLC américaine n’établit pas une exonération au Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 390,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "fr",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 5616.25,
+            "height": 1529.125,
+            "left": 20,
+            "right": 370,
+            "top": 4087.125,
+            "width": 350,
+            "x": 20,
+            "y": 4087.125
+          },
+          "id": "us",
+          "text": "Une LLC américaine pour une activité internationale\n\nUne LLC américaine peut être une option pour une activité internationale dont le propriétaire et les opérations se situent hors des États Unis. Lorsqu’elle a un associé unique et n’a pas opté pour l’imposition comme société, son traitement au regard de l’impôt fédéral sur le revenu suit généralement celui de son propriétaire.\n\nPour les propriétaires qui ne sont ni citoyens ni résidents fiscaux des États Unis, les revenus admissibles de source étrangère sans lien effectif avec une activité commerciale ou professionnelle américaine peuvent ne pas relever de l’impôt fédéral américain sur le revenu. La LLC ne constitue pas en elle même une exonération fiscale.\n\nUn cas à examiner : un propriétaire non résident fournit des prestations de conseil entièrement hors des États Unis par une LLC à associé unique, n’a pas opté pour l’imposition comme société et ne perçoit aucun revenu effectivement lié à une activité américaine. Ces revenus peuvent ne pas être soumis à l’impôt fédéral américain sur le revenu, mais les pays où le propriétaire vit et travaille restent déterminants.\n\nDes déclarations peuvent rester obligatoires même sans impôt sur le revenu à payer. Une LLC détenue par un propriétaire étranger et non considérée comme une entité fiscale distincte peut devoir déposer le formulaire 5472 et un formulaire 1120 pro forma pour certaines opérations déclarables entre parties liées. Les impôts des États, les frais, les retenues à la source et les impôts d’autres pays doivent également être examinés.\n\nIRS : traitement des LLC à associé unique\nIRS : revenus exclus de l’imposition des non résidents\nIRS : détermination de la source des revenus de prestations personnelles\nIRS : revenus effectivement liés à une activité américaine\nIRS : instructions déclaratives du formulaire 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6569.4375,
+            "height": 929.1875,
+            "left": 20,
+            "right": 370,
+            "top": 5640.25,
+            "width": 350,
+            "x": 20,
+            "y": 5640.25
+          },
+          "id": "paraguay",
+          "text": "Une société paraguayenne pour une activité locale\n\nUne EAS ou une SRL apporte à une activité locale une structure sociétaire paraguayenne, distincte d’une LLC américaine. Envisagez cette option si votre projet comprend une activité au Paraguay et si vous devez organiser l’administration de l’entreprise en parallèle de votre résidence personnelle.\n\nL’impôt ordinaire sur les bénéfices des entreprises est l’IRE, à 10% du bénéfice net imposable. C’est un point de départ concret pour comparer votre structure opérationnelle et ses coûts, sans considérer tout le chiffre d’affaires comme exonéré.\n\nDes impôts sur les dividendes, la TVA et des obligations déclaratives peuvent aussi s’appliquer. Des clients étrangers ne créent pas d’exonération générale : l’article 6 prévoit des règles particulières pour les revenus étrangers des contribuables soumis à l’IRE. La création d’une société ne garantit pas l’ouverture d’un compte bancaire.\n\nDNIT : loi 6380/19, source des revenus et fiscalité des entreprises\nMIC : formes de sociétés paraguayennes EAS, SA et SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/fr/why-paraguay",
+      "width": 390
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 5124.859375,
+            "height": 49.0625,
+            "left": 20,
+            "right": 748,
+            "top": 5075.796875,
+            "width": 728,
+            "x": 20,
+            "y": 5075.796875
+          },
+          "href": "/fr/tax-planning",
+          "text": "Explorer mes options fiscales",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5167.90625,
+            "height": 28.046875,
+            "left": 20,
+            "right": 748,
+            "top": 5139.859375,
+            "width": 728,
+            "x": 20,
+            "y": 5139.859375
+          },
+          "href": "/fr/company-formation/us",
+          "text": "Explorer la création d’une société aux États Unis",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5210.953125,
+            "height": 28.046875,
+            "left": 20,
+            "right": 748,
+            "top": 5182.90625,
+            "width": 728,
+            "x": 20,
+            "y": 5182.90625
+          },
+          "href": "/fr/company-formation/paraguay",
+          "text": "Explorer la création d’une société au Paraguay",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5381.1875,
+            "height": 28.046875,
+            "left": 20,
+            "right": 748,
+            "top": 5353.140625,
+            "width": 728,
+            "x": 20,
+            "y": 5353.140625
+          },
+          "href": "/fr/why-paraguay#life-and-budget",
+          "text": "Explorer les questions de quotidien et de budget",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Possibilité de 0% d’impôt paraguayen sur le revenu des personnes physiques pour certains dividendes de source étrangère\n\nDans la consultation non contraignante 380, la DNIT a conclu que les dividendes étrangers décrits dans ce cas ne relevaient pas des impôts nationaux paraguayens, car leur source était étrangère. C’est une possibilité concrète à étudier pour les personnes qui reçoivent des dividendes d’une société à l’étranger.\n\nLa conclusion dépend des faits et ne constitue pas un taux universel de 0%. Une distribution d’une LLC américaine n’est pas automatiquement un dividende de source étrangère. La qualification de vos revenus et vos obligations dans chaque pays concerné nécessitent une analyse distincte.\n\nDNIT : consultation non contraignante 380 sur les dividendes étrangers",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Travailler depuis le Paraguay change l’analyse\n\nSi vous travaillez depuis le Paraguay pour des clients étrangers, utiliser une LLC américaine ou recevoir le paiement à l’étranger ne suffit pas à donner aux revenus une source étrangère selon les règles paraguayennes. Le lieu de réalisation des prestations compte. L’exemple de la LLC américaine n’établit pas une exonération au Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 768,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "fr",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 4424.4375,
+            "height": 1503.53125,
+            "left": 20,
+            "right": 372,
+            "top": 2920.90625,
+            "width": 352,
+            "x": 20,
+            "y": 2920.90625
+          },
+          "id": "us",
+          "text": "Une LLC américaine pour une activité internationale\n\nUne LLC américaine peut être une option pour une activité internationale dont le propriétaire et les opérations se situent hors des États Unis. Lorsqu’elle a un associé unique et n’a pas opté pour l’imposition comme société, son traitement au regard de l’impôt fédéral sur le revenu suit généralement celui de son propriétaire.\n\nPour les propriétaires qui ne sont ni citoyens ni résidents fiscaux des États Unis, les revenus admissibles de source étrangère sans lien effectif avec une activité commerciale ou professionnelle américaine peuvent ne pas relever de l’impôt fédéral américain sur le revenu. La LLC ne constitue pas en elle même une exonération fiscale.\n\nUn cas à examiner : un propriétaire non résident fournit des prestations de conseil entièrement hors des États Unis par une LLC à associé unique, n’a pas opté pour l’imposition comme société et ne perçoit aucun revenu effectivement lié à une activité américaine. Ces revenus peuvent ne pas être soumis à l’impôt fédéral américain sur le revenu, mais les pays où le propriétaire vit et travaille restent déterminants.\n\nDes déclarations peuvent rester obligatoires même sans impôt sur le revenu à payer. Une LLC détenue par un propriétaire étranger et non considérée comme une entité fiscale distincte peut devoir déposer le formulaire 5472 et un formulaire 1120 pro forma pour certaines opérations déclarables entre parties liées. Les impôts des États, les frais, les retenues à la source et les impôts d’autres pays doivent également être examinés.\n\nIRS : traitement des LLC à associé unique\nIRS : revenus exclus de l’imposition des non résidents\nIRS : détermination de la source des revenus de prestations personnelles\nIRS : revenus effectivement liés à une activité américaine\nIRS : instructions déclaratives du formulaire 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 3850.09375,
+            "height": 929.1875,
+            "left": 396,
+            "right": 748,
+            "top": 2920.90625,
+            "width": 352,
+            "x": 396,
+            "y": 2920.90625
+          },
+          "id": "paraguay",
+          "text": "Une société paraguayenne pour une activité locale\n\nUne EAS ou une SRL apporte à une activité locale une structure sociétaire paraguayenne, distincte d’une LLC américaine. Envisagez cette option si votre projet comprend une activité au Paraguay et si vous devez organiser l’administration de l’entreprise en parallèle de votre résidence personnelle.\n\nL’impôt ordinaire sur les bénéfices des entreprises est l’IRE, à 10% du bénéfice net imposable. C’est un point de départ concret pour comparer votre structure opérationnelle et ses coûts, sans considérer tout le chiffre d’affaires comme exonéré.\n\nDes impôts sur les dividendes, la TVA et des obligations déclaratives peuvent aussi s’appliquer. Des clients étrangers ne créent pas d’exonération générale : l’article 6 prévoit des règles particulières pour les revenus étrangers des contribuables soumis à l’IRE. La création d’une société ne garantit pas l’ouverture d’un compte bancaire.\n\nDNIT : loi 6380/19, source des revenus et fiscalité des entreprises\nMIC : formes de sociétés paraguayennes EAS, SA et SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/fr/why-paraguay",
+      "width": 768
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 5055.75,
+            "height": 49.0625,
+            "left": 310,
+            "right": 1130,
+            "top": 5006.6875,
+            "width": 820,
+            "x": 310,
+            "y": 5006.6875
+          },
+          "href": "/fr/tax-planning",
+          "text": "Explorer mes options fiscales",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5098.796875,
+            "height": 28.046875,
+            "left": 310,
+            "right": 1130,
+            "top": 5070.75,
+            "width": 820,
+            "x": 310,
+            "y": 5070.75
+          },
+          "href": "/fr/company-formation/us",
+          "text": "Explorer la création d’une société aux États Unis",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5141.84375,
+            "height": 28.046875,
+            "left": 310,
+            "right": 1130,
+            "top": 5113.796875,
+            "width": 820,
+            "x": 310,
+            "y": 5113.796875
+          },
+          "href": "/fr/company-formation/paraguay",
+          "text": "Explorer la création d’une société au Paraguay",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5288.984375,
+            "height": 28.046875,
+            "left": 310,
+            "right": 1130,
+            "top": 5260.9375,
+            "width": 820,
+            "x": 310,
+            "y": 5260.9375
+          },
+          "href": "/fr/why-paraguay#life-and-budget",
+          "text": "Explorer les questions de quotidien et de budget",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Possibilité de 0% d’impôt paraguayen sur le revenu des personnes physiques pour certains dividendes de source étrangère\n\nDans la consultation non contraignante 380, la DNIT a conclu que les dividendes étrangers décrits dans ce cas ne relevaient pas des impôts nationaux paraguayens, car leur source était étrangère. C’est une possibilité concrète à étudier pour les personnes qui reçoivent des dividendes d’une société à l’étranger.\n\nLa conclusion dépend des faits et ne constitue pas un taux universel de 0%. Une distribution d’une LLC américaine n’est pas automatiquement un dividende de source étrangère. La qualification de vos revenus et vos obligations dans chaque pays concerné nécessitent une analyse distincte.\n\nDNIT : consultation non contraignante 380 sur les dividendes étrangers",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Travailler depuis le Paraguay change l’analyse\n\nSi vous travaillez depuis le Paraguay pour des clients étrangers, utiliser une LLC américaine ou recevoir le paiement à l’étranger ne suffit pas à donner aux revenus une source étrangère selon les règles paraguayennes. Le lieu de réalisation des prestations compte. L’exemple de la LLC américaine n’établit pas une exonération au Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 1440,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "fr",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 4355.328125,
+            "height": 1378.765625,
+            "left": 310,
+            "right": 708,
+            "top": 2976.5625,
+            "width": 398,
+            "x": 310,
+            "y": 2976.5625
+          },
+          "id": "us",
+          "text": "Une LLC américaine pour une activité internationale\n\nUne LLC américaine peut être une option pour une activité internationale dont le propriétaire et les opérations se situent hors des États Unis. Lorsqu’elle a un associé unique et n’a pas opté pour l’imposition comme société, son traitement au regard de l’impôt fédéral sur le revenu suit généralement celui de son propriétaire.\n\nPour les propriétaires qui ne sont ni citoyens ni résidents fiscaux des États Unis, les revenus admissibles de source étrangère sans lien effectif avec une activité commerciale ou professionnelle américaine peuvent ne pas relever de l’impôt fédéral américain sur le revenu. La LLC ne constitue pas en elle même une exonération fiscale.\n\nUn cas à examiner : un propriétaire non résident fournit des prestations de conseil entièrement hors des États Unis par une LLC à associé unique, n’a pas opté pour l’imposition comme société et ne perçoit aucun revenu effectivement lié à une activité américaine. Ces revenus peuvent ne pas être soumis à l’impôt fédéral américain sur le revenu, mais les pays où le propriétaire vit et travaille restent déterminants.\n\nDes déclarations peuvent rester obligatoires même sans impôt sur le revenu à payer. Une LLC détenue par un propriétaire étranger et non considérée comme une entité fiscale distincte peut devoir déposer le formulaire 5472 et un formulaire 1120 pro forma pour certaines opérations déclarables entre parties liées. Les impôts des États, les frais, les retenues à la source et les impôts d’autres pays doivent également être examinés.\n\nIRS : traitement des LLC à associé unique\nIRS : revenus exclus de l’imposition des non résidents\nIRS : détermination de la source des revenus de prestations personnelles\nIRS : revenus effectivement liés à une activité américaine\nIRS : instructions déclaratives du formulaire 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 3828.96875,
+            "height": 852.40625,
+            "left": 732,
+            "right": 1130,
+            "top": 2976.5625,
+            "width": 398,
+            "x": 732,
+            "y": 2976.5625
+          },
+          "id": "paraguay",
+          "text": "Une société paraguayenne pour une activité locale\n\nUne EAS ou une SRL apporte à une activité locale une structure sociétaire paraguayenne, distincte d’une LLC américaine. Envisagez cette option si votre projet comprend une activité au Paraguay et si vous devez organiser l’administration de l’entreprise en parallèle de votre résidence personnelle.\n\nL’impôt ordinaire sur les bénéfices des entreprises est l’IRE, à 10% du bénéfice net imposable. C’est un point de départ concret pour comparer votre structure opérationnelle et ses coûts, sans considérer tout le chiffre d’affaires comme exonéré.\n\nDes impôts sur les dividendes, la TVA et des obligations déclaratives peuvent aussi s’appliquer. Des clients étrangers ne créent pas d’exonération générale : l’article 6 prévoit des règles particulières pour les revenus étrangers des contribuables soumis à l’IRE. La création d’une société ne garantit pas l’ouverture d’un compte bancaire.\n\nDNIT : loi 6380/19, source des revenus et fiscalité des entreprises\nMIC : formes de sociétés paraguayennes EAS, SA et SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/fr/why-paraguay",
+      "width": 1440
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 9935.546875,
+            "height": 49.0625,
+            "left": 20,
+            "right": 300,
+            "top": 9886.484375,
+            "width": 280,
+            "x": 20,
+            "y": 9886.484375
+          },
+          "href": "/de/tax-planning",
+          "text": "Meine Steueroptionen erkunden",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 10003.328125,
+            "height": 52.78125,
+            "left": 20,
+            "right": 300,
+            "top": 9950.546875,
+            "width": 280,
+            "x": 20,
+            "y": 9950.546875
+          },
+          "href": "/de/company-formation/us",
+          "text": "Unternehmensgründung in den USA erkunden",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 10071.109375,
+            "height": 52.78125,
+            "left": 20,
+            "right": 300,
+            "top": 10018.328125,
+            "width": 280,
+            "x": 20,
+            "y": 10018.328125
+          },
+          "href": "/de/company-formation/paraguay",
+          "text": "Unternehmensgründung in Paraguay erkunden",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 10285.875,
+            "height": 26.390625,
+            "left": 20,
+            "right": 300,
+            "top": 10259.484375,
+            "width": 280,
+            "x": 20,
+            "y": 10259.484375
+          },
+          "href": "/de/why-paraguay#life-and-budget",
+          "text": "Fragen zu Alltag und Budget prüfen",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Mögliche 0% paraguayische Einkommensteuer für natürliche Personen auf ausländische Dividenden, die die Voraussetzungen erfüllen\n\nIn der unverbindlichen Auskunft 380 kam die DNIT zu dem Schluss, dass die dort beschriebenen ausländischen Dividenden wegen ihrer ausländischen Quelle nicht den nationalen paraguayischen Steuern unterlagen. Das ist eine konkrete Möglichkeit zur Prüfung für Personen, die Dividenden einer Gesellschaft im Ausland erhalten.\n\nDas Ergebnis hängt vom Sachverhalt ab und ist kein allgemeiner Steuersatz von 0%. Eine Ausschüttung einer LLC aus den USA ist nicht automatisch eine ausländische Dividende. Die Einordnung Ihrer Einkünfte und Ihre Pflichten in jedem betroffenen Land müssen gesondert geprüft werden.\n\nDNIT: unverbindliche Auskunft 380 zu ausländischen Dividenden",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Arbeit aus Paraguay verändert die steuerliche Prüfung\n\nWenn Sie aus Paraguay für ausländische Kunden arbeiten, machen eine LLC in den USA oder Zahlungseingänge im Ausland Ihre Einkünfte nach paraguayischen Regeln nicht automatisch zu Einkünften aus ausländischer Quelle. Der Ort der Leistungserbringung zählt. Das Beispiel der LLC in den USA begründet keine Steuerbefreiung in Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 320,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "de",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 7388.6875,
+            "height": 2058.15625,
+            "left": 20,
+            "right": 300,
+            "top": 5330.53125,
+            "width": 280,
+            "x": 20,
+            "y": 5330.53125
+          },
+          "id": "us",
+          "text": "Eine LLC in den USA für ein internationales Geschäft\n\nEine LLC in den USA kann für ein internationales Geschäft interessant sein, dessen Eigentümer und Aktivitäten sich außerhalb der USA befinden. Bei nur einem Gesellschafter und ohne Wahl der Besteuerung als Kapitalgesellschaft richtet sich die Behandlung für die US Bundeseinkommensteuer in der Regel nach dem Eigentümer.\n\nFür Eigentümer, die weder US Staatsbürger noch in den USA steuerlich ansässig sind, können qualifizierende Einkünfte aus ausländischer Quelle ohne effektive Verbindung zu einer gewerblichen oder geschäftlichen Tätigkeit in den USA außerhalb der US Bundeseinkommensteuer liegen. Die LLC selbst ist keine Steuerbefreiung.\n\nEin Fall zur Prüfung: Ein nicht in den USA steuerlich ansässiger Eigentümer erbringt Beratungsleistungen vollständig außerhalb der USA über eine LLC mit einem Gesellschafter, hat keine Besteuerung als Kapitalgesellschaft gewählt und erzielt keine Einkünfte mit effektiver Verbindung zu einem Geschäft in den USA. Auf diese Einkünfte kann keine US Bundeseinkommensteuer anfallen. Die Länder, in denen der Eigentümer lebt und arbeitet, bleiben jedoch relevant.\n\nErklärungspflichten können auch ohne fällige Einkommensteuer bestehen. Eine LLC mit ausländischem Eigentümer, die steuerlich nicht als eigenständiges Steuersubjekt behandelt wird, kann für meldepflichtige Transaktionen mit verbundenen Parteien das Formular 5472 und ein Formular 1120 pro forma einreichen müssen. Auch Steuern der Bundesstaaten, Gebühren, Quellensteuern und Steuern anderer Länder sind zu prüfen.\n\nIRS: steuerliche Behandlung einer LLC mit einem Gesellschafter\nIRS: nicht steuerbare Einkünfte bei fehlender steuerlicher Ansässigkeit in den USA\nIRS: Bestimmung der Quelle von Einkünften aus persönlichen Dienstleistungen\nIRS: Einkünfte mit effektiver Verbindung zu einer Geschäftstätigkeit in den USA\nIRS: Meldeanweisungen für Formular 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 8667.28125,
+            "height": 1254.59375,
+            "left": 20,
+            "right": 300,
+            "top": 7412.6875,
+            "width": 280,
+            "x": 20,
+            "y": 7412.6875
+          },
+          "id": "paraguay",
+          "text": "Eine paraguayische Gesellschaft für lokale Aktivitäten\n\nEine EAS oder SRL bietet einem lokalen Geschäft eine paraguayische Gesellschaftsstruktur, die sich von einer LLC in den USA unterscheidet. Diese Option ist interessant, wenn Sie in Paraguay tätig werden und neben Ihrer persönlichen Aufenthaltsregelung auch die Unternehmensverwaltung organisieren müssen.\n\nDie reguläre Unternehmensertragsteuer IRE beträgt 10% des steuerpflichtigen Nettogewinns. Das ist ein konkreter Ausgangspunkt für den Vergleich Ihrer Betriebsstruktur und Kosten, statt sämtliche Betriebseinnahmen als steuerfrei anzusehen.\n\nSteuern auf Dividenden, Mehrwertsteuer und Erklärungspflichten können zusätzlich anfallen. Ausländische Kunden begründen keine pauschale Befreiung: Artikel 6 enthält besondere Regeln für Auslandseinkünfte von IRE Steuerpflichtigen. Eine Unternehmensgründung garantiert kein Bankkonto.\n\nDNIT: Gesetz 6380/19, Einkunftsquellen und Unternehmenssteuern\nMIC: paraguayische Gesellschaftsformen EAS, SA und SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/de/why-paraguay",
+      "width": 320
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 8823.203125,
+            "height": 49.0625,
+            "left": 20,
+            "right": 340,
+            "top": 8774.140625,
+            "width": 320,
+            "x": 20,
+            "y": 8774.140625
+          },
+          "href": "/de/tax-planning",
+          "text": "Meine Steueroptionen erkunden",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 8890.984375,
+            "height": 52.78125,
+            "left": 20,
+            "right": 340,
+            "top": 8838.203125,
+            "width": 320,
+            "x": 20,
+            "y": 8838.203125
+          },
+          "href": "/de/company-formation/us",
+          "text": "Unternehmensgründung in den USA erkunden",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 8958.765625,
+            "height": 52.78125,
+            "left": 20,
+            "right": 340,
+            "top": 8905.984375,
+            "width": 320,
+            "x": 20,
+            "y": 8905.984375
+          },
+          "href": "/de/company-formation/paraguay",
+          "text": "Unternehmensgründung in Paraguay erkunden",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 9150.4375,
+            "height": 26.390625,
+            "left": 20,
+            "right": 340,
+            "top": 9124.046875,
+            "width": 320,
+            "x": 20,
+            "y": 9124.046875
+          },
+          "href": "/de/why-paraguay#life-and-budget",
+          "text": "Fragen zu Alltag und Budget prüfen",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Mögliche 0% paraguayische Einkommensteuer für natürliche Personen auf ausländische Dividenden, die die Voraussetzungen erfüllen\n\nIn der unverbindlichen Auskunft 380 kam die DNIT zu dem Schluss, dass die dort beschriebenen ausländischen Dividenden wegen ihrer ausländischen Quelle nicht den nationalen paraguayischen Steuern unterlagen. Das ist eine konkrete Möglichkeit zur Prüfung für Personen, die Dividenden einer Gesellschaft im Ausland erhalten.\n\nDas Ergebnis hängt vom Sachverhalt ab und ist kein allgemeiner Steuersatz von 0%. Eine Ausschüttung einer LLC aus den USA ist nicht automatisch eine ausländische Dividende. Die Einordnung Ihrer Einkünfte und Ihre Pflichten in jedem betroffenen Land müssen gesondert geprüft werden.\n\nDNIT: unverbindliche Auskunft 380 zu ausländischen Dividenden",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Arbeit aus Paraguay verändert die steuerliche Prüfung\n\nWenn Sie aus Paraguay für ausländische Kunden arbeiten, machen eine LLC in den USA oder Zahlungseingänge im Ausland Ihre Einkünfte nach paraguayischen Regeln nicht automatisch zu Einkünften aus ausländischer Quelle. Der Ort der Leistungserbringung zählt. Das Beispiel der LLC in den USA begründet keine Steuerbefreiung in Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 360,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "de",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 6532.359375,
+            "height": 1791.046875,
+            "left": 20,
+            "right": 340,
+            "top": 4741.3125,
+            "width": 320,
+            "x": 20,
+            "y": 4741.3125
+          },
+          "id": "us",
+          "text": "Eine LLC in den USA für ein internationales Geschäft\n\nEine LLC in den USA kann für ein internationales Geschäft interessant sein, dessen Eigentümer und Aktivitäten sich außerhalb der USA befinden. Bei nur einem Gesellschafter und ohne Wahl der Besteuerung als Kapitalgesellschaft richtet sich die Behandlung für die US Bundeseinkommensteuer in der Regel nach dem Eigentümer.\n\nFür Eigentümer, die weder US Staatsbürger noch in den USA steuerlich ansässig sind, können qualifizierende Einkünfte aus ausländischer Quelle ohne effektive Verbindung zu einer gewerblichen oder geschäftlichen Tätigkeit in den USA außerhalb der US Bundeseinkommensteuer liegen. Die LLC selbst ist keine Steuerbefreiung.\n\nEin Fall zur Prüfung: Ein nicht in den USA steuerlich ansässiger Eigentümer erbringt Beratungsleistungen vollständig außerhalb der USA über eine LLC mit einem Gesellschafter, hat keine Besteuerung als Kapitalgesellschaft gewählt und erzielt keine Einkünfte mit effektiver Verbindung zu einem Geschäft in den USA. Auf diese Einkünfte kann keine US Bundeseinkommensteuer anfallen. Die Länder, in denen der Eigentümer lebt und arbeitet, bleiben jedoch relevant.\n\nErklärungspflichten können auch ohne fällige Einkommensteuer bestehen. Eine LLC mit ausländischem Eigentümer, die steuerlich nicht als eigenständiges Steuersubjekt behandelt wird, kann für meldepflichtige Transaktionen mit verbundenen Parteien das Formular 5472 und ein Formular 1120 pro forma einreichen müssen. Auch Steuern der Bundesstaaten, Gebühren, Quellensteuern und Steuern anderer Länder sind zu prüfen.\n\nIRS: steuerliche Behandlung einer LLC mit einem Gesellschafter\nIRS: nicht steuerbare Einkünfte bei fehlender steuerlicher Ansässigkeit in den USA\nIRS: Bestimmung der Quelle von Einkünften aus persönlichen Dienstleistungen\nIRS: Einkünfte mit effektiver Verbindung zu einer Geschäftstätigkeit in den USA\nIRS: Meldeanweisungen für Formular 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 7657.390625,
+            "height": 1101.03125,
+            "left": 20,
+            "right": 340,
+            "top": 6556.359375,
+            "width": 320,
+            "x": 20,
+            "y": 6556.359375
+          },
+          "id": "paraguay",
+          "text": "Eine paraguayische Gesellschaft für lokale Aktivitäten\n\nEine EAS oder SRL bietet einem lokalen Geschäft eine paraguayische Gesellschaftsstruktur, die sich von einer LLC in den USA unterscheidet. Diese Option ist interessant, wenn Sie in Paraguay tätig werden und neben Ihrer persönlichen Aufenthaltsregelung auch die Unternehmensverwaltung organisieren müssen.\n\nDie reguläre Unternehmensertragsteuer IRE beträgt 10% des steuerpflichtigen Nettogewinns. Das ist ein konkreter Ausgangspunkt für den Vergleich Ihrer Betriebsstruktur und Kosten, statt sämtliche Betriebseinnahmen als steuerfrei anzusehen.\n\nSteuern auf Dividenden, Mehrwertsteuer und Erklärungspflichten können zusätzlich anfallen. Ausländische Kunden begründen keine pauschale Befreiung: Artikel 6 enthält besondere Regeln für Auslandseinkünfte von IRE Steuerpflichtigen. Eine Unternehmensgründung garantiert kein Bankkonto.\n\nDNIT: Gesetz 6380/19, Einkunftsquellen und Unternehmenssteuern\nMIC: paraguayische Gesellschaftsformen EAS, SA und SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/de/why-paraguay",
+      "width": 360
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 8058.515625,
+            "height": 49.0625,
+            "left": 20,
+            "right": 370,
+            "top": 8009.453125,
+            "width": 350,
+            "x": 20,
+            "y": 8009.453125
+          },
+          "href": "/de/tax-planning",
+          "text": "Meine Steueroptionen erkunden",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 8099.90625,
+            "height": 26.390625,
+            "left": 20,
+            "right": 370,
+            "top": 8073.515625,
+            "width": 350,
+            "x": 20,
+            "y": 8073.515625
+          },
+          "href": "/de/company-formation/us",
+          "text": "Unternehmensgründung in den USA erkunden",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 8141.296875,
+            "height": 26.390625,
+            "left": 20,
+            "right": 370,
+            "top": 8114.90625,
+            "width": 350,
+            "x": 20,
+            "y": 8114.90625
+          },
+          "href": "/de/company-formation/paraguay",
+          "text": "Unternehmensgründung in Paraguay erkunden",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 8332.96875,
+            "height": 26.390625,
+            "left": 20,
+            "right": 370,
+            "top": 8306.578125,
+            "width": 350,
+            "x": 20,
+            "y": 8306.578125
+          },
+          "href": "/de/why-paraguay#life-and-budget",
+          "text": "Fragen zu Alltag und Budget prüfen",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Mögliche 0% paraguayische Einkommensteuer für natürliche Personen auf ausländische Dividenden, die die Voraussetzungen erfüllen\n\nIn der unverbindlichen Auskunft 380 kam die DNIT zu dem Schluss, dass die dort beschriebenen ausländischen Dividenden wegen ihrer ausländischen Quelle nicht den nationalen paraguayischen Steuern unterlagen. Das ist eine konkrete Möglichkeit zur Prüfung für Personen, die Dividenden einer Gesellschaft im Ausland erhalten.\n\nDas Ergebnis hängt vom Sachverhalt ab und ist kein allgemeiner Steuersatz von 0%. Eine Ausschüttung einer LLC aus den USA ist nicht automatisch eine ausländische Dividende. Die Einordnung Ihrer Einkünfte und Ihre Pflichten in jedem betroffenen Land müssen gesondert geprüft werden.\n\nDNIT: unverbindliche Auskunft 380 zu ausländischen Dividenden",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Arbeit aus Paraguay verändert die steuerliche Prüfung\n\nWenn Sie aus Paraguay für ausländische Kunden arbeiten, machen eine LLC in den USA oder Zahlungseingänge im Ausland Ihre Einkünfte nach paraguayischen Regeln nicht automatisch zu Einkünften aus ausländischer Quelle. Der Ort der Leistungserbringung zählt. Das Beispiel der LLC in den USA begründet keine Steuerbefreiung in Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 390,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "de",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 5992.90625,
+            "height": 1643.1875,
+            "left": 20,
+            "right": 370,
+            "top": 4349.71875,
+            "width": 350,
+            "x": 20,
+            "y": 4349.71875
+          },
+          "id": "us",
+          "text": "Eine LLC in den USA für ein internationales Geschäft\n\nEine LLC in den USA kann für ein internationales Geschäft interessant sein, dessen Eigentümer und Aktivitäten sich außerhalb der USA befinden. Bei nur einem Gesellschafter und ohne Wahl der Besteuerung als Kapitalgesellschaft richtet sich die Behandlung für die US Bundeseinkommensteuer in der Regel nach dem Eigentümer.\n\nFür Eigentümer, die weder US Staatsbürger noch in den USA steuerlich ansässig sind, können qualifizierende Einkünfte aus ausländischer Quelle ohne effektive Verbindung zu einer gewerblichen oder geschäftlichen Tätigkeit in den USA außerhalb der US Bundeseinkommensteuer liegen. Die LLC selbst ist keine Steuerbefreiung.\n\nEin Fall zur Prüfung: Ein nicht in den USA steuerlich ansässiger Eigentümer erbringt Beratungsleistungen vollständig außerhalb der USA über eine LLC mit einem Gesellschafter, hat keine Besteuerung als Kapitalgesellschaft gewählt und erzielt keine Einkünfte mit effektiver Verbindung zu einem Geschäft in den USA. Auf diese Einkünfte kann keine US Bundeseinkommensteuer anfallen. Die Länder, in denen der Eigentümer lebt und arbeitet, bleiben jedoch relevant.\n\nErklärungspflichten können auch ohne fällige Einkommensteuer bestehen. Eine LLC mit ausländischem Eigentümer, die steuerlich nicht als eigenständiges Steuersubjekt behandelt wird, kann für meldepflichtige Transaktionen mit verbundenen Parteien das Formular 5472 und ein Formular 1120 pro forma einreichen müssen. Auch Steuern der Bundesstaaten, Gebühren, Quellensteuern und Steuern anderer Länder sind zu prüfen.\n\nIRS: steuerliche Behandlung einer LLC mit einem Gesellschafter\nIRS: nicht steuerbare Einkünfte bei fehlender steuerlicher Ansässigkeit in den USA\nIRS: Bestimmung der Quelle von Einkünften aus persönlichen Dienstleistungen\nIRS: Einkünfte mit effektiver Verbindung zu einer Geschäftstätigkeit in den USA\nIRS: Meldeanweisungen für Formular 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6994.96875,
+            "height": 978.0625,
+            "left": 20,
+            "right": 370,
+            "top": 6016.90625,
+            "width": 350,
+            "x": 20,
+            "y": 6016.90625
+          },
+          "id": "paraguay",
+          "text": "Eine paraguayische Gesellschaft für lokale Aktivitäten\n\nEine EAS oder SRL bietet einem lokalen Geschäft eine paraguayische Gesellschaftsstruktur, die sich von einer LLC in den USA unterscheidet. Diese Option ist interessant, wenn Sie in Paraguay tätig werden und neben Ihrer persönlichen Aufenthaltsregelung auch die Unternehmensverwaltung organisieren müssen.\n\nDie reguläre Unternehmensertragsteuer IRE beträgt 10% des steuerpflichtigen Nettogewinns. Das ist ein konkreter Ausgangspunkt für den Vergleich Ihrer Betriebsstruktur und Kosten, statt sämtliche Betriebseinnahmen als steuerfrei anzusehen.\n\nSteuern auf Dividenden, Mehrwertsteuer und Erklärungspflichten können zusätzlich anfallen. Ausländische Kunden begründen keine pauschale Befreiung: Artikel 6 enthält besondere Regeln für Auslandseinkünfte von IRE Steuerpflichtigen. Eine Unternehmensgründung garantiert kein Bankkonto.\n\nDNIT: Gesetz 6380/19, Einkunftsquellen und Unternehmenssteuern\nMIC: paraguayische Gesellschaftsformen EAS, SA und SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/de/why-paraguay",
+      "width": 390
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 5326.265625,
+            "height": 49.0625,
+            "left": 20,
+            "right": 748,
+            "top": 5277.203125,
+            "width": 728,
+            "x": 20,
+            "y": 5277.203125
+          },
+          "href": "/de/tax-planning",
+          "text": "Meine Steueroptionen erkunden",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5369.3125,
+            "height": 28.046875,
+            "left": 20,
+            "right": 748,
+            "top": 5341.265625,
+            "width": 728,
+            "x": 20,
+            "y": 5341.265625
+          },
+          "href": "/de/company-formation/us",
+          "text": "Unternehmensgründung in den USA erkunden",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5412.359375,
+            "height": 28.046875,
+            "left": 20,
+            "right": 748,
+            "top": 5384.3125,
+            "width": 728,
+            "x": 20,
+            "y": 5384.3125
+          },
+          "href": "/de/company-formation/paraguay",
+          "text": "Unternehmensgründung in Paraguay erkunden",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5582.59375,
+            "height": 28.046875,
+            "left": 20,
+            "right": 748,
+            "top": 5554.546875,
+            "width": 728,
+            "x": 20,
+            "y": 5554.546875
+          },
+          "href": "/de/why-paraguay#life-and-budget",
+          "text": "Fragen zu Alltag und Budget prüfen",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Mögliche 0% paraguayische Einkommensteuer für natürliche Personen auf ausländische Dividenden, die die Voraussetzungen erfüllen\n\nIn der unverbindlichen Auskunft 380 kam die DNIT zu dem Schluss, dass die dort beschriebenen ausländischen Dividenden wegen ihrer ausländischen Quelle nicht den nationalen paraguayischen Steuern unterlagen. Das ist eine konkrete Möglichkeit zur Prüfung für Personen, die Dividenden einer Gesellschaft im Ausland erhalten.\n\nDas Ergebnis hängt vom Sachverhalt ab und ist kein allgemeiner Steuersatz von 0%. Eine Ausschüttung einer LLC aus den USA ist nicht automatisch eine ausländische Dividende. Die Einordnung Ihrer Einkünfte und Ihre Pflichten in jedem betroffenen Land müssen gesondert geprüft werden.\n\nDNIT: unverbindliche Auskunft 380 zu ausländischen Dividenden",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Arbeit aus Paraguay verändert die steuerliche Prüfung\n\nWenn Sie aus Paraguay für ausländische Kunden arbeiten, machen eine LLC in den USA oder Zahlungseingänge im Ausland Ihre Einkünfte nach paraguayischen Regeln nicht automatisch zu Einkünften aus ausländischer Quelle. Der Ort der Leistungserbringung zählt. Das Beispiel der LLC in den USA begründet keine Steuerbefreiung in Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 768,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "de",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 4625.84375,
+            "height": 1620.796875,
+            "left": 20,
+            "right": 372,
+            "top": 3005.046875,
+            "width": 352,
+            "x": 20,
+            "y": 3005.046875
+          },
+          "id": "us",
+          "text": "Eine LLC in den USA für ein internationales Geschäft\n\nEine LLC in den USA kann für ein internationales Geschäft interessant sein, dessen Eigentümer und Aktivitäten sich außerhalb der USA befinden. Bei nur einem Gesellschafter und ohne Wahl der Besteuerung als Kapitalgesellschaft richtet sich die Behandlung für die US Bundeseinkommensteuer in der Regel nach dem Eigentümer.\n\nFür Eigentümer, die weder US Staatsbürger noch in den USA steuerlich ansässig sind, können qualifizierende Einkünfte aus ausländischer Quelle ohne effektive Verbindung zu einer gewerblichen oder geschäftlichen Tätigkeit in den USA außerhalb der US Bundeseinkommensteuer liegen. Die LLC selbst ist keine Steuerbefreiung.\n\nEin Fall zur Prüfung: Ein nicht in den USA steuerlich ansässiger Eigentümer erbringt Beratungsleistungen vollständig außerhalb der USA über eine LLC mit einem Gesellschafter, hat keine Besteuerung als Kapitalgesellschaft gewählt und erzielt keine Einkünfte mit effektiver Verbindung zu einem Geschäft in den USA. Auf diese Einkünfte kann keine US Bundeseinkommensteuer anfallen. Die Länder, in denen der Eigentümer lebt und arbeitet, bleiben jedoch relevant.\n\nErklärungspflichten können auch ohne fällige Einkommensteuer bestehen. Eine LLC mit ausländischem Eigentümer, die steuerlich nicht als eigenständiges Steuersubjekt behandelt wird, kann für meldepflichtige Transaktionen mit verbundenen Parteien das Formular 5472 und ein Formular 1120 pro forma einreichen müssen. Auch Steuern der Bundesstaaten, Gebühren, Quellensteuern und Steuern anderer Länder sind zu prüfen.\n\nIRS: steuerliche Behandlung einer LLC mit einem Gesellschafter\nIRS: nicht steuerbare Einkünfte bei fehlender steuerlicher Ansässigkeit in den USA\nIRS: Bestimmung der Quelle von Einkünften aus persönlichen Dienstleistungen\nIRS: Einkünfte mit effektiver Verbindung zu einer Geschäftstätigkeit in den USA\nIRS: Meldeanweisungen für Formular 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 3983.109375,
+            "height": 978.0625,
+            "left": 396,
+            "right": 748,
+            "top": 3005.046875,
+            "width": 352,
+            "x": 396,
+            "y": 3005.046875
+          },
+          "id": "paraguay",
+          "text": "Eine paraguayische Gesellschaft für lokale Aktivitäten\n\nEine EAS oder SRL bietet einem lokalen Geschäft eine paraguayische Gesellschaftsstruktur, die sich von einer LLC in den USA unterscheidet. Diese Option ist interessant, wenn Sie in Paraguay tätig werden und neben Ihrer persönlichen Aufenthaltsregelung auch die Unternehmensverwaltung organisieren müssen.\n\nDie reguläre Unternehmensertragsteuer IRE beträgt 10% des steuerpflichtigen Nettogewinns. Das ist ein konkreter Ausgangspunkt für den Vergleich Ihrer Betriebsstruktur und Kosten, statt sämtliche Betriebseinnahmen als steuerfrei anzusehen.\n\nSteuern auf Dividenden, Mehrwertsteuer und Erklärungspflichten können zusätzlich anfallen. Ausländische Kunden begründen keine pauschale Befreiung: Artikel 6 enthält besondere Regeln für Auslandseinkünfte von IRE Steuerpflichtigen. Eine Unternehmensgründung garantiert kein Bankkonto.\n\nDNIT: Gesetz 6380/19, Einkunftsquellen und Unternehmenssteuern\nMIC: paraguayische Gesellschaftsformen EAS, SA und SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/de/why-paraguay",
+      "width": 768
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 5231.609375,
+            "height": 49.0625,
+            "left": 310,
+            "right": 1130,
+            "top": 5182.546875,
+            "width": 820,
+            "x": 310,
+            "y": 5182.546875
+          },
+          "href": "/de/tax-planning",
+          "text": "Meine Steueroptionen erkunden",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5274.65625,
+            "height": 28.046875,
+            "left": 310,
+            "right": 1130,
+            "top": 5246.609375,
+            "width": 820,
+            "x": 310,
+            "y": 5246.609375
+          },
+          "href": "/de/company-formation/us",
+          "text": "Unternehmensgründung in den USA erkunden",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5317.703125,
+            "height": 28.046875,
+            "left": 310,
+            "right": 1130,
+            "top": 5289.65625,
+            "width": 820,
+            "x": 310,
+            "y": 5289.65625
+          },
+          "href": "/de/company-formation/paraguay",
+          "text": "Unternehmensgründung in Paraguay erkunden",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5487.9375,
+            "height": 28.046875,
+            "left": 310,
+            "right": 1130,
+            "top": 5459.890625,
+            "width": 820,
+            "x": 310,
+            "y": 5459.890625
+          },
+          "href": "/de/why-paraguay#life-and-budget",
+          "text": "Fragen zu Alltag und Budget prüfen",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "Mögliche 0% paraguayische Einkommensteuer für natürliche Personen auf ausländische Dividenden, die die Voraussetzungen erfüllen\n\nIn der unverbindlichen Auskunft 380 kam die DNIT zu dem Schluss, dass die dort beschriebenen ausländischen Dividenden wegen ihrer ausländischen Quelle nicht den nationalen paraguayischen Steuern unterlagen. Das ist eine konkrete Möglichkeit zur Prüfung für Personen, die Dividenden einer Gesellschaft im Ausland erhalten.\n\nDas Ergebnis hängt vom Sachverhalt ab und ist kein allgemeiner Steuersatz von 0%. Eine Ausschüttung einer LLC aus den USA ist nicht automatisch eine ausländische Dividende. Die Einordnung Ihrer Einkünfte und Ihre Pflichten in jedem betroffenen Land müssen gesondert geprüft werden.\n\nDNIT: unverbindliche Auskunft 380 zu ausländischen Dividenden",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "Arbeit aus Paraguay verändert die steuerliche Prüfung\n\nWenn Sie aus Paraguay für ausländische Kunden arbeiten, machen eine LLC in den USA oder Zahlungseingänge im Ausland Ihre Einkünfte nach paraguayischen Regeln nicht automatisch zu Einkünften aus ausländischer Quelle. Der Ort der Leistungserbringung zählt. Das Beispiel der LLC in den USA begründet keine Steuerbefreiung in Paraguay.",
+          "visible": true
+        }
+      ],
+      "content": 1440,
+      "dir": "ltr",
+      "hiddenDisclosures": 0,
+      "lang": "de",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 4531.1875,
+            "height": 1426.75,
+            "left": 310,
+            "right": 708,
+            "top": 3104.4375,
+            "width": 398,
+            "x": 310,
+            "y": 3104.4375
+          },
+          "id": "us",
+          "text": "Eine LLC in den USA für ein internationales Geschäft\n\nEine LLC in den USA kann für ein internationales Geschäft interessant sein, dessen Eigentümer und Aktivitäten sich außerhalb der USA befinden. Bei nur einem Gesellschafter und ohne Wahl der Besteuerung als Kapitalgesellschaft richtet sich die Behandlung für die US Bundeseinkommensteuer in der Regel nach dem Eigentümer.\n\nFür Eigentümer, die weder US Staatsbürger noch in den USA steuerlich ansässig sind, können qualifizierende Einkünfte aus ausländischer Quelle ohne effektive Verbindung zu einer gewerblichen oder geschäftlichen Tätigkeit in den USA außerhalb der US Bundeseinkommensteuer liegen. Die LLC selbst ist keine Steuerbefreiung.\n\nEin Fall zur Prüfung: Ein nicht in den USA steuerlich ansässiger Eigentümer erbringt Beratungsleistungen vollständig außerhalb der USA über eine LLC mit einem Gesellschafter, hat keine Besteuerung als Kapitalgesellschaft gewählt und erzielt keine Einkünfte mit effektiver Verbindung zu einem Geschäft in den USA. Auf diese Einkünfte kann keine US Bundeseinkommensteuer anfallen. Die Länder, in denen der Eigentümer lebt und arbeitet, bleiben jedoch relevant.\n\nErklärungspflichten können auch ohne fällige Einkommensteuer bestehen. Eine LLC mit ausländischem Eigentümer, die steuerlich nicht als eigenständiges Steuersubjekt behandelt wird, kann für meldepflichtige Transaktionen mit verbundenen Parteien das Formular 5472 und ein Formular 1120 pro forma einreichen müssen. Auch Steuern der Bundesstaaten, Gebühren, Quellensteuern und Steuern anderer Länder sind zu prüfen.\n\nIRS: steuerliche Behandlung einer LLC mit einem Gesellschafter\nIRS: nicht steuerbare Einkünfte bei fehlender steuerlicher Ansässigkeit in den USA\nIRS: Bestimmung der Quelle von Einkünften aus persönlichen Dienstleistungen\nIRS: Einkünfte mit effektiver Verbindung zu einer Geschäftstätigkeit in den USA\nIRS: Meldeanweisungen für Formular 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 3956.84375,
+            "height": 852.40625,
+            "left": 732,
+            "right": 1130,
+            "top": 3104.4375,
+            "width": 398,
+            "x": 732,
+            "y": 3104.4375
+          },
+          "id": "paraguay",
+          "text": "Eine paraguayische Gesellschaft für lokale Aktivitäten\n\nEine EAS oder SRL bietet einem lokalen Geschäft eine paraguayische Gesellschaftsstruktur, die sich von einer LLC in den USA unterscheidet. Diese Option ist interessant, wenn Sie in Paraguay tätig werden und neben Ihrer persönlichen Aufenthaltsregelung auch die Unternehmensverwaltung organisieren müssen.\n\nDie reguläre Unternehmensertragsteuer IRE beträgt 10% des steuerpflichtigen Nettogewinns. Das ist ein konkreter Ausgangspunkt für den Vergleich Ihrer Betriebsstruktur und Kosten, statt sämtliche Betriebseinnahmen als steuerfrei anzusehen.\n\nSteuern auf Dividenden, Mehrwertsteuer und Erklärungspflichten können zusätzlich anfallen. Ausländische Kunden begründen keine pauschale Befreiung: Artikel 6 enthält besondere Regeln für Auslandseinkünfte von IRE Steuerpflichtigen. Eine Unternehmensgründung garantiert kein Bankkonto.\n\nDNIT: Gesetz 6380/19, Einkunftsquellen und Unternehmenssteuern\nMIC: paraguayische Gesellschaftsformen EAS, SA und SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/de/why-paraguay",
+      "width": 1440
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 6554.265625,
+            "height": 49.0625,
+            "left": 20,
+            "right": 300,
+            "top": 6505.203125,
+            "width": 280,
+            "x": 20,
+            "y": 6505.203125
+          },
+          "href": "/he/tax-planning",
+          "text": "לבחון את אפשרויות המס שלי",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6595.65625,
+            "height": 26.390625,
+            "left": 20,
+            "right": 300,
+            "top": 6569.265625,
+            "width": 280,
+            "x": 20,
+            "y": 6569.265625
+          },
+          "href": "/he/company-formation/us",
+          "text": "לבחון הקמת חברה בארצות הברית",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6637.046875,
+            "height": 26.390625,
+            "left": 20,
+            "right": 300,
+            "top": 6610.65625,
+            "width": 280,
+            "x": 20,
+            "y": 6610.65625
+          },
+          "href": "/he/company-formation/paraguay",
+          "text": "לבחון הקמת חברה בפרגוואי",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6805.625,
+            "height": 26.390625,
+            "left": 20,
+            "right": 300,
+            "top": 6779.234375,
+            "width": 280,
+            "x": 20,
+            "y": 6779.234375
+          },
+          "href": "/he/why-paraguay#life-and-budget",
+          "text": "לבחון שאלות על החיים והתקציב",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "אפשרות למס הכנסה ליחידים בפרגוואי בשיעור 0% על דיבידנדים ממקור זר שעומדים בתנאים\n\nבמענה הלא מחייב 380, רשות המס DNIT קבעה שהדיבידנדים הזרים שתוארו באותו מקרה היו מחוץ לתחולת המסים הלאומיים בפרגוואי, משום שמקורם היה זר. זו הזדמנות קונקרטית לבדיקה עבור מי שמקבלים דיבידנדים מחברה בחו״ל.\n\nהמסקנה תלויה בעובדות ואינה שיעור מס כללי של 0%. חלוקה של LLC אמריקאית אינה בהכרח דיבידנד ממקור זר. סיווג ההכנסה שלך והחובות בכל מדינה רלוונטית דורשים בדיקה נפרדת.\n\nDNIT: מענה לא מחייב 380 בנושא דיבידנדים זרים",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "עבודה מתוך פרגוואי משנה את הבדיקה\n\nאם העבודה שלך מתבצעת מתוך פרגוואי עבור לקוחות זרים, שימוש בחברת LLC אמריקאית או קבלת תשלום בחו״ל אינם הופכים כשלעצמם את ההכנסה להכנסה ממקור זר לפי הכללים בפרגוואי. מקום ביצוע השירותים חשוב. הדוגמה של LLC אמריקאית אינה מבססת פטור בפרגוואי.",
+          "visible": true
+        }
+      ],
+      "content": 320,
+      "dir": "rtl",
+      "hiddenDisclosures": 0,
+      "lang": "he",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 4817.4375,
+            "height": 1404.359375,
+            "left": 20,
+            "right": 300,
+            "top": 3413.078125,
+            "width": 280,
+            "x": 20,
+            "y": 3413.078125
+          },
+          "id": "us",
+          "text": "LLC אמריקאית לעסק בינלאומי\n\nLLC אמריקאית עשויה להתאים לעסק בינלאומי שבעליו ופעילותו נמצאים מחוץ לארצות הברית. כאשר יש לה בעלים יחיד והיא לא בחרה במיסוי כתאגיד, הטיפול בה לצורכי מס ההכנסה הפדרלי מבוסס בדרך כלל על הטיפול בבעלים.\n\nעבור בעלים שאינם אזרחי ארצות הברית ואינם תושבי ארצות הברית לצורכי מס, הכנסה ממקור זר שעומדת בתנאים ואינה קשורה באופן אפקטיבי לפעילות מסחרית או עסקית בארצות הברית עשויה להיות מחוץ לתחולת מס ההכנסה הפדרלי בארצות הברית. עצם קיומה של LLC אינו פטור ממס.\n\nמקרה שכדאי לבדוק: בעלים שאינו תושב ארצות הברית לצורכי מס מספק שירותי ייעוץ במלואם מחוץ לארצות הברית דרך LLC עם בעלים יחיד, לא בחר במיסוי כתאגיד ואין לו הכנסה הקשורה באופן אפקטיבי לעסק בארצות הברית. ייתכן שלא יחול מס הכנסה פדרלי בארצות הברית על אותה הכנסה, אך המדינות שבהן הבעלים חי ועובד עדיין רלוונטיות.\n\nחובת הגשת דוחות יכולה להישאר גם כשאין מס הכנסה לתשלום. LLC בבעלות זרה שאינה נחשבת לישות נפרדת לצורכי מס עשויה להידרש להגיש טופס 5472 וטופס 1120 פרו פורמה בגין עסקאות חייבות בדיווח עם צדדים קשורים. יש לבדוק גם מסים של המדינות בארצות הברית, אגרות, ניכוי מס במקור ומסים במדינות אחרות.\n\nIRS: הטיפול בחברת LLC עם בעלים יחיד\nIRS: הכנסות שאינן נכללות במיסוי של מי שאינם תושבי ארצות הברית\nIRS: קביעת מקור ההכנסה משירותים אישיים\nIRS: הכנסה הקשורה באופן אפקטיבי לפעילות עסקית בארצות הברית\nIRS: הוראות דיווח לטופס 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5642.65625,
+            "height": 801.21875,
+            "left": 20,
+            "right": 300,
+            "top": 4841.4375,
+            "width": 280,
+            "x": 20,
+            "y": 4841.4375
+          },
+          "id": "paraguay",
+          "text": "חברה פרגוואית לפעילות מקומית\n\nEAS או SRL מספקת לעסק מקומי מבנה של חברה פרגוואית, השונה מחברת LLC אמריקאית. זו אפשרות לבחינה אם התוכנית שלך כוללת פעילות בפרגוואי וצריך להסדיר את ניהול החברה לצד התושבות האישית שלך.\n\nמס ההכנסה הרגיל על חברות הוא IRE בשיעור 10% מהרווח הנקי החייב במס. זו נקודת מוצא קונקרטית להשוואת מבנה הפעילות והעלויות, במקום להניח שכל ההכנסות העסקיות פטורות ממס.\n\nייתכנו גם מסים על דיבידנדים, מע״מ וחובות דיווח. לקוחות זרים אינם יוצרים פטור גורף: סעיף 6 קובע כללים מיוחדים להכנסות מחו״ל של חייבי IRE. הקמת חברה אינה מבטיחה חשבון בנק.\n\nDNIT: חוק 6380/19, מקור ההכנסה ומסי עסקים\nMIC: צורות החברות הפרגוואיות EAS, SA וכן SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/he/why-paraguay",
+      "width": 320
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 6036.0625,
+            "height": 49.0625,
+            "left": 20,
+            "right": 340,
+            "top": 5987,
+            "width": 320,
+            "x": 20,
+            "y": 5987
+          },
+          "href": "/he/tax-planning",
+          "text": "לבחון את אפשרויות המס שלי",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6077.453125,
+            "height": 26.390625,
+            "left": 20,
+            "right": 340,
+            "top": 6051.0625,
+            "width": 320,
+            "x": 20,
+            "y": 6051.0625
+          },
+          "href": "/he/company-formation/us",
+          "text": "לבחון הקמת חברה בארצות הברית",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6118.84375,
+            "height": 26.390625,
+            "left": 20,
+            "right": 340,
+            "top": 6092.453125,
+            "width": 320,
+            "x": 20,
+            "y": 6092.453125
+          },
+          "href": "/he/company-formation/paraguay",
+          "text": "לבחון הקמת חברה בפרגוואי",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 6287.421875,
+            "height": 26.390625,
+            "left": 20,
+            "right": 340,
+            "top": 6261.03125,
+            "width": 320,
+            "x": 20,
+            "y": 6261.03125
+          },
+          "href": "/he/why-paraguay#life-and-budget",
+          "text": "לבחון שאלות על החיים והתקציב",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "אפשרות למס הכנסה ליחידים בפרגוואי בשיעור 0% על דיבידנדים ממקור זר שעומדים בתנאים\n\nבמענה הלא מחייב 380, רשות המס DNIT קבעה שהדיבידנדים הזרים שתוארו באותו מקרה היו מחוץ לתחולת המסים הלאומיים בפרגוואי, משום שמקורם היה זר. זו הזדמנות קונקרטית לבדיקה עבור מי שמקבלים דיבידנדים מחברה בחו״ל.\n\nהמסקנה תלויה בעובדות ואינה שיעור מס כללי של 0%. חלוקה של LLC אמריקאית אינה בהכרח דיבידנד ממקור זר. סיווג ההכנסה שלך והחובות בכל מדינה רלוונטית דורשים בדיקה נפרדת.\n\nDNIT: מענה לא מחייב 380 בנושא דיבידנדים זרים",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "עבודה מתוך פרגוואי משנה את הבדיקה\n\nאם העבודה שלך מתבצעת מתוך פרגוואי עבור לקוחות זרים, שימוש בחברת LLC אמריקאית או קבלת תשלום בחו״ל אינם הופכים כשלעצמם את ההכנסה להכנסה ממקור זר לפי הכללים בפרגוואי. מקום ביצוע השירותים חשוב. הדוגמה של LLC אמריקאית אינה מבססת פטור בפרגוואי.",
+          "visible": true
+        }
+      ],
+      "content": 360,
+      "dir": "rtl",
+      "hiddenDisclosures": 0,
+      "lang": "he",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 4455.1875,
+            "height": 1233.21875,
+            "left": 20,
+            "right": 340,
+            "top": 3221.96875,
+            "width": 320,
+            "x": 20,
+            "y": 3221.96875
+          },
+          "id": "us",
+          "text": "LLC אמריקאית לעסק בינלאומי\n\nLLC אמריקאית עשויה להתאים לעסק בינלאומי שבעליו ופעילותו נמצאים מחוץ לארצות הברית. כאשר יש לה בעלים יחיד והיא לא בחרה במיסוי כתאגיד, הטיפול בה לצורכי מס ההכנסה הפדרלי מבוסס בדרך כלל על הטיפול בבעלים.\n\nעבור בעלים שאינם אזרחי ארצות הברית ואינם תושבי ארצות הברית לצורכי מס, הכנסה ממקור זר שעומדת בתנאים ואינה קשורה באופן אפקטיבי לפעילות מסחרית או עסקית בארצות הברית עשויה להיות מחוץ לתחולת מס ההכנסה הפדרלי בארצות הברית. עצם קיומה של LLC אינו פטור ממס.\n\nמקרה שכדאי לבדוק: בעלים שאינו תושב ארצות הברית לצורכי מס מספק שירותי ייעוץ במלואם מחוץ לארצות הברית דרך LLC עם בעלים יחיד, לא בחר במיסוי כתאגיד ואין לו הכנסה הקשורה באופן אפקטיבי לעסק בארצות הברית. ייתכן שלא יחול מס הכנסה פדרלי בארצות הברית על אותה הכנסה, אך המדינות שבהן הבעלים חי ועובד עדיין רלוונטיות.\n\nחובת הגשת דוחות יכולה להישאר גם כשאין מס הכנסה לתשלום. LLC בבעלות זרה שאינה נחשבת לישות נפרדת לצורכי מס עשויה להידרש להגיש טופס 5472 וטופס 1120 פרו פורמה בגין עסקאות חייבות בדיווח עם צדדים קשורים. יש לבדוק גם מסים של המדינות בארצות הברית, אגרות, ניכוי מס במקור ומסים במדינות אחרות.\n\nIRS: הטיפול בחברת LLC עם בעלים יחיד\nIRS: הכנסות שאינן נכללות במיסוי של מי שאינם תושבי ארצות הברית\nIRS: קביעת מקור ההכנסה משירותים אישיים\nIRS: הכנסה הקשורה באופן אפקטיבי לפעילות עסקית בארצות הברית\nIRS: הוראות דיווח לטופס 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5203.625,
+            "height": 724.4375,
+            "left": 20,
+            "right": 340,
+            "top": 4479.1875,
+            "width": 320,
+            "x": 20,
+            "y": 4479.1875
+          },
+          "id": "paraguay",
+          "text": "חברה פרגוואית לפעילות מקומית\n\nEAS או SRL מספקת לעסק מקומי מבנה של חברה פרגוואית, השונה מחברת LLC אמריקאית. זו אפשרות לבחינה אם התוכנית שלך כוללת פעילות בפרגוואי וצריך להסדיר את ניהול החברה לצד התושבות האישית שלך.\n\nמס ההכנסה הרגיל על חברות הוא IRE בשיעור 10% מהרווח הנקי החייב במס. זו נקודת מוצא קונקרטית להשוואת מבנה הפעילות והעלויות, במקום להניח שכל ההכנסות העסקיות פטורות ממס.\n\nייתכנו גם מסים על דיבידנדים, מע״מ וחובות דיווח. לקוחות זרים אינם יוצרים פטור גורף: סעיף 6 קובע כללים מיוחדים להכנסות מחו״ל של חייבי IRE. הקמת חברה אינה מבטיחה חשבון בנק.\n\nDNIT: חוק 6380/19, מקור ההכנסה ומסי עסקים\nMIC: צורות החברות הפרגוואיות EAS, SA וכן SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/he/why-paraguay",
+      "width": 360
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 5600.09375,
+            "height": 49.0625,
+            "left": 20,
+            "right": 370,
+            "top": 5551.03125,
+            "width": 350,
+            "x": 20,
+            "y": 5551.03125
+          },
+          "href": "/he/tax-planning",
+          "text": "לבחון את אפשרויות המס שלי",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5641.484375,
+            "height": 26.390625,
+            "left": 20,
+            "right": 370,
+            "top": 5615.09375,
+            "width": 350,
+            "x": 20,
+            "y": 5615.09375
+          },
+          "href": "/he/company-formation/us",
+          "text": "לבחון הקמת חברה בארצות הברית",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5682.875,
+            "height": 26.390625,
+            "left": 20,
+            "right": 370,
+            "top": 5656.484375,
+            "width": 350,
+            "x": 20,
+            "y": 5656.484375
+          },
+          "href": "/he/company-formation/paraguay",
+          "text": "לבחון הקמת חברה בפרגוואי",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 5851.453125,
+            "height": 26.390625,
+            "left": 20,
+            "right": 370,
+            "top": 5825.0625,
+            "width": 350,
+            "x": 20,
+            "y": 5825.0625
+          },
+          "href": "/he/why-paraguay#life-and-budget",
+          "text": "לבחון שאלות על החיים והתקציב",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "אפשרות למס הכנסה ליחידים בפרגוואי בשיעור 0% על דיבידנדים ממקור זר שעומדים בתנאים\n\nבמענה הלא מחייב 380, רשות המס DNIT קבעה שהדיבידנדים הזרים שתוארו באותו מקרה היו מחוץ לתחולת המסים הלאומיים בפרגוואי, משום שמקורם היה זר. זו הזדמנות קונקרטית לבדיקה עבור מי שמקבלים דיבידנדים מחברה בחו״ל.\n\nהמסקנה תלויה בעובדות ואינה שיעור מס כללי של 0%. חלוקה של LLC אמריקאית אינה בהכרח דיבידנד ממקור זר. סיווג ההכנסה שלך והחובות בכל מדינה רלוונטית דורשים בדיקה נפרדת.\n\nDNIT: מענה לא מחייב 380 בנושא דיבידנדים זרים",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "עבודה מתוך פרגוואי משנה את הבדיקה\n\nאם העבודה שלך מתבצעת מתוך פרגוואי עבור לקוחות זרים, שימוש בחברת LLC אמריקאית או קבלת תשלום בחו״ל אינם הופכים כשלעצמם את ההכנסה להכנסה ממקור זר לפי הכללים בפרגוואי. מקום ביצוע השירותים חשוב. הדוגמה של LLC אמריקאית אינה מבססת פטור בפרגוואי.",
+          "visible": true
+        }
+      ],
+      "content": 390,
+      "dir": "rtl",
+      "hiddenDisclosures": 0,
+      "lang": "he",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 4140.0625,
+            "height": 1110.953125,
+            "left": 20,
+            "right": 370,
+            "top": 3029.109375,
+            "width": 350,
+            "x": 20,
+            "y": 3029.109375
+          },
+          "id": "us",
+          "text": "LLC אמריקאית לעסק בינלאומי\n\nLLC אמריקאית עשויה להתאים לעסק בינלאומי שבעליו ופעילותו נמצאים מחוץ לארצות הברית. כאשר יש לה בעלים יחיד והיא לא בחרה במיסוי כתאגיד, הטיפול בה לצורכי מס ההכנסה הפדרלי מבוסס בדרך כלל על הטיפול בבעלים.\n\nעבור בעלים שאינם אזרחי ארצות הברית ואינם תושבי ארצות הברית לצורכי מס, הכנסה ממקור זר שעומדת בתנאים ואינה קשורה באופן אפקטיבי לפעילות מסחרית או עסקית בארצות הברית עשויה להיות מחוץ לתחולת מס ההכנסה הפדרלי בארצות הברית. עצם קיומה של LLC אינו פטור ממס.\n\nמקרה שכדאי לבדוק: בעלים שאינו תושב ארצות הברית לצורכי מס מספק שירותי ייעוץ במלואם מחוץ לארצות הברית דרך LLC עם בעלים יחיד, לא בחר במיסוי כתאגיד ואין לו הכנסה הקשורה באופן אפקטיבי לעסק בארצות הברית. ייתכן שלא יחול מס הכנסה פדרלי בארצות הברית על אותה הכנסה, אך המדינות שבהן הבעלים חי ועובד עדיין רלוונטיות.\n\nחובת הגשת דוחות יכולה להישאר גם כשאין מס הכנסה לתשלום. LLC בבעלות זרה שאינה נחשבת לישות נפרדת לצורכי מס עשויה להידרש להגיש טופס 5472 וטופס 1120 פרו פורמה בגין עסקאות חייבות בדיווח עם צדדים קשורים. יש לבדוק גם מסים של המדינות בארצות הברית, אגרות, ניכוי מס במקור ומסים במדינות אחרות.\n\nIRS: הטיפול בחברת LLC עם בעלים יחיד\nIRS: הכנסות שאינן נכללות במיסוי של מי שאינם תושבי ארצות הברית\nIRS: קביעת מקור ההכנסה משירותים אישיים\nIRS: הכנסה הקשורה באופן אפקטיבי לפעילות עסקית בארצות הברית\nIRS: הוראות דיווח לטופס 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 4790.9375,
+            "height": 626.875,
+            "left": 20,
+            "right": 370,
+            "top": 4164.0625,
+            "width": 350,
+            "x": 20,
+            "y": 4164.0625
+          },
+          "id": "paraguay",
+          "text": "חברה פרגוואית לפעילות מקומית\n\nEAS או SRL מספקת לעסק מקומי מבנה של חברה פרגוואית, השונה מחברת LLC אמריקאית. זו אפשרות לבחינה אם התוכנית שלך כוללת פעילות בפרגוואי וצריך להסדיר את ניהול החברה לצד התושבות האישית שלך.\n\nמס ההכנסה הרגיל על חברות הוא IRE בשיעור 10% מהרווח הנקי החייב במס. זו נקודת מוצא קונקרטית להשוואת מבנה הפעילות והעלויות, במקום להניח שכל ההכנסות העסקיות פטורות ממס.\n\nייתכנו גם מסים על דיבידנדים, מע״מ וחובות דיווח. לקוחות זרים אינם יוצרים פטור גורף: סעיף 6 קובע כללים מיוחדים להכנסות מחו״ל של חייבי IRE. הקמת חברה אינה מבטיחה חשבון בנק.\n\nDNIT: חוק 6380/19, מקור ההכנסה ומסי עסקים\nMIC: צורות החברות הפרגוואיות EAS, SA וכן SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/he/why-paraguay",
+      "width": 390
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 4229.09375,
+            "height": 49.0625,
+            "left": 20,
+            "right": 748,
+            "top": 4180.03125,
+            "width": 728,
+            "x": 20,
+            "y": 4180.03125
+          },
+          "href": "/he/tax-planning",
+          "text": "לבחון את אפשרויות המס שלי",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 4272.140625,
+            "height": 28.046875,
+            "left": 20,
+            "right": 748,
+            "top": 4244.09375,
+            "width": 728,
+            "x": 20,
+            "y": 4244.09375
+          },
+          "href": "/he/company-formation/us",
+          "text": "לבחון הקמת חברה בארצות הברית",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 4315.1875,
+            "height": 28.046875,
+            "left": 20,
+            "right": 748,
+            "top": 4287.140625,
+            "width": 728,
+            "x": 20,
+            "y": 4287.140625
+          },
+          "href": "/he/company-formation/paraguay",
+          "text": "לבחון הקמת חברה בפרגוואי",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 4462.328125,
+            "height": 28.046875,
+            "left": 20,
+            "right": 748,
+            "top": 4434.28125,
+            "width": 728,
+            "x": 20,
+            "y": 4434.28125
+          },
+          "href": "/he/why-paraguay#life-and-budget",
+          "text": "לבחון שאלות על החיים והתקציב",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "אפשרות למס הכנסה ליחידים בפרגוואי בשיעור 0% על דיבידנדים ממקור זר שעומדים בתנאים\n\nבמענה הלא מחייב 380, רשות המס DNIT קבעה שהדיבידנדים הזרים שתוארו באותו מקרה היו מחוץ לתחולת המסים הלאומיים בפרגוואי, משום שמקורם היה זר. זו הזדמנות קונקרטית לבדיקה עבור מי שמקבלים דיבידנדים מחברה בחו״ל.\n\nהמסקנה תלויה בעובדות ואינה שיעור מס כללי של 0%. חלוקה של LLC אמריקאית אינה בהכרח דיבידנד ממקור זר. סיווג ההכנסה שלך והחובות בכל מדינה רלוונטית דורשים בדיקה נפרדת.\n\nDNIT: מענה לא מחייב 380 בנושא דיבידנדים זרים",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "עבודה מתוך פרגוואי משנה את הבדיקה\n\nאם העבודה שלך מתבצעת מתוך פרגוואי עבור לקוחות זרים, שימוש בחברת LLC אמריקאית או קבלת תשלום בחו״ל אינם הופכים כשלעצמם את ההכנסה להכנסה ממקור זר לפי הכללים בפרגוואי. מקום ביצוע השירותים חשוב. הדוגמה של LLC אמריקאית אינה מבססת פטור בפרגוואי.",
+          "visible": true
+        }
+      ],
+      "content": 768,
+      "dir": "rtl",
+      "hiddenDisclosures": 0,
+      "lang": "he",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 3612.8125,
+            "height": 1110.953125,
+            "left": 396,
+            "right": 748,
+            "top": 2501.859375,
+            "width": 352,
+            "x": 396,
+            "y": 2501.859375
+          },
+          "id": "us",
+          "text": "LLC אמריקאית לעסק בינלאומי\n\nLLC אמריקאית עשויה להתאים לעסק בינלאומי שבעליו ופעילותו נמצאים מחוץ לארצות הברית. כאשר יש לה בעלים יחיד והיא לא בחרה במיסוי כתאגיד, הטיפול בה לצורכי מס ההכנסה הפדרלי מבוסס בדרך כלל על הטיפול בבעלים.\n\nעבור בעלים שאינם אזרחי ארצות הברית ואינם תושבי ארצות הברית לצורכי מס, הכנסה ממקור זר שעומדת בתנאים ואינה קשורה באופן אפקטיבי לפעילות מסחרית או עסקית בארצות הברית עשויה להיות מחוץ לתחולת מס ההכנסה הפדרלי בארצות הברית. עצם קיומה של LLC אינו פטור ממס.\n\nמקרה שכדאי לבדוק: בעלים שאינו תושב ארצות הברית לצורכי מס מספק שירותי ייעוץ במלואם מחוץ לארצות הברית דרך LLC עם בעלים יחיד, לא בחר במיסוי כתאגיד ואין לו הכנסה הקשורה באופן אפקטיבי לעסק בארצות הברית. ייתכן שלא יחול מס הכנסה פדרלי בארצות הברית על אותה הכנסה, אך המדינות שבהן הבעלים חי ועובד עדיין רלוונטיות.\n\nחובת הגשת דוחות יכולה להישאר גם כשאין מס הכנסה לתשלום. LLC בבעלות זרה שאינה נחשבת לישות נפרדת לצורכי מס עשויה להידרש להגיש טופס 5472 וטופס 1120 פרו פורמה בגין עסקאות חייבות בדיווח עם צדדים קשורים. יש לבדוק גם מסים של המדינות בארצות הברית, אגרות, ניכוי מס במקור ומסים במדינות אחרות.\n\nIRS: הטיפול בחברת LLC עם בעלים יחיד\nIRS: הכנסות שאינן נכללות במיסוי של מי שאינם תושבי ארצות הברית\nIRS: קביעת מקור ההכנסה משירותים אישיים\nIRS: הכנסה הקשורה באופן אפקטיבי לפעילות עסקית בארצות הברית\nIRS: הוראות דיווח לטופס 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 3128.734375,
+            "height": 626.875,
+            "left": 20,
+            "right": 372,
+            "top": 2501.859375,
+            "width": 352,
+            "x": 20,
+            "y": 2501.859375
+          },
+          "id": "paraguay",
+          "text": "חברה פרגוואית לפעילות מקומית\n\nEAS או SRL מספקת לעסק מקומי מבנה של חברה פרגוואית, השונה מחברת LLC אמריקאית. זו אפשרות לבחינה אם התוכנית שלך כוללת פעילות בפרגוואי וצריך להסדיר את ניהול החברה לצד התושבות האישית שלך.\n\nמס ההכנסה הרגיל על חברות הוא IRE בשיעור 10% מהרווח הנקי החייב במס. זו נקודת מוצא קונקרטית להשוואת מבנה הפעילות והעלויות, במקום להניח שכל ההכנסות העסקיות פטורות ממס.\n\nייתכנו גם מסים על דיבידנדים, מע״מ וחובות דיווח. לקוחות זרים אינם יוצרים פטור גורף: סעיף 6 קובע כללים מיוחדים להכנסות מחו״ל של חייבי IRE. הקמת חברה אינה מבטיחה חשבון בנק.\n\nDNIT: חוק 6380/19, מקור ההכנסה ומסי עסקים\nMIC: צורות החברות הפרגוואיות EAS, SA וכן SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/he/why-paraguay",
+      "width": 768
+    },
+    {
+      "actions": [
+        {
+          "box": {
+            "bottom": 4294,
+            "height": 49.0625,
+            "left": 310,
+            "right": 1130,
+            "top": 4244.9375,
+            "width": 820,
+            "x": 310,
+            "y": 4244.9375
+          },
+          "href": "/he/tax-planning",
+          "text": "לבחון את אפשרויות המס שלי",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 4337.046875,
+            "height": 28.046875,
+            "left": 310,
+            "right": 1130,
+            "top": 4309,
+            "width": 820,
+            "x": 310,
+            "y": 4309
+          },
+          "href": "/he/company-formation/us",
+          "text": "לבחון הקמת חברה בארצות הברית",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 4380.09375,
+            "height": 28.046875,
+            "left": 310,
+            "right": 1130,
+            "top": 4352.046875,
+            "width": 820,
+            "x": 310,
+            "y": 4352.046875
+          },
+          "href": "/he/company-formation/paraguay",
+          "text": "לבחון הקמת חברה בפרגוואי",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 4527.234375,
+            "height": 28.046875,
+            "left": 310,
+            "right": 1130,
+            "top": 4499.1875,
+            "width": 820,
+            "x": 310,
+            "y": 4499.1875
+          },
+          "href": "/he/why-paraguay#life-and-budget",
+          "text": "לבחון שאלות על החיים והתקציב",
+          "visible": true
+        }
+      ],
+      "cases": [
+        {
+          "id": "foreign-dividends",
+          "text": "אפשרות למס הכנסה ליחידים בפרגוואי בשיעור 0% על דיבידנדים ממקור זר שעומדים בתנאים\n\nבמענה הלא מחייב 380, רשות המס DNIT קבעה שהדיבידנדים הזרים שתוארו באותו מקרה היו מחוץ לתחולת המסים הלאומיים בפרגוואי, משום שמקורם היה זר. זו הזדמנות קונקרטית לבדיקה עבור מי שמקבלים דיבידנדים מחברה בחו״ל.\n\nהמסקנה תלויה בעובדות ואינה שיעור מס כללי של 0%. חלוקה של LLC אמריקאית אינה בהכרח דיבידנד ממקור זר. סיווג ההכנסה שלך והחובות בכל מדינה רלוונטית דורשים בדיקה נפרדת.\n\nDNIT: מענה לא מחייב 380 בנושא דיבידנדים זרים",
+          "visible": true
+        },
+        {
+          "id": "services-from-paraguay",
+          "text": "עבודה מתוך פרגוואי משנה את הבדיקה\n\nאם העבודה שלך מתבצעת מתוך פרגוואי עבור לקוחות זרים, שימוש בחברת LLC אמריקאית או קבלת תשלום בחו״ל אינם הופכים כשלעצמם את ההכנסה להכנסה ממקור זר לפי הכללים בפרגוואי. מקום ביצוע השירותים חשוב. הדוגמה של LLC אמריקאית אינה מבססת פטור בפרגוואי.",
+          "visible": true
+        }
+      ],
+      "content": 1440,
+      "dir": "rtl",
+      "hiddenDisclosures": 0,
+      "lang": "he",
+      "robots": "noindex, follow",
+      "structures": [
+        {
+          "box": {
+            "bottom": 3677.71875,
+            "height": 1037.375,
+            "left": 732,
+            "right": 1130,
+            "top": 2640.34375,
+            "width": 398,
+            "x": 732,
+            "y": 2640.34375
+          },
+          "id": "us",
+          "text": "LLC אמריקאית לעסק בינלאומי\n\nLLC אמריקאית עשויה להתאים לעסק בינלאומי שבעליו ופעילותו נמצאים מחוץ לארצות הברית. כאשר יש לה בעלים יחיד והיא לא בחרה במיסוי כתאגיד, הטיפול בה לצורכי מס ההכנסה הפדרלי מבוסס בדרך כלל על הטיפול בבעלים.\n\nעבור בעלים שאינם אזרחי ארצות הברית ואינם תושבי ארצות הברית לצורכי מס, הכנסה ממקור זר שעומדת בתנאים ואינה קשורה באופן אפקטיבי לפעילות מסחרית או עסקית בארצות הברית עשויה להיות מחוץ לתחולת מס ההכנסה הפדרלי בארצות הברית. עצם קיומה של LLC אינו פטור ממס.\n\nמקרה שכדאי לבדוק: בעלים שאינו תושב ארצות הברית לצורכי מס מספק שירותי ייעוץ במלואם מחוץ לארצות הברית דרך LLC עם בעלים יחיד, לא בחר במיסוי כתאגיד ואין לו הכנסה הקשורה באופן אפקטיבי לעסק בארצות הברית. ייתכן שלא יחול מס הכנסה פדרלי בארצות הברית על אותה הכנסה, אך המדינות שבהן הבעלים חי ועובד עדיין רלוונטיות.\n\nחובת הגשת דוחות יכולה להישאר גם כשאין מס הכנסה לתשלום. LLC בבעלות זרה שאינה נחשבת לישות נפרדת לצורכי מס עשויה להידרש להגיש טופס 5472 וטופס 1120 פרו פורמה בגין עסקאות חייבות בדיווח עם צדדים קשורים. יש לבדוק גם מסים של המדינות בארצות הברית, אגרות, ניכוי מס במקור ומסים במדינות אחרות.\n\nIRS: הטיפול בחברת LLC עם בעלים יחיד\nIRS: הכנסות שאינן נכללות במיסוי של מי שאינם תושבי ארצות הברית\nIRS: קביעת מקור ההכנסה משירותים אישיים\nIRS: הכנסה הקשורה באופן אפקטיבי לפעילות עסקית בארצות הברית\nIRS: הוראות דיווח לטופס 5472",
+          "visible": true
+        },
+        {
+          "box": {
+            "bottom": 3192.9375,
+            "height": 552.59375,
+            "left": 310,
+            "right": 708,
+            "top": 2640.34375,
+            "width": 398,
+            "x": 310,
+            "y": 2640.34375
+          },
+          "id": "paraguay",
+          "text": "חברה פרגוואית לפעילות מקומית\n\nEAS או SRL מספקת לעסק מקומי מבנה של חברה פרגוואית, השונה מחברת LLC אמריקאית. זו אפשרות לבחינה אם התוכנית שלך כוללת פעילות בפרגוואי וצריך להסדיר את ניהול החברה לצד התושבות האישית שלך.\n\nמס ההכנסה הרגיל על חברות הוא IRE בשיעור 10% מהרווח הנקי החייב במס. זו נקודת מוצא קונקרטית להשוואת מבנה הפעילות והעלויות, במקום להניח שכל ההכנסות העסקיות פטורות ממס.\n\nייתכנו גם מסים על דיבידנדים, מע״מ וחובות דיווח. לקוחות זרים אינם יוצרים פטור גורף: סעיף 6 קובע כללים מיוחדים להכנסות מחו״ל של חייבי IRE. הקמת חברה אינה מבטיחה חשבון בנק.\n\nDNIT: חוק 6380/19, מקור ההכנסה ומסי עסקים\nMIC: צורות החברות הפרגוואיות EAS, SA וכן SRL",
+          "visible": true
+        }
+      ],
+      "url": "http://127.0.0.1:52942/he/why-paraguay",
+      "width": 1440
+    }
+  ]
+}

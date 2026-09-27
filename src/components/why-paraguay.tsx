@@ -8,6 +8,7 @@ import {
 import { JourneyLink } from "./journey-provider";
 import { PageIntro, Section } from "./primitives";
 import { SourceNote, ValueNextActions } from "./value-content";
+import { TaxOpportunities } from "./tax-opportunities";
 
 export function WhyParaguay({ locale }: { locale: Locale }) {
   const v = (key: Parameters<typeof valueText>[1]) => valueText(locale, key);
@@ -76,14 +77,8 @@ export function WhyParaguay({ locale }: { locale: Locale }) {
     "financial-planning": (
       <>
         <h2>{v("financialTitle")}</h2>
-        <p>{v("financialBody")}</p>
-        <p className="notice">{v("financialQualification")}</p>
-        <p>{v("financialSeparate")}</p>
-        <SourceNote locale={locale} source="R3" />
+        <TaxOpportunities locale={locale} />
         <div className="resource-links">
-          <JourneyLink locale={locale} route="tax-planning">
-            {v("taxLink")}
-          </JourneyLink>
           <JourneyLink
             locale={locale}
             route="why-paraguay"

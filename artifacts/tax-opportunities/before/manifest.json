@@ -1,0 +1,50 @@
+{
+  "sourceHead": "14af4aefd7321fbea074c0da6218536e252abf0b",
+  "shots": [
+    {
+      "height": 900,
+      "width": 1440,
+      "route": "/en",
+      "file": "en-home-desktop.png"
+    },
+    {
+      "height": 900,
+      "width": 1440,
+      "route": "/en/why-paraguay",
+      "file": "en-why-desktop.png"
+    },
+    {
+      "height": 900,
+      "width": 1440,
+      "route": "/en/why-paraguay#financial-planning",
+      "file": "en-why-financial-desktop.png"
+    },
+    {
+      "height": 900,
+      "width": 1440,
+      "route": "/en/tax-planning",
+      "file": "en-tax-desktop.png"
+    },
+    {
+      "height": 900,
+      "width": 1440,
+      "route": "/en/company-formation/us",
+      "file": "en-us-desktop.png"
+    },
+    {
+      "height": 900,
+      "width": 1440,
+      "route": "/en/company-formation/paraguay",
+      "file": "en-py-desktop.png"
+    },
+    {
+      "height": 844,
+      "width": 390,
+      "route": "/he/why-paraguay",
+      "file": "he-why-mobile.png"
+    }
+  ],
+  "tool": "agent-browser",
+  "capturedAt": "2026-09-26T23:45:44.9569100Z",
+  "origin": "http://127.0.0.1:52942"
+}

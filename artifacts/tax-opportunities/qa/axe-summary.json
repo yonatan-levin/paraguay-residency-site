@@ -1,0 +1,93 @@
+{
+  "capturedAt": "2026-09-27T00:24:04.860Z",
+  "records": [
+    {
+      "route": "/en/why-paraguay",
+      "violations": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "route": "/es/why-paraguay",
+      "violations": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "route": "/fr/why-paraguay",
+      "violations": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "route": "/de/why-paraguay",
+      "violations": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "route": "/he/why-paraguay",
+      "violations": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 23
+    },
+    {
+      "route": "/en/tax-planning",
+      "violations": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "route": "/en/company-formation/us",
+      "violations": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "route": "/en/company-formation/paraguay",
+      "violations": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 24
+    }
+  ]
+}

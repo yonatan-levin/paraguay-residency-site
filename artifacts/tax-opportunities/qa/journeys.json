@@ -1,0 +1,190 @@
+{
+  "capturedAt": "2026-09-27T00:22:13.429Z",
+  "session": "tax-qa-cfd5474485e0",
+  "buildId": "o-lKvcROyw9eIxuZzFLfd",
+  "records": [
+    {
+      "name": "Why entry",
+      "dir": "ltr",
+      "dpr": 1,
+      "height": 900,
+      "lang": "en",
+      "robots": "noindex, follow",
+      "scroll": 1440,
+      "title": "Why Paraguay? Residency, Tax & Business Options | Paraguay Next",
+      "url": "http://127.0.0.1:52942/en/why-paraguay?plan=temporary-guided&campaign=residency-cost",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "width": 1440
+    },
+    {
+      "name": "US informational",
+      "dir": "ltr",
+      "dpr": 1,
+      "height": 900,
+      "lang": "en",
+      "robots": "noindex, follow",
+      "scroll": 1440,
+      "title": "US LLC Setup & International Business Planning | Paraguay Next",
+      "url": "http://127.0.0.1:52942/en/company-formation/us?service=temporary-residency&plan=temporary-guided&campaign=residency-cost",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "width": 1440
+    },
+    {
+      "name": "German same route",
+      "dir": "ltr",
+      "dpr": 1,
+      "height": 900,
+      "lang": "de",
+      "robots": "noindex, follow",
+      "scroll": 1440,
+      "title": "LLC Gründung in den USA und internationale Unternehmensplanung | Paraguay Next",
+      "url": "http://127.0.0.1:52942/de/company-formation/us?service=temporary-residency&plan=temporary-guided&campaign=residency-cost",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "width": 1440
+    },
+    {
+      "name": "German booking",
+      "dir": "ltr",
+      "dpr": 1,
+      "height": 900,
+      "lang": "de",
+      "robots": "noindex, follow",
+      "scroll": 1440,
+      "title": "Besprechen Sie Ihre Pläne für Paraguay | Paraguay Next",
+      "url": "http://127.0.0.1:52942/de/book?service=temporary-residency&plan=temporary-guided&campaign=residency-cost",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "width": 1440
+    },
+    {
+      "name": "German booking refresh",
+      "dir": "ltr",
+      "dpr": 1,
+      "height": 900,
+      "lang": "de",
+      "robots": "noindex, follow",
+      "scroll": 1440,
+      "title": "Besprechen Sie Ihre Pläne für Paraguay | Paraguay Next",
+      "url": "http://127.0.0.1:52942/de/book?service=temporary-residency&plan=temporary-guided&campaign=residency-cost",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "width": 1440
+    },
+    {
+      "name": "company-formation/us inquiry before",
+      "plan": "us-business-setup",
+      "incompatible": false,
+      "inquiry": "Discuss this structure"
+    },
+    {
+      "name": "company-formation/us inquiry after",
+      "dir": "ltr",
+      "dpr": 1,
+      "height": 900,
+      "lang": "en",
+      "robots": "noindex, follow",
+      "scroll": 1440,
+      "title": "Discuss your Paraguay plan | Paraguay Next",
+      "url": "http://127.0.0.1:52942/en/book?service=us-company&plan=us-business-setup&campaign=residency-cost",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "width": 1440
+    },
+    {
+      "name": "company-formation/us inquiry before",
+      "plan": "temporary-guided",
+      "incompatible": true,
+      "inquiry": "This service has a different scope. Continuing will replace your selected package with this service.\n\nDiscuss this structure"
+    },
+    {
+      "name": "company-formation/us inquiry after",
+      "dir": "ltr",
+      "dpr": 1,
+      "height": 900,
+      "lang": "en",
+      "robots": "noindex, follow",
+      "scroll": 1440,
+      "title": "Discuss your Paraguay plan | Paraguay Next",
+      "url": "http://127.0.0.1:52942/en/book?service=us-company&campaign=residency-cost",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "width": 1440
+    },
+    {
+      "name": "tax-planning inquiry before",
+      "plan": "tax-planning",
+      "incompatible": false,
+      "inquiry": "Discuss my tax planning options"
+    },
+    {
+      "name": "tax-planning inquiry after",
+      "dir": "ltr",
+      "dpr": 1,
+      "height": 900,
+      "lang": "en",
+      "robots": "noindex, follow",
+      "scroll": 1440,
+      "title": "Discuss your Paraguay plan | Paraguay Next",
+      "url": "http://127.0.0.1:52942/en/book?service=tax-planning&plan=tax-planning&campaign=residency-cost",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "width": 1440
+    },
+    {
+      "name": "tax-planning inquiry before",
+      "plan": "temporary-guided",
+      "incompatible": true,
+      "inquiry": "This service has a different scope. Continuing will replace your selected package with this service.\n\nDiscuss my tax planning options"
+    },
+    {
+      "name": "tax-planning inquiry after",
+      "dir": "ltr",
+      "dpr": 1,
+      "height": 900,
+      "lang": "en",
+      "robots": "noindex, follow",
+      "scroll": 1440,
+      "title": "Discuss your Paraguay plan | Paraguay Next",
+      "url": "http://127.0.0.1:52942/en/book?service=tax-planning&campaign=residency-cost",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "width": 1440
+    },
+    {
+      "name": "Hebrew Why mobile",
+      "dir": "rtl",
+      "dpr": 1,
+      "height": 844,
+      "lang": "he",
+      "robots": "noindex, follow",
+      "scroll": 390,
+      "title": "למה פרגוואי? תושבות, מס ואפשרויות עסקיות | Paraguay Next",
+      "url": "http://127.0.0.1:52942/he/why-paraguay?service=temporary-residency&plan=temporary-guided&campaign=residency-cost",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "width": 390
+    },
+    {
+      "name": "Hebrew pricing mobile",
+      "dir": "rtl",
+      "dpr": 1,
+      "height": 844,
+      "lang": "he",
+      "robots": "noindex, follow",
+      "scroll": 390,
+      "title": "חבילות ליווי לתושבות בפרגוואי ועלויות | Paraguay Next",
+      "url": "http://127.0.0.1:52942/he/pricing?service=temporary-residency&plan=temporary-guided&campaign=residency-cost",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "width": 390
+    },
+    {
+      "name": "Keyboard skip link",
+      "firstFocus": {
+        "href": "#main",
+        "tag": "A",
+        "text": "Skip to content"
+      },
+      "active": {
+        "id": "",
+        "tag": "BODY"
+      }
+    },
+    {
+      "name": "Keyboard mobile menu open and Escape",
+      "status": "PASS"
+    }
+  ]
+}

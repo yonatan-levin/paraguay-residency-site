@@ -4,6 +4,8 @@ A complete demo website for reviewing residency and relocation journeys. The bra
 
 The benefits first update is on the local `update/value-first` branch, tracked in [issue #9](https://github.com/yonatan-levin/paraguay-residency-site/issues/9). It has not been pushed or deployed, so the hosted preview and a fresh remote clone do not include it. Use this existing checkout to review the update, following the build and start commands below. Its evidence and limitations are in [VALUE_FIRST_QA.md](docs/VALUE_FIRST_QA.md).
 
+The same local branch contains the researched tax messaging refinement tracked in [issue #10](https://github.com/yonatan-levin/paraguay-residency-site/issues/10). It explains both US LLC and Paraguayan company structures, with specific foreign dividend and US federal income tax examples and their conditions. Read [the source and claim specification](docs/TAX_OPPORTUNITIES_SPEC.md) and [its factual QA evidence and before/after images](docs/TAX_OPPORTUNITIES_QA.md). This increment also remains local and unapproved for business publication.
+
 ## Run on Windows / PowerShell
 
 Use Node.js 24 LTS and npm. From PowerShell:
@@ -46,11 +48,12 @@ Run `npm run perf` with the production server running to produce mobile Lighthou
 
 `npm run check:launch` intentionally exits unsuccessfully and lists missing approvals. It does not provision, send, or deploy anything.
 
-The included CI workflow runs type checking, lint, unit tests, build, and browser checks. See [the current update QA results](docs/VALUE_FIRST_QA.md) for local evidence and limitations; [the earlier QA report](docs/QA_REPORT.md) remains historical. [GitHub Actions](https://github.com/yonatan-levin/paraguay-residency-site/actions) covers published commits, not this unpushed update. Current work is tracked in [issue #9](https://github.com/yonatan-levin/paraguay-residency-site/issues/9); the outstanding mobile performance target is [issue #2](https://github.com/yonatan-levin/paraguay-residency-site/issues/2).
+The included CI workflow runs type checking, lint, unit tests, build, and browser checks. See [the tax refinement QA results](docs/TAX_OPPORTUNITIES_QA.md) and [the preceding benefits update results](docs/VALUE_FIRST_QA.md) for local evidence and limitations; [the earlier QA report](docs/QA_REPORT.md) remains historical. [GitHub Actions](https://github.com/yonatan-levin/paraguay-residency-site/actions) covers published commits, not this unpushed update. The tax refinement is tracked in [issue #10](https://github.com/yonatan-levin/paraguay-residency-site/issues/10), building on [issue #9](https://github.com/yonatan-levin/paraguay-residency-site/issues/9); the outstanding mobile performance target is [issue #2](https://github.com/yonatan-levin/paraguay-residency-site/issues/2).
 
 ## Review the journeys
 
 - Start on the homepage to compare residency benefits with the separate value of paid assistance. Open `/en/why-paraguay` for status distinctions, financial questions, a household budget framework and local business considerations. Pricing and booking remain directly accessible.
+- Open `/en/why-paraguay#financial-planning` to compare the tax opportunities, then visit the existing tax planning or US/Paraguay company service pages. Informational browsing retains the selected package. Choosing a different service for an inquiry explains any incompatible package removal before the action.
 - Choose a package on `/en/pricing`, discuss it, submit test details, and inspect the simulated receipt. The package and provisional price stay visible throughout.
 - Use `/en/find-my-plan` for a needs-based starting point. Results do not require contact details. Family requests receive a quote flag, never an invented household total.
 - Try both conversation and demo-time modes on `/en/book`; change the timezone and use the demo outcome control to exercise failure, unavailable-time, and retry behavior.
@@ -87,6 +90,8 @@ Contact drafts, finder answers, and receipts exist only in browser memory. Reloa
 - [Benefits first update brief](docs/CODEX_UPDATE_PARAGUAY_NEXT_VALUE_FIRST.md)
 - [Benefits first implementation contract](docs/VALUE_FIRST_PLAN.md)
 - [Benefits first QA and before/after evidence](docs/VALUE_FIRST_QA.md)
+- [Tax opportunities source and claim specification](docs/TAX_OPPORTUNITIES_SPEC.md)
+- [Tax opportunities QA and before/after evidence](docs/TAX_OPPORTUNITIES_QA.md)
 - [Implementation plan](docs/IMPLEMENTATION_PLAN.md)
 - [Defaults and unresolved business decisions](docs/DECISIONS.md)
 - [Routes, translations, and SEO rules](docs/ROUTES_AND_SEO.md)

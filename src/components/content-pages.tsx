@@ -10,6 +10,8 @@ import { formatPrice } from "../domain/pricing";
 import { text, ui } from "../content/ui";
 import { JourneyLink, ServiceInquiry } from "./journey-provider";
 import { SourceNote } from "./value-content";
+import { TaxOpportunities } from "./tax-opportunities";
+import { taxText } from "../content/tax-opportunities";
 import { WhatsAppButton } from "./shell";
 import { FAQAccordion, PackageCard, PageIntro, Section } from "./primitives";
 
@@ -23,6 +25,14 @@ export function ServicePage({
   const service = services.find((item) => item.routeKey === route);
   const detail = getServiceDetail(route, locale);
   if (!service || !detail) return null;
+  const taxVariant =
+    route === "tax-planning"
+      ? "overview"
+      : route === "company-formation/us"
+        ? "us"
+        : route === "company-formation/paraguay"
+          ? "paraguay"
+          : undefined;
   const relevant = packages.filter(
     (item) =>
       item.serviceId === service.id ||
@@ -57,7 +67,14 @@ export function ServicePage({
               locale={locale}
               serviceId={service.id}
               cta="service-inquiry"
-            />
+            >
+              {taxVariant
+                ? taxText(
+                    locale,
+                    taxVariant === "overview" ? "taxInquiry" : "inquiry",
+                  )
+                : undefined}
+            </ServiceInquiry>
             {route === "relocation" && (
               <div className="resource-links">
                 <JourneyLink
@@ -73,16 +90,13 @@ export function ServicePage({
               </div>
             )}
             {route === "tax-planning" && (
-              <>
-                <SourceNote locale={locale} source="R3" />
-                <JourneyLink
-                  locale={locale}
-                  route="why-paraguay"
-                  anchor="financial-planning"
-                >
-                  {valueText(locale, "whyLink")}
-                </JourneyLink>
-              </>
+              <JourneyLink
+                locale={locale}
+                route="why-paraguay"
+                anchor="financial-planning"
+              >
+                {valueText(locale, "whyLink")}
+              </JourneyLink>
             )}
             {route === "permanent-residency" && (
               <SourceNote locale={locale} source="R2" />
@@ -102,6 +116,26 @@ export function ServicePage({
           </div>
         </div>
       </Section>
+      {taxVariant && (
+        <Section className="soft-section">
+          <h2>{taxText(locale, "title")}</h2>
+          <TaxOpportunities
+            locale={locale}
+            variant={taxVariant}
+            primaryAction={
+              taxVariant === "overview" ? (
+                <ServiceInquiry
+                  locale={locale}
+                  serviceId={service.id}
+                  cta="service-inquiry"
+                >
+                  {taxText(locale, "taxInquiry")}
+                </ServiceInquiry>
+              ) : undefined
+            }
+          />
+        </Section>
+      )}
       <Section className="soft-section">
         <div className="two-column">
           <div>

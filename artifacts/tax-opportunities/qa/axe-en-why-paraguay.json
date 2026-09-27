@@ -1,0 +1,199 @@
+{
+  "inapplicable": [
+    "area-alt",
+    "aria-braille-equivalent",
+    "aria-command-name",
+    "aria-input-field-name",
+    "aria-meter-name",
+    "aria-progressbar-name",
+    "aria-required-children",
+    "aria-required-parent",
+    "aria-tab-name",
+    "aria-toggle-field-name",
+    "aria-tooltip-name",
+    "autocomplete-valid",
+    "blink",
+    "button-name",
+    "definition-list",
+    "dlitem",
+    "duplicate-id-aria",
+    "form-field-multiple-labels",
+    "frame-focusable-content",
+    "frame-title-unique",
+    "frame-title",
+    "html-xml-lang-mismatch",
+    "image-alt",
+    "input-button-name",
+    "input-image-alt",
+    "label",
+    "link-in-text-block",
+    "marquee",
+    "meta-refresh",
+    "object-alt",
+    "role-img-alt",
+    "scrollable-region-focusable",
+    "select-name",
+    "server-side-image-map",
+    "svg-img-alt",
+    "td-headers-attr",
+    "th-has-data-cells",
+    "video-caption",
+    "no-autoplay-audio"
+  ],
+  "incomplete": [
+    {
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=axeAPI",
+      "id": "color-contrast",
+      "impact": "serious",
+      "nodes": [
+        {
+          "all": [],
+          "any": [
+            {
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "id": "color-contrast",
+              "impact": "serious",
+              "message": "Element content contains only non-text characters",
+              "relatedNodes": []
+            }
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+          "html": "<summary aria-label=\"Open navigation\">☰</summary>",
+          "impact": "serious",
+          "none": [],
+          "target": [
+            "summary[aria-label=\"Open navigation\"]"
+          ]
+        }
+      ],
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ]
+    }
+  ],
+  "passes": [
+    {
+      "id": "aria-allowed-attr",
+      "nodes": 6
+    },
+    {
+      "id": "aria-conditional-attr",
+      "nodes": 6
+    },
+    {
+      "id": "aria-deprecated-role",
+      "nodes": 1
+    },
+    {
+      "id": "aria-hidden-body",
+      "nodes": 1
+    },
+    {
+      "id": "aria-hidden-focus",
+      "nodes": 2
+    },
+    {
+      "id": "aria-prohibited-attr",
+      "nodes": 6
+    },
+    {
+      "id": "aria-required-attr",
+      "nodes": 1
+    },
+    {
+      "id": "aria-roles",
+      "nodes": 1
+    },
+    {
+      "id": "aria-valid-attr-value",
+      "nodes": 6
+    },
+    {
+      "id": "aria-valid-attr",
+      "nodes": 6
+    },
+    {
+      "id": "avoid-inline-spacing",
+      "nodes": 1
+    },
+    {
+      "id": "bypass",
+      "nodes": 1
+    },
+    {
+      "id": "color-contrast",
+      "nodes": 108
+    },
+    {
+      "id": "document-title",
+      "nodes": 1
+    },
+    {
+      "id": "html-has-lang",
+      "nodes": 1
+    },
+    {
+      "id": "html-lang-valid",
+      "nodes": 1
+    },
+    {
+      "id": "link-name",
+      "nodes": 43
+    },
+    {
+      "id": "list",
+      "nodes": 6
+    },
+    {
+      "id": "listitem",
+      "nodes": 23
+    },
+    {
+      "id": "meta-viewport",
+      "nodes": 1
+    },
+    {
+      "id": "nested-interactive",
+      "nodes": 2
+    },
+    {
+      "id": "summary-name",
+      "nodes": 2
+    },
+    {
+      "id": "target-size",
+      "nodes": 45
+    },
+    {
+      "id": "valid-lang",
+      "nodes": 2
+    }
+  ],
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.13.0"
+  },
+  "testEnvironment": {
+    "orientationAngle": 0,
+    "orientationType": "landscape-primary",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "windowHeight": 844,
+    "windowWidth": 390
+  },
+  "timestamp": "2026-09-27T00:23:55.777Z",
+  "url": "http://127.0.0.1:52942/en/why-paraguay",
+  "violations": []
+}

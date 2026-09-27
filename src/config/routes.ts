@@ -14,16 +14,16 @@ const routeSeeds: RouteSeed[] = [
   [
     "home",
     "home",
-    "Paraguay Residency & Relocation",
-    "Explore why people consider Paraguay, what residency could enable, and the practical costs and support to plan your next step.",
+    "Paraguay Residency, Tax & Business Planning",
+    "Explore a base in Paraguay, qualifying foreign income opportunities and business structures, with practical residency support and clear planning conditions.",
     "Tu residencia en Paraguay, con un plan claro",
     "Explora paquetes provisionales, preparación práctica y apoyo coordinado para tu próximo capítulo.",
   ],
   [
     "why-paraguay",
     "why",
-    "Why Paraguay? Residency, Lifestyle & Planning",
-    "Explore the practical reasons to consider Paraguay, from a legal base and longer term planning to tax questions, everyday life and business setup.",
+    "Why Paraguay? Residency, Tax & Business Options",
+    "Explore Paraguay residency, qualifying foreign income opportunities, US LLC and local company options, and the conditions to review before choosing a structure.",
   ],
   [
     "paraguay-residency",
@@ -92,20 +92,20 @@ const routeSeeds: RouteSeed[] = [
   [
     "tax-planning",
     "service",
-    "Tax Consultation for Your Paraguay Plans",
-    "Organize tax questions across jurisdictions for qualified professional review without automatic tax promises.",
+    "Paraguay Tax Planning & International Income",
+    "Compare foreign dividend opportunities, US LLC treatment and Paraguay company taxes, then prepare your circumstances for qualified professional review.",
   ],
   [
     "company-formation/paraguay",
     "service",
     "Paraguay Company Formation Support",
-    "Discuss local company setup coordination, external professional fees and ongoing administration.",
+    "Explore EAS and SRL company structures, ordinary IRE tax, administration and the practical support to discuss before setting up in Paraguay.",
   ],
   [
     "company-formation/us",
     "service",
-    "U.S. Company Setup Coordination",
-    "Explore a scoped setup discussion and questions about banking, tax and continuing obligations.",
+    "US LLC Setup & International Business Planning",
+    "Understand when a US LLC may offer federal income tax advantages for a nonresident owner, with sourcing, reporting and other countries’ taxes considered.",
   ],
   [
     "accounting",
