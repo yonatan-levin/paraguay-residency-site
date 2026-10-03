@@ -33,7 +33,7 @@ const englishRoutes = [
   "terms",
   "disclaimer",
 ];
-for (const locale of ["en", "es", "fr", "de", "he"] as const) {
+for (const locale of ["en", "es", "fr", "de", "he", "ru"] as const) {
   for (const route of englishRoutes) {
     test(`route ${locale}/${route || "(home)"} has preview SEO, one H1, and no render errors`, async ({
       page,
@@ -61,7 +61,7 @@ for (const locale of ["en", "es", "fr", "de", "he"] as const) {
         "href",
         new RegExp(`/${locale}${route ? `/${route}` : ""}$`),
       );
-      for (const equivalent of ["en", "es", "fr", "de", "he"]) {
+      for (const equivalent of ["en", "es", "fr", "de", "he", "ru"]) {
         await expect(
           page.locator(`link[rel="alternate"][hreflang="${equivalent}"]`),
         ).toHaveAttribute(

@@ -1,6 +1,6 @@
 # Language contract
 
-The public language contract covers English, Spanish, French, German and Hebrew on every public route. This extends the original handoff at the user's explicit request, including Spanish pages that previously linked to English. The internal RTL fixture remains an English engineering route; public Hebrew pages use the same complete route and conversion coverage as the other languages.
+The public language contract covers English, Spanish, French, German, Hebrew and Russian on every public route. This extends the original handoff at the user's explicit request, including Spanish pages that previously linked to English. The internal RTL fixture remains an English engineering route; public Hebrew pages use the same complete route and conversion coverage as the other languages.
 
 ## Content and rendering
 
@@ -10,7 +10,7 @@ English copy is the canonical message key. Each other language has a common dict
 
 Translate complete phrases. Preserve `{placeholders}` exactly and interpolate customer or catalog values once. Do not translate service IDs, package IDs, route slugs, provider outcome keys or other technical identifiers. Authored visible wording avoids hyphens and dash punctuation. Customer supplied text, ISO dates and technical paths are not rewritten.
 
-All public routes have reciprocal EN/ES/FR/DE/HE alternates and an English `x-default`. Each locale has a self canonical without query parameters, its own title/description and localized social imagery. The preview always remains noindex. The locale list indicates available content, not business or publication approval.
+All public routes have reciprocal EN/ES/FR/DE/HE/RU alternates and an English `x-default`. Each locale has a self canonical without query parameters, its own title/description and localized social imagery. The preview always remains noindex. The locale list indicates available content, not business or publication approval.
 
 ## Journey state and presentation
 
@@ -20,13 +20,19 @@ Prices remain the same provisional USD amounts. `Intl.NumberFormat` changes pres
 
 Artwork text is generated locally by `scripts/render-social-assets.mjs`. The original brand name remains a proper name in every language. The hero caption, default social card and campaign cards have translated versions.
 
+## Russian language and formatting
+
+Russian uses route locale `ru`, native name `Русский`, formatting locale `ru-RU` and left to right direction. Both common and editorial dictionaries cover the complete canonical English key sets, including all tax qualifications and draft policies. Use standard written Russian without implying citizenship, eligibility or staffed Russian support. Keep immigration residency distinct from tax residency.
+
+Russian USD amounts use the existing `Intl` formatters and may contain nonbreaking spaces; do not replace those with the French formatting convention or change currency. Russian and Hebrew switches must update document direction while preserving the same private draft, selected package and UTC appointment instant. Russian artwork uses actual Cyrillic glyphs and the existing image dimensions. Inspect the six-item language menu and long labels at 320 CSS pixels. See [the Russian contract](RUSSIAN_LOCALIZATION_SPEC.md) for acceptance criteria.
+
 ## Hebrew direction and mixed content
 
 Hebrew uses route locale `he`, formatting locale `he-IL` and language self name `עברית`. Direction is a locale property: Hebrew is `rtl`; the other supported languages are `ltr`. Server rendered HTML must set both `lang` and `dir` correctly before JavaScript runs. Client language navigation must update both on the existing document, including switching back to a left to right language, without remounting the root journey provider.
 
 Use the existing logical CSS properties and DOM order. Header actions, card rows, forms, lists, progress and footer columns flow from the right on Hebrew pages. Keep mobile columns in the same semantic order. Do not reverse DOM arrays or duplicate layouts. Hebrew headings use normal letter spacing rather than the tighter Latin heading tracking; retain the existing system font stack and design tokens. Preserve wrapping, including the inherited `overflow-wrap: anywhere` protection.
 
-The language disclosure shows all five self names, with each name isolated in its own writing direction. The active item remains indicated with `aria-current`. Keep the disclosure's logical edge anchoring, existing touch targets, keyboard focus order, Escape behavior and mutual exclusion with the mobile menu. Both menus must fit within a 320 CSS pixel viewport when opened. The proper brand name and logo retain their original left to right order within the RTL header and footer. Mirror the navigation arrow in `.round-arrow`; do not mirror the brand symbol, illustration, checkmarks, disclosure chevron or the growth symbol used as a category icon.
+The language disclosure shows all six self names, with each name isolated in its own writing direction. The active item remains indicated with `aria-current`. Keep the disclosure's logical edge anchoring, existing touch targets, keyboard focus order, Escape behavior and mutual exclusion with the mobile menu. Both menus must fit within a 320 CSS pixel viewport when opened. The proper brand name and logo retain their original left to right order within the RTL header and footer. Mirror the navigation arrow in `.round-arrow`; do not mirror the brand symbol, illustration, checkmarks, disclosure chevron or the growth symbol used as a category icon.
 
 | Content | Presentation contract |
 | --- | --- |
@@ -43,7 +49,7 @@ Hebrew hero and social artwork use real Hebrew text with correct glyph order and
 
 ## Hebrew acceptance checks
 
-1. Every public route renders in Hebrew with an appropriate title and heading, `lang="he"`, `dir="rtl"`, noindex, a self canonical and reciprocal alternates for all five languages. Unknown locale routes still return 404. The internal fixture remains separate from public language navigation.
+1. Every public route renders in Hebrew with an appropriate title and heading, `lang="he"`, `dir="rtl"`, noindex, a self canonical and reciprocal alternates for all six languages. Unknown locale routes still return 404. The internal fixture remains separate from public language navigation.
 2. Direct navigation with JavaScript disabled renders correct Hebrew direction and a usable language disclosure. Client navigation HE to EN to HE updates both document attributes and preserves the equivalent route and safe selection parameters.
 3. A journey from package selection or the family finder through booking to an accepted receipt survives Hebrew and LTR language changes. Contact details stay in memory and do not appear in the URL. Reopening a receipt in Hebrew must not create a second request.
 4. Check Hebrew, Latin and mixed names/notes, email addresses, international phone numbers, USD fixed prices and ranges, and an appointment using `Asia/Jerusalem`. Digits, plus signs, punctuation and time zone identifiers remain in readable order while the selected instant and prices stay unchanged.

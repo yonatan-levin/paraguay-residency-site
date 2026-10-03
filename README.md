@@ -1,10 +1,10 @@
 # Paraguay Next prototype
 
-A complete demo website for reviewing residency and relocation journeys. The brand, prices, scope, people, and business policies are provisional. Requests, appointments, WhatsApp messages, and analytics remain local simulations. **No real booking or message is sent.** The source repository is public for team collaboration. The [hosted team preview](https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app) uses the dedicated Firebase project with authorized Blaze usage billing. See [the hosting guide](docs/FIREBASE_HOSTING.md) for setup and [issue #7](https://github.com/yonatan-levin/paraguay-residency-site/issues/7) for the deployed revision and hosted verification status.
+A complete demo website for reviewing residency and relocation journeys. The brand, prices, scope, people, and business policies are provisional. Requests, appointments, WhatsApp messages, and analytics remain local simulations. **No real booking or message is sent.** The source repository is public for team collaboration. The [hosted team preview](https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app) uses the dedicated Firebase project with authorized Blaze usage billing. See [the hosting guide](docs/FIREBASE_HOSTING.md) for setup and [issue #13](https://github.com/yonatan-levin/paraguay-residency-site/issues/13) for the Russian release revision and hosted verification status.
 
-The benefits first update is on the local `update/value-first` branch, tracked in [issue #9](https://github.com/yonatan-levin/paraguay-residency-site/issues/9). It has not been pushed or deployed, so the hosted preview and a fresh remote clone do not include it. Use this existing checkout to review the update, following the build and start commands below. Its evidence and limitations are in [VALUE_FIRST_QA.md](docs/VALUE_FIRST_QA.md).
+The site explains Paraguay benefits before paid assistance and includes qualified comparisons of US LLC and Paraguayan company structures. The content contracts and research boundaries are in [VALUE_FIRST_PLAN.md](docs/VALUE_FIRST_PLAN.md) and [TAX_OPPORTUNITIES_SPEC.md](docs/TAX_OPPORTUNITIES_SPEC.md). Business publication and live services still require the launch approvals.
 
-The same local branch contains the researched tax messaging refinement tracked in [issue #10](https://github.com/yonatan-levin/paraguay-residency-site/issues/10). It explains both US LLC and Paraguayan company structures, with specific foreign dividend and US federal income tax examples and their conditions. Read [the source and claim specification](docs/TAX_OPPORTUNITIES_SPEC.md) and [its factual QA evidence and before/after images](docs/TAX_OPPORTUNITIES_QA.md). This increment also remains local and unapproved for business publication.
+Russian extends the same pages and conversion journeys using the [existing language contract](docs/LOCALIZATION.md) and [Russian specification](docs/RUSSIAN_LOCALIZATION_SPEC.md). Work and release status are tracked in [issue #13](https://github.com/yonatan-levin/paraguay-residency-site/issues/13). Local source and Firebase publication can be newer than the remote review branch; inspect the issue for the exact source and release identity.
 
 ## Run on Windows / PowerShell
 
@@ -48,7 +48,7 @@ Run `npm run perf` with the production server running to produce mobile Lighthou
 
 `npm run check:launch` intentionally exits unsuccessfully and lists missing approvals. It does not provision, send, or deploy anything.
 
-The included CI workflow runs type checking, lint, unit tests, build, and browser checks. See [the tax refinement QA results](docs/TAX_OPPORTUNITIES_QA.md) and [the preceding benefits update results](docs/VALUE_FIRST_QA.md) for local evidence and limitations; [the earlier QA report](docs/QA_REPORT.md) remains historical. [GitHub Actions](https://github.com/yonatan-levin/paraguay-residency-site/actions) covers published commits, not this unpushed update. The tax refinement is tracked in [issue #10](https://github.com/yonatan-levin/paraguay-residency-site/issues/10), building on [issue #9](https://github.com/yonatan-levin/paraguay-residency-site/issues/9); the outstanding mobile performance target is [issue #2](https://github.com/yonatan-levin/paraguay-residency-site/issues/2).
+The included CI workflow runs type checking, lint, unit tests, build, and browser checks. See [the tax refinement QA results](docs/TAX_OPPORTUNITIES_QA.md) and [the preceding benefits update results](docs/VALUE_FIRST_QA.md) for local evidence and limitations; [the earlier QA report](docs/QA_REPORT.md) remains historical. [GitHub Actions](https://github.com/yonatan-levin/paraguay-residency-site/actions) covers pushed commits; local and hosted release evidence is recorded separately in the tracking issues. The tax refinement is tracked in [issue #10](https://github.com/yonatan-levin/paraguay-residency-site/issues/10), building on [issue #9](https://github.com/yonatan-levin/paraguay-residency-site/issues/9); the outstanding mobile performance target is [issue #2](https://github.com/yonatan-levin/paraguay-residency-site/issues/2).
 
 ## Review the journeys
 
@@ -58,7 +58,7 @@ The included CI workflow runs type checking, lint, unit tests, build, and browse
 - Use `/en/find-my-plan` for a needs-based starting point. Results do not require contact details. Family requests receive a quote flag, never an invented household total.
 - Try both conversation and demo-time modes on `/en/book`; change the timezone and use the demo outcome control to exercise failure, unavailable-time, and retry behavior.
 - Open `/en/lp/residency-cost` and `/en/lp/family-relocation` to review campaign entry points. `/en/links` is the compact link hub.
-- Switch among English, Español, Français, Deutsch and עברית on any public page. All public pages, forms, receipts, policies, metadata and artwork are translated. Hebrew at `/he` uses right to left layouts, including server rendering without JavaScript. Language changes retain valid service/package context, family quotes, contact drafts and selected appointment times in memory.
+- Switch among English, Español, Français, Deutsch, עברית and Русский on any public page. All public pages, forms, receipts, policies, metadata and artwork are translated. Hebrew at `/he` uses right to left layouts, including server rendering without JavaScript. Language changes retain valid service/package context, family quotes, contact drafts and selected appointment times in memory.
 - Open confirmation directly or refresh a completed receipt: it recovers honestly because no receipt is persisted.
 
 ## Architecture and editing
@@ -69,7 +69,7 @@ Next.js App Router server-renders marketing content; small client components han
 |---|---|
 | `src/content/catalog.ts` | Stable service/package IDs and all integer-minor-unit USD fixtures |
 | `src/content/` | Localized UI, unique service descriptions, and the preparation guide |
-| `src/content/translations/`, `src/lib/i18n/` | Complete Spanish, French, German and Hebrew dictionaries; explicit errors for missing copy; server only editorial text |
+| `src/content/translations/`, `src/lib/i18n/` | Complete Spanish, French, German, Hebrew and Russian dictionaries; explicit errors for missing copy; server only editorial text |
 | `src/config/` | Replaceable brand, routes, locale availability, and runtime safeguards |
 | `src/domain/` | Price formatting, routing, finder transitions, attribution, and time rules |
 | `src/application/` | Validated submissions and payload-bound idempotency |

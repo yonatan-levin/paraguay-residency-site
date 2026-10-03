@@ -7,9 +7,10 @@ const names = {
   es: "Español",
   fr: "Français",
   de: "Deutsch",
+  ru: "Русский",
   he: "עברית",
 } as const;
-const dictionary = (locale: "es" | "fr" | "de" | "he") =>
+const dictionary = (locale: "es" | "fr" | "de" | "he" | "ru") =>
   JSON.parse(
     readFileSync(
       new URL(
@@ -29,7 +30,7 @@ async function changeLanguage(page: Page, locale: keyof typeof names) {
   );
 }
 
-for (const locale of ["fr", "de", "he"] as const) {
+for (const locale of ["fr", "de", "he", "ru"] as const) {
   test(`${locale} translated form and policy have no automated accessibility violations`, async ({
     page,
   }) => {
@@ -53,6 +54,12 @@ for (const locale of ["fr", "de", "he"] as const) {
     await expect(page.locator("#email-error")).toHaveText(
       copy["Enter a valid email address."],
     );
+    if (locale === "ru") {
+      const errors = await new AxeBuilder({ page })
+        .withTags(["wcag2a", "wcag2aa", "wcag21aa"])
+        .analyze();
+      expect(errors.violations).toEqual([]);
+    }
     await page.locator("#firstName").fill("Preview");
     await page.locator("#email").fill("preview@example.test");
     await page
@@ -74,7 +81,15 @@ for (const locale of ["fr", "de", "he"] as const) {
       copy.Guided,
     );
     await expect(page.getByTestId("selected-package")).toContainText(
-      locale === "de" ? "2.850" : locale === "he" ? "2,850" : "2\u202f850",
+      new Intl.NumberFormat(
+        { fr: "fr-FR", de: "de-DE", he: "he-IL", ru: "ru-RU" }[locale],
+        {
+          style: "currency",
+          currency: "USD",
+          minimumFractionDigits: 0,
+          maximumFractionDigits: 2,
+        },
+      ).format(2850),
     );
     await changeLanguage(page, locale === "fr" ? "de" : "fr");
     await expect(page.getByTestId("selected-package")).toBeVisible();
@@ -84,7 +99,7 @@ for (const locale of ["fr", "de", "he"] as const) {
   });
 }
 
-test("all five language journeys preserve family finder context and private draft in memory", async ({
+test("all six language journeys preserve family finder context and private draft in memory", async ({
   page,
 }) => {
   await page.goto("/en/find-my-plan");
@@ -105,7 +120,7 @@ test("all five language journeys preserve family finder context and private draf
   await page.locator("#firstName").fill("Private Test");
   await page.locator("#email").fill("private@example.test");
   await page.locator("#notes").fill("Private note");
-  for (const locale of ["fr", "he", "de", "es"] as const) {
+  for (const locale of ["fr", "he", "ru", "he", "de", "es"] as const) {
     await changeLanguage(page, locale);
     const copy = dictionary(locale);
     expect(new URL(page.url()).searchParams.get("plan")).toBe(
@@ -138,7 +153,7 @@ test("language disclosure has native links, current language and keyboard recove
   const trigger = page.locator(".language-switcher summary");
   await trigger.focus();
   await page.keyboard.press("Enter");
-  for (const locale of ["en", "es", "fr", "de", "he"] as const) {
+  for (const locale of ["en", "es", "fr", "de", "he", "ru"] as const) {
     const link = page.getByRole("link", { name: names[locale], exact: true });
     await expect(link).toHaveAttribute(
       "href",
@@ -164,7 +179,7 @@ test("all languages and translated editorial pages remain navigable without Java
   await expect(page.getByRole("heading", { level: 1 })).toContainText(
     "Apoyo práctico",
   );
-  for (const locale of ["fr", "he", "de", "en", "es"] as const) {
+  for (const locale of ["fr", "he", "ru", "de", "en", "es"] as const) {
     await changeLanguage(page, locale);
     await expect(page).toHaveURL(new RegExp(`/${locale}/services`));
     await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
@@ -173,6 +188,48 @@ test("all languages and translated editorial pages remain navigable without Java
 });
 
 for (const width of [320, 390, 768, 1440]) {
+  test(`Russian pages, validation and language selector fit ${width}px`, async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width, height: 900 });
+    for (const route of [
+      "",
+      "why-paraguay",
+      "pricing",
+      "find-my-plan",
+      "book",
+      "thank-you",
+      "company-formation/us",
+      "guides/residency-requirements",
+      "privacy",
+      "lp/family-relocation",
+    ]) {
+      await page.goto(`/ru${route ? `/${route}` : ""}`);
+      if (route === "book") {
+        await page.getByTestId("submit-request").click();
+        await expect(page.locator("#firstName-error")).toBeVisible();
+        await expect(page.locator("#firstName")).toHaveAttribute(
+          "aria-describedby",
+          "firstName-error",
+        );
+      }
+      await page.locator(".language-switcher summary").click();
+      await expect(
+        page.getByRole("link", { name: names.ru, exact: true }),
+      ).toHaveAttribute("aria-current", "page");
+      await expect(
+        page.getByRole("link", { name: names.he, exact: true }),
+      ).toBeInViewport();
+      expect
+        .soft(
+          await page.evaluate(
+            () => document.documentElement.scrollWidth <= innerWidth,
+          ),
+          route,
+        )
+        .toBe(true);
+    }
+  });
   test(`German translated pages and language selector fit ${width}px`, async ({
     page,
   }) => {

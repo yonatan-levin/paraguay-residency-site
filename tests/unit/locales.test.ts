@@ -15,9 +15,14 @@ import {
   formatSlot,
 } from "../../src/infrastructure/mock/gateways";
 import type { Locale, SubmissionPayload } from "../../src/domain/types";
+import {
+  localeDirections,
+  localeFormats,
+  localeNames,
+} from "../../src/config/locales";
 
 // Independent acceptance list: adding a locale to the registry alone is not proof.
-const requestedLocales = ["en", "es", "fr", "de", "he"] as const;
+const requestedLocales = ["en", "es", "fr", "de", "he", "ru"] as const;
 const clock = () => new Date("2026-09-24T12:00:00Z");
 const request = (locale: string): SubmissionPayload => ({
   mode: "conversation",
@@ -36,6 +41,26 @@ const request = (locale: string): SubmissionPayload => ({
 });
 
 describe("complete public language journeys", () => {
+  it("registers native Russian presentation without changing Hebrew direction", () => {
+    expect(localeNames.ru).toBe("Русский");
+    expect(localeFormats.ru).toBe("ru-RU");
+    expect(localeDirections.ru).toBe("ltr");
+    expect(localeDirections.he).toBe("rtl");
+    expect(getPage("internal/rtl", "ru")).toBeUndefined();
+  });
+  it("formats the same appointment instant in Russian without changing its time zone", () => {
+    const instant = "2026-09-25T15:00:00Z";
+    for (const timeZone of ["UTC", "Asia/Jerusalem"]) {
+      expect(formatSlot(instant, timeZone, "ru")).toBe(
+        new Intl.DateTimeFormat("ru-RU", {
+          dateStyle: "medium",
+          timeStyle: "short",
+          timeZone,
+          hour12: false,
+        }).format(new Date(instant)),
+      );
+    }
+  });
   it.each(requestedLocales)(
     "publishes every public route in %s with reciprocal metadata",
     (language) => {
@@ -57,9 +82,14 @@ describe("complete public language journeys", () => {
           expect(meta.alternates?.languages).toHaveProperty(counterpart);
         expect(meta.openGraph).toHaveProperty(
           "locale",
-          { en: "en_US", es: "es_PY", fr: "fr_FR", de: "de_DE", he: "he_IL" }[
-            language
-          ],
+          {
+            en: "en_US",
+            es: "es_PY",
+            fr: "fr_FR",
+            de: "de_DE",
+            he: "he_IL",
+            ru: "ru_RU",
+          }[language],
         );
       }
     },
@@ -107,7 +137,7 @@ describe("complete public language journeys", () => {
       ),
     ).not.toHaveProperty("locale");
   });
-  it.each(["es", "fr", "de", "he"] as const)(
+  it.each(["es", "fr", "de", "he", "ru"] as const)(
     "localizes %s USD prices, time and selected package message",
     (language) => {
       const locale = language as Locale;
@@ -115,7 +145,9 @@ describe("complete public language journeys", () => {
       expect(plan.name[locale]).toBeTruthy();
       expect(plan.name[locale]).not.toBe(plan.name.en);
       const expected = new Intl.NumberFormat(
-        { es: "es-PY", fr: "fr-FR", de: "de-DE", he: "he-IL" }[language],
+        { es: "es-PY", fr: "fr-FR", de: "de-DE", he: "he-IL", ru: "ru-RU" }[
+          language
+        ],
         {
           style: "currency",
           currency: "USD",

@@ -4,12 +4,14 @@ import es from "../../content/translations/es-common.json";
 import fr from "../../content/translations/fr-common.json";
 import de from "../../content/translations/de-common.json";
 import he from "../../content/translations/he-common.json";
+import ru from "../../content/translations/ru-common.json";
 
 const dictionaries: Record<Exclude<Locale, "en">, Record<string, string>> = {
   es,
   fr,
   de,
   he,
+  ru,
 };
 export type TranslationValues = Record<string, string | number>;
 

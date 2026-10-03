@@ -1,4 +1,4 @@
-export type Locale = "en" | "es" | "fr" | "de" | "he";
+export type Locale = "en" | "es" | "fr" | "de" | "he" | "ru";
 export type Localized<T> = Record<Locale, T>;
 export type InclusionState = "included" | "excluded" | "optional" | "unknown";
 export type PriceBasis = "per-applicant" | "per-engagement" | "monthly";

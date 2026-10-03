@@ -6,6 +6,7 @@ const finderLabels = {
   es: "Encontrar mi plan",
   fr: "Trouver ma formule",
   de: "Mein Paket finden",
+  ru: "Подобрать план",
   he: "מציאת החבילה שלי",
 };
 

@@ -235,7 +235,7 @@ export const pages: PageDefinition[] = routeSeeds.map(
     template,
     title:
       template === "fixture"
-        ? { en: title, es: title, fr: title, de: title, he: title }
+        ? { en: title, es: title, fr: title, de: title, he: title, ru: title }
         : localized(title),
     description:
       template === "fixture"
@@ -245,6 +245,7 @@ export const pages: PageDefinition[] = routeSeeds.map(
             fr: description,
             de: description,
             he: description,
+            ru: description,
           }
         : localized(description),
     indexable: !noindexTemplates.has(template),

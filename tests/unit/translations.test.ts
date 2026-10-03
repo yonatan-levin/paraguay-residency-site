@@ -8,13 +8,23 @@ const placeholders = (value: string) =>
 
 describe("translation contract", () => {
   it("recognizes all requested languages and rejects arbitrary locale values", () => {
-    expect(supportedLocales).toEqual(["en", "es", "fr", "de", "he"]);
-    for (const value of [undefined, null, "FR", "xx", "en-US", "../en"])
+    expect(supportedLocales).toEqual(["en", "es", "fr", "de", "he", "ru"]);
+    expect(isLocale("ru")).toBe(true);
+    for (const value of [
+      undefined,
+      null,
+      "FR",
+      "RU",
+      "xx",
+      "en-US",
+      "ru-RU",
+      "../ru",
+    ])
       expect(isLocale(value)).toBe(false);
   });
   for (const group of ["common", "editorial"]) {
     it(`${group} dictionaries have identical complete keys, matching parameters and no dash punctuation`, () => {
-      const dictionaries = ["es", "fr", "de", "he"].map(
+      const dictionaries = ["es", "fr", "de", "he", "ru"].map(
         (locale) =>
           JSON.parse(
             readFileSync(
@@ -40,6 +50,12 @@ describe("translation contract", () => {
     });
   }
   it("fails visibly on missing messages or parameters, rather than displaying English fallback", () => {
+    expect(() => translate("ru", "Deliberately absent translation")).toThrow(
+      /Missing ru translation/,
+    );
+    expect(() => translate("ru", "Step {step} of {total}")).toThrow(
+      /Missing translation value/,
+    );
     expect(() => translate("fr", "Deliberately absent translation")).toThrow(
       /Missing fr translation/,
     );

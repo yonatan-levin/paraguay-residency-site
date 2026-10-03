@@ -39,6 +39,12 @@ const taxClaimIds = Object.keys(
   taxClaimPages,
 ) as (keyof typeof taxClaimPages)[];
 describe("claim approval boundaries", () => {
+  it("keeps Russian legal and tax copy unapproved for business publication", () => {
+    for (const [key, claimIds] of Object.entries(pageClaimDependencies)) {
+      const errors = validatePageClaims({ key, claimIds }, "ru");
+      expect(errors.join("\n"), key).toContain("ru translation approval");
+    }
+  });
   it("blocks source checked drafts but permits fully reviewed test claims", () => {
     expect(validatePageClaims(home, "en")).toContain(
       "legal-base: professional review is pending.",

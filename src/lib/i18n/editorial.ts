@@ -5,12 +5,14 @@ import es from "../../content/translations/es-editorial.json";
 import fr from "../../content/translations/fr-editorial.json";
 import de from "../../content/translations/de-editorial.json";
 import he from "../../content/translations/he-editorial.json";
+import ru from "../../content/translations/ru-editorial.json";
 
 const dictionaries: Record<Exclude<Locale, "en">, Record<string, string>> = {
   es,
   fr,
   de,
   he,
+  ru,
 };
 
 export function editorialText(

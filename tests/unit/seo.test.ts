@@ -220,6 +220,7 @@ describe("single fail-closed indexing gate", () => {
       fr: "https://approved.example/fr/pricing",
       de: "https://approved.example/de/pricing",
       he: "https://approved.example/he/pricing",
+      ru: "https://approved.example/ru/pricing",
       "x-default": "https://approved.example/en/pricing",
     });
     expect(metadata.robots).toMatchObject({ index: true, follow: true });

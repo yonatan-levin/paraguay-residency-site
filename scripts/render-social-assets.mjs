@@ -8,6 +8,27 @@ const height = 630;
 const cards = [
   {
     campaign: "residency-cost",
+    locale: "ru",
+    kicker: "ВНЖ / ПОНЯТНЫЕ ПАКЕТЫ",
+    lines: ["Разберитесь в цене.", "Спланируйте переезд."],
+    foot: "Предварительные предложения • Демо сайта",
+  },
+  {
+    campaign: "family-relocation",
+    locale: "ru",
+    kicker: "СЕМЬЯ / ПРОДУМАННЫЙ ПЕРЕЕЗД",
+    lines: ["Новый этап жизни,", "вместе с семьёй."],
+    foot: "Расчёт для семьи • Демо сайта",
+  },
+  {
+    campaign: "why-paraguay",
+    locale: "ru",
+    kicker: "ВНЖ / ЖИЗНЬ / ПЛАНЫ",
+    lines: ["Стоит ли выбрать", "Парагвай?"],
+    foot: "Изучите возможности и обязательства",
+  },
+  {
+    campaign: "residency-cost",
     locale: "he",
     kicker: "תושבות / חבילות ברורות",
     lines: ["להבין את העלויות.", "לתכנן את הפרק הבא."],
@@ -150,6 +171,15 @@ const sourceHero = await readFile(
   "utf8",
 );
 const artworkCopy = {
+  ru: [
+    "Новые возможности",
+    "для нового этапа.",
+    "Жизнь и ВНЖ в Парагвае.",
+    "Изучите варианты до переезда.",
+    "Демо сайта • Предварительные предложения",
+    "Иллюстрация • Предварительный макет",
+    "ВНЖ, переезд и создание бизнеса",
+  ],
   he: [
     "יותר אפשרויות",
     "לפרק הבא שלכם.",
@@ -195,6 +225,7 @@ const sourceLines = [
   "Website preview · Provisional offers",
 ];
 const artworkDescriptions = {
+  ru: "Авторская иллюстрация солнечного двора, тропической зелени и реки за открытой аркой. Это предварительный макет, а не фотография недвижимости или офиса.",
   he: "איור מקורי של חצר שטופת שמש, צמחייה טרופית ונהר הנשקף מבעד לקשת פתוחה. זו תמונה זמנית להמחשה ולא תצלום של נכס או משרד.",
   es: "Ilustración original de un patio soleado, plantas tropicales y un río visto a través de un arco. Es una imagen provisional, no una fotografía de una propiedad u oficina.",
   fr: "Illustration originale d’une cour ensoleillée, de plantes tropicales et d’une rivière au delà d’une arche. Ce visuel provisoire ne représente pas la photographie d’un bien ou d’un bureau.",

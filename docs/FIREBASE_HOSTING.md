@@ -1,8 +1,8 @@
 # Firebase team demo
 
-The owner authorized a public demo and public source repository. The dedicated Firebase project is `paraguay-residency-site` (project number `236755616004`); it is separate from the existing `este-a-oeste-web` project. The repository is [yonatan-levin/paraguay-residency-site](https://github.com/yonatan-levin/paraguay-residency-site), with implementation reviewed on `prototype/hebrew`.
+The owner authorized a public demo and public source repository. The dedicated Firebase project is `paraguay-residency-site` (project number `236755616004`); it is separate from the existing `este-a-oeste-web` project. The repository is [yonatan-levin/paraguay-residency-site](https://github.com/yonatan-levin/paraguay-residency-site). Firebase deployments upload reviewed local source; GitHub and the deployed revision can differ.
 
-The owner authorized Blaze billing, which is enabled for this project. Backend `paraguay-prototype` serves the [public team preview](https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app) in `us-central1` with runtime `nodejs24`. Firebase returned that origin, configured as `SITE_URL` at build and runtime. Deployment does not establish passing hosted checks; the deployed revision and verification status belong in [issue #7](https://github.com/yonatan-levin/paraguay-residency-site/issues/7).
+The owner authorized Blaze billing, which is enabled for this project. Backend `paraguay-prototype` serves the [public team preview](https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app) in `us-central1` with runtime `nodejs24`. Firebase returned that origin, configured as `SITE_URL` at build and runtime. Deployment does not establish passing hosted checks; the Russian release identity and verification status belong in [issue #13](https://github.com/yonatan-levin/paraguay-residency-site/issues/13). Earlier release evidence remains in [issue #7](https://github.com/yonatan-levin/paraguay-residency-site/issues/7).
 
 ## Hosting contract
 
@@ -58,7 +58,7 @@ firebase deploy --only apphosting:paraguay-prototype --project paraguay-residenc
 firebase apphosting:backends:get paraguay-prototype --project paraguay-residency-site
 ```
 
-This uploads the current local source, not whatever happens to be on the default GitHub branch. Wait for the rollout to succeed in the [project's App Hosting console](https://console.firebase.google.com/project/paraguay-residency-site/apphosting). Record the actual rollout ID, source commit and verified URL in issue #7. Do not claim a successful deployment solely from backend creation or a local build.
+This uploads the current local source, not whatever happens to be on the default GitHub branch. Wait for the rollout to succeed in the [project's App Hosting console](https://console.firebase.google.com/project/paraguay-residency-site/apphosting). Record the actual rollout ID, source commit and verified URL in the issue for that release. Do not claim a successful deployment solely from backend creation or a local build.
 
 ## Hosted acceptance checks
 
@@ -71,7 +71,7 @@ npm run test:e2e -- --timeout=120000
 Remove-Item Env:E2E_BASE_URL
 ```
 
-- Open all five home pages and a pricing, booking, campaign and policy route in each language. Verify HTTPS and noindex metadata plus the `X-Robots-Tag` response header. Canonical and language alternate URLs must use the verified Firebase origin.
+- Open all six home pages and a pricing, booking, campaign and policy route in each language. Verify HTTPS and noindex metadata plus the `X-Robots-Tag` response header. Canonical and language alternate URLs must use the verified Firebase origin.
 - Check Hebrew direction on first render and after language switching at mobile and desktop sizes. Confirm package, family quote, contact draft and selected appointment instant survive language changes.
 - Submit test details through mock success, failure and retry paths. Verify the demo labels remain visible, no external provider sends occur, and personal details do not appear in URLs or browser storage.
 - Check a missing route returns 404, `/robots.txt` discourages crawling and `/sitemap.xml` contains no preview pages. Smoke test without JavaScript and test the language menu after hydration.
