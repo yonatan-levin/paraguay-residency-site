@@ -1,0 +1,12 @@
+{
+  "createTime": "2026-10-03T13:24:54.189860701Z",
+  "finishTime": "2026-10-03T13:26:27.412859Z",
+  "id": "329483a8-dbf5-47cd-ae12-830d99f5d089",
+  "source": {
+    "storageSource": {
+      "bucket": "firebaseapphosting-sources-236755616004-us-central1",
+      "object": "paraguay-prototype--36712-hMyT6Vs9MtaY-.zip"
+    }
+  },
+  "status": "SUCCESS"
+}

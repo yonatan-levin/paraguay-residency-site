@@ -1,0 +1,35 @@
+{
+  "dir": "rtl",
+  "lang": "he",
+  "local": 0,
+  "scrollWidth": 390,
+  "session": 0,
+  "url": "https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app/he/book?service=temporary-residency&plan=temporary-guided&campaign=residency-cost",
+  "values": [
+    {
+      "type": "radio",
+      "value": "conversation"
+    },
+    {
+      "type": "radio",
+      "value": "appointment"
+    },
+    {
+      "type": "text",
+      "value": "Russian Preview"
+    },
+    {
+      "type": "email",
+      "value": "preview@example.test"
+    },
+    {
+      "type": "textarea",
+      "value": "Hosted language check"
+    },
+    {
+      "type": "checkbox",
+      "value": "on"
+    }
+  ],
+  "width": 390
+}

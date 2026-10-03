@@ -1,0 +1,44 @@
+
+> paraguay-residency-site@0.1.0 test
+> vitest run tests/unit/translations.test.ts -t recognizes all requested languages
+
+
+ RUN  v5.0.1 C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site
+
+ ❯ tests/unit/translations.test.ts (4 tests | 1 failed | 3 skipped) 8ms
+   ❯ translation contract (4)
+     × recognizes all requested languages and rejects arbitrary locale values 7ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/translations.test.ts > translation contract > recognizes all requested languages and rejects arbitrary locale values
+AssertionError: expected [ 'en', 'es', 'fr', 'de', 'he' ] to deeply equal [ 'en', 'es', 'fr', 'de', 'he', 'ru' ]
+
+- Expected
++ Received
+
+@@ -2,7 +2,6 @@
+    "en",
+    "es",
+    "fr",
+    "de",
+    "he",
+-   "ru",
+  ]
+
+ ❯ tests/unit/translations.test.ts:11:30
+      9| describe("translation contract", () => {
+     10|   it("recognizes all requested languages and rejects arbitrary locale …
+     11|     expect(supportedLocales).toEqual(["en", "es", "fr", "de", "he", "r…
+       |                              ^
+     12|     expect(isLocale("ru")).toBe(true);
+     13|     for (const value of [undefined, null, "FR", "RU", "xx", "en-US", "…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 3 skipped (4)
+   Start at  09:35:30
+   Duration  574ms (transform 50%, import 39%, worker 6%, tests 4%)
+

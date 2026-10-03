@@ -1,0 +1,25 @@
+{
+  "name": "projects/paraguay-residency-site/locations/us-central1/backends/paraguay-prototype",
+  "createTime": "2026-09-25T20:58:52.841758405Z",
+  "updateTime": "2026-10-03T13:27:07.865726Z",
+  "labels": {
+    "deployment-tool": "cli-firebase"
+  },
+  "uri": "paraguay-prototype--paraguay-residency-site.us-central1.hosted.app",
+  "managedResources": [
+    {
+      "runService": {
+        "service": "projects/236755616004/locations/us-central1/services/paraguay-prototype"
+      }
+    }
+  ],
+  "uid": "d801011b-7b9c-4bbf-9eb0-0b8a68bee984",
+  "etag": "KcXg38iZIJfhEfaqH-ks2Y4_NuTb5ln_F1ymHGzWxu0",
+  "reconciling": false,
+  "servingLocality": "GLOBAL_ACCESS",
+  "serviceAccount": "firebase-app-hosting-compute@paraguay-residency-site.iam.gserviceaccount.com",
+  "appId": "1:236755616004:web:2252cde43881ee68111051",
+  "runtime": {
+    "value": "nodejs24"
+  }
+}

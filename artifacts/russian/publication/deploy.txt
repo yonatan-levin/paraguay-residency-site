@@ -1,0 +1,19 @@
+
+=== Deploying to 'paraguay-residency-site'...
+
+i  deploying apphosting
+i  apphosting: Found backend(s) paraguay-prototype
+i  apphosting: Zipped source for backend paraguay-prototype
+i  apphosting: Uploading source for backend paraguay-prototype...
+i  apphosting: Uploaded at gs://firebaseapphosting-sources-236755616004-us-central1/paraguay-prototype--36712-hMyT6Vs9MtaY-.zip
+i  apphosting: You may also track the rollout(s) at:
+	https://console.firebase.google.com/project/paraguay-residency-site/apphosting
+- Starting rollout(s) for backend(s) paraguay-prototype; this may take a few minutes. It's safe to exit now.
+
++  apphosting: Rollout for backend paraguay-prototype complete!
++  apphosting: Your backend is now deployed at:
+	https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/paraguay-residency-site/overview

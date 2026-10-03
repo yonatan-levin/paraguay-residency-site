@@ -1,0 +1,245 @@
+
+> paraguay-residency-site@0.1.0 check:launch
+> node scripts/check-launch.mjs
+
+Public launch is blocked. This application is a local demo.
+- SITE_MODE is demo; this build cannot send messages or book appointments.
+- Set and approve an HTTPS production origin.
+- Approve the brand and domain.
+- Approve the legal operator.
+- Approve contact details and lead ownership.
+- Approve prices, delivery scope, external costs, and cancellation terms.
+- Obtain qualified review of regulated service content.
+- Approve privacy, retention, and processing arrangements.
+- Approve and test provider configuration before enabling integrations.
+- Approve complete translations for published locales.
+- legal-base: professional review is pending.
+- legal-base: author is missing.
+- legal-base: professional reviewer is missing.
+- legal-base: professional review date is missing or invalid.
+- legal-base: en translation approval is pending.
+- legal-base: en translation reviewer is missing.
+- legal-base: en translation approval date is missing or invalid.
+- longer-term: professional review is pending.
+- longer-term: author is missing.
+- longer-term: professional reviewer is missing.
+- longer-term: professional review date is missing or invalid.
+- longer-term: en translation approval is pending.
+- longer-term: en translation reviewer is missing.
+- longer-term: en translation approval date is missing or invalid.
+- income-source: professional review is pending.
+- income-source: author is missing.
+- income-source: professional reviewer is missing.
+- income-source: professional review date is missing or invalid.
+- income-source: en translation approval is pending.
+- income-source: en translation reviewer is missing.
+- income-source: en translation approval date is missing or invalid.
+- foreign-dividends: professional review is pending.
+- foreign-dividends: author is missing.
+- foreign-dividends: professional reviewer is missing.
+- foreign-dividends: professional review date is missing or invalid.
+- foreign-dividends: en translation approval is pending.
+- foreign-dividends: en translation reviewer is missing.
+- foreign-dividends: en translation approval date is missing or invalid.
+- us-llc-income: professional review is pending.
+- us-llc-income: author is missing.
+- us-llc-income: professional reviewer is missing.
+- us-llc-income: professional review date is missing or invalid.
+- us-llc-income: en translation approval is pending.
+- us-llc-income: en translation reviewer is missing.
+- us-llc-income: en translation approval date is missing or invalid.
+- tax-residency-boundary: professional review is pending.
+- tax-residency-boundary: author is missing.
+- tax-residency-boundary: professional reviewer is missing.
+- tax-residency-boundary: professional review date is missing or invalid.
+- tax-residency-boundary: en translation approval is pending.
+- tax-residency-boundary: en translation reviewer is missing.
+- tax-residency-boundary: en translation approval date is missing or invalid.
+- life-planning: editorial review is pending.
+- life-planning: author is missing.
+- life-planning: editorial reviewer is missing.
+- life-planning: editorial review date is missing or invalid.
+- life-planning: operator approval is pending.
+- life-planning: operator approver is missing.
+- life-planning: operator approval date is missing or invalid.
+- life-planning: en translation approval is pending.
+- life-planning: en translation reviewer is missing.
+- life-planning: en translation approval date is missing or invalid.
+- business-planning: editorial review is pending.
+- business-planning: author is missing.
+- business-planning: editorial reviewer is missing.
+- business-planning: editorial review date is missing or invalid.
+- business-planning: operator approval is pending.
+- business-planning: operator approver is missing.
+- business-planning: operator approval date is missing or invalid.
+- business-planning: en translation approval is pending.
+- business-planning: en translation reviewer is missing.
+- business-planning: en translation approval date is missing or invalid.
+- service-delivery: editorial review is pending.
+- service-delivery: author is missing.
+- service-delivery: editorial reviewer is missing.
+- service-delivery: editorial review date is missing or invalid.
+- service-delivery: operator approval is pending.
+- service-delivery: operator approver is missing.
+- service-delivery: operator approval date is missing or invalid.
+- service-delivery: en translation approval is pending.
+- service-delivery: en translation reviewer is missing.
+- service-delivery: en translation approval date is missing or invalid.
+- legal-base: es translation approval is pending.
+- legal-base: es translation reviewer is missing.
+- legal-base: es translation approval date is missing or invalid.
+- longer-term: es translation approval is pending.
+- longer-term: es translation reviewer is missing.
+- longer-term: es translation approval date is missing or invalid.
+- income-source: es translation approval is pending.
+- income-source: es translation reviewer is missing.
+- income-source: es translation approval date is missing or invalid.
+- foreign-dividends: es translation approval is pending.
+- foreign-dividends: es translation reviewer is missing.
+- foreign-dividends: es translation approval date is missing or invalid.
+- us-llc-income: es translation approval is pending.
+- us-llc-income: es translation reviewer is missing.
+- us-llc-income: es translation approval date is missing or invalid.
+- tax-residency-boundary: es translation approval is pending.
+- tax-residency-boundary: es translation reviewer is missing.
+- tax-residency-boundary: es translation approval date is missing or invalid.
+- life-planning: es translation approval is pending.
+- life-planning: es translation reviewer is missing.
+- life-planning: es translation approval date is missing or invalid.
+- business-planning: es translation approval is pending.
+- business-planning: es translation reviewer is missing.
+- business-planning: es translation approval date is missing or invalid.
+- service-delivery: es translation approval is pending.
+- service-delivery: es translation reviewer is missing.
+- service-delivery: es translation approval date is missing or invalid.
+- legal-base: fr translation approval is pending.
+- legal-base: fr translation reviewer is missing.
+- legal-base: fr translation approval date is missing or invalid.
+- longer-term: fr translation approval is pending.
+- longer-term: fr translation reviewer is missing.
+- longer-term: fr translation approval date is missing or invalid.
+- income-source: fr translation approval is pending.
+- income-source: fr translation reviewer is missing.
+- income-source: fr translation approval date is missing or invalid.
+- foreign-dividends: fr translation approval is pending.
+- foreign-dividends: fr translation reviewer is missing.
+- foreign-dividends: fr translation approval date is missing or invalid.
+- us-llc-income: fr translation approval is pending.
+- us-llc-income: fr translation reviewer is missing.
+- us-llc-income: fr translation approval date is missing or invalid.
+- tax-residency-boundary: fr translation approval is pending.
+- tax-residency-boundary: fr translation reviewer is missing.
+- tax-residency-boundary: fr translation approval date is missing or invalid.
+- life-planning: fr translation approval is pending.
+- life-planning: fr translation reviewer is missing.
+- life-planning: fr translation approval date is missing or invalid.
+- business-planning: fr translation approval is pending.
+- business-planning: fr translation reviewer is missing.
+- business-planning: fr translation approval date is missing or invalid.
+- service-delivery: fr translation approval is pending.
+- service-delivery: fr translation reviewer is missing.
+- service-delivery: fr translation approval date is missing or invalid.
+- legal-base: de translation approval is pending.
+- legal-base: de translation reviewer is missing.
+- legal-base: de translation approval date is missing or invalid.
+- longer-term: de translation approval is pending.
+- longer-term: de translation reviewer is missing.
+- longer-term: de translation approval date is missing or invalid.
+- income-source: de translation approval is pending.
+- income-source: de translation reviewer is missing.
+- income-source: de translation approval date is missing or invalid.
+- foreign-dividends: de translation approval is pending.
+- foreign-dividends: de translation reviewer is missing.
+- foreign-dividends: de translation approval date is missing or invalid.
+- us-llc-income: de translation approval is pending.
+- us-llc-income: de translation reviewer is missing.
+- us-llc-income: de translation approval date is missing or invalid.
+- tax-residency-boundary: de translation approval is pending.
+- tax-residency-boundary: de translation reviewer is missing.
+- tax-residency-boundary: de translation approval date is missing or invalid.
+- life-planning: de translation approval is pending.
+- life-planning: de translation reviewer is missing.
+- life-planning: de translation approval date is missing or invalid.
+- business-planning: de translation approval is pending.
+- business-planning: de translation reviewer is missing.
+- business-planning: de translation approval date is missing or invalid.
+- service-delivery: de translation approval is pending.
+- service-delivery: de translation reviewer is missing.
+- service-delivery: de translation approval date is missing or invalid.
+- legal-base: he translation approval is pending.
+- legal-base: he translation reviewer is missing.
+- legal-base: he translation approval date is missing or invalid.
+- longer-term: he translation approval is pending.
+- longer-term: he translation reviewer is missing.
+- longer-term: he translation approval date is missing or invalid.
+- income-source: he translation approval is pending.
+- income-source: he translation reviewer is missing.
+- income-source: he translation approval date is missing or invalid.
+- foreign-dividends: he translation approval is pending.
+- foreign-dividends: he translation reviewer is missing.
+- foreign-dividends: he translation approval date is missing or invalid.
+- us-llc-income: he translation approval is pending.
+- us-llc-income: he translation reviewer is missing.
+- us-llc-income: he translation approval date is missing or invalid.
+- tax-residency-boundary: he translation approval is pending.
+- tax-residency-boundary: he translation reviewer is missing.
+- tax-residency-boundary: he translation approval date is missing or invalid.
+- life-planning: he translation approval is pending.
+- life-planning: he translation reviewer is missing.
+- life-planning: he translation approval date is missing or invalid.
+- business-planning: he translation approval is pending.
+- business-planning: he translation reviewer is missing.
+- business-planning: he translation approval date is missing or invalid.
+- service-delivery: he translation approval is pending.
+- service-delivery: he translation reviewer is missing.
+- service-delivery: he translation approval date is missing or invalid.
+- legal-base: ru translation approval is pending.
+- legal-base: ru translation reviewer is missing.
+- legal-base: ru translation approval date is missing or invalid.
+- longer-term: ru translation approval is pending.
+- longer-term: ru translation reviewer is missing.
+- longer-term: ru translation approval date is missing or invalid.
+- income-source: ru translation approval is pending.
+- income-source: ru translation reviewer is missing.
+- income-source: ru translation approval date is missing or invalid.
+- foreign-dividends: ru translation approval is pending.
+- foreign-dividends: ru translation reviewer is missing.
+- foreign-dividends: ru translation approval date is missing or invalid.
+- us-llc-income: ru translation approval is pending.
+- us-llc-income: ru translation reviewer is missing.
+- us-llc-income: ru translation approval date is missing or invalid.
+- tax-residency-boundary: ru translation approval is pending.
+- tax-residency-boundary: ru translation reviewer is missing.
+- tax-residency-boundary: ru translation approval date is missing or invalid.
+- life-planning: ru translation approval is pending.
+- life-planning: ru translation reviewer is missing.
+- life-planning: ru translation approval date is missing or invalid.
+- business-planning: ru translation approval is pending.
+- business-planning: ru translation reviewer is missing.
+- business-planning: ru translation approval date is missing or invalid.
+- service-delivery: ru translation approval is pending.
+- service-delivery: ru translation reviewer is missing.
+- service-delivery: ru translation approval date is missing or invalid.
+- paraguay-company-tax: professional review is pending.
+- paraguay-company-tax: author is missing.
+- paraguay-company-tax: professional reviewer is missing.
+- paraguay-company-tax: professional review date is missing or invalid.
+- paraguay-company-tax: en translation approval is pending.
+- paraguay-company-tax: en translation reviewer is missing.
+- paraguay-company-tax: en translation approval date is missing or invalid.
+- paraguay-company-tax: es translation approval is pending.
+- paraguay-company-tax: es translation reviewer is missing.
+- paraguay-company-tax: es translation approval date is missing or invalid.
+- paraguay-company-tax: fr translation approval is pending.
+- paraguay-company-tax: fr translation reviewer is missing.
+- paraguay-company-tax: fr translation approval date is missing or invalid.
+- paraguay-company-tax: de translation approval is pending.
+- paraguay-company-tax: de translation reviewer is missing.
+- paraguay-company-tax: de translation approval date is missing or invalid.
+- paraguay-company-tax: he translation approval is pending.
+- paraguay-company-tax: he translation reviewer is missing.
+- paraguay-company-tax: he translation approval date is missing or invalid.
+- paraguay-company-tax: ru translation approval is pending.
+- paraguay-company-tax: ru translation reviewer is missing.
+- paraguay-company-tax: ru translation approval date is missing or invalid.
+Live gateways, server validation, retention controls and explicit deployment approval are also required.
