@@ -20,8 +20,8 @@ test("Paraguay homepage shows a real skyline and flag colored actions", async ({
       ),
     )
     .toBe(true);
-  await expect(hero).toContainText("AI");
-  await expect(hero.locator('a[href*="commons.wikimedia.org"]')).toBeVisible();
+  await expect(hero.locator("figcaption")).toHaveCount(0);
+  await expect(hero.locator('a[href*="commons.wikimedia.org"]')).toHaveCount(0);
   const primary = hero.getByRole("link", { name: "Find my plan", exact: true });
   const color = await primary.evaluate(
     (element) => getComputedStyle(element).backgroundColor,
@@ -31,6 +31,21 @@ test("Paraguay homepage shows a real skyline and flag colored actions", async ({
   expect(red).toBeGreaterThan(blue);
   await expect(hero.locator(whatsapp)).toBeVisible();
   await expect(hero.locator(calendar)).toBeVisible();
+  const mobileMenu = page.getByLabel("Open navigation", { exact: true });
+  if (await mobileMenu.isVisible()) await mobileMenu.click();
+  await page.locator('header a[href^="/en/about"]:visible').click();
+  await expect(page).toHaveURL(/\/en\/about/);
+  const credit = page.getByRole("complementary", { name: "Photo credits" });
+  await expect(credit).toBeVisible();
+  await expect(
+    credit.getByRole("link", { name: "Photo by Cmasi · AI edited" }),
+  ).toHaveAttribute(
+    "href",
+    "https://commons.wikimedia.org/wiki/File:Costanera_aerial.jpg",
+  );
+  await expect(
+    credit.getByRole("link", { name: "CC BY SA 4.0" }),
+  ).toHaveAttribute("href", "https://creativecommons.org/licenses/by-sa/4.0/");
 });
 
 for (const locale of supportedLocales) {

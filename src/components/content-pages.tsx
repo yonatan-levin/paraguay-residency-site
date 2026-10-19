@@ -562,6 +562,28 @@ export function AboutPage({ locale }: { locale: Locale }) {
         <JourneyLink locale={locale} route="contact" className="button">
           {editorialText(locale, "Explore the contact options")}
         </JourneyLink>
+        <aside className="photo-credit" aria-labelledby="photo-credit-title">
+          <h2 id="photo-credit-title">{text(locale, "Photo credits")}</h2>
+          <p>
+            <strong>{text(locale, "Asunción, Paraguay")}</strong>
+            {" · "}
+            <a
+              href="https://commons.wikimedia.org/wiki/File:Costanera_aerial.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {text(locale, "Photo by Cmasi · AI edited")}
+            </a>
+            {" · "}
+            <a
+              href="https://creativecommons.org/licenses/by-sa/4.0/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CC BY SA 4.0
+            </a>
+          </p>
+        </aside>
       </Section>
     </>
   );
