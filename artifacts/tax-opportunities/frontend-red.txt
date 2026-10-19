@@ -1,0 +1,35 @@
+
+Running 1 test using 1 worker
+
+(node:14924) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 [chromium] › tests\e2e\tax-opportunities.spec.ts:4:1 › tax opportunities explain both structures with visible conditions (5.3s)
+
+
+  1) [chromium] › tests\e2e\tax-opportunities.spec.ts:4:1 › tax opportunities explain both structures with visible conditions 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('#financial-planning').getByRole('heading', { name: 'Keep more of your international income, when the facts fit.' })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('#financial-planning').getByRole('heading', { name: 'Keep more of your international income, when the facts fit.' }) with timeout 5000ms
+      - waiting for locator('#financial-planning').getByRole('heading', { name: 'Keep more of your international income, when the facts fit.' })
+
+
+      11 |       name: "Keep more of your international income, when the facts fit.",
+      12 |     }),
+    > 13 |   ).toBeVisible();
+         |     ^
+      14 |   const dividend = financial.locator('[data-tax-case="foreign-dividends"]');
+      15 |   await expect(dividend).toContainText(
+      16 |     "Potential 0% Paraguayan personal income tax on qualifying foreign dividends",
+        at C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\tests\e2e\tax-opportunities.spec.ts:13:5
+
+    Error Context: test-results\tax-opportunities-tax-oppo-b8c6b-res-with-visible-conditions-chromium\error-context.md
+
+  1 failed
+    [chromium] › tests\e2e\tax-opportunities.spec.ts:4:1 › tax opportunities explain both structures with visible conditions 

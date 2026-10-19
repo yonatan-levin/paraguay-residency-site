@@ -1,0 +1,145 @@
+- link "Skip to content" [ref=e1]
+- StaticText "Website preview. Offers are provisional and no real booking or message will be sent."
+- banner
+  - link "Paraguay Residency Studio" [ref=e2]
+    - StaticText "Paraguay"
+    - StaticText "Residency Studio"
+  - group
+    - DisclosureTriangle "Select language: EN" [expanded=false]
+      - StaticText "EN"
+      - StaticText "⌄"
+- main
+  - generic
+    - paragraph
+      - StaticText "A considered move, together"
+    - heading "Plan your family's move to Paraguay with clarity." [level=1, ref=e6]
+    - paragraph
+      - StaticText "Bring document preparation, required visits and questions about settling in into one coordinated discussion. Each family member’s needs deserve their own review."
+    - link "Plan our move" [ref=e7]
+    - paragraph
+      - StaticText "Family quote only. No invented household total."
+    - figure
+      - image "Editorial illustration of a peaceful shaded terrace"
+      - Figcaption
+        - StaticText "Editorial placeholder"
+  - heading "Make room for everyone’s questions." [level=2, ref=e8]
+  - paragraph
+    - StaticText "A shared move does not mean identical documents, priorities or obligations. Confirm each person’s needs, then coordinate the practical work that can be shared."
+  - strong
+    - StaticText "Document planning for each applicant"
+  - paragraph
+    - StaticText "Confirm the scope, responsibility and costs before proceeding."
+  - strong
+    - StaticText "Travel and arrival coordination"
+  - paragraph
+    - StaticText "Confirm the scope, responsibility and costs before proceeding."
+  - strong
+    - StaticText "Schooling, housing and questions about settling in"
+  - paragraph
+    - StaticText "Confirm the scope, responsibility and costs before proceeding."
+  - heading "Explore the support options." [level=2, ref=e9]
+  - paragraph
+    - StaticText "Individual benchmark fees below are not family quotes. Shared costs and individual needs must be reviewed."
+  - article
+    - heading "Essential" [level=3, ref=e23]
+    - paragraph
+      - StaticText "For independent planners who want a clear starting point."
+    - StaticText "$2,200"
+    - paragraph
+      - StaticText "per applicant"
+    - paragraph
+      - StaticText "Illustrative USD price. Subject to confirmation"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Guidance on document organization"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Preparation checklist"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Questions before local steps"
+    - link "Discuss this plan" [ref=e24]
+  - article
+    - paragraph
+      - StaticText "More personal support"
+    - heading "Guided" [level=3, ref=e25]
+    - paragraph
+      - StaticText "For people who value help connecting each step."
+    - StaticText "$2,850"
+    - paragraph
+      - StaticText "per applicant"
+    - paragraph
+      - StaticText "Illustrative USD price. Subject to confirmation"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Support with document organization"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Appointment coordination"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Guidance through local steps"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Aftercare scope agreed in advance"
+    - link "Discuss this plan" [ref=e26]
+  - article
+    - heading "Concierge" [level=3, ref=e27]
+    - paragraph
+      - StaticText "For people seeking closer logistical coordination."
+    - StaticText "$4,500"
+    - paragraph
+      - StaticText "per applicant"
+    - paragraph
+      - StaticText "Illustrative USD price. Subject to confirmation"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Dedicated coordination plan"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Local logistical assistance"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "More personal communication"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Personalized aftercare scope"
+    - link "Discuss this plan" [ref=e28]
+  - heading "Questions worth asking first." [level=2, ref=e10]
+  - group
+    - DisclosureTriangle "Will I need to travel to Paraguay?" [expanded=false]
+  - group
+    - DisclosureTriangle "How are couples and families priced?" [expanded=false]
+  - group
+    - DisclosureTriangle "Can you guarantee approval or a completion date?" [expanded=false]
+  - paragraph
+    - StaticText "Information is provisional and must be checked for your circumstances."
+  - heading "Leave with a clearer starting point." [level=2, ref=e11]
+  - link "Plan our move" [ref=e12]
+- contentinfo
+  - StaticText "Paraguay"
+  - StaticText "Residency Studio"
+  - paragraph
+    - StaticText "Your Paraguay residency, clearly planned and personally supported."
+  - paragraph
+    - StaticText "Working brand. Legal operator and business contacts pending owner approval."
+  - navigation "Explore" [ref=e3]
+    - heading "Your next step" [level=2, ref=e13]
+    - link "Compare packages" [ref=e14]
+    - link "Book a consultation" [ref=e15]
+    - link "Contact" [ref=e16]
+    - link "All services" [ref=e17]
+  - navigation "Resources and policies" [ref=e4]
+    - heading "Useful information" [level=2, ref=e18]
+    - link "Preparation guide" [ref=e19]
+    - link "Privacy draft" [ref=e20]
+    - link "Terms draft" [ref=e21]
+    - link "Disclaimer draft" [ref=e22]
+  - StaticText "A considered move begins with clear information."
+  - StaticText "Demo website · USD · No live services"
+- complementary "Next step"
+  - link "Find my plan" [ref=e5]
+- alert

@@ -1,0 +1,101 @@
+[
+  {
+    "route": "/he",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "lcp": 3313.1234080557097,
+    "cls": 0,
+    "tbt": 29,
+    "failed": [
+      "first-contentful-paint",
+      "largest-contentful-paint",
+      "max-potential-fid",
+      "interactive",
+      "unused-css-rules",
+      "unused-javascript",
+      "is-crawlable",
+      "bf-cache",
+      "forced-reflow-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "route": "/he/pricing",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "scores": {
+      "performance": 85,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "lcp": 4361.825022033504,
+    "cls": 0,
+    "tbt": 44,
+    "failed": [
+      "largest-contentful-paint",
+      "max-potential-fid",
+      "interactive",
+      "unused-css-rules",
+      "unused-javascript",
+      "is-crawlable",
+      "bf-cache",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  {
+    "route": "/he/lp/residency-cost",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "scores": {
+      "performance": 85,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "lcp": 4358.6168,
+    "cls": 0,
+    "tbt": 11,
+    "failed": [
+      "largest-contentful-paint",
+      "max-potential-fid",
+      "interactive",
+      "unused-css-rules",
+      "unused-javascript",
+      "is-crawlable",
+      "bf-cache",
+      "forced-reflow-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  }
+]

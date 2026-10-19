@@ -1,0 +1,586 @@
+[
+  {
+    "route": "/en",
+    "matches": []
+  },
+  {
+    "route": "/en/paraguay-residency",
+    "matches": []
+  },
+  {
+    "route": "/en/pricing",
+    "matches": []
+  },
+  {
+    "route": "/en/find-my-plan",
+    "matches": []
+  },
+  {
+    "route": "/en/book",
+    "matches": []
+  },
+  {
+    "route": "/en/thank-you",
+    "matches": []
+  },
+  {
+    "route": "/en/services",
+    "matches": []
+  },
+  {
+    "route": "/en/permanent-residency",
+    "matches": []
+  },
+  {
+    "route": "/en/investor-residency",
+    "matches": []
+  },
+  {
+    "route": "/en/relocation",
+    "matches": []
+  },
+  {
+    "route": "/en/tax-planning",
+    "matches": []
+  },
+  {
+    "route": "/en/company-formation/paraguay",
+    "matches": []
+  },
+  {
+    "route": "/en/company-formation/us",
+    "matches": []
+  },
+  {
+    "route": "/en/accounting",
+    "matches": []
+  },
+  {
+    "route": "/en/banking",
+    "matches": []
+  },
+  {
+    "route": "/en/real-estate",
+    "matches": []
+  },
+  {
+    "route": "/en/driving-license",
+    "matches": []
+  },
+  {
+    "route": "/en/retire-in-paraguay",
+    "matches": []
+  },
+  {
+    "route": "/en/citizenship-guidance",
+    "matches": []
+  },
+  {
+    "route": "/en/guides",
+    "matches": []
+  },
+  {
+    "route": "/en/guides/residency-requirements",
+    "matches": []
+  },
+  {
+    "route": "/en/about",
+    "matches": []
+  },
+  {
+    "route": "/en/contact",
+    "matches": []
+  },
+  {
+    "route": "/en/lp/residency-cost",
+    "matches": []
+  },
+  {
+    "route": "/en/lp/family-relocation",
+    "matches": []
+  },
+  {
+    "route": "/en/links",
+    "matches": []
+  },
+  {
+    "route": "/en/privacy",
+    "matches": []
+  },
+  {
+    "route": "/en/terms",
+    "matches": []
+  },
+  {
+    "route": "/en/disclaimer",
+    "matches": []
+  },
+  {
+    "route": "/es",
+    "matches": []
+  },
+  {
+    "route": "/es/paraguay-residency",
+    "matches": []
+  },
+  {
+    "route": "/es/pricing",
+    "matches": []
+  },
+  {
+    "route": "/es/find-my-plan",
+    "matches": []
+  },
+  {
+    "route": "/es/book",
+    "matches": []
+  },
+  {
+    "route": "/es/thank-you",
+    "matches": []
+  },
+  {
+    "route": "/es/services",
+    "matches": []
+  },
+  {
+    "route": "/es/permanent-residency",
+    "matches": []
+  },
+  {
+    "route": "/es/investor-residency",
+    "matches": []
+  },
+  {
+    "route": "/es/relocation",
+    "matches": []
+  },
+  {
+    "route": "/es/tax-planning",
+    "matches": []
+  },
+  {
+    "route": "/es/company-formation/paraguay",
+    "matches": []
+  },
+  {
+    "route": "/es/company-formation/us",
+    "matches": []
+  },
+  {
+    "route": "/es/accounting",
+    "matches": []
+  },
+  {
+    "route": "/es/banking",
+    "matches": []
+  },
+  {
+    "route": "/es/real-estate",
+    "matches": []
+  },
+  {
+    "route": "/es/driving-license",
+    "matches": []
+  },
+  {
+    "route": "/es/retire-in-paraguay",
+    "matches": []
+  },
+  {
+    "route": "/es/citizenship-guidance",
+    "matches": []
+  },
+  {
+    "route": "/es/guides",
+    "matches": []
+  },
+  {
+    "route": "/es/guides/residency-requirements",
+    "matches": []
+  },
+  {
+    "route": "/es/about",
+    "matches": []
+  },
+  {
+    "route": "/es/contact",
+    "matches": []
+  },
+  {
+    "route": "/es/lp/residency-cost",
+    "matches": []
+  },
+  {
+    "route": "/es/lp/family-relocation",
+    "matches": []
+  },
+  {
+    "route": "/es/links",
+    "matches": []
+  },
+  {
+    "route": "/es/privacy",
+    "matches": []
+  },
+  {
+    "route": "/es/terms",
+    "matches": []
+  },
+  {
+    "route": "/es/disclaimer",
+    "matches": []
+  },
+  {
+    "route": "/fr",
+    "matches": []
+  },
+  {
+    "route": "/fr/paraguay-residency",
+    "matches": []
+  },
+  {
+    "route": "/fr/pricing",
+    "matches": []
+  },
+  {
+    "route": "/fr/find-my-plan",
+    "matches": []
+  },
+  {
+    "route": "/fr/book",
+    "matches": []
+  },
+  {
+    "route": "/fr/thank-you",
+    "matches": []
+  },
+  {
+    "route": "/fr/services",
+    "matches": []
+  },
+  {
+    "route": "/fr/permanent-residency",
+    "matches": []
+  },
+  {
+    "route": "/fr/investor-residency",
+    "matches": []
+  },
+  {
+    "route": "/fr/relocation",
+    "matches": []
+  },
+  {
+    "route": "/fr/tax-planning",
+    "matches": []
+  },
+  {
+    "route": "/fr/company-formation/paraguay",
+    "matches": []
+  },
+  {
+    "route": "/fr/company-formation/us",
+    "matches": []
+  },
+  {
+    "route": "/fr/accounting",
+    "matches": []
+  },
+  {
+    "route": "/fr/banking",
+    "matches": []
+  },
+  {
+    "route": "/fr/real-estate",
+    "matches": []
+  },
+  {
+    "route": "/fr/driving-license",
+    "matches": []
+  },
+  {
+    "route": "/fr/retire-in-paraguay",
+    "matches": []
+  },
+  {
+    "route": "/fr/citizenship-guidance",
+    "matches": []
+  },
+  {
+    "route": "/fr/guides",
+    "matches": []
+  },
+  {
+    "route": "/fr/guides/residency-requirements",
+    "matches": []
+  },
+  {
+    "route": "/fr/about",
+    "matches": []
+  },
+  {
+    "route": "/fr/contact",
+    "matches": []
+  },
+  {
+    "route": "/fr/lp/residency-cost",
+    "matches": []
+  },
+  {
+    "route": "/fr/lp/family-relocation",
+    "matches": []
+  },
+  {
+    "route": "/fr/links",
+    "matches": []
+  },
+  {
+    "route": "/fr/privacy",
+    "matches": []
+  },
+  {
+    "route": "/fr/terms",
+    "matches": []
+  },
+  {
+    "route": "/fr/disclaimer",
+    "matches": []
+  },
+  {
+    "route": "/de",
+    "matches": []
+  },
+  {
+    "route": "/de/paraguay-residency",
+    "matches": []
+  },
+  {
+    "route": "/de/pricing",
+    "matches": []
+  },
+  {
+    "route": "/de/find-my-plan",
+    "matches": []
+  },
+  {
+    "route": "/de/book",
+    "matches": []
+  },
+  {
+    "route": "/de/thank-you",
+    "matches": []
+  },
+  {
+    "route": "/de/services",
+    "matches": []
+  },
+  {
+    "route": "/de/permanent-residency",
+    "matches": []
+  },
+  {
+    "route": "/de/investor-residency",
+    "matches": []
+  },
+  {
+    "route": "/de/relocation",
+    "matches": []
+  },
+  {
+    "route": "/de/tax-planning",
+    "matches": []
+  },
+  {
+    "route": "/de/company-formation/paraguay",
+    "matches": []
+  },
+  {
+    "route": "/de/company-formation/us",
+    "matches": []
+  },
+  {
+    "route": "/de/accounting",
+    "matches": []
+  },
+  {
+    "route": "/de/banking",
+    "matches": []
+  },
+  {
+    "route": "/de/real-estate",
+    "matches": []
+  },
+  {
+    "route": "/de/driving-license",
+    "matches": []
+  },
+  {
+    "route": "/de/retire-in-paraguay",
+    "matches": []
+  },
+  {
+    "route": "/de/citizenship-guidance",
+    "matches": []
+  },
+  {
+    "route": "/de/guides",
+    "matches": []
+  },
+  {
+    "route": "/de/guides/residency-requirements",
+    "matches": []
+  },
+  {
+    "route": "/de/about",
+    "matches": []
+  },
+  {
+    "route": "/de/contact",
+    "matches": []
+  },
+  {
+    "route": "/de/lp/residency-cost",
+    "matches": []
+  },
+  {
+    "route": "/de/lp/family-relocation",
+    "matches": []
+  },
+  {
+    "route": "/de/links",
+    "matches": []
+  },
+  {
+    "route": "/de/privacy",
+    "matches": []
+  },
+  {
+    "route": "/de/terms",
+    "matches": []
+  },
+  {
+    "route": "/de/disclaimer",
+    "matches": []
+  },
+  {
+    "route": "/he",
+    "matches": []
+  },
+  {
+    "route": "/he/paraguay-residency",
+    "matches": []
+  },
+  {
+    "route": "/he/pricing",
+    "matches": []
+  },
+  {
+    "route": "/he/find-my-plan",
+    "matches": []
+  },
+  {
+    "route": "/he/book",
+    "matches": []
+  },
+  {
+    "route": "/he/thank-you",
+    "matches": []
+  },
+  {
+    "route": "/he/services",
+    "matches": []
+  },
+  {
+    "route": "/he/permanent-residency",
+    "matches": []
+  },
+  {
+    "route": "/he/investor-residency",
+    "matches": []
+  },
+  {
+    "route": "/he/relocation",
+    "matches": []
+  },
+  {
+    "route": "/he/tax-planning",
+    "matches": []
+  },
+  {
+    "route": "/he/company-formation/paraguay",
+    "matches": []
+  },
+  {
+    "route": "/he/company-formation/us",
+    "matches": []
+  },
+  {
+    "route": "/he/accounting",
+    "matches": []
+  },
+  {
+    "route": "/he/banking",
+    "matches": []
+  },
+  {
+    "route": "/he/real-estate",
+    "matches": []
+  },
+  {
+    "route": "/he/driving-license",
+    "matches": []
+  },
+  {
+    "route": "/he/retire-in-paraguay",
+    "matches": []
+  },
+  {
+    "route": "/he/citizenship-guidance",
+    "matches": []
+  },
+  {
+    "route": "/he/guides",
+    "matches": []
+  },
+  {
+    "route": "/he/guides/residency-requirements",
+    "matches": []
+  },
+  {
+    "route": "/he/about",
+    "matches": []
+  },
+  {
+    "route": "/he/contact",
+    "matches": []
+  },
+  {
+    "route": "/he/lp/residency-cost",
+    "matches": []
+  },
+  {
+    "route": "/he/lp/family-relocation",
+    "matches": []
+  },
+  {
+    "route": "/he/links",
+    "matches": []
+  },
+  {
+    "route": "/he/privacy",
+    "matches": []
+  },
+  {
+    "route": "/he/terms",
+    "matches": []
+  },
+  {
+    "route": "/he/disclaimer",
+    "matches": []
+  },
+  {
+    "route": "/en/internal/rtl",
+    "matches": []
+  }
+]

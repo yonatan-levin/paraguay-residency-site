@@ -1,0 +1,391 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Yonatan Levin\\Documents\\Programming\\Projects\\paraguay-next\\paraguay-residency-site\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/e2e/russian-journeys.spec.ts",
+      "--project=chromium",
+      "--project=mobile-chromium",
+      "--reporter=json",
+      "--output=C:\\Users\\Yonatan Levin\\Documents\\Programming\\Projects\\paraguay-next\\paraguay-residency-site\\artifacts\\russian\\verifier\\playwright-output"
+    ],
+    "configFile": "C:\\Users\\Yonatan Levin\\Documents\\Programming\\Projects\\paraguay-next\\paraguay-residency-site\\playwright.config.ts",
+    "rootDir": "C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site/artifacts/russian/verifier/playwright-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site/artifacts/russian/verifier/playwright-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-chromium",
+        "name": "mobile-chromium",
+        "testDir": "C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "/(?:journeys|hebrew)\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site/artifacts/russian/verifier/playwright-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "/smoke\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run start -- --port 3000",
+      "url": "http://127.0.0.1:3000",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "russian-journeys.spec.ts",
+      "file": "russian-journeys.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Russian and Hebrew preserve family finder answers, private draft, campaign and accepted receipt",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1597,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-03T12:57:18.477Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "946bdb378bf6297e6b26-33f3a5305fd0921ec5d1",
+          "file": "russian-journeys.spec.ts",
+          "line": 26,
+          "column": 1
+        },
+        {
+          "title": "Russian appointment retains its UTC instant across Hebrew and recovers from unavailable time",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1046,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-03T12:57:20.245Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "946bdb378bf6297e6b26-6d19a655b92f148df054",
+          "file": "russian-journeys.spec.ts",
+          "line": 104,
+          "column": 1
+        },
+        {
+          "title": "Russian missing pages and empty receipts recover without implying success",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 498,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-03T12:57:21.302Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "946bdb378bf6297e6b26-d5f12e1274c5a3e507a1",
+          "file": "russian-journeys.spec.ts",
+          "line": 158,
+          "column": 1
+        },
+        {
+          "title": "Russian WhatsApp preview stays local and returns keyboard focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 295,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-03T12:57:21.823Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "946bdb378bf6297e6b26-38068b39c4422d533f7a",
+          "file": "russian-journeys.spec.ts",
+          "line": 179,
+          "column": 1
+        },
+        {
+          "title": "Russian and Hebrew preserve family finder answers, private draft, campaign and accepted receipt",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-chromium",
+              "projectName": "mobile-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1595,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-03T12:57:22.654Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "946bdb378bf6297e6b26-f899338c6ec08d1860aa",
+          "file": "russian-journeys.spec.ts",
+          "line": 26,
+          "column": 1
+        },
+        {
+          "title": "Russian appointment retains its UTC instant across Hebrew and recovers from unavailable time",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-chromium",
+              "projectName": "mobile-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1185,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-03T12:57:24.381Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "946bdb378bf6297e6b26-66cd4d1f1266c179c694",
+          "file": "russian-journeys.spec.ts",
+          "line": 104,
+          "column": 1
+        },
+        {
+          "title": "Russian missing pages and empty receipts recover without implying success",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-chromium",
+              "projectName": "mobile-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 564,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-03T12:57:25.577Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "946bdb378bf6297e6b26-f054ccdb6042e4210570",
+          "file": "russian-journeys.spec.ts",
+          "line": 158,
+          "column": 1
+        },
+        {
+          "title": "Russian WhatsApp preview stays local and returns keyboard focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-chromium",
+              "projectName": "mobile-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 420,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-03T12:57:26.157Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "946bdb378bf6297e6b26-494b6cd9b8fed2764fae",
+          "file": "russian-journeys.spec.ts",
+          "line": 179,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-03T12:57:17.922Z",
+    "duration": 8788.422,
+    "expected": 8,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

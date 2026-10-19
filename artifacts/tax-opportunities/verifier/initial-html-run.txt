@@ -1,0 +1,1 @@
+PASS: 25 localized pages; tax conditions in initial HTML; localized metadata; noindex; empty sitemap.

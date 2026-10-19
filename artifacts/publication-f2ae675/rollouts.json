@@ -1,0 +1,34 @@
+[
+  {
+    "name": "projects/paraguay-residency-site/locations/us-central1/backends/paraguay-prototype/rollouts/build-2026-09-26-001",
+    "build": "projects/paraguay-residency-site/locations/us-central1/backends/paraguay-prototype/builds/build-2026-09-26-001",
+    "state": "SUCCEEDED",
+    "createTime": "2026-09-26T21:18:15.760409646Z",
+    "updateTime": "2026-09-26T21:20:53.128074Z",
+    "error": null
+  },
+  {
+    "name": "projects/paraguay-residency-site/locations/us-central1/backends/paraguay-prototype/rollouts/build-2026-09-25-002",
+    "build": "projects/paraguay-residency-site/locations/us-central1/backends/paraguay-prototype/builds/build-2026-09-25-002",
+    "state": "SUCCEEDED",
+    "createTime": "2026-09-25T21:23:38.751515164Z",
+    "updateTime": "2026-09-25T21:25:35.643977Z",
+    "error": null
+  },
+  {
+    "name": "projects/paraguay-residency-site/locations/us-central1/backends/paraguay-prototype/rollouts/build-2026-09-25-001",
+    "build": "projects/paraguay-residency-site/locations/us-central1/backends/paraguay-prototype/builds/build-2026-09-25-001",
+    "state": "SUCCEEDED",
+    "createTime": "2026-09-25T21:02:48.232962606Z",
+    "updateTime": "2026-09-25T21:05:30.470807Z",
+    "error": null
+  },
+  {
+    "name": "projects/paraguay-residency-site/locations/us-central1/backends/paraguay-prototype/rollouts/build-2026-09-27-001",
+    "build": "projects/paraguay-residency-site/locations/us-central1/backends/paraguay-prototype/builds/build-2026-09-27-001",
+    "state": "SUCCEEDED",
+    "createTime": "2026-09-27T09:47:38.220253071Z",
+    "updateTime": "2026-09-27T09:49:45.389416Z",
+    "error": null
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-09-26T22:32:22.442Z",
+  "base": "6b5c6ba7a104cc2f8f9671fa34d6be27eea848b6",
+  "workingTree": "6b5c6ba7a104cc2f8f9671fa34d6be27eea848b6",
+  "status": "PASS",
+  "groups": 12,
+  "observations": [
+    {
+      "name": "Base lacks Why Paraguay route and service compatibility helper",
+      "status": "PASS"
+    },
+    {
+      "name": "Base ignores requested benefit fragment",
+      "status": "PASS"
+    },
+    {
+      "name": "Base permits approved home without per-claim reviews",
+      "status": "PASS"
+    },
+    {
+      "name": "Current route exists in every supported locale",
+      "status": "PASS"
+    },
+    {
+      "name": "Every package remains selected only for its compatible service",
+      "status": "PASS"
+    },
+    {
+      "name": "Informational motivations never assign a service, plan, or finder answer",
+      "status": "PASS"
+    },
+    {
+      "name": "Anchors preserve sanitized context and reject unregistered values on every locale",
+      "status": "PASS"
+    },
+    {
+      "name": "All affected pages fail closed with draft claims despite approved legacy flags",
+      "status": "PASS"
+    },
+    {
+      "name": "Approval is locale specific, and every affected page needs all declared claims",
+      "status": "PASS"
+    },
+    {
+      "name": "Impossible dates and whitespace approval identities remain blocked",
+      "status": "PASS"
+    },
+    {
+      "name": "All preview routes remain noindex and all localized canonicals are self referencing",
+      "status": "PASS"
+    },
+    {
+      "name": "Event serialization strips personal, arbitrary query and prototype data",
+      "status": "PASS"
+    }
+  ],
+  "sourceHashes": {
+    "6b5c6ba7a104cc2f8f9671fa34d6be27eea848b6:src/domain/selection.ts": "cdd4a78dd262f992bc21b0cdd87744f18d8114f91fa076dba807c341bb010a94",
+    "6b5c6ba7a104cc2f8f9671fa34d6be27eea848b6:src/content/catalog.ts": "727fb4f3ecdff407ec4c1cc3863064765be5680eae4c419de895ea14735edf9e",
+    "6b5c6ba7a104cc2f8f9671fa34d6be27eea848b6:src/lib/i18n/common.ts": "3e9a4f3a38d6adb0d62d146082fb1cd809eca38483b5c078dc62f3cbc4f1d727",
+    "6b5c6ba7a104cc2f8f9671fa34d6be27eea848b6:src/config/locales.ts": "b5faf8d4f441f6195e43c1391ee8c00db133cc5c975e88aa4addcadcc42a3898",
+    "6b5c6ba7a104cc2f8f9671fa34d6be27eea848b6:src/content/translations/es-common.json": "0d3131b095b0f48f14858d84a0304d36edd0e30c2cce58253e358df4855e67f8",
+    "6b5c6ba7a104cc2f8f9671fa34d6be27eea848b6:src/content/translations/fr-common.json": "6900af635a34f98ca30edf23673752154e161dd701fc04bda68b43f234fcc09e",
+    "6b5c6ba7a104cc2f8f9671fa34d6be27eea848b6:src/content/translations/de-common.json": "b865ed8447dbd1ec94a471b4c203512837c07cccbbc2f98311cb9204498106cc",
+    "6b5c6ba7a104cc2f8f9671fa34d6be27eea848b6:src/content/translations/he-common.json": "ccea262e70f8e51907b6f291d0f44134cb96a1a62fa17da5e95524a7315b789a",
+    "6b5c6ba7a104cc2f8f9671fa34d6be27eea848b6:src/config/routes.ts": "a022f9ee8b1272114ce2c4b95d2736537e491da1cee8699b668c45c5d81eb02e",
+    "6b5c6ba7a104cc2f8f9671fa34d6be27eea848b6:src/lib/seo/metadata.ts": "db89635c3480d0199164e0c5e06340bbe776a5fb443ecb36deea2cd2acdae003",
+    "6b5c6ba7a104cc2f8f9671fa34d6be27eea848b6:src/config/runtime.ts": "ee3dec9aba1d50f16a4aa1a49cd4f10cf1e675e6c9f6f4b064f76b83876f6e97",
+    "6b5c6ba7a104cc2f8f9671fa34d6be27eea848b6:src/config/brand.ts": "c260acf288e34de9844bd9c6287c02ef1e5386bb857c47b638fd415985e4c413",
+    "working-tree:src/domain/selection.ts": "5d901d399344a790c887b9cfec94260bc08ef247b41f9cfda36a6bea5c61c3ce",
+    "working-tree:src/content/catalog.ts": "727fb4f3ecdff407ec4c1cc3863064765be5680eae4c419de895ea14735edf9e",
+    "working-tree:src/lib/i18n/common.ts": "3e9a4f3a38d6adb0d62d146082fb1cd809eca38483b5c078dc62f3cbc4f1d727",
+    "working-tree:src/config/locales.ts": "b5faf8d4f441f6195e43c1391ee8c00db133cc5c975e88aa4addcadcc42a3898",
+    "working-tree:src/content/translations/es-common.json": "22c1fd51ffbde0cbcf8d8a3b1d174bdbff0a9d8da0cc7b9e3812b28d527e7fc8",
+    "working-tree:src/content/translations/fr-common.json": "dc004af318fc643e681686b16da95d6b6d35bbc783647cbe6a3df646e42231f4",
+    "working-tree:src/content/translations/de-common.json": "b65b7b94fbc7fe990ba798aebe2636c3a83a98a69188696b62fbfd21d7603919",
+    "working-tree:src/content/translations/he-common.json": "8276e61beda2a90fadcbccbf68c60493050d52dec1a89f469208bf3f94deab47",
+    "working-tree:src/domain/value-first.ts": "59eb3b7de5954664fb81f077d3fba2c99b824f51c4f27a2f9bef63863dd6883e",
+    "working-tree:src/content/content-review.ts": "419eb6ba5e3addf24cfdeee8ef0068e41be2eeb54e655dd6020f355fcb0231eb",
+    "working-tree:src/config/routes.ts": "95ad470cc185ec039dd071589ee6fa3a2661a9daeaa79d91b3449b5dfd27b887",
+    "working-tree:src/lib/seo/metadata.ts": "477b1aaf0fa4c1cb84905736c2c86a587c420d7d048bbe7e6f71bcf168b915c3",
+    "working-tree:src/config/runtime.ts": "ee3dec9aba1d50f16a4aa1a49cd4f10cf1e675e6c9f6f4b064f76b83876f6e97",
+    "working-tree:src/config/brand.ts": "f65a1f50d9e5888c86cf59e14ca2a57e0f53ca6670486a952d2a945bee11eb39",
+    "working-tree:src/lib/analytics/events.ts": "33ffee7bc733add4ec33879be2a06860eba815283a4f4544ffd6b8c631cfd3d2"
+  },
+  "limitations": [
+    "Independent transpile-and-execute domain probes; not a production browser or coverage measurement.",
+    "UI, screenshots, production build and full end-to-end checks are deferred until the coordinated final build."
+  ]
+}

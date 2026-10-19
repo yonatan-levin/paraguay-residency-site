@@ -1,0 +1,284 @@
+- link "דילוג לתוכן" [ref=e1]
+- StaticText "תצוגה מקדימה של האתר. ההצעות זמניות ולא תיקבע פגישה אמיתית או תישלח הודעה."
+- banner
+  - link "Paraguay Next" [ref=e2]
+    - StaticText "Paraguay"
+    - StaticText "Next"
+  - navigation "ניווט ראשי" [ref=e3]
+    - link "למה פרגוואי" [ref=e8]
+    - link "תושבות" [ref=e9]
+    - link "חבילות" [ref=e10]
+    - link "מעבר ועסקים" [ref=e11]
+    - link "מדריכים" [ref=e12]
+    - link "אודות" [ref=e13]
+  - link "קבעו פגישת ייעוץ" [ref=e4]
+  - group
+    - DisclosureTriangle "בחירת שפה: HE" [expanded=false]
+      - StaticText "HE"
+      - StaticText "⌄"
+  - link "מציאת החבילה שלי" [ref=e5]
+- main
+  - generic
+    - paragraph
+      - StaticText "Paraguay Next"
+      - StaticText "· תושבות, מעבר והקמת עסק"
+    - heading "בסיס חוקי בפרגוואי. יותר אפשרויות לעתיד שלכם." [level=1, ref=e14]
+    - paragraph
+      - StaticText "שוקלים בית חדש, בסיס נוסף או עסק מקומי? גלו מה תושבות בפרגוואי עשויה להציע, הבינו את העלויות וההתחייבויות וקבלו ליווי מעשי כדי להתקדם."
+    - link "גלו את היתרונות" [ref=e15]
+    - link "השוו חבילות תושבות" [ref=e16]
+    - paragraph
+      - link "כבר יודעים מה אתם צריכים? קבעו פגישת ייעוץ" [ref=e38]
+    - figure
+      - image "איור מקורי של מרפסת מוצלת וצמחייה בפרגוואי"
+      - Figcaption
+        - StaticText "איור להמחשה · תמונות מהמקום יתווספו לאחר אישור"
+      - paragraph
+        - StaticText "מקום שבו התוכניות שלכם יכולות להכות שורש."
+  - paragraph
+    - StaticText "היקף שירות ברור לפני שמתחייבים"
+  - paragraph
+    - StaticText "הכנה, צעד אחר צעד"
+  - paragraph
+    - StaticText "ליווי בהתאם לצרכים שלכם"
+  - heading "מה פרגוואי יכולה להציע לכם?" [level=2, ref=e17]
+  - article
+    - heading "בסיס חוקי לחיים בפרגוואי" [level=3, ref=e39]
+    - paragraph
+      - StaticText "תושבות יכולה להעניק בסיס חוקי לבניית חייכם בפרגוואי. המעמד והמסמכים שלכם קובעים אילו זכויות וחובות חלות עליכם."
+    - link "להבין את התושבות ואת שלביה" [ref=e40]
+  - article
+    - heading "לתכנן מעבר להגעה הראשונה" [level=3, ref=e41]
+    - paragraph
+      - StaticText "תושבות זמנית יכולה להיות נקודת מוצא לתכנון לטווח ארוך, עם מסלול לתושבות קבע בכפוף לדרישות החלות."
+    - paragraph
+      - StaticText "קבלת מעמד בהמשך אינה אוטומטית. בדקו את התהליך ואת חובותיכם לפני קבלת התחייבויות."
+    - link "לבחון תכנון תושבות לטווח ארוך" [ref=e42]
+  - article
+    - heading "תכנון מס שכדאי להבין" [level=3, ref=e43]
+    - paragraph
+      - StaticText "מס ההכנסה האישי בפרגוואי מתמקד בהכנסה שמקורה בפרגוואי. לסיווג ההכנסה שלכם יש משמעות בתכנון."
+    - paragraph
+      - StaticText "תשלום מחוץ למדינה אינו מוכיח כשלעצמו שמקור ההכנסה זר. בדקו את מצבכם לפני קבלת החלטות."
+    - link "לבחון שאלות מס אישיות" [ref=e44]
+  - article
+    - heading "לדמיין את החיים, לא רק את הבקשה" [level=3, ref=e45]
+    - paragraph
+      - StaticText "השוו אפשרויות דיור, בריאות, תחבורה וחינוך לחיים שתרצו לבנות. תכננו את העלויות הראשוניות ואת התקציב שתצטרכו לאורך זמן."
+    - link "לתכנן את החיים ואת התקציב" [ref=e46]
+  - heading "מה אתם מתכננים?" [level=2, ref=e18]
+  - paragraph
+    - StaticText "בחנו את השאלות שמאחורי התוכניות שלכם. נקודות המוצא האלה עוזרות ללמוד לפני בחירת שירות."
+  - article
+    - heading "לעבור לבד או עם המשפחה" [level=3, ref=e47]
+    - paragraph
+      - StaticText "גלו מה עשויה לכלול ההשתקעות, מתוכנית הגעה ועד לצרכים של כל אחד מבני הבית."
+    - link "לבחון מעבר והשתקעות" [ref=e48]
+  - article
+    - heading "לבנות בסיס נוסף" [level=3, ref=e49]
+    - paragraph
+      - StaticText "הבינו את המעמד, דרישות הנוכחות והחובות המתמשכות שיש לברר לפני שמתייחסים לפרגוואי כבסיס נוסף."
+    - link "לשקול בסיס נוסף" [ref=e50]
+  - article
+    - heading "להקים או להפעיל עסק מקומי" [level=3, ref=e51]
+    - paragraph
+      - StaticText "הפרידו בין הקמת חברה, הנהלת חשבונות ושאלות בנקאיות לבין ההחלטה על תושבות אישית."
+    - link "לבחון הקמת עסק מקומי" [ref=e52]
+  - article
+    - heading "להבין את המשמעויות הכספיות" [level=3, ref=e53]
+    - paragraph
+      - StaticText "בחנו שאלות לגבי מקור ההכנסה ואת התקציב המעשי לתוכניות שלכם לפני בחירת שירות."
+    - link "לבחון שאלות של תכנון כספי" [ref=e54]
+  - paragraph
+    - StaticText "למה Paraguay Next"
+  - heading "הפכו את ההזדמנות לתוכנית מעשית." [level=2, ref=e19]
+  - paragraph
+    - StaticText "הבינו את השלבים, הכינו את השאלות ובחרו את רמת הליווי המעשי שאתם צריכים. התפקיד המוצע שלנו נפרד מהאפשרויות שהתושבות עשויה להציע."
+  - article
+    - heading "הכנה" [level=3, ref=e55]
+    - paragraph
+      - StaticText "ארגנו את המסמכים ואת השאלות שיש לברר לפני נסיעה או התחייבות."
+    - link "לצפות בליווי להכנת בקשת תושבות" [ref=e56]
+  - article
+    - heading "תיאום" [level=3, ref=e57]
+    - paragraph
+      - StaticText "תכננו את הסיוע המקומי המוסכם סביב השלבים הדורשים מעורבות אישית שלכם."
+    - link "לבחון תיאום מקומי" [ref=e58]
+  - article
+    - heading "היקף ועלויות ברורים" [level=3, ref=e59]
+    - paragraph
+      - StaticText "השוו שכר שירות, החרגות ועלויות חיצוניות כדי להבין על מה עדיין צריך לקבל הצעת מחיר בכתב."
+    - link "להשוות את היקף החבילות" [ref=e60]
+  - article
+    - heading "המשך ליווי מוגדר" [level=3, ref=e61]
+    - paragraph
+      - StaticText "סכמו מראש מי אחראי לתקשורת ולהמשך הליווי, כאשר הרשויות מקבלות את החלטותיהן באופן עצמאי."
+    - link "לבדוק רמות ליווי" [ref=e62]
+  - paragraph
+    - StaticText "איך זה עובד"
+  - heading "משאלות לתוכנית מגובשת." [level=2, ref=e20]
+  - list
+    - listitem [level=1]
+      - heading "מתחילים בשיחה" [level=3, ref=e72]
+      - paragraph
+        - StaticText "הבהירו את המטרה, את המצב הנוכחי ואת השאלות שלכם. ללא הבטחה לזכאות."
+    - listitem [level=1]
+      - heading "מתכוננים עם תוכנית ברורה" [level=3, ref=e73]
+      - paragraph
+        - StaticText "ארגנו מסמכים ואמתו דרישות לפני שמתחייבים."
+    - listitem [level=1]
+      - heading "משלימים את השלבים המקומיים הנדרשים" [level=3, ref=e74]
+      - paragraph
+        - StaticText "תאמו את הסיוע המוסכם סביב השלבים הדורשים את נוכחותכם."
+    - listitem [level=1]
+      - heading "נשארים מעודכנים לאורך הדרך" [level=3, ref=e75]
+      - paragraph
+        - StaticText "הסכימו על התקשורת ועל הליווי בהמשך, בזמן שהרשויות מטפלות בהחלטותיהן."
+  - paragraph
+    - StaticText "בחירת רמת הליווי שלכם"
+  - heading "אפשרויות ברורות. התאמה אישית." [level=2, ref=e21]
+  - paragraph
+    - StaticText "בחרו כמה הכנה וליווי מקומי נחוצים לכם."
+  - article
+    - heading "בסיסי" [level=3, ref=e63]
+    - paragraph
+      - StaticText "למי שמתכננים באופן עצמאי ורוצים נקודת התחלה ברורה."
+    - StaticText "‏2,200‏$"
+    - paragraph
+      - StaticText "למגיש בקשה"
+    - paragraph
+      - StaticText "מחיר להמחשה בדולר ארה״ב. כפוף לאישור"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "הכוונה לארגון מסמכים"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "רשימת הכנות"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "שאלות לפני השלבים המקומיים"
+    - link "שיחה על החבילה הזו" [ref=e64]
+  - article
+    - paragraph
+      - StaticText "ליווי אישי יותר"
+    - heading "בליווי" [level=3, ref=e65]
+    - paragraph
+      - StaticText "למי שחשוב להם לקבל עזרה בתיאום בין השלבים."
+    - StaticText "‏2,850‏$"
+    - paragraph
+      - StaticText "למגיש בקשה"
+    - paragraph
+      - StaticText "מחיר להמחשה בדולר ארה״ב. כפוף לאישור"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "סיוע בארגון מסמכים"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "תיאום פגישות"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "הכוונה בשלבים המקומיים"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "היקף הליווי בהמשך מסוכם מראש"
+    - link "שיחה על החבילה הזו" [ref=e66]
+  - article
+    - heading "ליווי אישי" [level=3, ref=e67]
+    - paragraph
+      - StaticText "למי שמחפשים תיאום לוגיסטי צמוד יותר."
+    - StaticText "‏4,500‏$"
+    - paragraph
+      - StaticText "למגיש בקשה"
+    - paragraph
+      - StaticText "מחיר להמחשה בדולר ארה״ב. כפוף לאישור"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "תוכנית תיאום ייעודית"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "סיוע לוגיסטי מקומי"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "קשר אישי יותר"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "היקף ליווי מותאם אישית בהמשך"
+    - link "שיחה על החבילה הזו" [ref=e68]
+  - link "להשוואה המלאה ולפירוט מה שאינו כלול" [ref=e69]
+  - paragraph
+    - StaticText "מי מסייע לכם"
+  - heading "דעו מי מסייע ומה תקבלו." [level=2, ref=e22]
+  - paragraph
+    - StaticText "יש לציין את המפעיל ואת אנשי המקצוע החיצוניים בהיקף השירות המוסכם. דוגמאות התוצרים האלה ממחישות את העבודה המוצעת, ואינן תוצאות של לקוחות קודמים."
+  - article
+    - paragraph
+      - StaticText "מקום לפרופיל עתידי"
+    - heading "איש הקשר שלכם לתיאום" [level=3, ref=e70]
+    - paragraph
+      - StaticText "ארגון מסמכים, שאלות מעשיות ולוגיסטיקה מוסכמת. פרטי חבר הצוות טרם נקבעו."
+  - article
+    - paragraph
+      - StaticText "מקום לתפקיד חיצוני עתידי"
+    - heading "בדיקה מקצועית מוסמכת" [level=3, ref=e71]
+    - paragraph
+      - StaticText "ייעוץ משפטי, ייעוץ מס או ייעוץ מומחה חייב להינתן בידי גורם בעל ההסמכה המתאימה. לא מוצגות כאן טענות להסמכה מקצועית."
+  - strong
+    - StaticText "מתווה להכנת מסמכים"
+  - paragraph
+    - StaticText "מה לאסוף, מה לאשר ומי בודק."
+  - strong
+    - StaticText "תוכנית לתיאום מקומי"
+  - paragraph
+    - StaticText "המעורבות הנדרשת מכם והסיוע הנלווה."
+  - strong
+    - StaticText "היקף שירות בכתב ופירוט עלויות"
+  - paragraph
+    - StaticText "דמי השירות, מה שאינו כלול והחלטות שעוד צריך לקבל."
+  - paragraph
+    - StaticText "לפני שמחליטים"
+  - heading "שאלות מעשיות, תשובות כנות." [level=2, ref=e23]
+  - paragraph
+    - StaticText "מעבר הוא החלטה משמעותית. קחו את הזמן להבין את הפרטים."
+  - group
+    - DisclosureTriangle "מה עשויה תושבות לאפשר?" [expanded=false]
+  - group
+    - DisclosureTriangle "האם פרגוואי מתאימה לכולם?" [expanded=false]
+  - group
+    - DisclosureTriangle "האם אפשר להשתמש בפרגוואי כבסיס נוסף?" [expanded=false]
+  - group
+    - DisclosureTriangle "האם קבלת הכנסה מחוץ למדינה מכריעה את מצב המס שלי?" [expanded=false]
+  - group
+    - DisclosureTriangle "על מה משלמים לצוות Paraguay Next?" [expanded=false]
+  - paragraph
+    - StaticText "המידע זמני ויש לבדוק את התאמתו לנסיבות שלכם."
+  - heading "בדקו אם פרגוואי מתאימה לתוכניות שלכם." [level=2, ref=e24]
+  - paragraph
+    - StaticText "גלו נקודת מוצא לפי הצרכים שלכם, או עברו ישירות לחבילות ולהיקף שלהן."
+  - link "קריאת המדריך להכנת מסמכים" [ref=e25]
+  - link "מצאו את נקודת המוצא שלי" [ref=e26]
+  - link "השוו חבילות" [ref=e27]
+- contentinfo
+  - StaticText "Paraguay"
+  - StaticText "Next"
+  - paragraph
+    - StaticText "התושבות שלכם בפרגוואי, עם תכנון ברור וליווי אישי."
+  - paragraph
+    - StaticText "שם מותג זמני. זהות המפעיל המשפטי ופרטי הקשר העסקיים ממתינים לאישור הבעלים."
+  - navigation "לגלות עוד" [ref=e6]
+    - heading "הצעד הבא שלכם" [level=2, ref=e28]
+    - link "השוואת חבילות" [ref=e29]
+    - link "קבעו פגישת ייעוץ" [ref=e30]
+    - link "יצירת קשר" [ref=e31]
+    - link "כל השירותים" [ref=e32]
+  - navigation "מקורות מידע ומדיניות" [ref=e7]
+    - heading "מידע שימושי" [level=2, ref=e33]
+    - link "מדריך הכנה" [ref=e34]
+    - link "טיוטת הודעת פרטיות" [ref=e35]
+    - link "טיוטת תנאי שימוש" [ref=e36]
+    - link "טיוטת הבהרה משפטית" [ref=e37]
+  - StaticText "מעבר מתוכנן מתחיל במידע ברור."
+  - StaticText "אתר הדגמה · דולר ארה״ב · ללא שירותים פעילים"
+- alert

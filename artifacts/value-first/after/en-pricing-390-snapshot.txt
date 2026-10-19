@@ -1,0 +1,228 @@
+- link "Skip to content" [ref=e1]
+- StaticText "Website preview. Offers are provisional and no real booking or message will be sent."
+- banner
+  - link "Paraguay Next" [ref=e2]
+    - StaticText "Paraguay"
+    - StaticText "Next"
+  - group
+    - DisclosureTriangle "Select language: EN" [expanded=false]
+      - StaticText "EN"
+      - StaticText "⌄"
+  - group
+    - DisclosureTriangle "Open navigation" [expanded=false]
+      - StaticText "☰"
+- main
+  - paragraph
+    - StaticText "Packages & provisional costs"
+  - heading "Find the support that fits your plans." [level=1, ref=e3]
+  - paragraph
+    - StaticText "Start with your journey. Then compare what each level of support would cover."
+  - paragraph
+    - StaticText "Still deciding whether Paraguay fits your plans?"
+    - link "Explore Why Paraguay" [ref=e7]
+  - group "Choose your journey"
+    - Legend
+      - StaticText "Choose your journey"
+    - LabelText [ref=e25] clickable [cursor:pointer]
+      - radio "First residency" [checked=true, ref=e37]
+      - StaticText "First residency"
+    - LabelText [ref=e26] clickable [cursor:pointer]
+      - radio "Permanent residency upgrade" [checked=false, ref=e38]
+      - StaticText "Permanent residency upgrade"
+    - LabelText [ref=e27] clickable [cursor:pointer]
+      - radio "Investment or business route" [checked=false, ref=e39]
+      - StaticText "Investment or business route"
+  - paragraph
+    - StaticText "Service fees are provisional. No package changes government eligibility, priority or approval. External costs and precise delivery scope must be confirmed."
+  - heading "Compare support packages for your journey" [level=2, ref=e8]
+  - article
+    - heading "Essential" [level=3, ref=e28]
+    - paragraph
+      - StaticText "For independent planners who want a clear starting point."
+    - StaticText "$2,200"
+    - paragraph
+      - StaticText "per applicant"
+    - paragraph
+      - StaticText "Illustrative USD price. Subject to confirmation"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Guidance on document organization"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Preparation checklist"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Questions before local steps"
+    - paragraph
+      - strong
+        - StaticText "Your involvement: "
+      - StaticText "Provide accurate documents and attend required steps."
+    - paragraph
+      - strong
+        - StaticText "Scope & exclusions: "
+      - StaticText "Government charges and external professional fees are not confirmed. Travel, translations and document legalization are separate unless agreed."
+    - link "Discuss this plan" [ref=e29]
+  - article
+    - paragraph
+      - StaticText "More personal support"
+    - heading "Guided" [level=3, ref=e30]
+    - paragraph
+      - StaticText "For people who value help connecting each step."
+    - StaticText "$2,850"
+    - paragraph
+      - StaticText "per applicant"
+    - paragraph
+      - StaticText "Illustrative USD price. Subject to confirmation"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Support with document organization"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Appointment coordination"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Guidance through local steps"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Aftercare scope agreed in advance"
+    - paragraph
+      - strong
+        - StaticText "Your involvement: "
+      - StaticText "Provide accurate documents and attend required steps."
+    - paragraph
+      - strong
+        - StaticText "Scope & exclusions: "
+      - StaticText "Government charges and external professional fees are not confirmed. Travel, translations and document legalization are separate unless agreed."
+    - link "Discuss this plan" [ref=e31]
+  - article
+    - heading "Concierge" [level=3, ref=e32]
+    - paragraph
+      - StaticText "For people seeking closer logistical coordination."
+    - StaticText "$4,500"
+    - paragraph
+      - StaticText "per applicant"
+    - paragraph
+      - StaticText "Illustrative USD price. Subject to confirmation"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Dedicated coordination plan"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Local logistical assistance"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "More personal communication"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Personalized aftercare scope"
+    - paragraph
+      - strong
+        - StaticText "Your involvement: "
+      - StaticText "Provide accurate documents and attend required steps."
+    - paragraph
+      - strong
+        - StaticText "Scope & exclusions: "
+      - StaticText "Government charges and external professional fees are not confirmed. Travel, translations and document legalization are separate unless agreed."
+    - link "Discuss this plan" [ref=e33]
+  - heading "Planning for more than one person?" [level=2, ref=e9]
+  - paragraph
+    - StaticText "Family pricing depends on your circumstances. We never invent a household total."
+  - link "Request a family quote" [ref=e10]
+  - heading "The details behind the price." [level=2, ref=e11]
+  - paragraph
+    - StaticText "Illustrative USD price. Subject to confirmation"
+  - article
+    - heading "Essential" [level=3, ref=e34]
+    - DescriptionList
+      - term "Service fee"
+      - definition
+        - StaticText "$2,200"
+      - term "Billing basis"
+      - definition
+        - StaticText "per applicant"
+      - term "Government charges"
+      - definition
+        - StaticText "To be confirmed"
+      - term "Travel & accommodation"
+      - definition
+        - StaticText "Separate cost"
+      - term "Required visits & elapsed processing"
+      - definition
+        - StaticText "Depends on the route; to be confirmed"
+      - term "Renewals & recurring obligations"
+      - definition
+        - StaticText "Not assumed included"
+  - article
+    - heading "Guided" [level=3, ref=e35]
+    - DescriptionList
+      - term "Service fee"
+      - definition
+        - StaticText "$2,850"
+      - term "Billing basis"
+      - definition
+        - StaticText "per applicant"
+      - term "Government charges"
+      - definition
+        - StaticText "To be confirmed"
+      - term "Travel & accommodation"
+      - definition
+        - StaticText "Separate cost"
+      - term "Required visits & elapsed processing"
+      - definition
+        - StaticText "Depends on the route; to be confirmed"
+      - term "Renewals & recurring obligations"
+      - definition
+        - StaticText "Not assumed included"
+  - article
+    - heading "Concierge" [level=3, ref=e36]
+    - DescriptionList
+      - term "Service fee"
+      - definition
+        - StaticText "$4,500"
+      - term "Billing basis"
+      - definition
+        - StaticText "per applicant"
+      - term "Government charges"
+      - definition
+        - StaticText "To be confirmed"
+      - term "Travel & accommodation"
+      - definition
+        - StaticText "Separate cost"
+      - term "Required visits & elapsed processing"
+      - definition
+        - StaticText "Depends on the route; to be confirmed"
+      - term "Renewals & recurring obligations"
+      - definition
+        - StaticText "Not assumed included"
+  - heading "Settling in is a separate conversation." [level=2, ref=e12]
+  - paragraph
+    - StaticText "Arrival orientation, practical local coordination and other services are optional. They are not silently added to a residency package."
+  - link "Explore relocation support" [ref=e13]
+  - link "Talk through your options" [ref=e14]
+- contentinfo
+  - StaticText "Paraguay"
+  - StaticText "Next"
+  - paragraph
+    - StaticText "Your Paraguay residency, clearly planned and personally supported."
+  - paragraph
+    - StaticText "Working brand. Legal operator and business contacts pending owner approval."
+  - navigation "Explore" [ref=e4]
+    - heading "Your next step" [level=2, ref=e15]
+    - link "Compare packages" [ref=e16]
+    - link "Book a consultation" [ref=e17]
+    - link "Contact" [ref=e18]
+    - link "All services" [ref=e19]
+  - navigation "Resources and policies" [ref=e5]
+    - heading "Useful information" [level=2, ref=e20]
+    - link "Preparation guide" [ref=e21]
+    - link "Privacy draft" [ref=e22]
+    - link "Terms draft" [ref=e23]
+    - link "Disclaimer draft" [ref=e24]
+  - StaticText "A considered move begins with clear information."
+  - StaticText "Demo website · USD · No live services"
+- complementary "Next step"
+  - link "Find my plan" [ref=e6]
+- alert

@@ -1,0 +1,39 @@
+
+Running 19 tests using 2 workers
+
+
+
+(node:16076) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:37132) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[1/19] [chromium] › tests\e2e\finder.spec.ts:3:1 › AC-02 family campaign reaches editable family finder without contact gate
+[2/19] [chromium] › tests\e2e\finder.spec.ts:16:1 › AC-03 existing temporary resident receives upgrade path
+[3/19] [chromium] › tests\e2e\finder.spec.ts:40:1 › AC-04 business goal skips residency stage and routes to business inquiry
+[4/19] [chromium] › tests\e2e\finder.spec.ts:63:1 › AC-05 changing a deep-linked goal clears incompatible plan before skipping
+[5/19] [chromium] › tests\e2e\finder.spec.ts:81:1 › AC-02/05/07 family answers survive Back and result stays quote-only through receipt
+[6/19] [chromium] › tests\e2e\finder.spec.ts:127:1 › AC-17 language switch preserves a non-campaign family quote and in-memory draft
+[7/19] [chromium] › tests\e2e\journeys.spec.ts:3:1 › AC-01 selected Guided plan and catalog price survive inquiry and receipt
+[8/19] [chromium] › tests\e2e\journeys.spec.ts:34:1 › AC-06 invalid selection and direct receipt recover honestly
+[9/19] [chromium] › tests\e2e\journeys.spec.ts:55:1 › AC-10 simulated failure keeps draft and allows successful retry
+[10/19] [chromium] › tests\e2e\journeys.spec.ts:76:1 › AC-12 WhatsApp is an accessible local preview and makes no provider requests
+[11/19] [chromium] › tests\e2e\journeys.spec.ts:97:1 › AC-09/10 demo appointment retains UTC selection across zones and recovers from unavailable time
+[12/19] [chromium] › tests\e2e\journeys.spec.ts:140:1 › Spanish validation and WhatsApp callback require only the chosen channel
+[13/19] [chromium] › tests\e2e\journeys.spec.ts:165:1 › changing pricing journey clears an incompatible selected package
+[14/19] [chromium] › tests\e2e\smoke.spec.ts:3:1 › preview marketing, canonical and Spanish equivalent retain plan context
+[15/19] [chromium] › tests\e2e\smoke.spec.ts:24:1 › no-JavaScript marketing content and ordinary navigation remain available
+[16/19] [chromium] › tests\e2e\smoke.spec.ts:44:1 › unknown routes and unpublished translations return real 404s
+(node:47076) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[17/19] [webkit] › tests\e2e\smoke.spec.ts:3:1 › preview marketing, canonical and Spanish equivalent retain plan context
+
+(node:47328) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[18/19] [webkit] › tests\e2e\smoke.spec.ts:24:1 › no-JavaScript marketing content and ordinary navigation remain available
+[19/19] [webkit] › tests\e2e\smoke.spec.ts:44:1 › unknown routes and unpublished translations return real 404s
+  19 passed (8.0s)

@@ -1,0 +1,33 @@
+
+> paraguay-residency-site@0.1.0 test
+> vitest run tests/unit/content-review.test.ts tests/unit/seo.test.ts
+
+
+ RUN  v5.0.1 C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site
+
+ ❯ tests/unit/seo.test.ts (0 test)
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/seo.test.ts [ tests/unit/seo.test.ts ]
+Error: Missing es translation: Paraguay Residency, Tax & Business Planning
+ ❯ translate src/lib/i18n/common.ts:34:11
+     32|   const translated = locale === "en" ? key : dictionaries[locale][key];
+     33|   if (!translated?.trim())
+     34|     throw new Error(`Missing ${locale} translation: ${key}`);
+       |           ^
+     35|   return interpolate(translated, values);
+     36| }
+ ❯ src/lib/i18n/common.ts:40:47
+ ❯ localized src/lib/i18n/common.ts:40:22
+ ❯ src/config/routes.ts:239:11
+ ❯ src/config/routes.ts:230:51
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 1 passed (2)
+      Tests  45 passed (45)
+   Start at  20:53:11
+   Duration  1.25s (transform 32%, import 30%, worker 21%, tests 17%)
+

@@ -1,0 +1,27 @@
+
+> paraguay-residency-site@0.1.0 test:e2e
+> playwright test tests/e2e/value-first.spec.ts tests/e2e/selection-transition.spec.ts tests/e2e/accessibility.spec.ts --project=chromium --grep cost campaign|home reflows|compatible service inquiry|informational motivations|keyboard menu|pending choice|modified package --reporter=list --output=artifacts/value-first/verification/final-e2e
+
+
+Running 14 tests using 2 workers
+
+(node:50244) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:74300) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  2 [chromium] › tests\e2e\accessibility.spec.ts:57:1 › keyboard menu, skip link, dialog dismissal and focus recovery (710ms)
+  ok  1 [chromium] › tests\e2e\selection-transition.spec.ts:83:1 › pending choice reaches language and navigation links, then history restores explicit URLs (1.2s)
+  ok  3 [chromium] › tests\e2e\selection-transition.spec.ts:199:1 › modified package clicks preserve the current tab's selection (498ms)
+  ok  5 [chromium] › tests\e2e\value-first.spec.ts:76:1 › compatible service inquiry retains the selected package (610ms)
+  ok  4 [chromium] › tests\e2e\value-first.spec.ts:52:1 › informational motivations preserve a chosen package and do not imply family entry (830ms)
+  ok  6 [chromium] › tests\e2e\value-first.spec.ts:88:3 › cost campaign action 1 preserves a compatible package in its link and navigation (534ms)
+  ok  7 [chromium] › tests\e2e\value-first.spec.ts:104:3 › cost campaign action 1 explains replacing an incompatible package (530ms)
+  ok  8 [chromium] › tests\e2e\value-first.spec.ts:88:3 › cost campaign action 2 preserves a compatible package in its link and navigation (566ms)
+  ok  9 [chromium] › tests\e2e\value-first.spec.ts:104:3 › cost campaign action 2 explains replacing an incompatible package (540ms)
+  ok 10 [chromium] › tests\e2e\value-first.spec.ts:164:3 › en home reflows and exposes its mobile consultation link (912ms)
+  ok 11 [chromium] › tests\e2e\value-first.spec.ts:164:3 › es home reflows and exposes its mobile consultation link (837ms)
+  ok 12 [chromium] › tests\e2e\value-first.spec.ts:164:3 › fr home reflows and exposes its mobile consultation link (717ms)
+  ok 13 [chromium] › tests\e2e\value-first.spec.ts:164:3 › de home reflows and exposes its mobile consultation link (787ms)
+  ok 14 [chromium] › tests\e2e\value-first.spec.ts:164:3 › he home reflows and exposes its mobile consultation link (688ms)
+
+  14 passed (6.5s)

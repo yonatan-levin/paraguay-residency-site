@@ -1,0 +1,57 @@
+
+> paraguay-residency-site@0.1.0 test
+> vitest run tests/unit/launch-command.test.ts
+
+
+ RUN  v5.0.1 C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site
+
+ ❯ tests/unit/launch-command.test.ts (1 test | 1 failed) 100ms
+   × the native Node launch check reports pending approvals instead of failing to load locale configuration 99ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/launch-command.test.ts > the native Node launch check reports pending approvals instead of failing to load locale configuration
+AssertionError: expected 'node:internal/modules/esm/resolve:275…' to contain 'Public launch is blocked.'
+
+- Expected
++ Received
+
+- Public launch is blocked.
++ node:internal/modules/esm/resolve:275
++     throw new ERR_MODULE_NOT_FOUND(
++           ^
++ 
++ Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\src\config\locales' imported from C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\src\config\runtime.ts
++     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
++     at moduleResolve (node:internal/modules/esm/resolve:865:10)
++     at defaultResolve (node:internal/modules/esm/resolve:991:11)
++     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
++     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
++     at ModuleLoader.resolveSync (node:internal/modules/esm/loader:765:52)
++     at #resolve (node:internal/modules/esm/loader:701:17)
++     at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:621:35)
++     at ModuleJob.syncLink (node:internal/modules/esm/module_job:160:33)
++     at ModuleJob.link (node:internal/modules/esm/module_job:245:17) {
++   code: 'ERR_MODULE_NOT_FOUND',
++   url: 'file:///C:/Users/Yonatan%20Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site/src/config/locales'
++ }
++ 
++ Node.js v24.14.1
++
+
+ ❯ tests/unit/launch-command.test.ts:8:25
+      6|   const result = spawnSync(process.execPath, [fileURLToPath(new URL(".…
+      7|   expect(result.status).toBe(1);
+      8|   expect(result.stderr).toContain("Public launch is blocked.");
+       |                         ^
+      9|   expect(result.stderr).toContain("Approve complete translations for p…
+     10|   expect(result.stderr).not.toContain("ERR_MODULE_NOT_FOUND");
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed (1)
+   Start at  11:55:06
+   Duration  282ms (tests 76%, transform 13%, import 8%, worker 3%)
+

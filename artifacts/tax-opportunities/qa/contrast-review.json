@@ -1,0 +1,85 @@
+{
+  "capturedAt": "2026-09-27T00:26:00.770Z",
+  "records": [
+    {
+      "background": "rgb(247, 248, 245)",
+      "color": "rgb(20, 43, 59)",
+      "name": "Open navigation",
+      "text": "☰",
+      "url": "http://127.0.0.1:52942/en/why-paraguay",
+      "visible": true,
+      "contrastRatio": 13.695523025726818,
+      "review": "Shared mobile menu glyph; computed color against opaque header background. Axe could not classify non-text character."
+    },
+    {
+      "background": "rgb(247, 248, 245)",
+      "color": "rgb(20, 43, 59)",
+      "name": "Abrir navegación",
+      "text": "☰",
+      "url": "http://127.0.0.1:52942/es/why-paraguay",
+      "visible": true,
+      "contrastRatio": 13.695523025726818,
+      "review": "Shared mobile menu glyph; computed color against opaque header background. Axe could not classify non-text character."
+    },
+    {
+      "background": "rgb(247, 248, 245)",
+      "color": "rgb(20, 43, 59)",
+      "name": "Ouvrir la navigation",
+      "text": "☰",
+      "url": "http://127.0.0.1:52942/fr/why-paraguay",
+      "visible": true,
+      "contrastRatio": 13.695523025726818,
+      "review": "Shared mobile menu glyph; computed color against opaque header background. Axe could not classify non-text character."
+    },
+    {
+      "background": "rgb(247, 248, 245)",
+      "color": "rgb(20, 43, 59)",
+      "name": "Navigation öffnen",
+      "text": "☰",
+      "url": "http://127.0.0.1:52942/de/why-paraguay",
+      "visible": true,
+      "contrastRatio": 13.695523025726818,
+      "review": "Shared mobile menu glyph; computed color against opaque header background. Axe could not classify non-text character."
+    },
+    {
+      "background": "rgb(247, 248, 245)",
+      "color": "rgb(20, 43, 59)",
+      "name": "פתיחת תפריט הניווט",
+      "text": "☰",
+      "url": "http://127.0.0.1:52942/he/why-paraguay",
+      "visible": true,
+      "contrastRatio": 13.695523025726818,
+      "review": "Shared mobile menu glyph; computed color against opaque header background. Axe could not classify non-text character."
+    },
+    {
+      "background": "rgb(247, 248, 245)",
+      "color": "rgb(20, 43, 59)",
+      "name": "Open navigation",
+      "text": "☰",
+      "url": "http://127.0.0.1:52942/en/tax-planning",
+      "visible": true,
+      "contrastRatio": 13.695523025726818,
+      "review": "Shared mobile menu glyph; computed color against opaque header background. Axe could not classify non-text character."
+    },
+    {
+      "background": "rgb(247, 248, 245)",
+      "color": "rgb(20, 43, 59)",
+      "name": "Open navigation",
+      "text": "☰",
+      "url": "http://127.0.0.1:52942/en/company-formation/us",
+      "visible": true,
+      "contrastRatio": 13.695523025726818,
+      "review": "Shared mobile menu glyph; computed color against opaque header background. Axe could not classify non-text character."
+    },
+    {
+      "background": "rgb(247, 248, 245)",
+      "color": "rgb(20, 43, 59)",
+      "name": "Open navigation",
+      "text": "☰",
+      "url": "http://127.0.0.1:52942/en/company-formation/paraguay",
+      "visible": true,
+      "contrastRatio": 13.695523025726818,
+      "review": "Shared mobile menu glyph; computed color against opaque header background. Axe could not classify non-text character."
+    }
+  ]
+}

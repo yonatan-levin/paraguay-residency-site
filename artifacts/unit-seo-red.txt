@@ -1,0 +1,110 @@
+
+ RUN  v5.0.1 C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site
+
+ ❯ tests/unit/seo.test.ts (7 tests | 6 failed) 11ms
+   ❯ route inventory and actual translations (2)
+     × contains all handoff English routes and only complete Spanish counterparts 3ms
+   ❯ single fail-closed indexing gate (4)
+     × requires matching approved production origin, content, commercial status, and locale 2ms
+     × never includes form, campaign, receipt or draft pages in live sitemap 1ms
+     × builds self canonical and reciprocal alternates only for real complete translations 1ms
+     × gives each route distinct social text with a local 1200 by 630 preview 0ms
+   ❯ unapproved launch configuration (1)
+     × returns actionable missing approvals while allowing a complete policy fixture 1ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 6 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/seo.test.ts > route inventory and actual translations > contains all handoff English routes and only complete Spanish counterparts
+AssertionError: expected undefined to be defined
+ ❯ tests/unit/seo.test.ts:10:195
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/6]⎯
+
+ FAIL  tests/unit/seo.test.ts > single fail-closed indexing gate > requires matching approved production origin, content, commercial status, and locale
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/unit/seo.test.ts:27:49
+     25|   it('requires matching approved production origin, content, commercia…
+     26|     const page=approvedPage();
+     27|     expect(canIndex(page,approvedRuntime,'en')).toBe(true);
+       |                                                 ^
+     28|     expect(canIndex(page,{...approvedRuntime,siteUrl:'https://preview.…
+     29|     expect(canIndex({...page,contentReviewed:false},approvedRuntime,'e…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/6]⎯
+
+ FAIL  tests/unit/seo.test.ts > single fail-closed indexing gate > never includes form, campaign, receipt or draft pages in live sitemap
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/unit/seo.test.ts:37:84
+     35|     const approved=pages.map(page=>({...page,approved:true,commercialA…
+     36|     const sitemap=buildSitemap(approved,approvedRuntime);
+     37|     expect(sitemap.some(entry=>entry.url==='https://approved.example/e…
+       |                                                                                    ^
+     38|     expect(sitemap.some(entry=>/book|thank-you|find-my-plan|\/lp\/|pri…
+     39|     expect(sitemap.some(entry=>entry.url==='https://approved.example/e…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/6]⎯
+
+ FAIL  tests/unit/seo.test.ts > single fail-closed indexing gate > builds self canonical and reciprocal alternates only for real complete translations
+AssertionError: expected undefined to be 'https://approved.example/es/pricing' // Object.is equality
+
+- Expected:
+"https://approved.example/es/pricing"
+
++ Received:
+undefined
+
+ ❯ tests/unit/seo.test.ts:43:44
+     41|   it('builds self canonical and reciprocal alternates only for real co…
+     42|     const metadata=pageMetadata(approvedPage(),'es',approvedRuntime);
+     43|     expect(metadata.alternates?.canonical).toBe('https://approved.exam…
+       |                                            ^
+     44|     expect(metadata.alternates?.languages).toEqual({en:'https://approv…
+     45|     expect(metadata.robots).toMatchObject({index:true,follow:true});
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/6]⎯
+
+ FAIL  tests/unit/seo.test.ts > single fail-closed indexing gate > gives each route distinct social text with a local 1200 by 630 preview
+AssertionError: expected undefined to not deeply equal undefined
+ ❯ tests/unit/seo.test.ts:53:28
+     51|     const cost=pageMetadata(getPage('lp/residency-cost')!,'en');
+     52|     const family=pageMetadata(getPage('lp/family-relocation')!,'en');
+     53|     expect(cost.title).not.toEqual(family.title);
+       |                            ^
+     54|     expect(cost.openGraph?.images).toEqual([expect.objectContaining({w…
+     55|     expect(JSON.stringify(cost)).not.toContain('2,850');
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/6]⎯
+
+ FAIL  tests/unit/seo.test.ts > unapproved launch configuration > returns actionable missing approvals while allowing a complete policy fixture
+AssertionError: expected [] to include 'Approve the legal operator.'
+ ❯ tests/unit/seo.test.ts:62:20
+     60|   it('returns actionable missing approvals while allowing a complete p…
+     61|     const errors=validateLiveConfiguration(runtime);
+     62|     expect(errors).toContain('Approve the legal operator.');
+       |                    ^
+     63|     expect(errors).toContain('Set and approve an HTTPS production orig…
+     64|     expect(validateLiveConfiguration(approvedRuntime)).toEqual([]);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/6]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  6 failed | 1 passed (7)
+   Start at  09:58:54
+   Duration  237ms (transform 54%, import 24%, tests 15%, worker 6%)
+

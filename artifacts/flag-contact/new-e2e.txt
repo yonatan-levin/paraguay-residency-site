@@ -1,0 +1,50 @@
+[WebServer] (node:49312) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 11 tests using 2 workers
+
+(node:53696) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:72424) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  2 [chromium] › tests\e2e\flag-contact-journeys.spec.ts:37:3 › Direct contact preserves selected package in en (388ms)
+  ok  1 [chromium] › tests\e2e\flag-contact-journeys.spec.ts:9:1 › Paraguay homepage shows a real skyline and flag colored actions (417ms)
+  ok  3 [chromium] › tests\e2e\flag-contact-journeys.spec.ts:37:3 › Direct contact preserves selected package in es (266ms)
+  ok  4 [chromium] › tests\e2e\flag-contact-journeys.spec.ts:37:3 › Direct contact preserves selected package in fr (263ms)
+  ok  5 [chromium] › tests\e2e\flag-contact-journeys.spec.ts:37:3 › Direct contact preserves selected package in de (243ms)
+  ok  6 [chromium] › tests\e2e\flag-contact-journeys.spec.ts:37:3 › Direct contact preserves selected package in he (253ms)
+  ok  7 [chromium] › tests\e2e\flag-contact-journeys.spec.ts:37:3 › Direct contact preserves selected package in ru (267ms)
+  ok  9 [chromium] › tests\e2e\flag-contact-journeys.spec.ts:110:1 › Contact links and skyline remain usable without JavaScript (196ms)
+  ok  8 [chromium] › tests\e2e\flag-contact-journeys.spec.ts:75:1 › Direct contact excludes private drafts and retains the website when opened (527ms)
+  ok 11 [chromium] › tests\e2e\flag-contact-journeys.spec.ts:171:1 › Direct contact rejects arbitrary query context and resolves incompatible service choices (309ms)
+  x  10 [chromium] › tests\e2e\flag-contact-journeys.spec.ts:131:1 › Direct contact follows a package choice and language switch (5.6s)
+
+
+  1) [chromium] › tests\e2e\flag-contact-journeys.spec.ts:131:1 › Direct contact follows a package choice and language switch
+
+    Error: expect(locator).toHaveValue(expected) failed
+
+    Locator: locator('input[name="firstName"]')
+    Expected: "Local Draft"
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toHaveValue" locator('input[name="firstName"]') with timeout 5000ms
+      - waiting for locator('input[name="firstName"]')
+
+
+      164 |   expect(message).toMatch(/[\u0590-\u05ff]/);
+      165 |   expect(message).not.toContain("Local Draft");
+    > 166 |   await expect(page.locator('input[name="firstName"]')).toHaveValue(
+          |                                                         ^
+      167 |     "Local Draft",
+      168 |   );
+      169 | });
+        at C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-flag-contact\tests\e2e\flag-contact-journeys.spec.ts:166:57
+
+    Error Context: test-results\flag-contact-journeys-Dire-24b6b--choice-and-language-switch-chromium\error-context.md
+
+  1 failed
+    [chromium] › tests\e2e\flag-contact-journeys.spec.ts:131:1 › Direct contact follows a package choice and language switch
+  10 passed (9.6s)

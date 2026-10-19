@@ -1,0 +1,61 @@
+{
+  "capturedAt": "2026-09-26T19:10:22-03:00",
+  "phase": "A baseline before value first implementation",
+  "sourceCommit": "6b5c6ba7a104cc2f8f9671fa34d6be27eea848b6",
+  "branch": "update/value-first",
+  "nextBuildId": "G8jW-o41AUeUIkrx00so2",
+  "baseUrl": "http://127.0.0.1:53620",
+  "environment": {
+    "os": "Windows",
+    "node": "24.14.1",
+    "npm": "11.11.0",
+    "next": "16.3.6",
+    "playwright": "1.63.0",
+    "agentBrowser": "0.32.1",
+    "screenshotBrowser": "HeadlessChrome/152.0.0.0",
+    "siteMode": "demo"
+  },
+  "checks": [
+    { "command": "npm test", "status": "PASS", "exitCode": 0, "passed": 65, "failed": 0, "elapsedSeconds": 2.5159386, "log": "unit.txt" },
+    { "command": "npm run lint", "status": "PASS", "exitCode": 0, "elapsedSeconds": 9.4085408, "log": "lint.txt" },
+    { "command": "npm run typecheck", "status": "PASS", "exitCode": 0, "elapsedSeconds": 7.039823, "log": "typecheck.txt" },
+    { "command": "npm run build", "status": "PASS", "exitCode": 0, "elapsedSeconds": 8.3321617, "log": "build.txt" },
+    { "command": "E2E_BASE_URL=http://127.0.0.1:53620 npm run test:e2e", "note": "PowerShell environment assignment; CI unset so existing local production server is reused. Original Playwright config unchanged: two workers, zero retries.", "status": "PASS", "exitCode": 0, "passed": 230, "failed": 0, "elapsedSeconds": 62.8096876, "log": "e2e.txt" }
+  ],
+  "screenshots": {
+    "method": "agent-browser isolated named session; set viewport; open route; wait for networkidle; first screen and full page screenshot. Finder result reached with actual radio choices and no contact fields entered.",
+    "viewports": [{ "width": 390, "height": 844 }, { "width": 1440, "height": 900 }],
+    "routes": ["/en", "/he", "/en/pricing", "/en/find-my-plan", "/en/lp/family-relocation"],
+    "filePattern": "{en-home|he-home|en-pricing|en-finder-result|en-family-relocation}-{390|1440}-{first|full}.png",
+    "count": 20,
+    "finderAnswers": ["Residency assistance", "This would be my first residency", "Just me", "I am just exploring", "Guided"],
+    "finderResult": "Guided, temporary-guided, illustrative USD 2,850 per applicant, no legal eligibility decision",
+    "snapshots": "Matching *-snapshot.txt records capture page semantics.",
+    "visuallyInspected": ["en-home-390-first.png", "en-home-1440-first.png", "he-home-390-first.png", "en-finder-result-390-full.png"]
+  },
+  "performance": {
+    "method": "Adapted existing scripts/lighthouse.mjs into an external temporary script to redirect output and use the requested family campaign. Same launch flags --headless=new --disable-gpu; categories performance, accessibility, best-practices, seo; all Lighthouse default mobile settings retained. One sequential cold audit per route after E2E and screenshot browser were finished. No production source changed.",
+    "lighthouseVersion": "13.5.0",
+    "browser": "HeadlessChrome/154.0.0.0",
+    "screen": { "mobile": true, "width": 412, "height": 823, "deviceScaleFactor": 1.75 },
+    "throttlingMethod": "simulate",
+    "cpuSlowdownMultiplier": 4,
+    "rttMs": 150,
+    "throughputKbps": 1638.4,
+    "elapsedSeconds": 31.2294552,
+    "summary": "lighthouse/summary.json",
+    "routes": [
+      { "route": "/en", "performance": 84, "accessibility": 100, "bestPractices": 100, "seo": 69, "lcpMs": 4474.916376031562, "cls": 0, "tbtMs": 29.5 },
+      { "route": "/en/pricing", "performance": 85, "accessibility": 100, "bestPractices": 100, "seo": 66, "lcpMs": 4363.282625738848, "cls": 0, "tbtMs": 59 },
+      { "route": "/en/lp/family-relocation", "performance": 86, "accessibility": 100, "bestPractices": 100, "seo": 69, "lcpMs": 4213.994822616819, "cls": 0, "tbtMs": 23.5 }
+    ],
+    "interpretation": "Preexisting local lab performance is below the original 90 aim. SEO deduction is expected from required noindex headers and meta. These are single-run simulated lab results, not field measurements or conversion evidence. Repeat the same method on the updated production build. The threshold wording was corrected during final QA; measured scores are unchanged."
+  },
+  "preexistingFailures": [],
+  "limits": [
+    "This baseline does not claim compliance with the new V2 acceptance criteria.",
+    "No participant comprehension study, real mobile device check or professional legal review was performed.",
+    "No deployment, live integration, cloud or GitHub mutation occurred."
+  ],
+  "cleanup": "Owned screenshot browser and Lighthouse Chrome closed. Only E2E-regenerated historical screenshot artifacts/screenshots/_en_book-390.png was restored to HEAD; other agent files were untouched. Local production server remains available for the root agent."
+}

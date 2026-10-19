@@ -1,0 +1,16 @@
+
+ RUN  v5.0.1 C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site
+
+ ✓ tests/unit/seo.test.ts > route inventory and actual translations > contains all handoff English routes and only complete Spanish counterparts 1ms
+ ✓ tests/unit/seo.test.ts > route inventory and actual translations > keeps all demo routes noindex and demo sitemap empty 1ms
+ ✓ tests/unit/seo.test.ts > single fail-closed indexing gate > requires matching approved production origin, content, commercial status, and locale 0ms
+ ✓ tests/unit/seo.test.ts > single fail-closed indexing gate > never includes form, campaign, receipt or draft pages in live sitemap 1ms
+ ✓ tests/unit/seo.test.ts > single fail-closed indexing gate > builds self canonical and reciprocal alternates only for real complete translations 1ms
+ ✓ tests/unit/seo.test.ts > single fail-closed indexing gate > gives each route distinct social text with a local 1200 by 630 preview 1ms
+ ✓ tests/unit/seo.test.ts > unapproved launch configuration > returns actionable missing approvals while allowing a complete policy fixture 1ms
+
+ Test Files  1 passed (1)
+      Tests  7 passed (7)
+   Start at  10:43:02
+   Duration  251ms (transform 65%, import 21%, tests 8%, worker 5%)
+

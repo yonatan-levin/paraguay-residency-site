@@ -1,0 +1,13 @@
+
+> paraguay-residency-site@0.1.0 test
+> vitest run tests/unit/content-review.test.ts tests/unit/seo.test.ts tests/unit/translations.test.ts
+
+
+ RUN  v5.0.1 C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site
+
+
+ Test Files  3 passed (3)
+      Tests  61 passed (61)
+   Start at  21:01:49
+   Duration  928ms (transform 57%, import 22%, tests 19%, worker 2%)
+

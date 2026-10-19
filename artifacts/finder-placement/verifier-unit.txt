@@ -1,0 +1,13 @@
+
+> paraguay-residency-site@0.1.0 test
+> vitest run tests/unit/value-first.test.ts tests/unit/translations.test.ts
+
+
+ RUN  v5.0.1 C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site
+
+
+ Test Files  2 passed (2)
+      Tests  19 passed (19)
+   Start at  22:41:13
+   Duration  468ms (transform 37%, import 35%, tests 25%, worker 2%)
+

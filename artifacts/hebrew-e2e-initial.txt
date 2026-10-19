@@ -1,0 +1,294 @@
+
+> paraguay-residency-site@0.1.0 test:e2e
+> playwright test
+
+
+Running 215 tests using 2 workers
+
+(node:12584) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:26328) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok   2 [chromium] › tests\e2e\accessibility.spec.ts:14:3 › automated accessibility /en/pricing (862ms)
+  ok   1 [chromium] › tests\e2e\accessibility.spec.ts:14:3 › automated accessibility /en (874ms)
+  ok   3 [chromium] › tests\e2e\accessibility.spec.ts:14:3 › automated accessibility /en/lp/residency-cost (617ms)
+  ok   4 [chromium] › tests\e2e\accessibility.spec.ts:14:3 › automated accessibility /en/find-my-plan (586ms)
+  ok   6 [chromium] › tests\e2e\accessibility.spec.ts:14:3 › automated accessibility /es/book (663ms)
+  ok   5 [chromium] › tests\e2e\accessibility.spec.ts:14:3 › automated accessibility /en/book (676ms)
+  ok   7 [chromium] › tests\e2e\accessibility.spec.ts:24:3 › reflow and unfilled visual evidence 320px (564ms)
+  ok   8 [chromium] › tests\e2e\accessibility.spec.ts:24:3 › reflow and unfilled visual evidence 360px (559ms)
+  ok  10 [chromium] › tests\e2e\accessibility.spec.ts:24:3 › reflow and unfilled visual evidence 768px (520ms)
+  ok   9 [chromium] › tests\e2e\accessibility.spec.ts:24:3 › reflow and unfilled visual evidence 390px (1.1s)
+  ok  12 [chromium] › tests\e2e\accessibility.spec.ts:57:1 › keyboard menu, skip link, dialog dismissal and focus recovery (323ms)
+  ok  11 [chromium] › tests\e2e\accessibility.spec.ts:24:3 › reflow and unfilled visual evidence 1440px (1.4s)
+  ok  14 [chromium] › tests\e2e\finder.spec.ts:3:1 › AC-02 family campaign reaches editable family finder without contact gate (335ms)
+  ok  13 [chromium] › tests\e2e\accessibility.spec.ts:85:1 › RTL mixed-script fixture and emulated 200-percent zoom remain usable (858ms)
+  ok  15 [chromium] › tests\e2e\finder.spec.ts:16:1 › AC-03 existing temporary resident receives upgrade path (530ms)
+  ok  16 [chromium] › tests\e2e\finder.spec.ts:40:1 › AC-04 business goal skips residency stage and routes to business inquiry (621ms)
+  ok  17 [chromium] › tests\e2e\finder.spec.ts:63:1 › AC-05 changing a deep-linked goal clears incompatible plan before skipping (398ms)
+  ok  18 [chromium] › tests\e2e\finder.spec.ts:81:1 › AC-02/05/07 family answers survive Back and result stays quote-only through receipt (850ms)
+  ok  19 [chromium] › tests\e2e\finder.spec.ts:127:1 › AC-17 language switch preserves a non-campaign family quote and in-memory draft (810ms)
+  ok  20 [chromium] › tests\e2e\hebrew.spec.ts:12:1 › Hebrew missing pages and direct receipt recover in Hebrew (343ms)
+  ok  22 [chromium] › tests\e2e\hebrew.spec.ts:63:1 › Hebrew mixed direction details keep their meaning through a simulated appointment (508ms)
+  ok  21 [chromium] › tests\e2e\hebrew.spec.ts:28:1 › appointment draft survives language changes without changing the UTC instant (770ms)
+  ok  23 [chromium] › tests\e2e\hebrew.spec.ts:104:3 › Hebrew layout, language picker and navigation fit 320px (954ms)
+  ok  24 [chromium] › tests\e2e\hebrew.spec.ts:104:3 › Hebrew layout, language picker and navigation fit 390px (946ms)
+  ok  25 [chromium] › tests\e2e\hebrew.spec.ts:104:3 › Hebrew layout, language picker and navigation fit 768px (1.0s)
+  ok  26 [chromium] › tests\e2e\hebrew.spec.ts:104:3 › Hebrew layout, language picker and navigation fit 1440px (969ms)
+  ok  28 [chromium] › tests\e2e\journeys.spec.ts:34:1 › AC-06 invalid selection and direct receipt recover honestly (307ms)
+  ok  27 [chromium] › tests\e2e\journeys.spec.ts:3:1 › AC-01 selected Guided plan and catalog price survive inquiry and receipt (594ms)
+  ok  30 [chromium] › tests\e2e\journeys.spec.ts:76:1 › AC-12 WhatsApp is an accessible local preview and makes no provider requests (272ms)
+  ok  29 [chromium] › tests\e2e\journeys.spec.ts:55:1 › AC-10 simulated failure keeps draft and allows successful retry (460ms)
+  ok  32 [chromium] › tests\e2e\journeys.spec.ts:140:1 › Spanish validation and WhatsApp callback require only the chosen channel (405ms)
+  ok  31 [chromium] › tests\e2e\journeys.spec.ts:97:1 › AC-09/10 demo appointment retains UTC selection across zones and recovers from unavailable time (601ms)
+  ok  33 [chromium] › tests\e2e\journeys.spec.ts:165:1 › changing pricing journey clears an incompatible selected package (548ms)
+  ok  35 [chromium] › tests\e2e\locales.spec.ts:44:3 › fr localized validation, mock failure, retry and receipt retain the selected package (593ms)
+  ok  34 [chromium] › tests\e2e\locales.spec.ts:33:3 › fr translated form and policy have no automated accessibility violations (998ms)
+  ok  37 [chromium] › tests\e2e\locales.spec.ts:44:3 › de localized validation, mock failure, retry and receipt retain the selected package (592ms)
+  ok  36 [chromium] › tests\e2e\locales.spec.ts:33:3 › de translated form and policy have no automated accessibility violations (1.0s)
+  ok  39 [chromium] › tests\e2e\locales.spec.ts:44:3 › he localized validation, mock failure, retry and receipt retain the selected package (569ms)
+  ok  38 [chromium] › tests\e2e\locales.spec.ts:33:3 › he translated form and policy have no automated accessibility violations (1.0s)
+  ok  41 [chromium] › tests\e2e\locales.spec.ts:134:1 › language disclosure has native links, current language and keyboard recovery (292ms)
+  ok  42 [chromium] › tests\e2e\locales.spec.ts:158:1 › all languages and translated editorial pages remain navigable without JavaScript (778ms)
+  ok  40 [chromium] › tests\e2e\locales.spec.ts:87:1 › all five language journeys preserve family finder context and private draft in memory (1.5s)
+  ok  43 [chromium] › tests\e2e\locales.spec.ts:176:3 › German translated pages and language selector fit 320px (908ms)
+  ok  44 [chromium] › tests\e2e\locales.spec.ts:176:3 › German translated pages and language selector fit 390px (900ms)
+  ok  45 [chromium] › tests\e2e\locales.spec.ts:176:3 › German translated pages and language selector fit 768px (873ms)
+  ok  47 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/(home) has preview SEO, one H1, and no render errors (282ms)
+  ok  46 [chromium] › tests\e2e\locales.spec.ts:176:3 › German translated pages and language selector fit 1440px (876ms)
+  ok  48 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/paraguay-residency has preview SEO, one H1, and no render errors (251ms)
+  ok  49 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/pricing has preview SEO, one H1, and no render errors (261ms)
+  ok  50 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/find-my-plan has preview SEO, one H1, and no render errors (239ms)
+  ok  51 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/book has preview SEO, one H1, and no render errors (260ms)
+  ok  52 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/thank-you has preview SEO, one H1, and no render errors (245ms)
+  ok  53 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/services has preview SEO, one H1, and no render errors (254ms)
+  ok  54 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/permanent-residency has preview SEO, one H1, and no render errors (254ms)
+  ok  55 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/investor-residency has preview SEO, one H1, and no render errors (259ms)
+  ok  56 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/relocation has preview SEO, one H1, and no render errors (265ms)
+  ok  57 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/tax-planning has preview SEO, one H1, and no render errors (254ms)
+  ok  58 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/company-formation/paraguay has preview SEO, one H1, and no render errors (254ms)
+  ok  59 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/company-formation/us has preview SEO, one H1, and no render errors (247ms)
+  ok  60 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/accounting has preview SEO, one H1, and no render errors (264ms)
+  ok  61 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/banking has preview SEO, one H1, and no render errors (242ms)
+  ok  62 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/real-estate has preview SEO, one H1, and no render errors (252ms)
+  ok  63 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/driving-license has preview SEO, one H1, and no render errors (237ms)
+  ok  64 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/retire-in-paraguay has preview SEO, one H1, and no render errors (243ms)
+  ok  65 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/citizenship-guidance has preview SEO, one H1, and no render errors (234ms)
+  ok  66 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/guides has preview SEO, one H1, and no render errors (245ms)
+  ok  67 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/guides/residency-requirements has preview SEO, one H1, and no render errors (248ms)
+  ok  68 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/about has preview SEO, one H1, and no render errors (240ms)
+  ok  69 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/contact has preview SEO, one H1, and no render errors (249ms)
+  ok  70 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/lp/residency-cost has preview SEO, one H1, and no render errors (231ms)
+  ok  71 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/lp/family-relocation has preview SEO, one H1, and no render errors (240ms)
+  ok  72 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/links has preview SEO, one H1, and no render errors (227ms)
+  ok  73 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/privacy has preview SEO, one H1, and no render errors (232ms)
+  ok  74 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/terms has preview SEO, one H1, and no render errors (235ms)
+  ok  75 [chromium] › tests\e2e\routes.spec.ts:38:5 › route en/disclaimer has preview SEO, one H1, and no render errors (245ms)
+  ok  76 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/(home) has preview SEO, one H1, and no render errors (275ms)
+  ok  77 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/paraguay-residency has preview SEO, one H1, and no render errors (271ms)
+  ok  78 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/pricing has preview SEO, one H1, and no render errors (270ms)
+  ok  79 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/find-my-plan has preview SEO, one H1, and no render errors (236ms)
+  ok  80 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/book has preview SEO, one H1, and no render errors (264ms)
+  ok  81 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/thank-you has preview SEO, one H1, and no render errors (249ms)
+  ok  82 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/services has preview SEO, one H1, and no render errors (242ms)
+  ok  83 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/permanent-residency has preview SEO, one H1, and no render errors (253ms)
+  ok  84 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/investor-residency has preview SEO, one H1, and no render errors (254ms)
+  ok  85 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/relocation has preview SEO, one H1, and no render errors (254ms)
+  ok  86 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/tax-planning has preview SEO, one H1, and no render errors (253ms)
+  ok  87 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/company-formation/paraguay has preview SEO, one H1, and no render errors (254ms)
+  ok  88 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/company-formation/us has preview SEO, one H1, and no render errors (249ms)
+  ok  89 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/accounting has preview SEO, one H1, and no render errors (250ms)
+  ok  90 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/banking has preview SEO, one H1, and no render errors (247ms)
+  ok  91 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/real-estate has preview SEO, one H1, and no render errors (249ms)
+  ok  92 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/driving-license has preview SEO, one H1, and no render errors (255ms)
+  ok  93 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/retire-in-paraguay has preview SEO, one H1, and no render errors (247ms)
+  ok  94 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/citizenship-guidance has preview SEO, one H1, and no render errors (250ms)
+  ok  95 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/guides has preview SEO, one H1, and no render errors (237ms)
+  ok  97 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/about has preview SEO, one H1, and no render errors (249ms)
+  ok  96 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/guides/residency-requirements has preview SEO, one H1, and no render errors (251ms)
+  ok  98 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/contact has preview SEO, one H1, and no render errors (251ms)
+  ok  99 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/lp/residency-cost has preview SEO, one H1, and no render errors (258ms)
+  ok 101 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/links has preview SEO, one H1, and no render errors (226ms)
+  ok 100 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/lp/family-relocation has preview SEO, one H1, and no render errors (246ms)
+  ok 103 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/terms has preview SEO, one H1, and no render errors (233ms)
+  ok 102 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/privacy has preview SEO, one H1, and no render errors (241ms)
+  ok 104 [chromium] › tests\e2e\routes.spec.ts:38:5 › route es/disclaimer has preview SEO, one H1, and no render errors (239ms)
+  ok 105 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/(home) has preview SEO, one H1, and no render errors (281ms)
+  ok 106 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/paraguay-residency has preview SEO, one H1, and no render errors (251ms)
+  ok 107 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/pricing has preview SEO, one H1, and no render errors (253ms)
+  ok 108 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/find-my-plan has preview SEO, one H1, and no render errors (250ms)
+  ok 109 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/book has preview SEO, one H1, and no render errors (249ms)
+  ok 110 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/thank-you has preview SEO, one H1, and no render errors (244ms)
+  ok 111 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/services has preview SEO, one H1, and no render errors (235ms)
+  ok 112 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/permanent-residency has preview SEO, one H1, and no render errors (250ms)
+  ok 113 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/investor-residency has preview SEO, one H1, and no render errors (252ms)
+  ok 114 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/relocation has preview SEO, one H1, and no render errors (263ms)
+  ok 115 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/tax-planning has preview SEO, one H1, and no render errors (241ms)
+  ok 116 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/company-formation/paraguay has preview SEO, one H1, and no render errors (244ms)
+  ok 117 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/company-formation/us has preview SEO, one H1, and no render errors (234ms)
+  ok 119 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/banking has preview SEO, one H1, and no render errors (243ms)
+  ok 118 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/accounting has preview SEO, one H1, and no render errors (250ms)
+  ok 120 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/real-estate has preview SEO, one H1, and no render errors (254ms)
+  ok 121 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/driving-license has preview SEO, one H1, and no render errors (252ms)
+  ok 123 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/citizenship-guidance has preview SEO, one H1, and no render errors (254ms)
+  ok 122 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/retire-in-paraguay has preview SEO, one H1, and no render errors (261ms)
+  ok 124 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/guides has preview SEO, one H1, and no render errors (239ms)
+  ok 125 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/guides/residency-requirements has preview SEO, one H1, and no render errors (249ms)
+  ok 126 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/about has preview SEO, one H1, and no render errors (233ms)
+  ok 127 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/contact has preview SEO, one H1, and no render errors (232ms)
+  ok 128 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/lp/residency-cost has preview SEO, one H1, and no render errors (243ms)
+  ok 129 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/lp/family-relocation has preview SEO, one H1, and no render errors (242ms)
+  ok 130 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/links has preview SEO, one H1, and no render errors (234ms)
+  ok 131 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/privacy has preview SEO, one H1, and no render errors (235ms)
+  ok 133 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/disclaimer has preview SEO, one H1, and no render errors (223ms)
+  ok 132 [chromium] › tests\e2e\routes.spec.ts:38:5 › route fr/terms has preview SEO, one H1, and no render errors (233ms)
+  ok 135 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/paraguay-residency has preview SEO, one H1, and no render errors (260ms)
+  ok 134 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/(home) has preview SEO, one H1, and no render errors (282ms)
+  ok 136 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/pricing has preview SEO, one H1, and no render errors (274ms)
+  ok 137 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/find-my-plan has preview SEO, one H1, and no render errors (253ms)
+  ok 139 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/thank-you has preview SEO, one H1, and no render errors (252ms)
+  ok 138 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/book has preview SEO, one H1, and no render errors (271ms)
+  ok 140 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/services has preview SEO, one H1, and no render errors (229ms)
+  ok 141 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/permanent-residency has preview SEO, one H1, and no render errors (245ms)
+  ok 142 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/investor-residency has preview SEO, one H1, and no render errors (257ms)
+  ok 143 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/relocation has preview SEO, one H1, and no render errors (245ms)
+  ok 144 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/tax-planning has preview SEO, one H1, and no render errors (245ms)
+  ok 145 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/company-formation/paraguay has preview SEO, one H1, and no render errors (245ms)
+  ok 146 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/company-formation/us has preview SEO, one H1, and no render errors (251ms)
+  ok 147 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/accounting has preview SEO, one H1, and no render errors (257ms)
+  ok 148 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/banking has preview SEO, one H1, and no render errors (250ms)
+  ok 149 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/real-estate has preview SEO, one H1, and no render errors (258ms)
+  ok 150 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/driving-license has preview SEO, one H1, and no render errors (249ms)
+  ok 151 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/retire-in-paraguay has preview SEO, one H1, and no render errors (253ms)
+  ok 152 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/citizenship-guidance has preview SEO, one H1, and no render errors (257ms)
+  ok 153 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/guides has preview SEO, one H1, and no render errors (233ms)
+  ok 154 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/guides/residency-requirements has preview SEO, one H1, and no render errors (246ms)
+  ok 155 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/about has preview SEO, one H1, and no render errors (230ms)
+  ok 156 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/contact has preview SEO, one H1, and no render errors (249ms)
+  ok 157 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/lp/residency-cost has preview SEO, one H1, and no render errors (246ms)
+  ok 159 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/links has preview SEO, one H1, and no render errors (222ms)
+  ok 158 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/lp/family-relocation has preview SEO, one H1, and no render errors (235ms)
+  ok 160 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/privacy has preview SEO, one H1, and no render errors (248ms)
+  ok 161 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/terms has preview SEO, one H1, and no render errors (242ms)
+  ok 163 [chromium] › tests\e2e\routes.spec.ts:38:5 › route de/disclaimer has preview SEO, one H1, and no render errors (255ms)
+  ok 162 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/(home) has preview SEO, one H1, and no render errors (274ms)
+  ok 164 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/paraguay-residency has preview SEO, one H1, and no render errors (247ms)
+  ok 165 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/pricing has preview SEO, one H1, and no render errors (259ms)
+  ok 166 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/find-my-plan has preview SEO, one H1, and no render errors (246ms)
+  ok 167 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/book has preview SEO, one H1, and no render errors (272ms)
+  ok 168 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/thank-you has preview SEO, one H1, and no render errors (264ms)
+  ok 169 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/services has preview SEO, one H1, and no render errors (265ms)
+  ok 170 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/permanent-residency has preview SEO, one H1, and no render errors (278ms)
+  ok 171 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/investor-residency has preview SEO, one H1, and no render errors (276ms)
+  ok 172 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/relocation has preview SEO, one H1, and no render errors (298ms)
+  ok 173 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/tax-planning has preview SEO, one H1, and no render errors (294ms)
+  ok 174 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/company-formation/paraguay has preview SEO, one H1, and no render errors (293ms)
+  ok 175 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/company-formation/us has preview SEO, one H1, and no render errors (285ms)
+  ok 176 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/accounting has preview SEO, one H1, and no render errors (291ms)
+  ok 177 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/banking has preview SEO, one H1, and no render errors (289ms)
+  ok 178 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/real-estate has preview SEO, one H1, and no render errors (374ms)
+  ok 179 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/driving-license has preview SEO, one H1, and no render errors (399ms)
+  ok 180 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/retire-in-paraguay has preview SEO, one H1, and no render errors (440ms)
+  ok 181 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/citizenship-guidance has preview SEO, one H1, and no render errors (429ms)
+  ok 182 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/guides has preview SEO, one H1, and no render errors (308ms)
+  ok 183 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/guides/residency-requirements has preview SEO, one H1, and no render errors (316ms)
+  ok 184 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/about has preview SEO, one H1, and no render errors (356ms)
+  ok 185 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/contact has preview SEO, one H1, and no render errors (380ms)
+  ok 186 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/lp/residency-cost has preview SEO, one H1, and no render errors (519ms)
+  ok 187 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/lp/family-relocation has preview SEO, one H1, and no render errors (464ms)
+  ok 188 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/links has preview SEO, one H1, and no render errors (383ms)
+  ok 189 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/privacy has preview SEO, one H1, and no render errors (421ms)
+  ok 190 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/terms has preview SEO, one H1, and no render errors (367ms)
+  ok 191 [chromium] › tests\e2e\routes.spec.ts:38:5 › route he/disclaimer has preview SEO, one H1, and no render errors (377ms)
+  ok 193 [chromium] › tests\e2e\routes.spec.ts:100:1 › root and trailing slash convention redirect; demo sitemap contains no drafts (86ms)
+  ok 194 [chromium] › tests\e2e\smoke.spec.ts:3:1 › Hebrew server direction and language navigation work without JavaScript (368ms)
+  ok 195 [chromium] › tests\e2e\smoke.spec.ts:21:1 › preview marketing, canonical and Spanish equivalent retain plan context (464ms)
+  ok 196 [chromium] › tests\e2e\smoke.spec.ts:43:1 › no-JavaScript marketing content and ordinary navigation remain available (329ms)
+  ok 197 [chromium] › tests\e2e\smoke.spec.ts:63:1 › unknown routes and unsupported languages return real 404s (495ms)
+(node:49176) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 198 [mobile-chromium] › tests\e2e\hebrew.spec.ts:12:1 › Hebrew missing pages and direct receipt recover in Hebrew (467ms)
+  ok 199 [mobile-chromium] › tests\e2e\hebrew.spec.ts:28:1 › appointment draft survives language changes without changing the UTC instant (856ms)
+  ok 200 [mobile-chromium] › tests\e2e\hebrew.spec.ts:63:1 › Hebrew mixed direction details keep their meaning through a simulated appointment (529ms)
+  ok 201 [mobile-chromium] › tests\e2e\hebrew.spec.ts:104:3 › Hebrew layout, language picker and navigation fit 320px (1.1s)
+  ok 202 [mobile-chromium] › tests\e2e\hebrew.spec.ts:104:3 › Hebrew layout, language picker and navigation fit 390px (1.0s)
+  ok 192 [chromium] › tests\e2e\routes.spec.ts:78:1 › all rendered internal link destinations resolve (8.3s)
+(node:43884) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  203 [mobile-chromium] › tests\e2e\hebrew.spec.ts:104:3 › Hebrew layout, language picker and navigation fit 768px (5.6s)
+(node:50412) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 205 [mobile-chromium] › tests\e2e\journeys.spec.ts:3:1 › AC-01 selected Guided plan and catalog price survive inquiry and receipt (536ms)
+  ok 206 [mobile-chromium] › tests\e2e\journeys.spec.ts:34:1 › AC-06 invalid selection and direct receipt recover honestly (268ms)
+  ok 207 [mobile-chromium] › tests\e2e\journeys.spec.ts:55:1 › AC-10 simulated failure keeps draft and allows successful retry (369ms)
+  ok 208 [mobile-chromium] › tests\e2e\journeys.spec.ts:76:1 › AC-12 WhatsApp is an accessible local preview and makes no provider requests (224ms)
+  x  204 [mobile-chromium] › tests\e2e\hebrew.spec.ts:104:3 › Hebrew layout, language picker and navigation fit 1440px (5.6s)
+  ok 209 [mobile-chromium] › tests\e2e\journeys.spec.ts:97:1 › AC-09/10 demo appointment retains UTC selection across zones and recovers from unavailable time (521ms)
+(node:28612) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 210 [mobile-chromium] › tests\e2e\journeys.spec.ts:165:1 › changing pricing journey clears an incompatible selected package (536ms)
+  ok 211 [mobile-chromium] › tests\e2e\journeys.spec.ts:140:1 › Spanish validation and WhatsApp callback require only the chosen channel (411ms)
+(node:4936) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:40316) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 212 [webkit] › tests\e2e\smoke.spec.ts:3:1 › Hebrew server direction and language navigation work without JavaScript (637ms)
+  ok 214 [webkit] › tests\e2e\smoke.spec.ts:43:1 › no-JavaScript marketing content and ordinary navigation remain available (410ms)
+  ok 213 [webkit] › tests\e2e\smoke.spec.ts:21:1 › preview marketing, canonical and Spanish equivalent retain plan context (825ms)
+  ok 215 [webkit] › tests\e2e\smoke.spec.ts:63:1 › unknown routes and unsupported languages return real 404s (471ms)
+
+
+  1) [mobile-chromium] › tests\e2e\hebrew.spec.ts:104:3 › Hebrew layout, language picker and navigation fit 768px 
+
+    Error: expect(locator).toBeInViewport() failed
+
+    Locator: getByRole('link', { name: 'Deutsch', exact: true })
+    Expected: in viewport
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeInViewport" getByRole('link', { name: 'Deutsch', exact: true }) with timeout 5000ms
+      - waiting for getByRole('link', { name: 'Deutsch', exact: true })
+
+
+      122 |       await expect(
+      123 |         page.getByRole("link", { name: "Deutsch", exact: true }),
+    > 124 |       ).toBeInViewport();
+          |         ^
+      125 |       expect
+      126 |         .soft(
+      127 |           await page.evaluate(
+        at C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\tests\e2e\hebrew.spec.ts:124:9
+
+    Error Context: test-results\hebrew-Hebrew-layout-langu-097f7-er-and-navigation-fit-768px-mobile-chromium\error-context.md
+
+  2) [mobile-chromium] › tests\e2e\hebrew.spec.ts:104:3 › Hebrew layout, language picker and navigation fit 1440px 
+
+    Error: expect(locator).toBeInViewport() failed
+
+    Locator: getByRole('link', { name: 'Deutsch', exact: true })
+    Expected: in viewport
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeInViewport" getByRole('link', { name: 'Deutsch', exact: true }) with timeout 5000ms
+      - waiting for getByRole('link', { name: 'Deutsch', exact: true })
+
+
+      122 |       await expect(
+      123 |         page.getByRole("link", { name: "Deutsch", exact: true }),
+    > 124 |       ).toBeInViewport();
+          |         ^
+      125 |       expect
+      126 |         .soft(
+      127 |           await page.evaluate(
+        at C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\tests\e2e\hebrew.spec.ts:124:9
+
+    Error Context: test-results\hebrew-Hebrew-layout-langu-a2ad5-r-and-navigation-fit-1440px-mobile-chromium\error-context.md
+
+  2 failed
+    [mobile-chromium] › tests\e2e\hebrew.spec.ts:104:3 › Hebrew layout, language picker and navigation fit 768px 
+    [mobile-chromium] › tests\e2e\hebrew.spec.ts:104:3 › Hebrew layout, language picker and navigation fit 1440px 
+  213 passed (55.0s)

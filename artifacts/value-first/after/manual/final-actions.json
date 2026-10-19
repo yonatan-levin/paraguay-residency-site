@@ -1,0 +1,71 @@
+{
+  "checks": [
+    {
+      "check": "NoJS final Why pricing action after ordinary scroll",
+      "status": "PASS",
+      "destination": "http://127.0.0.1:52942/en/pricing?service=temporary-residency&plan=temporary-guided"
+    },
+    {
+      "check": "NoJS footer booking after ordinary element scrolling",
+      "status": "PASS",
+      "destination": "http://127.0.0.1:52942/en/book?service=temporary-residency&plan=temporary-guided"
+    },
+    {
+      "check": "Persistent conversion bar absent on find-my-plan",
+      "status": "PASS",
+      "count": 0
+    },
+    {
+      "check": "Persistent conversion bar absent on book",
+      "status": "PASS",
+      "count": 0
+    },
+    {
+      "check": "Persistent conversion bar absent on thank-you",
+      "status": "PASS",
+      "count": 0
+    },
+    {
+      "check": "Blank focused booking input in reduced-height viewport",
+      "status": "PASS",
+      "viewport": {
+        "width": 390,
+        "height": 420
+      },
+      "input": {
+        "x": 41,
+        "y": 198.1875,
+        "width": 308,
+        "height": 48.390625
+      },
+      "limitation": "Desktop viewport reduction only; no native mobile keyboard or safe-area hardware tested."
+    }
+  ],
+  "method": "Playwright supplement to agent-browser manual checks",
+  "browser": "153.0.8010.12",
+  "menuContrastManual": {
+    "axeIncomplete": "color-contrast",
+    "target": "summary[aria-label=\"Open navigation\"]",
+    "colors": {
+      "text": "☰",
+      "color": "rgb(20, 43, 59)",
+      "background": "rgba(0, 0, 0, 0)",
+      "ancestors": [
+        {
+          "tag": "DETAILS",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tag": "BODY",
+          "background": "rgb(247, 248, 245)"
+        }
+      ]
+    },
+    "observation": "Dark navigation glyph is visibly distinct in mobile screenshots; axe cannot automatically determine its contrast. This is not a complete manual accessibility certification."
+  },
+  "status": "PASS"
+}

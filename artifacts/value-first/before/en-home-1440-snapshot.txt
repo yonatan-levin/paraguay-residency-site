@@ -1,0 +1,240 @@
+- link "Skip to content" [ref=e1]
+- StaticText "Website preview. Offers are provisional and no real booking or message will be sent."
+- banner
+  - link "Paraguay Residency Studio" [ref=e2]
+    - StaticText "Paraguay"
+    - StaticText "Residency Studio"
+  - navigation "Main navigation" [ref=e3]
+    - link "Residency" [ref=e7]
+    - link "Packages" [ref=e8]
+    - link "Relocation & business" [ref=e9]
+    - link "Guides" [ref=e10]
+    - link "About" [ref=e11]
+  - group
+    - DisclosureTriangle "Select language: EN" [expanded=false]
+      - StaticText "EN"
+      - StaticText "⌄"
+  - link "Find my plan" [ref=e4]
+- main
+  - generic
+    - paragraph
+      - StaticText "A new beginning, thoughtfully planned"
+    - heading "Make Paraguay your next chapter." [level=1, ref=e12]
+    - paragraph
+      - StaticText "Residency support, clear packages, and local coordination to help you prepare your documents, plan required visits, and settle in."
+    - link "Find my residency plan" [ref=e13]
+    - link "Compare packages" [ref=e14]
+    - button "Ask us on WhatsApp" [ref=e15]
+    - paragraph
+      - StaticText "Understand your options. Move at your pace."
+    - figure
+      - image "Original editorial illustration of a shaded terrace and greenery in Paraguay"
+      - Figcaption
+        - StaticText "Editorial illustration · Location imagery pending"
+      - paragraph
+        - StaticText "A place for your plans to take root."
+  - paragraph
+    - StaticText "Clear scope before you commit"
+  - paragraph
+    - StaticText "Preparation, step by step"
+  - paragraph
+    - StaticText "Support around your needs"
+  - paragraph
+    - StaticText "Start where you are"
+  - heading "What brings you to Paraguay?" [level=2, ref=e16]
+  - paragraph
+    - StaticText "Every move has a different starting point. Choose yours."
+  - link "Your first residency A clear starting point for documents, visits and support." [ref=e17]
+    - heading "Your first residency" [level=3, ref=e38]
+    - paragraph
+      - StaticText "A clear starting point for documents, visits and support."
+  - link "Moving with your family Coordinate the move around the people who matter." [ref=e18]
+    - heading "Moving with your family" [level=3, ref=e39]
+    - paragraph
+      - StaticText "Coordinate the move around the people who matter."
+  - link "Business & tax questions Start with the right professional conversation." [ref=e19]
+    - heading "Business & tax questions" [level=3, ref=e40]
+    - paragraph
+      - StaticText "Start with the right professional conversation."
+  - link "Already a resident Discuss your next stage and what needs checking." [ref=e20]
+    - heading "Already a resident" [level=3, ref=e41]
+    - paragraph
+      - StaticText "Discuss your next stage and what needs checking."
+  - paragraph
+    - StaticText "Choose your level of support"
+  - heading "Clear options. A personal fit." [level=2, ref=e21]
+  - paragraph
+    - StaticText "The same careful preparation, with different levels of coordination. All offers remain provisional."
+  - article
+    - heading "Essential" [level=3, ref=e42]
+    - paragraph
+      - StaticText "For independent planners who want a clear starting point."
+    - StaticText "$2,200"
+    - paragraph
+      - StaticText "per applicant"
+    - paragraph
+      - StaticText "Illustrative USD price. Subject to confirmation"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Guidance on document organization"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Preparation checklist"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Questions before local steps"
+    - link "Discuss this plan" [ref=e43]
+  - article
+    - paragraph
+      - StaticText "More personal support"
+    - heading "Guided" [level=3, ref=e44]
+    - paragraph
+      - StaticText "For people who value help connecting each step."
+    - StaticText "$2,850"
+    - paragraph
+      - StaticText "per applicant"
+    - paragraph
+      - StaticText "Illustrative USD price. Subject to confirmation"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Support with document organization"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Appointment coordination"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Guidance through local steps"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Aftercare scope agreed in advance"
+    - link "Discuss this plan" [ref=e45]
+  - article
+    - heading "Concierge" [level=3, ref=e46]
+    - paragraph
+      - StaticText "For people seeking closer logistical coordination."
+    - StaticText "$4,500"
+    - paragraph
+      - StaticText "per applicant"
+    - paragraph
+      - StaticText "Illustrative USD price. Subject to confirmation"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Dedicated coordination plan"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Local logistical assistance"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "More personal communication"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Personalized aftercare scope"
+    - link "Discuss this plan" [ref=e47]
+  - link "See the full comparison and exclusions" [ref=e48]
+  - paragraph
+    - StaticText "How it works"
+  - heading "From questions to a considered plan." [level=2, ref=e22]
+  - list
+    - listitem [level=1]
+      - heading "Start with a conversation" [level=3, ref=e52]
+      - paragraph
+        - StaticText "Clarify your goal, current position and questions. No eligibility promise."
+    - listitem [level=1]
+      - heading "Prepare with a clear plan" [level=3, ref=e53]
+      - paragraph
+        - StaticText "Organize documents and confirm requirements before making commitments."
+    - listitem [level=1]
+      - heading "Complete required local steps" [level=3, ref=e54]
+      - paragraph
+        - StaticText "Coordinate the agreed assistance around steps that need your presence."
+    - listitem [level=1]
+      - heading "Stay informed along the way" [level=3, ref=e55]
+      - paragraph
+        - StaticText "Agree communication and aftercare while authorities handle their decisions."
+  - paragraph
+    - StaticText "Who helps you"
+  - heading "People and responsibilities, clearly defined." [level=2, ref=e23]
+  - paragraph
+    - StaticText "The right support starts with knowing who does what. Before a real engagement, the operator and any external professionals must be named in your agreed scope."
+  - article
+    - paragraph
+      - StaticText "Profile placeholder"
+    - heading "Your coordination contact" [level=3, ref=e49]
+    - paragraph
+      - StaticText "Document organization, practical questions and agreed logistics. Team member details pending."
+  - article
+    - paragraph
+      - StaticText "External role placeholder"
+    - heading "Qualified professional review" [level=3, ref=e50]
+    - paragraph
+      - StaticText "Legal, tax or specialist advice must come from an appropriately qualified provider. No credentials are claimed here."
+  - paragraph
+    - StaticText "Know what you will receive"
+  - heading "A practical plan you can follow." [level=2, ref=e24]
+  - paragraph
+    - StaticText "These sample deliverables show the kind of clarity to agree before proceeding. They are examples, not past client results."
+  - strong
+    - StaticText "Document preparation outline"
+  - paragraph
+    - StaticText "What to gather, what to confirm, and who reviews it."
+  - strong
+    - StaticText "Local coordination plan"
+  - paragraph
+    - StaticText "Your required involvement and the support around it."
+  - strong
+    - StaticText "Written scope and cost breakdown"
+  - paragraph
+    - StaticText "Service fees, exclusions and decisions still to be made."
+  - paragraph
+    - StaticText "Before you decide"
+  - heading "Practical questions, honest answers." [level=2, ref=e25]
+  - paragraph
+    - StaticText "A move is a meaningful decision. Take the time to understand the details."
+  - group
+    - DisclosureTriangle "Which documents should I prepare?" [expanded=false]
+  - group
+    - DisclosureTriangle "Will I need to travel to Paraguay?" [expanded=false]
+  - group
+    - DisclosureTriangle "What do the prices include?" [expanded=false]
+  - group
+    - DisclosureTriangle "How are couples and families priced?" [expanded=false]
+  - group
+    - DisclosureTriangle "Can you guarantee approval or a completion date?" [expanded=false]
+  - group
+    - DisclosureTriangle "What happens after filing?" [expanded=false]
+  - paragraph
+    - StaticText "Information is provisional and must be checked for your circumstances."
+  - paragraph
+    - StaticText "A useful first conversation"
+  - heading "Start with your questions." [level=2, ref=e26]
+  - paragraph
+    - StaticText "Talk through your plans, what needs confirming, and the support that would make your next step clearer."
+  - link "Find my plan" [ref=e27]
+  - generic
+    - StaticText "Preparing for your first conversation?"
+    - link "Read the document preparation guide" [ref=e51]
+- contentinfo
+  - StaticText "Paraguay"
+  - StaticText "Residency Studio"
+  - paragraph
+    - StaticText "Your Paraguay residency, clearly planned and personally supported."
+  - paragraph
+    - StaticText "Working brand. Legal operator and business contacts pending owner approval."
+  - navigation "Explore" [ref=e5]
+    - heading "Your next step" [level=2, ref=e28]
+    - link "Compare packages" [ref=e29]
+    - link "Book a consultation" [ref=e30]
+    - link "Contact" [ref=e31]
+    - link "All services" [ref=e32]
+  - navigation "Resources and policies" [ref=e6]
+    - heading "Useful information" [level=2, ref=e33]
+    - link "Preparation guide" [ref=e34]
+    - link "Privacy draft" [ref=e35]
+    - link "Terms draft" [ref=e36]
+    - link "Disclaimer draft" [ref=e37]
+  - StaticText "A considered move begins with clear information."
+  - StaticText "Demo website · USD · No live services"
+- alert

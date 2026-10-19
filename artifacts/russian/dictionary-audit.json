@@ -1,0 +1,20 @@
+{
+  "common": {
+    "canonical": 478,
+    "russian": 478,
+    "missing": [],
+    "extra": [],
+    "empty": [],
+    "placeholderMismatches": [],
+    "forbiddenPunctuation": []
+  },
+  "editorial": {
+    "canonical": 530,
+    "russian": 530,
+    "missing": [],
+    "extra": [],
+    "empty": [],
+    "placeholderMismatches": [],
+    "forbiddenPunctuation": []
+  }
+}

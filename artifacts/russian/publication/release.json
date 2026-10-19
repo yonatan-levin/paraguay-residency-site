@@ -1,0 +1,63 @@
+{
+  "capturedAt": "2026-10-03T13:34:54.869Z",
+  "sourceCommit": "c98b69f9b8ed8f2c300ede958a98a229f51dadf1",
+  "sourceBranch": "feature/russian-locale",
+  "sourceFingerprint": "7707ff68cb382395abf8f3c9db320577b6b86365ba3adeee080f0961f0deb992",
+  "sourceFilesVerified": 123,
+  "sourceMismatches": 0,
+  "backend": "projects/paraguay-residency-site/locations/us-central1/backends/paraguay-prototype",
+  "url": "https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app/ru",
+  "sourceArchive": "gs://firebaseapphosting-sources-236755616004-us-central1/paraguay-prototype--36712-hMyT6Vs9MtaY-.zip",
+  "cloudBuild": {
+    "id": "329483a8-dbf5-47cd-ae12-830d99f5d089",
+    "status": "SUCCESS",
+    "finishedAt": "2026-10-03T13:26:27.412859Z"
+  },
+  "rollout": {
+    "id": "build-2026-10-03-001",
+    "state": "SUCCEEDED",
+    "updatedAt": "2026-10-03T13:27:28.278706Z"
+  },
+  "cloudRun": {
+    "revision": "paraguay-prototype-build-2026-10-03-001",
+    "ready": true,
+    "trafficPercent": 100
+  },
+  "translationValues": {
+    "common": 478,
+    "editorial": 530
+  },
+  "checks": {
+    "unitPassed": 137,
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "build": "PASS",
+    "localBrowser": {
+      "passed": 315,
+      "failed": 0,
+      "duration": "1.3m",
+      "retries": 0
+    },
+    "hostedBrowser": {
+      "passed": 315,
+      "failed": 0,
+      "duration": "4.8m",
+      "retries": 0
+    },
+    "httpRoutes": 24,
+    "independentVerifier": "VERIFIED",
+    "review": "APPROVE_WITH_NITS",
+    "localManualQa": "PASS",
+    "hostedManualQa": "PASS"
+  },
+  "restrictions": [
+    "Public demo",
+    "Noindex",
+    "Provisional prices",
+    "Mocked integrations",
+    "No GitHub push or merge",
+    "No billing or capacity change",
+    "Native Russian and qualified legal review pending"
+  ],
+  "trackingIssue": "https://github.com/yonatan-levin/paraguay-residency-site/issues/13"
+}

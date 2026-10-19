@@ -1,0 +1,153 @@
+- link "Skip to content" [ref=e1]
+- StaticText "Website preview. Offers are provisional and no real booking or message will be sent."
+- banner
+  - link "Paraguay Next" [ref=e2]
+    - StaticText "Paraguay"
+    - StaticText "Next"
+  - navigation "Main navigation" [ref=e3]
+    - link "Why Paraguay" [ref=e9]
+    - link "Residency" [ref=e10]
+    - link "Packages" [ref=e11]
+    - link "Relocation & business" [ref=e12]
+    - link "Guides" [ref=e13]
+    - link "About" [ref=e14]
+  - link "Book a consultation" [ref=e4]
+  - group
+    - DisclosureTriangle "Select language: EN" [expanded=false]
+      - StaticText "EN"
+      - StaticText "⌄"
+  - link "Find my plan" [ref=e5]
+- main
+  - paragraph
+    - StaticText "Residency, Relocation & Business Setup"
+  - heading "Why consider Paraguay for your next chapter?" [level=1, ref=e6]
+  - paragraph
+    - StaticText "Paraguay may be worth considering if you are exploring a new home, a second base or a local business. Start with what residency could enable, then weigh the practical commitments, costs and questions that need individual review."
+  - heading "The opportunity at a glance" [level=2, ref=e15]
+  - paragraph
+    - StaticText "Consider a legal base, a longer term plan, the financial questions and the everyday life you want to build. None of these replaces a review of your circumstances."
+  - list
+    - listitem [level=1]
+      - ListMarker "• "
+      - link "A legal base for life in Paraguay" [ref=e49]
+    - listitem [level=1]
+      - ListMarker "• "
+      - link "Plan beyond your first arrival" [ref=e50]
+    - listitem [level=1]
+      - ListMarker "• "
+      - link "Tax planning worth understanding" [ref=e51]
+    - listitem [level=1]
+      - ListMarker "• "
+      - link "Picture your life, not just your application" [ref=e52]
+  - link "Compare residency packages" [ref=e16]
+  - heading "What residency can enable" [level=2, ref=e17]
+  - paragraph
+    - StaticText "Residency provides a legal basis to establish yourself in Paraguay under the conditions of the status granted. Provisional processing status, temporary residency and permanent residency are different; an application alone is not the same as approval."
+  - paragraph
+    - StaticText "During a temporary residency application, the provisional status described by Migraciones can permit work, study and reentry while it remains valid. Temporary residency and access to an identity card have their own requirements and validity. Confirm the documents and conditions that apply to your stage."
+  - paragraph
+    - StaticText "Residency is distinct from citizenship. An identity document, a later residence category or any other right must not be assumed before its conditions are met."
+  - paragraph
+    - link "Official source: Migraciones, temporary residency" [ref=e45]
+    - LineBreak "\n"
+    - StaticText "Source linked for reference. Editorial draft; qualified professional review and approval are pending."
+  - link "Explore residency support" [ref=e18]
+  - link "Read the preparation guide" [ref=e19]
+  - heading "Could Paraguay become a second base?" [level=2, ref=e20]
+  - paragraph
+    - StaticText "A second base is a practical commitment as well as a legal status. Ask what presence is required, which documents need keeping current and which responsibilities continue when you are elsewhere."
+  - paragraph
+    - StaticText "Migraciones describes a route from temporary to permanent residency subject to its requirements. Permanent residency can permit indefinite residence once granted; the change of category requires its own process and decision."
+  - paragraph
+    - StaticText "Before planning around a status, confirm required local steps, continuing obligations and how a change in your circumstances would affect the plan. No minimum stay or citizenship timeline is promised here."
+  - paragraph
+    - link "Official source: Migraciones, change to permanent residency" [ref=e46]
+    - LineBreak "\n"
+    - StaticText "Source linked for reference. Editorial draft; qualified professional review and approval are pending."
+  - link "Explore permanent residency planning" [ref=e21]
+  - heading "Understand the financial implications" [level=2, ref=e22]
+  - paragraph
+    - StaticText "Paraguay’s personal income tax is based on Paraguayan source income. The classification can depend on where activities take place and how assets, rights or particular services relate to Paraguay."
+  - paragraph
+    - StaticText "Payment from abroad does not by itself establish that income is foreign source. Review your situation before making decisions."
+  - paragraph
+    - StaticText "Keep three questions separate: your immigration status, your individual tax obligations, and the structure and obligations of any business. Other countries may also have rules relevant to you."
+  - paragraph
+    - link "Official source: DNIT, Law 6380/19, articles 47 to 49" [ref=e47]
+    - LineBreak "\n"
+    - StaticText "Source linked for reference. Editorial draft; qualified professional review and approval are pending."
+  - link "Discuss individual tax planning" [ref=e23]
+  - link "Explore life and budget questions" [ref=e24]
+  - heading "Picture your life and budget" [level=2, ref=e25]
+  - paragraph
+    - StaticText "Build a budget around the places, people and routines that matter to you. Compare initial spending with recurring costs and confirm current options locally."
+  - list
+    - listitem [level=1]
+      - ListMarker "• "
+      - StaticText "Housing: location, rent or purchase plans, deposits and the conditions of a contract."
+    - listitem [level=1]
+      - ListMarker "• "
+      - StaticText "Utilities and internet: the services and reliability your household or work needs."
+    - listitem [level=1]
+      - ListMarker "• "
+      - StaticText "Transport: everyday journeys, vehicle needs and alternatives in your chosen area."
+    - listitem [level=1]
+      - ListMarker "• "
+      - StaticText "Healthcare: access, providers, coverage and ongoing needs for each person."
+    - listitem [level=1]
+      - ListMarker "• "
+      - StaticText "Schooling, when relevant: location, language, admissions and the full cost of attendance."
+    - listitem [level=1]
+      - ListMarker "• "
+      - StaticText "Relocation: travel, temporary accommodation, moving belongings and arrival logistics."
+    - listitem [level=1]
+      - ListMarker "• "
+      - StaticText "Professional and administrative costs: agreed service fees, official charges and document work."
+    - listitem [level=1]
+      - ListMarker "• "
+      - StaticText "Ongoing obligations: renewals, maintenance and continuing professional or administrative support."
+  - paragraph
+    - StaticText "Which costs recur? Which depend on each family member? Which decisions should wait until you have visited and checked the details?"
+  - link "Explore practical relocation support" [ref=e26]
+  - heading "Plan a local business as its own project" [level=2, ref=e27]
+  - paragraph
+    - StaticText "A business plan needs more than a company registration. Consider your intended activity, operating costs, records and professional responsibilities alongside your personal plans."
+  - paragraph
+    - StaticText "Company formation, accounting and banking are separate workstreams. Forming a company does not guarantee a bank account or determine your personal residence or tax treatment."
+  - link "Explore company formation in Paraguay" [ref=e28]
+  - link "Review accounting support" [ref=e29]
+  - link "Review banking assistance" [ref=e30]
+  - heading "What to weigh before deciding" [level=2, ref=e31]
+  - paragraph
+    - StaticText "Prepare documents before making commitments, confirm the steps requiring your presence, and decide how you will handle language needs. Review each household member’s circumstances and the budget for both arrival and ongoing life."
+  - paragraph
+    - StaticText "A useful plan makes the unresolved questions visible. Confirm who will advise on legal or tax matters, who will coordinate practical work, and which responsibilities remain yours."
+  - heading "See whether Paraguay fits your plans." [level=2, ref=e32]
+  - paragraph
+    - StaticText "Explore a starting point based on your needs, or go directly to the packages and their scope."
+  - link "Find my starting point" [ref=e33]
+  - link "Compare packages" [ref=e34]
+  - paragraph
+    - link "Already know what you need? Book a consultation" [ref=e48]
+- contentinfo
+  - StaticText "Paraguay"
+  - StaticText "Next"
+  - paragraph
+    - StaticText "Your Paraguay residency, clearly planned and personally supported."
+  - paragraph
+    - StaticText "Working brand. Legal operator and business contacts pending owner approval."
+  - navigation "Explore" [ref=e7]
+    - heading "Your next step" [level=2, ref=e35]
+    - link "Compare packages" [ref=e36]
+    - link "Book a consultation" [ref=e37]
+    - link "Contact" [ref=e38]
+    - link "All services" [ref=e39]
+  - navigation "Resources and policies" [ref=e8]
+    - heading "Useful information" [level=2, ref=e40]
+    - link "Preparation guide" [ref=e41]
+    - link "Privacy draft" [ref=e42]
+    - link "Terms draft" [ref=e43]
+    - link "Disclaimer draft" [ref=e44]
+  - StaticText "A considered move begins with clear information."
+  - StaticText "Demo website · USD · No live services"
+- alert

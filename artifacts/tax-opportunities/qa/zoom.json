@@ -1,0 +1,110 @@
+{
+  "capturedAt": "2026-09-27T00:24:09.879Z",
+  "records": [
+    {
+      "dir": "ltr",
+      "dpr": 2,
+      "height": 450,
+      "lang": "en",
+      "robots": "noindex, follow",
+      "scroll": 720,
+      "title": "Why Paraguay? Residency, Tax & Business Options | Paraguay Next",
+      "url": "http://127.0.0.1:52942/en/why-paraguay#financial-planning",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "width": 720,
+      "cards": [
+        {
+          "key": "foreign-dividends",
+          "visible": true,
+          "width": 680
+        },
+        {
+          "key": "us",
+          "visible": true,
+          "width": 328
+        },
+        {
+          "key": "paraguay",
+          "visible": true,
+          "width": 328
+        },
+        {
+          "key": "services-from-paraguay",
+          "visible": true,
+          "width": 680
+        }
+      ],
+      "model": "1440x900 desktop represented by 720x450 CSS viewport, deviceScaleFactor2; not native browser zoom"
+    },
+    {
+      "dir": "ltr",
+      "dpr": 2,
+      "height": 450,
+      "lang": "de",
+      "robots": "noindex, follow",
+      "scroll": 720,
+      "title": "Warum Paraguay? Aufenthalt, Steuern und Unternehmensoptionen | Paraguay Next",
+      "url": "http://127.0.0.1:52942/de/why-paraguay#financial-planning",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "width": 720,
+      "cards": [
+        {
+          "key": "foreign-dividends",
+          "visible": true,
+          "width": 680
+        },
+        {
+          "key": "us",
+          "visible": true,
+          "width": 328
+        },
+        {
+          "key": "paraguay",
+          "visible": true,
+          "width": 328
+        },
+        {
+          "key": "services-from-paraguay",
+          "visible": true,
+          "width": 680
+        }
+      ],
+      "model": "1440x900 desktop represented by 720x450 CSS viewport, deviceScaleFactor2; not native browser zoom"
+    },
+    {
+      "dir": "rtl",
+      "dpr": 2,
+      "height": 450,
+      "lang": "he",
+      "robots": "noindex, follow",
+      "scroll": 720,
+      "title": "למה פרגוואי? תושבות, מס ואפשרויות עסקיות | Paraguay Next",
+      "url": "http://127.0.0.1:52942/he/why-paraguay#financial-planning",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "width": 720,
+      "cards": [
+        {
+          "key": "foreign-dividends",
+          "visible": true,
+          "width": 680
+        },
+        {
+          "key": "us",
+          "visible": true,
+          "width": 328
+        },
+        {
+          "key": "paraguay",
+          "visible": true,
+          "width": 328
+        },
+        {
+          "key": "services-from-paraguay",
+          "visible": true,
+          "width": 680
+        }
+      ],
+      "model": "1440x900 desktop represented by 720x450 CSS viewport, deviceScaleFactor2; not native browser zoom"
+    }
+  ]
+}

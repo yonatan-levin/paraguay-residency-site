@@ -1,0 +1,69 @@
+- link "Skip to content" [ref=e1]
+- StaticText "Website preview. Offers are provisional and no real booking or message will be sent."
+- banner
+  - link "Paraguay Residency Studio" [ref=e2]
+    - StaticText "Paraguay"
+    - StaticText "Residency Studio"
+  - navigation "Main navigation" [ref=e3]
+    - link "Residency" [ref=e8]
+    - link "Packages" [ref=e9]
+    - link "Relocation & business" [ref=e10]
+    - link "Guides" [ref=e11]
+    - link "About" [ref=e12]
+  - group
+    - DisclosureTriangle "Select language: EN" [expanded=false]
+      - StaticText "EN"
+      - StaticText "⌄"
+  - link "Find my plan" [ref=e4]
+- main
+  - heading "Find your starting point" [level=1, ref=e5]
+  - paragraph
+    - StaticText "A short guide to the support that may suit you. This is not a legal eligibility decision."
+  - link "Skip to booking" [ref=e13]
+  - link "Compare packages" [ref=e14]
+  - generic
+    - paragraph
+      - StaticText "A possible starting point"
+    - heading "Guided" [level=2, ref=e25]
+    - paragraph
+      - StaticText "First residency"
+    - paragraph
+      - StaticText "$2,850"
+    - paragraph
+      - StaticText "per applicant"
+    - paragraph
+      - StaticText "Illustrative USD price. Subject to confirmation"
+    - heading "Why this may fit" [level=3, ref=e26]
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "You value more coordination between the required steps."
+    - strong
+      - StaticText "Still to be confirmed"
+    - paragraph
+      - StaticText "Professional review, your exact delivery scope, required visits and external costs. Timing preferences never imply faster approval."
+    - link "Discuss this plan" [ref=e27]
+    - link "Compare alternatives" [ref=e28]
+    - button "Edit my answers" [ref=e29]
+- contentinfo
+  - StaticText "Paraguay"
+  - StaticText "Residency Studio"
+  - paragraph
+    - StaticText "Your Paraguay residency, clearly planned and personally supported."
+  - paragraph
+    - StaticText "Working brand. Legal operator and business contacts pending owner approval."
+  - navigation "Explore" [ref=e6]
+    - heading "Your next step" [level=2, ref=e15]
+    - link "Compare packages" [ref=e16]
+    - link "Book a consultation" [ref=e17]
+    - link "Contact" [ref=e18]
+    - link "All services" [ref=e19]
+  - navigation "Resources and policies" [ref=e7]
+    - heading "Useful information" [level=2, ref=e20]
+    - link "Preparation guide" [ref=e21]
+    - link "Privacy draft" [ref=e22]
+    - link "Terms draft" [ref=e23]
+    - link "Disclaimer draft" [ref=e24]
+  - StaticText "A considered move begins with clear information."
+  - StaticText "Demo website · USD · No live services"
+- alert

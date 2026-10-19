@@ -1,0 +1,10 @@
+
+> paraguay-residency-site@0.1.0 build
+> next build
+
+▲ Next.js 16.3.6 (Turbopack)
+⨯ Failed to load next.config.ts, see more info here https://nextjs.org/docs/messages/next-config-error
+
+> Build error occurred
+Error: Live mode is unavailable: approve brand, commercial scope, legal content, privacy, and real provider implementation before launch. Run npm run check:launch.
+    at Object.<anonymous> (C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\next.config.compiled.js:14:11)

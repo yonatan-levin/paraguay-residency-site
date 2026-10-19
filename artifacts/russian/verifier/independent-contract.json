@@ -1,0 +1,126 @@
+{
+  "baseline": "8a7ff4da349e1d727f2c3c00e14f7f36e53a24fc",
+  "sourceSha256": "7707ff68cb382395abf8f3c9db320577b6b86365ba3adeee080f0961f0deb992",
+  "fileCount": 123,
+  "timestamp": "2026-10-03T13:02:31.957Z",
+  "reports": [
+    {
+      "name": "Base: requested Russian locale is rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "Base: home has no Russian equivalent",
+      "status": "PASS"
+    },
+    {
+      "name": "Base: Russian translation fails",
+      "status": "PASS"
+    },
+    {
+      "name": "Head: exact native presentation and locale validation",
+      "status": "PASS"
+    },
+    {
+      "name": "Head: full common keyset, placeholders, nonempty and punctuation",
+      "status": "PASS",
+      "detail": {
+        "count": 478,
+        "identicalToEnglish": [
+          "es"
+        ],
+        "withoutCyrillic": [
+          {
+            "key": "es",
+            "value": "es"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Head: full editorial keyset, placeholders, nonempty and punctuation",
+      "status": "PASS",
+      "detail": {
+        "count": 530,
+        "identicalToEnglish": [],
+        "withoutCyrillic": []
+      }
+    },
+    {
+      "name": "Head: translation missing key and missing interpolation fail loudly",
+      "status": "PASS"
+    },
+    {
+      "name": "Head: every public Russian route has exact metadata and pending approval",
+      "status": "PASS",
+      "detail": {
+        "count": 30,
+        "routes": [
+          "/ru",
+          "/ru/why-paraguay",
+          "/ru/paraguay-residency",
+          "/ru/pricing",
+          "/ru/find-my-plan",
+          "/ru/book",
+          "/ru/thank-you",
+          "/ru/services",
+          "/ru/permanent-residency",
+          "/ru/investor-residency",
+          "/ru/relocation",
+          "/ru/tax-planning",
+          "/ru/company-formation/paraguay",
+          "/ru/company-formation/us",
+          "/ru/accounting",
+          "/ru/banking",
+          "/ru/real-estate",
+          "/ru/driving-license",
+          "/ru/retire-in-paraguay",
+          "/ru/citizenship-guidance",
+          "/ru/guides",
+          "/ru/guides/residency-requirements",
+          "/ru/about",
+          "/ru/contact",
+          "/ru/lp/residency-cost",
+          "/ru/lp/family-relocation",
+          "/ru/links",
+          "/ru/privacy",
+          "/ru/terms",
+          "/ru/disclaimer"
+        ]
+      }
+    },
+    {
+      "name": "Head: preview approvals and integrations stay closed",
+      "status": "PASS"
+    },
+    {
+      "name": "Base: Russian submission is rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "Head: Russian submission and analytics reject invalid locale, redact private fields",
+      "status": "PASS"
+    },
+    {
+      "name": "Head: Russian conversation outcome success",
+      "status": "PASS"
+    },
+    {
+      "name": "Head: Russian conversation outcome failure",
+      "status": "PASS"
+    },
+    {
+      "name": "Head: Russian appointment outcome unavailable",
+      "status": "PASS"
+    },
+    {
+      "name": "Head: Russian appointment outcome failure",
+      "status": "PASS"
+    },
+    {
+      "name": "Head: Russian appointment outcome success",
+      "status": "PASS"
+    }
+  ],
+  "passed": 16,
+  "failed": 0
+}

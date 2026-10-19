@@ -1,0 +1,24 @@
+{
+  "apphosting": [
+    {
+      "backendId": "paraguay-prototype",
+      "rootDir": ".",
+      "alwaysDeployFromSource": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        ".agents/handoffs",
+        ".next",
+        "artifacts",
+        ".env*",
+        "**/.env*",
+        "*.log",
+        "**/*.log",
+        ".firebase",
+        "playwright-report",
+        "test-results",
+        "*.tsbuildinfo"
+      ]
+    }
+  ]
+}

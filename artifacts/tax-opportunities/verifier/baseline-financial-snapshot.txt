@@ -1,0 +1,26 @@
+- heading "Understand the financial implications" [level=2, ref=e14]
+- paragraph
+  - StaticText "Paraguay’s personal income tax is based on Paraguayan source income. The classification can depend on where activities take place and how assets, rights or particular services relate to Paraguay."
+- paragraph
+  - StaticText "Payment from abroad does not by itself establish that income is foreign source. Review your situation before making decisions."
+- paragraph
+  - StaticText "Keep three questions separate: your immigration status, your individual tax obligations, and the structure and obligations of any business. Other countries may also have rules relevant to you."
+- paragraph
+  - link "Official source: DNIT, Law 6380/19, articles 47 to 49" [ref=e39]
+  - LineBreak "\n"
+  - StaticText "Source linked for reference. Editorial draft; qualified professional review and approval are pending."
+- link "Discuss individual tax planning" [ref=e15]
+- link "Explore life and budget questions" [ref=e16]
+- heading "Understand the financial implications" [level=2, ref=e14]
+- paragraph
+  - StaticText "Paraguay’s personal income tax is based on Paraguayan source income. The classification can depend on where activities take place and how assets, rights or particular services relate to Paraguay."
+- paragraph
+  - StaticText "Payment from abroad does not by itself establish that income is foreign source. Review your situation before making decisions."
+- paragraph
+  - StaticText "Keep three questions separate: your immigration status, your individual tax obligations, and the structure and obligations of any business. Other countries may also have rules relevant to you."
+- paragraph
+  - link "Official source: DNIT, Law 6380/19, articles 47 to 49" [ref=e39]
+  - LineBreak "\n"
+  - StaticText "Source linked for reference. Editorial draft; qualified professional review and approval are pending."
+- link "Discuss individual tax planning" [ref=e15]
+- link "Explore life and budget questions" [ref=e16]

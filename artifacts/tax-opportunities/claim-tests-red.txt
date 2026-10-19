@@ -1,0 +1,183 @@
+
+> paraguay-residency-site@0.1.0 test
+> vitest run tests/unit/content-review.test.ts tests/unit/seo.test.ts
+
+
+ RUN  v5.0.1 C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site
+
+ ❯ tests/unit/content-review.test.ts (42 tests | 23 failed) 22ms
+   ❯ tax opportunity release dependencies (23)
+     × keeps foreign-dividends source inspection separate from professional approval 5ms
+     × keeps us-llc-income source inspection separate from professional approval 1ms
+     × keeps paraguay-company-tax source inspection separate from professional approval 0ms
+     × keeps tax-residency-boundary source inspection separate from professional approval 0ms
+     × blocks every dependent page if foreign-dividends is draft or its review is absent 0ms
+     × blocks every dependent page if us-llc-income is draft or its review is absent 0ms
+     × blocks every dependent page if paraguay-company-tax is draft or its review is absent 0ms
+     × blocks every dependent page if tax-residency-boundary is draft or its review is absent 0ms
+     × cannot bypass foreign-dividends by deleting a page declaration 0ms
+     × cannot bypass us-llc-income by deleting a page declaration 1ms
+     × cannot bypass paraguay-company-tax by deleting a page declaration 0ms
+     × cannot bypass tax-residency-boundary by deleting a page declaration 0ms
+     × requires US supporting source R5 even when every review is approved 0ms
+     × requires US supporting source R6 even when every review is approved 0ms
+     × requires US supporting source R7 even when every review is approved 0ms
+     × requires US supporting source R8 even when every review is approved 0ms
+     × requires US supporting source R9 even when every review is approved 0ms
+     × requires US supporting source R10 even when every review is approved 0ms
+     × requires en approval for every new tax claim before launch 0ms
+     × requires es approval for every new tax claim before launch 0ms
+     × requires fr approval for every new tax claim before launch 0ms
+     × requires de approval for every new tax claim before launch 0ms
+     × requires he approval for every new tax claim before launch 0ms
+ ❯ tests/unit/seo.test.ts (12 tests | 4 failed) 14ms
+   ❯ single fail-closed indexing gate (9)
+     × keeps all pages asserting foreign-dividends out of indexing until that claim is approved 3ms
+     × keeps all pages asserting us-llc-income out of indexing until that claim is approved 0ms
+     × keeps all pages asserting paraguay-company-tax out of indexing until that claim is approved 0ms
+     × keeps all pages asserting tax-residency-boundary out of indexing until that claim is approved 0ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 27 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > keeps foreign-dividends source inspection separate from professional approval
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > keeps us-llc-income source inspection separate from professional approval
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > keeps paraguay-company-tax source inspection separate from professional approval
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > keeps tax-residency-boundary source inspection separate from professional approval
+AssertionError: expected undefined to match object { professional: true, operator: false }
+
+- Expected:
+{
+  "operator": false,
+  "professional": true,
+}
+
++ Received:
+undefined
+
+ ❯ tests/unit/content-review.test.ts:211:41
+    209|     (id) => {
+    210|       const claimId = id as ClaimId;
+    211|       expect(claimDefinitions[claimId]).toMatchObject({
+       |                                         ^
+    212|         professional: true,
+    213|         operator: false,
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/27]⎯
+
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > blocks every dependent page if foreign-dividends is draft or its review is absent
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > blocks every dependent page if us-llc-income is draft or its review is absent
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > blocks every dependent page if paraguay-company-tax is draft or its review is absent
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > blocks every dependent page if tax-residency-boundary is draft or its review is absent
+AssertionError: expected undefined to be defined
+ ❯ tests/unit/content-review.test.ts:231:32
+    229|       const claimId = id as ClaimId;
+    230|       const reviews = approvedClaimReviews();
+    231|       expect(reviews[claimId]).toBeDefined();
+       |                                ^
+    232|       for (const key of taxClaimPages[id]) {
+    233|         const page = { key, claimIds: pageClaimDependencies[key] };
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/27]⎯
+
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > cannot bypass foreign-dividends by deleting a page declaration
+AssertionError: expected [] to include 'foreign-dividends: page dependency is…'
+ ❯ tests/unit/content-review.test.ts:257:72
+    255|           claimIds: pageClaimDependencies[key]?.filter((claim) => clai…
+    256|         };
+    257|         expect(validatePageClaims(page, "en", approvedClaimReviews()))…
+       |                                                                        ^
+    258|           `${id}: page dependency is missing.`,
+    259|         );
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/27]⎯
+
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > cannot bypass us-llc-income by deleting a page declaration
+AssertionError: expected [] to include 'us-llc-income: page dependency is mis…'
+ ❯ tests/unit/content-review.test.ts:257:72
+    255|           claimIds: pageClaimDependencies[key]?.filter((claim) => clai…
+    256|         };
+    257|         expect(validatePageClaims(page, "en", approvedClaimReviews()))…
+       |                                                                        ^
+    258|           `${id}: page dependency is missing.`,
+    259|         );
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/27]⎯
+
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > cannot bypass paraguay-company-tax by deleting a page declaration
+AssertionError: expected [] to include 'paraguay-company-tax: page dependency…'
+ ❯ tests/unit/content-review.test.ts:257:72
+    255|           claimIds: pageClaimDependencies[key]?.filter((claim) => clai…
+    256|         };
+    257|         expect(validatePageClaims(page, "en", approvedClaimReviews()))…
+       |                                                                        ^
+    258|           `${id}: page dependency is missing.`,
+    259|         );
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/27]⎯
+
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > cannot bypass tax-residency-boundary by deleting a page declaration
+AssertionError: expected [] to include 'tax-residency-boundary: page dependen…'
+ ❯ tests/unit/content-review.test.ts:257:72
+    255|           claimIds: pageClaimDependencies[key]?.filter((claim) => clai…
+    256|         };
+    257|         expect(validatePageClaims(page, "en", approvedClaimReviews()))…
+       |                                                                        ^
+    258|           `${id}: page dependency is missing.`,
+    259|         );
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/27]⎯
+
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > requires US supporting source R5 even when every review is approved
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > requires US supporting source R6 even when every review is approved
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > requires US supporting source R7 even when every review is approved
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > requires US supporting source R8 even when every review is approved
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > requires US supporting source R9 even when every review is approved
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > requires US supporting source R10 even when every review is approved
+AssertionError: expected undefined to be defined
+ ❯ tests/unit/content-review.test.ts:269:32
+    267|       const reviews = approvedClaimReviews();
+    268|       const claimId = "us-llc-income" as ClaimId;
+    269|       expect(reviews[claimId]).toBeDefined();
+       |                                ^
+    270|       const source = regulatorySources[sourceId as keyof typeof regula…
+    271|       expect(source).toBeDefined();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/27]⎯
+
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > requires en approval for every new tax claim before launch
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > requires es approval for every new tax claim before launch
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > requires fr approval for every new tax claim before launch
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > requires de approval for every new tax claim before launch
+ FAIL  tests/unit/content-review.test.ts > tax opportunity release dependencies > requires he approval for every new tax claim before launch
+AssertionError: expected undefined to be defined
+ ❯ tests/unit/content-review.test.ts:294:34
+    292|         const reviews = approvedClaimReviews();
+    293|         const claimId = id as ClaimId;
+    294|         expect(reviews[claimId]).toBeDefined();
+       |                                  ^
+    295|         delete reviews[claimId]!.translations[locale];
+    296|         expect(validateContentLaunch(pages, supportedLocales, reviews)…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/27]⎯
+
+ FAIL  tests/unit/seo.test.ts > single fail-closed indexing gate > keeps all pages asserting foreign-dividends out of indexing until that claim is approved
+ FAIL  tests/unit/seo.test.ts > single fail-closed indexing gate > keeps all pages asserting us-llc-income out of indexing until that claim is approved
+ FAIL  tests/unit/seo.test.ts > single fail-closed indexing gate > keeps all pages asserting paraguay-company-tax out of indexing until that claim is approved
+ FAIL  tests/unit/seo.test.ts > single fail-closed indexing gate > keeps all pages asserting tax-residency-boundary out of indexing until that claim is approved
+AssertionError: expected undefined to be defined
+ ❯ tests/unit/seo.test.ts:84:34
+     82|         const claimId = id as ClaimId;
+     83|         const reviews = approvedClaimReviews();
+     84|         expect(reviews[claimId]).toBeDefined();
+       |                                  ^
+     85|         expect(canIndex(page, approvedRuntime, "en", reviews)).toBe(tr…
+     86|         reviews[claimId]!.content.status = "draft";
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/27]⎯
+
+
+ Test Files  2 failed (2)
+      Tests  27 failed | 27 passed (54)
+   Start at  20:51:07
+   Duration  553ms (transform 55%, import 30%, tests 10%, worker 5%)
+

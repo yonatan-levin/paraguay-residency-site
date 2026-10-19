@@ -1,0 +1,240 @@
+- link "דילוג לתוכן" [ref=e1]
+- StaticText "תצוגה מקדימה של האתר. ההצעות זמניות ולא תיקבע פגישה אמיתית או תישלח הודעה."
+- banner
+  - link "Paraguay Residency Studio" [ref=e2]
+    - StaticText "Paraguay"
+    - StaticText "Residency Studio"
+  - navigation "ניווט ראשי" [ref=e3]
+    - link "תושבות" [ref=e7]
+    - link "חבילות" [ref=e8]
+    - link "מעבר ועסקים" [ref=e9]
+    - link "מדריכים" [ref=e10]
+    - link "אודות" [ref=e11]
+  - group
+    - DisclosureTriangle "בחירת שפה: HE" [expanded=false]
+      - StaticText "HE"
+      - StaticText "⌄"
+  - link "מציאת החבילה שלי" [ref=e4]
+- main
+  - generic
+    - paragraph
+      - StaticText "התחלה חדשה, מתוכננת היטב"
+    - heading "התחילו את הפרק הבא שלכם בפרגוואי." [level=1, ref=e12]
+    - paragraph
+      - StaticText "ליווי לתושבות, חבילות ברורות ותיאום מקומי שיעזרו לכם להכין מסמכים, לתכנן את הביקורים הנדרשים ולהתאקלם."
+    - link "מציאת חבילת התושבות שלי" [ref=e13]
+    - link "השוואת חבילות" [ref=e14]
+    - button "שאלו אותנו בוואטסאפ" [ref=e15]
+    - paragraph
+      - StaticText "הבינו את האפשרויות שלכם. התקדמו בקצב שלכם."
+    - figure
+      - image "איור מקורי של מרפסת מוצלת וצמחייה בפרגוואי"
+      - Figcaption
+        - StaticText "איור להמחשה · תמונות מהמקום יתווספו לאחר אישור"
+      - paragraph
+        - StaticText "מקום שבו התוכניות שלכם יכולות להכות שורש."
+  - paragraph
+    - StaticText "היקף שירות ברור לפני שמתחייבים"
+  - paragraph
+    - StaticText "הכנה, צעד אחר צעד"
+  - paragraph
+    - StaticText "ליווי בהתאם לצרכים שלכם"
+  - paragraph
+    - StaticText "מתחילים מהמקום שבו אתם נמצאים"
+  - heading "מה מביא אתכם לפרגוואי?" [level=2, ref=e16]
+  - paragraph
+    - StaticText "לכל מעבר יש נקודת התחלה אחרת. בחרו את שלכם."
+  - link "התושבות הראשונה שלכם נקודת התחלה ברורה למסמכים, לביקורים ולליווי." [ref=e17]
+    - heading "התושבות הראשונה שלכם" [level=3, ref=e38]
+    - paragraph
+      - StaticText "נקודת התחלה ברורה למסמכים, לביקורים ולליווי."
+  - link "עוברים עם המשפחה תאמו את המעבר סביב האנשים החשובים לכם." [ref=e18]
+    - heading "עוברים עם המשפחה" [level=3, ref=e39]
+    - paragraph
+      - StaticText "תאמו את המעבר סביב האנשים החשובים לכם."
+  - link "שאלות על עסקים ומסים התחילו בשיחה המקצועית המתאימה." [ref=e19]
+    - heading "שאלות על עסקים ומסים" [level=3, ref=e40]
+    - paragraph
+      - StaticText "התחילו בשיחה המקצועית המתאימה."
+  - link "כבר יש לכם תושבות דברו על השלב הבא ועל מה שצריך לבדוק." [ref=e20]
+    - heading "כבר יש לכם תושבות" [level=3, ref=e41]
+    - paragraph
+      - StaticText "דברו על השלב הבא ועל מה שצריך לבדוק."
+  - paragraph
+    - StaticText "בחירת רמת הליווי שלכם"
+  - heading "אפשרויות ברורות. התאמה אישית." [level=2, ref=e21]
+  - paragraph
+    - StaticText "אותה הכנה קפדנית, עם רמות שונות של תיאום. כל ההצעות עדיין זמניות."
+  - article
+    - heading "בסיסי" [level=3, ref=e42]
+    - paragraph
+      - StaticText "למי שמתכננים באופן עצמאי ורוצים נקודת התחלה ברורה."
+    - StaticText "‏2,200‏$"
+    - paragraph
+      - StaticText "למגיש בקשה"
+    - paragraph
+      - StaticText "מחיר להמחשה בדולר ארה״ב. כפוף לאישור"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "הכוונה לארגון מסמכים"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "רשימת הכנות"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "שאלות לפני השלבים המקומיים"
+    - link "שיחה על החבילה הזו" [ref=e43]
+  - article
+    - paragraph
+      - StaticText "ליווי אישי יותר"
+    - heading "בליווי" [level=3, ref=e44]
+    - paragraph
+      - StaticText "למי שחשוב להם לקבל עזרה בתיאום בין השלבים."
+    - StaticText "‏2,850‏$"
+    - paragraph
+      - StaticText "למגיש בקשה"
+    - paragraph
+      - StaticText "מחיר להמחשה בדולר ארה״ב. כפוף לאישור"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "סיוע בארגון מסמכים"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "תיאום פגישות"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "הכוונה בשלבים המקומיים"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "היקף הליווי בהמשך מסוכם מראש"
+    - link "שיחה על החבילה הזו" [ref=e45]
+  - article
+    - heading "ליווי אישי" [level=3, ref=e46]
+    - paragraph
+      - StaticText "למי שמחפשים תיאום לוגיסטי צמוד יותר."
+    - StaticText "‏4,500‏$"
+    - paragraph
+      - StaticText "למגיש בקשה"
+    - paragraph
+      - StaticText "מחיר להמחשה בדולר ארה״ב. כפוף לאישור"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "תוכנית תיאום ייעודית"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "סיוע לוגיסטי מקומי"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "קשר אישי יותר"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "היקף ליווי מותאם אישית בהמשך"
+    - link "שיחה על החבילה הזו" [ref=e47]
+  - link "להשוואה המלאה ולפירוט מה שאינו כלול" [ref=e48]
+  - paragraph
+    - StaticText "איך זה עובד"
+  - heading "משאלות לתוכנית מגובשת." [level=2, ref=e22]
+  - list
+    - listitem [level=1]
+      - heading "מתחילים בשיחה" [level=3, ref=e52]
+      - paragraph
+        - StaticText "הבהירו את המטרה, את המצב הנוכחי ואת השאלות שלכם. ללא הבטחה לזכאות."
+    - listitem [level=1]
+      - heading "מתכוננים עם תוכנית ברורה" [level=3, ref=e53]
+      - paragraph
+        - StaticText "ארגנו מסמכים ואמתו דרישות לפני שמתחייבים."
+    - listitem [level=1]
+      - heading "משלימים את השלבים המקומיים הנדרשים" [level=3, ref=e54]
+      - paragraph
+        - StaticText "תאמו את הסיוע המוסכם סביב השלבים הדורשים את נוכחותכם."
+    - listitem [level=1]
+      - heading "נשארים מעודכנים לאורך הדרך" [level=3, ref=e55]
+      - paragraph
+        - StaticText "הסכימו על התקשורת ועל הליווי בהמשך, בזמן שהרשויות מטפלות בהחלטותיהן."
+  - paragraph
+    - StaticText "מי מסייע לכם"
+  - heading "אנשים ותחומי אחריות, מוגדרים בבירור." [level=2, ref=e23]
+  - paragraph
+    - StaticText "ליווי מתאים מתחיל בהבנה מי אחראי על מה. לפני התקשרות אמיתית, יש לציין את מפעיל השירות ואת אנשי המקצוע החיצוניים במסגרת היקף השירות המוסכם."
+  - article
+    - paragraph
+      - StaticText "מקום לפרופיל עתידי"
+    - heading "איש הקשר שלכם לתיאום" [level=3, ref=e49]
+    - paragraph
+      - StaticText "ארגון מסמכים, שאלות מעשיות ולוגיסטיקה מוסכמת. פרטי חבר הצוות טרם נקבעו."
+  - article
+    - paragraph
+      - StaticText "מקום לתפקיד חיצוני עתידי"
+    - heading "בדיקה מקצועית מוסמכת" [level=3, ref=e50]
+    - paragraph
+      - StaticText "ייעוץ משפטי, ייעוץ מס או ייעוץ מומחה חייב להינתן בידי גורם בעל ההסמכה המתאימה. לא מוצגות כאן טענות להסמכה מקצועית."
+  - paragraph
+    - StaticText "דעו מה תקבלו"
+  - heading "תוכנית מעשית שאפשר לפעול לפיה." [level=2, ref=e24]
+  - paragraph
+    - StaticText "התוצרים לדוגמה ממחישים מה כדאי להגדיר ולהסכים עליו לפני שמתקדמים. אלו דוגמאות, ולא תוצאות של לקוחות קודמים."
+  - strong
+    - StaticText "מתווה להכנת מסמכים"
+  - paragraph
+    - StaticText "מה לאסוף, מה לאשר ומי בודק."
+  - strong
+    - StaticText "תוכנית לתיאום מקומי"
+  - paragraph
+    - StaticText "המעורבות הנדרשת מכם והסיוע הנלווה."
+  - strong
+    - StaticText "היקף שירות בכתב ופירוט עלויות"
+  - paragraph
+    - StaticText "דמי השירות, מה שאינו כלול והחלטות שעוד צריך לקבל."
+  - paragraph
+    - StaticText "לפני שמחליטים"
+  - heading "שאלות מעשיות, תשובות כנות." [level=2, ref=e25]
+  - paragraph
+    - StaticText "מעבר הוא החלטה משמעותית. קחו את הזמן להבין את הפרטים."
+  - group
+    - DisclosureTriangle "אילו מסמכים כדאי להכין?" [expanded=false]
+  - group
+    - DisclosureTriangle "האם אצטרך להגיע לפרגוואי?" [expanded=false]
+  - group
+    - DisclosureTriangle "מה כלול במחירים?" [expanded=false]
+  - group
+    - DisclosureTriangle "איך נקבע המחיר לזוגות ולמשפחות?" [expanded=false]
+  - group
+    - DisclosureTriangle "האם ניתן להבטיח אישור או מועד סיום?" [expanded=false]
+  - group
+    - DisclosureTriangle "מה קורה לאחר הגשת הבקשה?" [expanded=false]
+  - paragraph
+    - StaticText "המידע זמני ויש לבדוק את התאמתו לנסיבות שלכם."
+  - paragraph
+    - StaticText "שיחה ראשונה מועילה"
+  - heading "התחילו בשאלות שלכם." [level=2, ref=e26]
+  - paragraph
+    - StaticText "דברו על התוכניות שלכם, על מה שצריך לאשר ועל הליווי שיבהיר את הצעד הבא."
+  - link "מציאת החבילה שלי" [ref=e27]
+  - generic
+    - StaticText "מתכוננים לשיחה הראשונה?"
+    - link "קריאת המדריך להכנת מסמכים" [ref=e51]
+- contentinfo
+  - StaticText "Paraguay"
+  - StaticText "Residency Studio"
+  - paragraph
+    - StaticText "התושבות שלכם בפרגוואי, עם תכנון ברור וליווי אישי."
+  - paragraph
+    - StaticText "שם מותג זמני. זהות המפעיל המשפטי ופרטי הקשר העסקיים ממתינים לאישור הבעלים."
+  - navigation "לגלות עוד" [ref=e5]
+    - heading "הצעד הבא שלכם" [level=2, ref=e28]
+    - link "השוואת חבילות" [ref=e29]
+    - link "קביעת שיחת ייעוץ" [ref=e30]
+    - link "יצירת קשר" [ref=e31]
+    - link "כל השירותים" [ref=e32]
+  - navigation "מקורות מידע ומדיניות" [ref=e6]
+    - heading "מידע שימושי" [level=2, ref=e33]
+    - link "מדריך הכנה" [ref=e34]
+    - link "טיוטת הודעת פרטיות" [ref=e35]
+    - link "טיוטת תנאי שימוש" [ref=e36]
+    - link "טיוטת הבהרה משפטית" [ref=e37]
+  - StaticText "מעבר מתוכנן מתחיל במידע ברור."
+  - StaticText "אתר הדגמה · דולר ארה״ב · ללא שירותים פעילים"
+- alert

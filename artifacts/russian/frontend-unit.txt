@@ -1,0 +1,35 @@
+
+> paraguay-residency-site@0.1.0 test
+> vitest run tests/unit/locales.test.ts tests/unit/seo.test.ts tests/unit/content-review.test.ts
+
+
+ RUN  v5.0.1 C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-residency-site
+
+ ❯ tests/unit/seo.test.ts (0 test)
+ ❯ tests/unit/locales.test.ts (0 test)
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/locales.test.ts [ tests/unit/locales.test.ts ]
+ FAIL  tests/unit/seo.test.ts [ tests/unit/seo.test.ts ]
+Error: Missing ru translation: Understand when a US LLC may offer federal income tax advantages for a nonresident owner, with sourcing, reporting and other countries’ taxes considered.
+ ❯ translate src/lib/i18n/common.ts:36:11
+     34|   const translated = locale === "en" ? key : dictionaries[locale][key];
+     35|   if (!translated?.trim())
+     36|     throw new Error(`Missing ${locale} translation: ${key}`);
+       |           ^
+     37|   return interpolate(translated, values);
+     38| }
+ ❯ src/lib/i18n/common.ts:42:47
+ ❯ localized src/lib/i18n/common.ts:42:22
+ ❯ src/config/routes.ts:250:11
+ ❯ src/config/routes.ts:230:51
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+
+ Test Files  2 failed | 1 passed (3)
+      Tests  47 passed (47)
+   Start at  09:46:31
+   Duration  432ms (transform 41%, tests 34%, import 13%, worker 12%)
+

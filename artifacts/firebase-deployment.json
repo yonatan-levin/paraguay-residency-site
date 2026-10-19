@@ -1,0 +1,66 @@
+{
+  "checkedOn": "2026-09-26",
+  "projectId": "paraguay-residency-site",
+  "backendId": "paraguay-prototype",
+  "region": "us-central1",
+  "origin": "https://paraguay-prototype--paraguay-residency-site.us-central1.hosted.app",
+  "deployedSourceCommit": "3d4061dc30affef67728d6e59a69432903be1b2c",
+  "cloudBuild": {
+    "id": "fb191d68-b688-474e-9956-aef9f80fe4fe",
+    "status": "SUCCESS",
+    "createdAt": "2026-09-26T21:18:14.153116629Z",
+    "finishedAt": "2026-09-26T21:20:16.717847Z"
+  },
+  "cloudRun": {
+    "revision": "paraguay-prototype-build-2026-09-26-001",
+    "ready": true,
+    "trafficPercent": 100,
+    "minInstances": 0,
+    "maxInstances": 2,
+    "siteMode": "demo"
+  },
+  "publicRepository": "https://github.com/yonatan-levin/paraguay-residency-site",
+  "reviewBranch": "prototype/hebrew",
+  "pullRequest": 6,
+  "trackingIssue": 7,
+  "billing": {
+    "plan": "Blaze",
+    "authorized": true,
+    "usageChargesPossible": true,
+    "instanceLimitIsSpendingCap": false
+  },
+  "validation": {
+    "unitPassed": 65,
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "productionBuild": "PASS",
+    "localBrowserPassed": 230,
+    "localBrowserFailed": 0,
+    "independentFocusedBrowserPassed": 49,
+    "additionalFocusedCycleAuthorized": true,
+    "additionalFocusedReviewCycles": 1,
+    "finalImplementationReview": "APPROVE",
+    "hostedBrowserPassed": 230,
+    "hostedBrowserFailed": 0,
+    "hostedBrowserRetries": 0,
+    "hostedBrowserDurationMinutes": 3.2,
+    "hostedAcceptance": "PASS",
+    "independentManualQa": "PASS",
+    "manualLocaleViewportPairsPassed": 50,
+    "sourceGitHubCi": {
+      "pullRequestRun": 36272438971,
+      "pushRun": 36272436076,
+      "conclusion": "SUCCESS"
+    },
+    "transitionEvidence": "artifacts/firebase-selection-verification.md",
+    "manualEvidence": "artifacts/firebase-hosted-qa.md"
+  },
+  "restrictions": [
+    "Noindex preview",
+    "Provisional USD prices",
+    "Local mocked integrations",
+    "Test contact data only",
+    "Business launch unapproved",
+    "Pull request unmerged"
+  ]
+}

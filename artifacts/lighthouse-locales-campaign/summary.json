@@ -1,0 +1,35 @@
+[
+  {
+    "route": "/fr/lp/residency-cost",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "scores": {
+      "performance": 87,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "lcp": 4060.2194999999997,
+    "cls": 0,
+    "tbt": 16.5,
+    "failed": [
+      "largest-contentful-paint",
+      "max-potential-fid",
+      "interactive",
+      "unused-css-rules",
+      "unused-javascript",
+      "is-crawlable",
+      "bf-cache",
+      "forced-reflow-insight",
+      "legacy-javascript-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  }
+]

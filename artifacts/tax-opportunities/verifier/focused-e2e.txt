@@ -1,0 +1,15 @@
+
+Running 8 tests using 1 worker
+
+(node:84800) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [chromium] › tests\e2e\tax-opportunities.spec.ts:4:1 › tax opportunities explain both structures with visible conditions (1.1s)
+  ok 2 [chromium] › tests\e2e\tax-opportunities.spec.ts:52:1 › an existing US package stays selected when its structure is discussed (975ms)
+  ok 3 [chromium] › tests\e2e\tax-opportunities.spec.ts:63:1 › the tax comparison leads to booking with the selected tax package (928ms)
+  ok 4 [chromium] › tests\e2e\tax-opportunities.spec.ts:77:3 › en tax opportunities reflow and render before JavaScript (673ms)
+  ok 5 [chromium] › tests\e2e\tax-opportunities.spec.ts:77:3 › es tax opportunities reflow and render before JavaScript (829ms)
+  ok 6 [chromium] › tests\e2e\tax-opportunities.spec.ts:77:3 › fr tax opportunities reflow and render before JavaScript (592ms)
+  ok 7 [chromium] › tests\e2e\tax-opportunities.spec.ts:77:3 › de tax opportunities reflow and render before JavaScript (552ms)
+  ok 8 [chromium] › tests\e2e\tax-opportunities.spec.ts:77:3 › he tax opportunities reflow and render before JavaScript (542ms)
+
+  8 passed (7.9s)

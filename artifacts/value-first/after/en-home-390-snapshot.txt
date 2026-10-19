@@ -1,0 +1,273 @@
+- link "Skip to content" [ref=e1]
+- StaticText "Website preview. Offers are provisional and no real booking or message will be sent."
+- banner
+  - link "Paraguay Next" [ref=e2]
+    - StaticText "Paraguay"
+    - StaticText "Next"
+  - group
+    - DisclosureTriangle "Select language: EN" [expanded=false]
+      - StaticText "EN"
+      - StaticText "⌄"
+  - group
+    - DisclosureTriangle "Open navigation" [expanded=false]
+      - StaticText "☰"
+- main
+  - paragraph
+    - StaticText "Paraguay Next"
+    - StaticText "· Residency, Relocation & Business Setup"
+  - heading "A legal base in Paraguay. More options for your future." [level=1, ref=e6]
+  - paragraph
+    - StaticText "Considering a new home, a second base, or a local business? Explore what Paraguayan residency could offer, understand the costs and commitments, and get practical support to move forward."
+  - link "Explore the benefits" [ref=e7]
+  - link "Compare residency packages" [ref=e8]
+  - paragraph
+    - link "Already know what you need? Book a consultation" [ref=e30]
+  - StaticText "✓"
+  - StaticText "Clear scope before you commit"
+  - StaticText "✓"
+  - StaticText "Preparation, step by step"
+  - StaticText "✓"
+  - StaticText "Support around your needs"
+  - heading "What could Paraguay offer you?" [level=2, ref=e9]
+  - article
+    - heading "A legal base for life in Paraguay" [level=3, ref=e31]
+    - paragraph
+      - StaticText "Residency can give you a legal basis to establish your life in Paraguay. Your status and documents determine the rights and obligations that apply."
+    - link "Understand residency and its stages" [ref=e32]
+  - article
+    - heading "Plan beyond your first arrival" [level=3, ref=e33]
+    - paragraph
+      - StaticText "A temporary residence can be a starting point for a longer term plan, with a route to permanent residency subject to the applicable requirements."
+    - paragraph
+      - StaticText "A later status is not automatic. Confirm the process and your obligations before making commitments."
+    - link "Explore longer term residency planning" [ref=e34]
+  - article
+    - heading "Tax planning worth understanding" [level=3, ref=e35]
+    - paragraph
+      - StaticText "Paraguay’s personal income tax focuses on Paraguayan source income. How your income is classified matters to the plan you make."
+    - paragraph
+      - StaticText "Payment from abroad does not by itself establish that income is foreign source. Review your situation before making decisions."
+    - link "Explore individual tax questions" [ref=e36]
+  - article
+    - heading "Picture your life, not just your application" [level=3, ref=e37]
+    - paragraph
+      - StaticText "Compare housing, healthcare, transport and schooling with the life you want to build. Plan for initial costs and the budget you will need over time."
+    - link "Plan your life and budget" [ref=e38]
+  - heading "What are you planning?" [level=2, ref=e10]
+  - paragraph
+    - StaticText "Explore the questions behind your plans. These starting points help you learn before choosing a service."
+  - article
+    - heading "Move for myself or my family" [level=3, ref=e39]
+    - paragraph
+      - StaticText "Explore what settling in could involve, from an arrival plan to the needs of each household member."
+    - link "Explore moving and settling in" [ref=e40]
+  - article
+    - heading "Build a second base" [level=3, ref=e41]
+    - paragraph
+      - StaticText "Understand the status, presence and continuing obligations to investigate before treating Paraguay as another base."
+    - link "Consider a second base" [ref=e42]
+  - article
+    - heading "Start or operate a local business" [level=3, ref=e43]
+    - paragraph
+      - StaticText "Separate company formation, accounting and banking questions from your personal residency decision."
+    - link "Explore a local business setup" [ref=e44]
+  - article
+    - heading "Understand the financial implications" [level=3, ref=e45]
+    - paragraph
+      - StaticText "Look at income source questions and the practical budget for your plans before choosing a service."
+    - link "Explore financial planning questions" [ref=e46]
+  - paragraph
+    - StaticText "Why Paraguay Next"
+  - heading "Turn the opportunity into a practical plan." [level=2, ref=e11]
+  - paragraph
+    - StaticText "Understand the steps, prepare your questions and choose the level of practical support you need. Our proposed role is separate from the opportunities residency may offer."
+  - article
+    - heading "Preparation" [level=3, ref=e47]
+    - paragraph
+      - StaticText "Organize the documents and questions to confirm before you travel or commit."
+    - link "See residency preparation support" [ref=e48]
+  - article
+    - heading "Coordination" [level=3, ref=e49]
+    - paragraph
+      - StaticText "Plan agreed local assistance around the steps that require your own involvement."
+    - link "Explore local coordination" [ref=e50]
+  - article
+    - heading "Clear scope and costs" [level=3, ref=e51]
+    - paragraph
+      - StaticText "Compare service fees, exclusions and external costs so you know what still needs a written quote."
+    - link "Compare package scope" [ref=e52]
+  - article
+    - heading "Defined follow through" [level=3, ref=e53]
+    - paragraph
+      - StaticText "Agree communication and aftercare responsibilities before proceeding, while authorities make their own decisions."
+    - link "Review support levels" [ref=e54]
+  - paragraph
+    - StaticText "How it works"
+  - heading "From questions to a considered plan." [level=2, ref=e12]
+  - list
+    - listitem [level=1]
+      - heading "Start with a conversation" [level=3, ref=e64]
+      - paragraph
+        - StaticText "Clarify your goal, current position and questions. No eligibility promise."
+    - listitem [level=1]
+      - heading "Prepare with a clear plan" [level=3, ref=e65]
+      - paragraph
+        - StaticText "Organize documents and confirm requirements before making commitments."
+    - listitem [level=1]
+      - heading "Complete required local steps" [level=3, ref=e66]
+      - paragraph
+        - StaticText "Coordinate the agreed assistance around steps that need your presence."
+    - listitem [level=1]
+      - heading "Stay informed along the way" [level=3, ref=e67]
+      - paragraph
+        - StaticText "Agree communication and aftercare while authorities handle their decisions."
+  - paragraph
+    - StaticText "Choose your level of support"
+  - heading "Clear options. A personal fit." [level=2, ref=e13]
+  - paragraph
+    - StaticText "Choose how much preparation and local support you need."
+  - article
+    - heading "Essential" [level=3, ref=e55]
+    - paragraph
+      - StaticText "For independent planners who want a clear starting point."
+    - StaticText "$2,200"
+    - paragraph
+      - StaticText "per applicant"
+    - paragraph
+      - StaticText "Illustrative USD price. Subject to confirmation"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Guidance on document organization"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Preparation checklist"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Questions before local steps"
+    - link "Discuss this plan" [ref=e56]
+  - article
+    - paragraph
+      - StaticText "More personal support"
+    - heading "Guided" [level=3, ref=e57]
+    - paragraph
+      - StaticText "For people who value help connecting each step."
+    - StaticText "$2,850"
+    - paragraph
+      - StaticText "per applicant"
+    - paragraph
+      - StaticText "Illustrative USD price. Subject to confirmation"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Support with document organization"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Appointment coordination"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Guidance through local steps"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Aftercare scope agreed in advance"
+    - link "Discuss this plan" [ref=e58]
+  - article
+    - heading "Concierge" [level=3, ref=e59]
+    - paragraph
+      - StaticText "For people seeking closer logistical coordination."
+    - StaticText "$4,500"
+    - paragraph
+      - StaticText "per applicant"
+    - paragraph
+      - StaticText "Illustrative USD price. Subject to confirmation"
+    - list
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Dedicated coordination plan"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Local logistical assistance"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "More personal communication"
+      - listitem [level=1]
+        - StaticText "✓"
+        - StaticText "Personalized aftercare scope"
+    - link "Discuss this plan" [ref=e60]
+  - link "See the full comparison and exclusions" [ref=e61]
+  - paragraph
+    - StaticText "Who helps you"
+  - heading "Know who helps and what you would receive." [level=2, ref=e14]
+  - paragraph
+    - StaticText "The operator and any external professionals must be named in your agreed scope. These sample deliverables illustrate the proposed work, not past client results."
+  - article
+    - paragraph
+      - StaticText "Profile placeholder"
+    - heading "Your coordination contact" [level=3, ref=e62]
+    - paragraph
+      - StaticText "Document organization, practical questions and agreed logistics. Team member details pending."
+  - article
+    - paragraph
+      - StaticText "External role placeholder"
+    - heading "Qualified professional review" [level=3, ref=e63]
+    - paragraph
+      - StaticText "Legal, tax or specialist advice must come from an appropriately qualified provider. No credentials are claimed here."
+  - strong
+    - StaticText "Document preparation outline"
+  - paragraph
+    - StaticText "What to gather, what to confirm, and who reviews it."
+  - strong
+    - StaticText "Local coordination plan"
+  - paragraph
+    - StaticText "Your required involvement and the support around it."
+  - strong
+    - StaticText "Written scope and cost breakdown"
+  - paragraph
+    - StaticText "Service fees, exclusions and decisions still to be made."
+  - paragraph
+    - StaticText "Before you decide"
+  - heading "Practical questions, honest answers." [level=2, ref=e15]
+  - paragraph
+    - StaticText "A move is a meaningful decision. Take the time to understand the details."
+  - group
+    - DisclosureTriangle "What could residency enable?" [expanded=false]
+  - group
+    - DisclosureTriangle "Is Paraguay the right fit for everyone?" [expanded=false]
+  - group
+    - DisclosureTriangle "Can I use Paraguay as a second base?" [expanded=false]
+  - group
+    - DisclosureTriangle "Does receiving income from abroad settle my tax position?" [expanded=false]
+  - group
+    - DisclosureTriangle "What would I pay Paraguay Next to do?" [expanded=false]
+  - paragraph
+    - StaticText "Information is provisional and must be checked for your circumstances."
+  - heading "See whether Paraguay fits your plans." [level=2, ref=e16]
+  - paragraph
+    - StaticText "Explore a starting point based on your needs, or go directly to the packages and their scope."
+  - link "Read the document preparation guide" [ref=e17]
+  - link "Find my starting point" [ref=e18]
+  - link "Compare packages" [ref=e19]
+- contentinfo
+  - StaticText "Paraguay"
+  - StaticText "Next"
+  - paragraph
+    - StaticText "Your Paraguay residency, clearly planned and personally supported."
+  - paragraph
+    - StaticText "Working brand. Legal operator and business contacts pending owner approval."
+  - navigation "Explore" [ref=e3]
+    - heading "Your next step" [level=2, ref=e20]
+    - link "Compare packages" [ref=e21]
+    - link "Book a consultation" [ref=e22]
+    - link "Contact" [ref=e23]
+    - link "All services" [ref=e24]
+  - navigation "Resources and policies" [ref=e4]
+    - heading "Useful information" [level=2, ref=e25]
+    - link "Preparation guide" [ref=e26]
+    - link "Privacy draft" [ref=e27]
+    - link "Terms draft" [ref=e28]
+    - link "Disclaimer draft" [ref=e29]
+  - StaticText "A considered move begins with clear information."
+  - StaticText "Demo website · USD · No live services"
+- complementary "Next step"
+  - link "Find my plan" [ref=e5]
+- alert

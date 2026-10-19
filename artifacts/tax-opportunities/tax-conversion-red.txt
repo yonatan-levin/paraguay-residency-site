@@ -1,0 +1,35 @@
+
+Running 1 test using 1 worker
+
+(node:80452) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 [chromium] › tests\e2e\tax-opportunities.spec.ts:63:1 › the tax comparison leads to booking with the selected tax package (5.2s)
+
+
+  1) [chromium] › tests\e2e\tax-opportunities.spec.ts:63:1 › the tax comparison leads to booking with the selected tax package 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: locator('.tax-opportunities').getByRole('link', { name: 'Discuss my tax planning options', exact: true })
+    Expected pattern: /book.*plan=tax-planning/
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toHaveAttribute" locator('.tax-opportunities').getByRole('link', { name: 'Discuss my tax planning options', exact: true }) with timeout 5000ms
+      - waiting for locator('.tax-opportunities').getByRole('link', { name: 'Discuss my tax planning options', exact: true })
+
+
+      67 |     exact: true,
+      68 |   });
+    > 69 |   await expect(action).toHaveAttribute("href", /book.*plan=tax-planning/);
+         |                        ^
+      70 |   await action.click();
+      71 |   await expect(page).toHaveURL(/book.*plan=tax-planning/);
+      72 | });
+        at C:\Users\Yonatan Levin\Documents\Programming\Projects\paraguay-next\paraguay-residency-site\tests\e2e\tax-opportunities.spec.ts:69:24
+
+    Error Context: test-results\tax-opportunities-the-tax--4318f-th-the-selected-tax-package-chromium\error-context.md
+
+  1 failed
+    [chromium] › tests\e2e\tax-opportunities.spec.ts:63:1 › the tax comparison leads to booking with the selected tax package 

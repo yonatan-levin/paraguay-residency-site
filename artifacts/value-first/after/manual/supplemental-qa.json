@@ -1,0 +1,95 @@
+{
+  "method": "Installed Playwright and axe fallback: agent-browser a11y returned Unknown command, and its CLI exposes no JavaScript disable setting.",
+  "checks": [
+    {
+      "check": "en Why accessibility",
+      "status": "PASS",
+      "violations": 0,
+      "passes": 23,
+      "incomplete": 1,
+      "sections": 8,
+      "sources": 3
+    },
+    {
+      "check": "es Why accessibility",
+      "status": "PASS",
+      "violations": 0,
+      "passes": 23,
+      "incomplete": 1,
+      "sections": 8,
+      "sources": 3
+    },
+    {
+      "check": "fr Why accessibility",
+      "status": "PASS",
+      "violations": 0,
+      "passes": 23,
+      "incomplete": 1,
+      "sections": 8,
+      "sources": 3
+    },
+    {
+      "check": "de Why accessibility",
+      "status": "PASS",
+      "violations": 0,
+      "passes": 23,
+      "incomplete": 1,
+      "sections": 8,
+      "sources": 3
+    },
+    {
+      "check": "he Why accessibility",
+      "status": "PASS",
+      "violations": 0,
+      "passes": 22,
+      "incomplete": 1,
+      "sections": 8,
+      "sources": 3
+    },
+    {
+      "check": "JavaScript disabled cost CTA 1",
+      "status": "PASS",
+      "javaScriptEnabled": false,
+      "href": "/en/pricing?service=temporary-residency&plan=temporary-guided&campaign=residency-cost",
+      "destination": "http://127.0.0.1:52942/en/pricing?service=temporary-residency&plan=temporary-guided&campaign=residency-cost"
+    },
+    {
+      "check": "JavaScript disabled cost CTA 2",
+      "status": "PASS",
+      "javaScriptEnabled": false,
+      "href": "/en/pricing?service=temporary-residency&plan=temporary-guided&campaign=residency-cost",
+      "destination": "http://127.0.0.1:52942/en/pricing?service=temporary-residency&plan=temporary-guided&campaign=residency-cost"
+    },
+    {
+      "check": "JavaScript disabled Why financial anchor",
+      "status": "PASS",
+      "destination": "http://127.0.0.1:52942/en/why-paraguay?service=temporary-residency&plan=temporary-guided#financial-planning",
+      "headingTop": 80.6875,
+      "interaction": "Ordinary 300px wheel scroll exposes the below-fold link above the persistent conversion bar, followed by pointer click. No force click."
+    },
+    {
+      "check": "JavaScript disabled Why EN to ES switch",
+      "status": "PASS",
+      "destination": "http://127.0.0.1:52942/es/why-paraguay?service=temporary-residency&plan=temporary-guided",
+      "heading": "¿Por qué considerar Paraguay para su próxima etapa?"
+    },
+    {
+      "check": "JavaScript disabled home Compare residency packages",
+      "status": "PASS",
+      "destination": "http://127.0.0.1:52942/en/pricing?service=temporary-residency&plan=temporary-guided"
+    },
+    {
+      "check": "JavaScript disabled home Already know what you need? Book a consultation",
+      "status": "PASS",
+      "destination": "http://127.0.0.1:52942/en/book?service=temporary-residency&plan=temporary-guided"
+    },
+    {
+      "check": "JavaScript disabled native mobile menu to Why",
+      "status": "PASS",
+      "destination": "http://127.0.0.1:52942/en/why-paraguay?service=temporary-residency&plan=temporary-guided"
+    }
+  ],
+  "errors": [],
+  "browser": "153.0.8010.12",
+  "status": "PASS"
+}

@@ -1,0 +1,13 @@
+
+> paraguay-residency-site@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.1 C:/Users/Yonatan Levin/Documents/Programming/Projects/paraguay-next/paraguay-flag-contact
+
+
+ Test Files  8 passed (8)
+      Tests  137 passed (137)
+   Start at  20:47:02
+   Duration  980ms (transform 37%, import 31%, tests 31%, worker 1%)
+
