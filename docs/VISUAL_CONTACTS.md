@@ -6,6 +6,8 @@ The interface uses Paraguay inspired red, deep blue and white. Primary action bu
 
 The homepage uses a local optimized photograph of Asuncion's skyline and Costanera. The source is [Costanera aerial by Cmasi](https://commons.wikimedia.org/wiki/File:Costanera_aerial.jpg), licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The derivative preserves the photographed buildings and shoreline while using AI to soften light and color and reduce compression. It is identified as AI edited, credits the author, links the source/license and remains under the same license. It is location illustration, not evidence of present conditions. The original and editing prompt are retained with asset provenance.
 
+The homepage photograph has no visible caption. The About page contains the localized photo credit, source link, AI editing disclosure and license link, accessible through the shared About navigation. The image retains its descriptive alternative text.
+
 ## Contact destinations and placement
 
 The owner supplied WhatsApp `+972544941176` and [the 30 minute Calendly link](https://calendly.com/yonatanlevin-esteaoeste/30min). Native outbound links are available from the home hero, shared footer, contact page and booking page. The existing internal booking journey remains accessible. The contact page identifies Yonatan Levin without inventing credentials, availability guarantees, an office, an email address or staffed language support.

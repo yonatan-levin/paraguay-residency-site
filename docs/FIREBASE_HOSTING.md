@@ -75,7 +75,7 @@ Remove-Item Env:E2E_BASE_URL
 - Check Hebrew direction on first render and after language switching at mobile and desktop sizes. Confirm package, family quote, contact draft and selected appointment instant survive language changes.
 - Submit test details through mock success, failure and retry paths. Verify the website form demo labels remain visible, no form data is sent externally, and personal drafts do not appear in URLs or browser storage.
 - Inspect WhatsApp and Calendly destinations, separate-tab behavior and safe selection context across languages. Do not send a message or complete an appointment. Verify that direct-link labels distinguish real external contact from the simulated website form.
-- Check the locally served skyline, its visible source/author/license and AI-edit notice, and red/blue contrast at desktop, narrow mobile and Hebrew layouts.
+- Check the locally served skyline without a homepage caption, its source/author/license and AI-edit notice on About, and red/blue contrast at desktop, narrow mobile and Hebrew layouts.
 - Check a missing route returns 404, `/robots.txt` discourages crawling and `/sitemap.xml` contains no preview pages. Smoke test without JavaScript and test the language menu after hydration.
 - Recheck production console/network errors and response times on the hosted build. Local QA does not prove Firebase adapter compatibility, deployed environment settings or regional performance.
 

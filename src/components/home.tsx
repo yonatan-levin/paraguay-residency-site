@@ -78,26 +78,6 @@ export function Home({ locale }: { locale: Locale }) {
             fetchPriority="high"
             loading="eager"
           />
-          <figcaption>
-            <strong>{text(locale, "Asunción, Paraguay")}</strong>
-            <span>
-              <a
-                href="https://commons.wikimedia.org/wiki/File:Costanera_aerial.jpg"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {text(locale, "Photo by Cmasi · AI edited")}
-              </a>{" "}
-              ·{" "}
-              <a
-                href="https://creativecommons.org/licenses/by-sa/4.0/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                CC BY SA 4.0
-              </a>
-            </span>
-          </figcaption>
         </figure>
       </section>
     ),
