@@ -31,7 +31,9 @@ test("Paraguay homepage shows a real skyline and flag colored actions", async ({
   expect(red).toBeGreaterThan(blue);
   await expect(hero.locator(whatsapp)).toBeVisible();
   await expect(hero.locator(calendar)).toBeVisible();
-  await page.locator('footer a[href^="/en/about"]').click();
+  const mobileMenu = page.getByLabel("Open navigation", { exact: true });
+  if (await mobileMenu.isVisible()) await mobileMenu.click();
+  await page.locator('header a[href^="/en/about"]:visible').click();
   await expect(page).toHaveURL(/\/en\/about/);
   const credit = page.getByRole("complementary", { name: "Photo credits" });
   await expect(credit).toBeVisible();
