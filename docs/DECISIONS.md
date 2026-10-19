@@ -119,4 +119,12 @@ These claims use the existing source and approval registry. `foreign-dividends`,
 
 No legal thresholds, document validity periods, eligibility decisions, passport-access counts, pension-tax claims, or approval timelines are inferred from a competitor. The preparatory guide names questions to confirm and clearly separates supplied official sources from actual professional review. Source links alone do not establish that the website’s wording was reviewed.
 
-Production performance targets in the handoff are future field targets. Local Lighthouse results are a laboratory baseline only; native iOS/Android behavior requires separate device checks. Actual executed evidence belongs in `QA_REPORT.md`; unresolved public-launch conditions belong in `LAUNCH_CHECKLIST.md`.
+Production performance targets in the handoff are future field targets. Local Lighthouse results are a laboratory baseline only; native iOS/Android behavior requires separate device checks. Actual executed evidence belongs in the artifact recorded for that change; unresolved public-launch conditions belong in `LAUNCH_CHECKLIST.md`.
+
+## 2026-10-18: Paraguay identity and owner contact destinations
+
+The owner selected Paraguay inspired red, blue and white and supplied a WhatsApp number and a Calendly event. The earlier decisions describing every visible contact action as simulated are superseded for these two native outbound links. Website forms, appointment demonstrations and analytics remain local mocks, with provisional prices and noindex safeguards.
+
+The approved contact configuration has one home in `src/config/brand.ts`; destinations, placement, privacy constraints and context mapping are described in [the visual and contact contract](VISUAL_CONTACTS.md). A click opens a separate tab. It does not submit a form, send a message or reserve a slot. Only validated service/package/campaign categories and a family quote flag accompany it; private drafts stay on the original website.
+
+The homepage uses an AI edited derivative of a licensed Asuncion photograph. The source author, license and editing disclosure remain visible beside the image. [Asset provenance](../artifacts/flag-contact/skyline-provenance.md) records the source and transformation. This replaces the original illustration choice for the homepage without representing generated details as current documentary evidence. Shared CSS tokens own the interface colors; the existing catalog, locale coverage and conversion state remain the foundation.

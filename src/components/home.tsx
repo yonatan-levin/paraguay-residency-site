@@ -1,5 +1,6 @@
 import { Fragment, type ReactNode } from "react";
 import Image from "next/image";
+import skyline from "../../public/asuncion-skyline.webp";
 import type { Locale } from "../domain/types";
 import { brand } from "../config/brand";
 import { packages } from "../content/catalog";
@@ -15,6 +16,7 @@ import {
 import { JourneyLink } from "./journey-provider";
 import { FAQAccordion, PackageCard, ProcessSteps, Section } from "./primitives";
 import { BenefitCards, ValueNextActions } from "./value-content";
+import { DirectContactLinks } from "./direct-contact";
 
 export function Home({ locale }: { locale: Locale }) {
   const v = (key: Parameters<typeof valueText>[1]) => valueText(locale, key);
@@ -63,30 +65,39 @@ export function Home({ locale }: { locale: Locale }) {
               {v("quietBooking")}
             </JourneyLink>
           </p>
+          <DirectContactLinks locale={locale} className="hero-contact" />
         </div>
-        <figure className="hero-art">
+        <figure className="hero-art skyline-art">
           <Image
-            src={
-              locale === "en"
-                ? "/hero-editorial.svg"
-                : `/hero-editorial-${locale}.svg`
-            }
+            src={skyline}
             alt={text(
               locale,
-              "Original editorial illustration of a shaded terrace and greenery in Paraguay",
+              "Asunción skyline and Costanera waterfront in soft evening light",
             )}
-            width={860}
-            height={1000}
+            sizes="(max-width: 900px) 100vw, 50vw"
             fetchPriority="high"
             loading="eager"
           />
           <figcaption>
-            {text(locale, "Editorial illustration · Location imagery pending")}
+            <strong>{text(locale, "Asunción, Paraguay")}</strong>
+            <span>
+              <a
+                href="https://commons.wikimedia.org/wiki/File:Costanera_aerial.jpg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {text(locale, "Photo by Cmasi · AI edited")}
+              </a>{" "}
+              ·{" "}
+              <a
+                href="https://creativecommons.org/licenses/by-sa/4.0/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                CC BY SA 4.0
+              </a>
+            </span>
           </figcaption>
-          <div className="art-note">
-            <span aria-hidden="true">✳</span>
-            <p>{text(locale, "A place for your plans to take root.")}</p>
-          </div>
         </figure>
       </section>
     ),

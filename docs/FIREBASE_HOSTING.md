@@ -12,7 +12,7 @@ Use Firebase App Hosting for the existing Next.js server rendering and proxy beh
 
 `apphosting.yaml` keeps `SITE_MODE=demo` at build and runtime. It sets minimum instances to zero between reviews and maximum instances to two for modest demo traffic. These editable values are **not a spending cap**; builds, storage, serving and network usage can incur charges. `us-central1` was selected for the documented local source storage allowance and a globally cached demo. Review [App Hosting costs](https://firebase.google.com/docs/app-hosting/costs) when changing capacity or usage.
 
-The demo stays public and noindex, with provisional USD prices and local mock integrations. Use test contact details only. No real bookings, messages, payments or leads are delivered. Public hosting does not approve the business launch or any gate in [the launch checklist](LAUNCH_CHECKLIST.md).
+The demo stays public and noindex, with provisional USD prices and local website mock integrations. Use test details in its forms; those forms deliver no real bookings, messages, payments or leads. Separate WhatsApp and Calendly links open real external services on visitor action. Sending a message or completing an appointment happens on the provider, under its terms. Public hosting does not approve the business launch or any gate in [the launch checklist](LAUNCH_CHECKLIST.md). [VISUAL_CONTACTS.md](VISUAL_CONTACTS.md) defines the contact boundary and locally served skyline's attribution/license.
 
 ## Prepare the project and verified origin
 
@@ -73,7 +73,9 @@ Remove-Item Env:E2E_BASE_URL
 
 - Open all six home pages and a pricing, booking, campaign and policy route in each language. Verify HTTPS and noindex metadata plus the `X-Robots-Tag` response header. Canonical and language alternate URLs must use the verified Firebase origin.
 - Check Hebrew direction on first render and after language switching at mobile and desktop sizes. Confirm package, family quote, contact draft and selected appointment instant survive language changes.
-- Submit test details through mock success, failure and retry paths. Verify the demo labels remain visible, no external provider sends occur, and personal details do not appear in URLs or browser storage.
+- Submit test details through mock success, failure and retry paths. Verify the website form demo labels remain visible, no form data is sent externally, and personal drafts do not appear in URLs or browser storage.
+- Inspect WhatsApp and Calendly destinations, separate-tab behavior and safe selection context across languages. Do not send a message or complete an appointment. Verify that direct-link labels distinguish real external contact from the simulated website form.
+- Check the locally served skyline, its visible source/author/license and AI-edit notice, and red/blue contrast at desktop, narrow mobile and Hebrew layouts.
 - Check a missing route returns 404, `/robots.txt` discourages crawling and `/sitemap.xml` contains no preview pages. Smoke test without JavaScript and test the language menu after hydration.
 - Recheck production console/network errors and response times on the hosted build. Local QA does not prove Firebase adapter compatibility, deployed environment settings or regional performance.
 

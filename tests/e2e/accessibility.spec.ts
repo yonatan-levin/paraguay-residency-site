@@ -54,7 +54,7 @@ for (const width of [320, 360, 390, 768, 1440]) {
   });
 }
 
-test("keyboard menu, skip link, dialog dismissal and focus recovery", async ({
+test("keyboard menu, skip link and contact navigation remain accessible", async ({
   page,
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
@@ -72,7 +72,7 @@ test("keyboard menu, skip link, dialog dismissal and focus recovery", async ({
   await expect(
     page.getByRole("navigation", { name: "Mobile navigation", exact: true }),
   ).not.toBeVisible();
-  // The benefits hero links to consultation; messaging remains on Contact.
+  // Contact remains reachable through the mobile navigation with a keyboard.
   await page.keyboard.press("Enter");
   await page
     .getByRole("navigation", { name: "Mobile navigation", exact: true })
@@ -81,13 +81,16 @@ test("keyboard menu, skip link, dialog dismissal and focus recovery", async ({
   await page.keyboard.press("Enter");
   await expect(page).toHaveURL(/\/en\/contact$/);
   const whatsapp = page
-    .getByRole("button", { name: "Ask us on WhatsApp", exact: true })
+    .locator("main")
+    .getByRole("link", { name: /WhatsApp/i })
     .first();
   await whatsapp.focus();
-  await page.keyboard.press("Enter");
-  await expect(page.getByRole("dialog")).toBeVisible();
-  await page.keyboard.press("Escape");
   await expect(whatsapp).toBeFocused();
+  await expect(whatsapp).toHaveAttribute(
+    "href",
+    /^https:\/\/wa.me\/972544941176/,
+  );
+  await expect(whatsapp).toHaveAccessibleName(/Opens in a new tab/);
 });
 
 test("RTL mixed-script fixture and emulated 200-percent zoom remain usable", async ({

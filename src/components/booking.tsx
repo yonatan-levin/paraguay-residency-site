@@ -36,6 +36,7 @@ import {
 } from "./journey-provider";
 import { PageIntro, Section } from "./primitives";
 import { useHydrated } from "./use-hydrated";
+import { DirectContactLinks } from "./direct-contact";
 
 function SelectionSummary({ locale }: { locale: Locale }) {
   const selection = useSelection();
@@ -99,7 +100,7 @@ function SelectionSummary({ locale }: { locale: Locale }) {
       <p className="small">
         {text(
           locale,
-          "This preview uses test details only. No appointment, payment or message is sent.",
+          "This website form uses test details only. It does not book an appointment, take payment or send a message.",
         )}
       </p>
     </aside>
@@ -228,14 +229,15 @@ export function Booking({ locale }: { locale: Locale }) {
     <>
       <PageIntro
         title={text(locale, "Your next step starts with a conversation.")}
-        eyebrow={text(locale, "Demo inquiry")}
+        eyebrow={ui[locale].contact}
       >
         <p>
           {text(
             locale,
-            "Share a little about your plans. Use test details while exploring this preview.",
+            "Contact Yonatan directly, or use the demo form below with test details.",
           )}
         </p>
+        <DirectContactLinks locale={locale} />
       </PageIntro>
       <Section className="booking-section">
         <div className="booking-grid">

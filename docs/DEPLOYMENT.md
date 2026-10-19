@@ -11,7 +11,7 @@ Paraguay Next is configured for a public team demo on Firebase App Hosting. It r
 | Firebase demo | App Hosting target and environment in repository configuration |
 | Business launch | Unavailable in this implementation; non-demo `SITE_MODE` is rejected |
 
-All environments preserve provisional commercial content, local mock integrations and noindex. Public access does not establish professional review, business approval or restricted access. Noindex is a crawler instruction.
+All environments preserve provisional commercial content, local website mock integrations and noindex. Native WhatsApp and Calendly links reach external services only on visitor action, in local and hosted builds alike. Public access does not establish professional review, business approval or restricted access. Noindex is a crawler instruction.
 
 ## Infrastructure configuration
 
@@ -25,6 +25,6 @@ The [Firebase hosting guide](FIREBASE_HOSTING.md) owns project/backend identifie
 
 The configured demo can incur build, storage, serving and network charges. Scale-to-zero settings and maximum instances are not a spending cap.
 
-Local environment files, credentials, generated build output and browser test artifacts are excluded by deployment configuration. The public example environment must remain credential-free.
+Local environment files, credentials, generated build output, browser test artifacts and local task checkpoints under `.agents/handoffs` are excluded by deployment configuration. The public example environment must remain credential-free. Contact anchors require no provider secret, SDK or embedded widget. The locally served skyline's required attribution and license are part of the rendered site; [VISUAL_CONTACTS.md](VISUAL_CONTACTS.md) owns the rights contract.
 
-The [launch checklist](LAUNCH_CHECKLIST.md) describes the business requirements beyond a hosted demo. Source-level origin, content, commercial, claim and locale approvals are separate from deployment availability. Provider delivery, secure storage, retention and server-side abuse controls are absent from the current prototype.
+The [launch checklist](LAUNCH_CHECKLIST.md) describes the business requirements beyond a hosted demo. Source-level origin, content, commercial, claim and locale approvals are separate from deployment availability. Website form delivery, secure storage, retention and server-side abuse controls are absent from the current prototype. External contact links do not satisfy those requirements.

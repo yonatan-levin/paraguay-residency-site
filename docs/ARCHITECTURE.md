@@ -1,6 +1,6 @@
 # Architecture
 
-Paraguay Next uses Next.js App Router, React and strict TypeScript. Marketing pages render on the server; interactive conversion components run in the browser. Zod validates simulated submission payloads. There is no persistence backend, authenticated area, payment flow or live provider integration.
+Paraguay Next uses Next.js App Router, React and strict TypeScript. Marketing pages render on the server; interactive conversion components run in the browser. Zod validates simulated submission payloads. There is no persistence backend, authenticated area, payment flow or provider API integration. Real external contact is available through native WhatsApp and Calendly links.
 
 ## Routing and rendering
 
@@ -31,7 +31,9 @@ Mock gateways can simulate failure and unavailable times. Appointment slots are 
 
 Safe identifiers can be included in navigation URLs. Personal details, answers and receipts are held in browser memory, without a database or browser-storage persistence. Analytics accepts allowlisted event identifiers and context, drops arbitrary fields and stores events in memory.
 
-No lead, booking, messaging or analytics provider is configured. The deployment's ordinary page and asset requests remain network traffic; the local integration boundary applies to journey payloads.
+No lead, booking, messaging or analytics API provider is configured. `src/components/direct-contact.tsx` renders outbound anchors from the current journey context; `src/domain/contact-links.ts` revalidates that context against the catalog before constructing URLs. Public destinations live in `src/config/brand.ts`, separately from business launch approvals. There is no provider embed, SDK, credential or automatic provider request. The visitor chooses whether to send the resulting WhatsApp draft or complete an appointment on Calendly.
+
+The deployment's ordinary page and asset requests remain network traffic. The [visual/contact contract](VISUAL_CONTACTS.md) owns the allowed outbound context, private-data exclusions, tab behavior and skyline attribution/license. The skyline is served locally from `public/`, with palette tokens in shared CSS; displaying it does not fetch the source-photo host.
 
 ## Configuration and hosting
 

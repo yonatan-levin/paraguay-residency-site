@@ -6,7 +6,7 @@ import { brand } from "../config/brand";
 export const text = (locale: Locale, en: string) => translate(locale, en);
 const englishUi = {
   preview:
-    "Website preview. Offers are provisional and no real booking or message will be sent.",
+    "Website preview. Offers are provisional. External contact links are live; website forms are simulated.",
   provisional: "Illustrative USD price. Subject to confirmation",
   plan: "Find my plan",
   compare: "Compare packages",

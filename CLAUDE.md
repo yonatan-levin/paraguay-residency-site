@@ -1,6 +1,6 @@
 # Paraguay Next
 
-Paraguay Next is a multilingual Next.js prototype for exploring residency, relocation, tax planning and business assistance in Paraguay. Commercial offers, operator details and regulated content remain provisional. The application runs in demo mode: lead submission, appointment selection, WhatsApp preview and analytics use in-memory adapters.
+Paraguay Next is a multilingual Next.js prototype for exploring residency, relocation, tax planning and business assistance in Paraguay. Commercial offers, operator details and regulated content remain provisional. Website lead submissions, appointment selection and analytics use in-memory adapters. User-initiated WhatsApp and Calendly links open real external services; they do not submit website form drafts.
 
 ## Commands
 
@@ -42,7 +42,7 @@ The App Router renders marketing content on the server. A shared client journey 
 | `scripts/` | Launch diagnostics, artwork generation, performance and source manifests |
 | `tests/` | Vitest and Playwright suites |
 
-There is no database, authentication system, payment processor or live provider SDK. Firebase App Hosting serves the server-rendered demo; deployment details live in the dedicated hosting guide.
+There is no database, authentication system, payment processor or provider SDK. Native external contact anchors use configured public destinations and catalog-validated context. Firebase App Hosting serves the server-rendered demo; deployment details live in the dedicated hosting guide.
 
 ## Conventions and invariants
 
@@ -51,6 +51,7 @@ There is no database, authentication system, payment processor or live provider 
 - Stable service and package IDs stay untranslated. Catalog prices use integer USD minor units; locale formatting changes presentation, never value or currency.
 - Fixed, range and quote prices remain distinct. Included, excluded, optional and unknown scope remain distinct. Family journeys require quotes rather than an invented household total.
 - Safe service, package and campaign IDs can appear in URLs. Personal details, questionnaire answers and receipts stay in browser memory. Refreshing a receipt gives a recovery state.
+- Direct contact links use only safe selection context, open a separate tab and require the visitor to send or book on the external provider. They add no embedded widget, credentials or automatic provider request. The [visual/contact contract](docs/VISUAL_CONTACTS.md) owns the destinations, context mapping and skyline license.
 - Informational navigation retains selected context. A service inquiry explains incompatible package removal before the action.
 - Appointments preserve their UTC instant while display timezone and language change. A locale switch does not submit another request.
 - Authored visible copy avoids hyphens and dash punctuation. Technical identifiers and customer input retain their original formatting.
@@ -63,7 +64,7 @@ There is no database, authentication system, payment processor or live provider 
 
 `SITE_URL` supplies the origin for canonical and alternate URLs. Localhost is the fallback; Firebase defines its own origin in `apphosting.yaml`. A public demo and an optimized build do not establish approved legal claims or a business launch.
 
-The mock messaging adapter produces a preview with `sent: false`. Mock appointments use generated future slots and controllable outcomes. These are demonstrations, not a real availability calendar.
+The legacy mock messaging adapter produces a preview with `sent: false`; visible WhatsApp actions use the external contact link. Mock appointments use generated future slots and controllable outcomes. Real availability and bookings are handled only on the external Calendly page.
 
 ## Documentation index
 
@@ -74,5 +75,6 @@ The mock messaging adapter produces a preview with `sent: false`. Mock appointme
 - [Deployment](docs/DEPLOYMENT.md): environments and hosting boundaries
 - [Testing](docs/TESTING.md): suites, coverage and limitations
 - [Decisions](docs/DECISIONS.md): dated decisions and corrections
+- [Visual identity and direct contact](docs/VISUAL_CONTACTS.md): palette, skyline rights and outbound-link contract
 - [Localization](docs/LOCALIZATION.md), [routes and SEO](docs/ROUTES_AND_SEO.md), [Firebase hosting](docs/FIREBASE_HOSTING.md): specific guides
 - [README document index](README.md#documentation): content specifications and historical evidence

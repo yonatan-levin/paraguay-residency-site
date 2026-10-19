@@ -2,7 +2,7 @@
 
 **A public team demo is authorized; a business launch is not.** Passing tests or a production build does not approve the business, its offers, its content, or live integrations. All gate owners below are responsibilities to assign to real people; no approval is inferred from a placeholder name, source link, benchmark price, or implementation date.
 
-The prototype remains in demo mode, with provisional prices, local mocks and noindex previews. The public demo is intentionally accessible without a login and must use test data only; noindex is not access control. Firebase project `paraguay-residency-site` separates it from the owner's existing site. Follow `FIREBASE_HOSTING.md` for the required billing authorization, verified origin, deployment and hosted checks. Progress belongs in GitHub issue #7.
+The prototype remains in demo mode, with provisional prices, local website mocks and noindex previews. The public demo is intentionally accessible without a login; use test data in its forms. Native WhatsApp and Calendly links reach real external services when chosen by the visitor, as defined in [VISUAL_CONTACTS.md](VISUAL_CONTACTS.md). They do not approve offers or enable live website submissions. Noindex is not access control. Firebase project `paraguay-residency-site` separates it from the owner's existing site. Follow [FIREBASE_HOSTING.md](FIREBASE_HOSTING.md) for billing, verified origin, deployment and hosted checks. Release progress belongs in the corresponding GitHub issue.
 
 ## Required business and operating approvals
 
@@ -10,7 +10,7 @@ The prototype remains in demo mode, with provisional prices, local mocks and noi
 |---|---|---|---|
 | Business name, domain and legal operator | Business owner | Not supplied | Written approved brand/domain/legal entity and the relationship, if any, to other businesses |
 | Production origin and ownership | Business / engineering owner | Not supplied | Exact approved origin, domain control, ownership record and environment separation |
-| Contact details, staffed languages and support hours | Operations owner | Not supplied | Verified email/phone/address where published, response expectations and named lead owner |
+| Contact details, staffed languages and support hours | Operations owner | Public direct-contact destinations supplied; operating details unapproved | Verified published contact details, staffed languages, response expectations and named lead owner; direct-link contract in [VISUAL_CONTACTS.md](VISUAL_CONTACTS.md) |
 | Team and professional responsibilities | Business / professional lead | Not supplied | Real identities, publication consent, verified credentials, operator versus external-professional boundaries |
 | Catalog delivery scope | Commercial / operations owner | Not approved | Signed per-package scope, exclusions, dependencies, required travel and aftercare commitments |
 | Final commercial terms | Commercial owner | Not approved | Approved fees/taxes, inclusions, third-party charges, recurring obligations, cancellation/refunds |
@@ -19,7 +19,7 @@ The prototype remains in demo mode, with provisional prices, local mocks and noi
 | Tax/company/accounting/banking content | Qualified professional reviewers | Not reviewed | Applicable jurisdiction and responsibility review; no automatic tax/bank/account outcomes |
 | Specific tax opportunities and both company structures | Qualified Paraguay and US tax reviewers | Draft, not approved | Review DNIT consultation 380's fact specific foreign dividend example, classification of any LLC distribution, US nonresident/source/ECI/election conditions, reporting duties, ordinary IRE and additional company taxes. Confirm tax residence and former country obligations separately; no combined worldwide zero tax outcome is established |
 | Property/license/retirement/citizenship content | Qualified professional reviewers | Not reviewed | Scope and claim approval; no guaranteed citizenship, legal thresholds or timing invented from marketing |
-| Images, biographies, testimonials and proof | Content / rights owner | Not supplied | Rights/license files, model/publication permissions, authenticated claims and testimonials |
+| Images, biographies, testimonials and proof | Content / rights owner | Skyline source/license documented; broader publication evidence unapproved | Skyline rights and AI-edit disclosure in [VISUAL_CONTACTS.md](VISUAL_CONTACTS.md); remaining rights/license files, model/publication permissions, authenticated claims and testimonials |
 | Translation publication | Language / content owner | Not approved | Native language review of English, Spanish, French, German, Hebrew and Russian full journeys, errors, policies, metadata and image captions; qualified review of legal and commercial meaning; staffed languages confirmed separately |
 | Privacy, terms, disclaimer and consent basis | Legal / privacy owner | Draft only | Jurisdiction-appropriate approved policies, controller/processors, lawful basis and separate optional marketing consent |
 | Operational response and complaints | Operations owner | Not supplied | Named lead ownership, response commitments, escalation and cancellation/refund procedure |
@@ -29,8 +29,8 @@ The prototype remains in demo mode, with provisional prices, local mocks and noi
 | Gate | Accountable owner | Approval status | Required evidence |
 |---|---|---|---|
 | Real lead service | Engineering / operations owner | Mock only | Approved provider, server validation, safe retry/idempotency, error handling and end-to-end accepted-request evidence |
-| Calendar service | Engineering / operations owner | Mock only | Approved account/timezone/duration, availability/concurrency checks, cancellation flow and successful real integration tests |
-| WhatsApp contact | Operations / privacy owner | Sending disabled | Approved number, message scope, explicit-user-action behavior and verified destination |
+| Website calendar service | Engineering / operations owner | Mock only; external Calendly link separate | Approved account/timezone/duration, availability/concurrency checks, cancellation flow and successful website integration tests; completing an external Calendly booking does not enable website booking delivery |
+| WhatsApp contact | Operations / privacy owner | Owner supplied native contact link; no automatic sending | Destination, message scope, explicit-user-action behavior and privacy contract in [VISUAL_CONTACTS.md](VISUAL_CONTACTS.md); website form sending remains simulated |
 | CRM and processor review | Privacy / engineering owner | Not configured | Approved endpoints, processor agreement/review, access ownership and tested data contract |
 | Personal data protection | Security / privacy owner | Prototype memory only | Secure server storage/transport, least-privilege access, retention/deletion policy, secret management and incident procedure |
 | Abuse prevention | Security / engineering owner | Not implemented for live collection | Server-side rate limiting, anti-spam, validation, safe error reporting and abuse tests |

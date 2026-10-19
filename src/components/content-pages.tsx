@@ -5,14 +5,14 @@ import { packages, services } from "../content/catalog";
 import { getServiceDetail } from "../content/service-details";
 import { getGuide } from "../content/guide";
 import { getOutcomeIntro, valueText } from "../content/value-first";
-import { brand } from "../config/brand";
+import { brand, directContacts } from "../config/brand";
 import { formatPrice } from "../domain/pricing";
 import { text, ui } from "../content/ui";
 import { JourneyLink, ServiceInquiry } from "./journey-provider";
 import { SourceNote } from "./value-content";
 import { TaxOpportunities } from "./tax-opportunities";
 import { taxText } from "../content/tax-opportunities";
-import { WhatsAppButton } from "./shell";
+import { DirectContactLinks } from "./direct-contact";
 import { FAQAccordion, PackageCard, PageIntro, Section } from "./primitives";
 
 export function ServicePage({
@@ -480,7 +480,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
             </p>
           </div>
           <div className="service-note">
-            <h2>{editorialText(locale, "People details are pending.")}</h2>
+            <h2>{editorialText(locale, "People and responsibilities")}</h2>
             <p>
               {editorialText(
                 locale,
@@ -497,7 +497,8 @@ export function AboutPage({ locale }: { locale: Locale }) {
               <li>
                 {editorialText(
                   locale,
-                  "Coordination contact and support hours: to be confirmed.",
+                  "Coordination contact: {name}. Support hours are not published.",
+                  { name: directContacts.name },
                 )}
               </li>
               <li>
@@ -576,7 +577,7 @@ export function ContactPage({ locale }: { locale: Locale }) {
         <p>
           {text(
             locale,
-            "Choose a way to explore the conversation. All contact actions in this preview are simulated.",
+            "Contact Yonatan Levin directly, or explore the simulated website inquiry.",
           )}
         </p>
       </PageIntro>
@@ -586,37 +587,47 @@ export function ContactPage({ locale }: { locale: Locale }) {
             <span className="goal-icon" aria-hidden="true">
               ☷
             </span>
-            <h2>{text(locale, "Start with your plans")}</h2>
+            <h2>{text(locale, "Talk to Yonatan")}</h2>
             <p>
               {text(
                 locale,
-                "Request a conversation or choose a demo time. Your selected service and package stay with you.",
+                "WhatsApp opens a draft for you to send. Calendly creates an appointment only after you complete its booking.",
               )}
             </p>
-            <JourneyLink locale={locale} route="book" className="button">
-              {ui[locale].book}
-            </JourneyLink>
+            <DirectContactLinks locale={locale} />
           </article>
           <article>
             <span className="goal-icon" aria-hidden="true">
               ☏
             </span>
-            <h2>{text(locale, "Preview a WhatsApp message")}</h2>
+            <h2>{text(locale, "Explore a demo inquiry")}</h2>
             <p>
               {text(
                 locale,
-                "See a conversation starter with your selected package. Sending is disabled.",
+                "Explore the website form with test details. It does not send a request or book an appointment.",
               )}
             </p>
-            <WhatsAppButton locale={locale} className="button button-outline" />
+            <JourneyLink
+              locale={locale}
+              route="book"
+              className="button button-outline"
+            >
+              {text(locale, "Start a demo inquiry")}
+            </JourneyLink>
           </article>
         </div>
         <div className="contact-details">
           <h2>{text(locale, "Business contact details")}</h2>
           <p>
+            <strong>{directContacts.name}</strong>
+            <br />
+            {text(locale, "WhatsApp")}:{" "}
+            <bdi dir="ltr">{directContacts.whatsappNumber}</bdi>
+          </p>
+          <p>
             {text(
               locale,
-              "Direct email, telephone, address and support hours have not been supplied or approved. They are unavailable in this preview.",
+              "Email, office address and support hours are not published.",
             )}
           </p>
           <p>
@@ -651,6 +662,10 @@ export function PolicyPage({
             [
               "How this preview handles test details",
               "The inquiry form asks for a first name, preferred contact channel and the detail needed for that channel. Notes and a separate marketing preference are optional. Use test details only. Contact drafts and demo receipts stay in browser memory, disappear on refresh, and are not sent to external providers or stored in local or session storage.",
+            ],
+            [
+              "External contact links",
+              "WhatsApp and Calendly are external services. Clicking a link opens the provider in a new tab with your selected service, package and campaign categories. A family quote request is included when relevant. Names, contact drafts, notes and questionnaire answers are never added to these links. You decide whether to send the WhatsApp draft or complete a booking on Calendly; the provider's privacy terms apply there.",
             ],
             [
               "Measurement in the prototype",

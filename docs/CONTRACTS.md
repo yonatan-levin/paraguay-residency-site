@@ -1,6 +1,6 @@
 # Contracts
 
-The public surface is a multilingual website and its browser journeys. There is no public submission API or live provider endpoint in this prototype.
+The public surface is a multilingual website, its simulated browser journeys and visitor-initiated external contact links. There is no public submission API or provider API integration in this prototype.
 
 ## Routes, languages and SEO
 
@@ -35,14 +35,14 @@ Lead and booking gateways receive a validated payload plus an idempotency key. T
 
 Mock booking rejects unavailable, expired or nongenerated slots. Successful results produce an explicitly demo receipt with accepted context, any catalog price and appointment instant. No receipt persists across reloads. Changing receipt language does not submit again.
 
-The messaging adapter returns translated preview text, a disabled-send notice and `sent: false`. It does not deliver a WhatsApp message.
+The legacy messaging adapter returns translated preview text, a disabled-send notice and `sent: false`. Visible WhatsApp actions use the native external link described in the [visual/contact contract](VISUAL_CONTACTS.md). Calendly bookings are completed on Calendly, independently of the simulated website appointment and receipt interfaces.
 
 ## Privacy and event boundaries
 
-Personal contact values, notes, questionnaire answers and receipts stay in memory. Navigation can include safe service, plan and campaign IDs; it does not serialize private drafts. Receipts omit contact details.
+Personal contact values, notes, questionnaire answers and receipts stay in memory. Navigation can include safe service, plan and campaign IDs; it does not serialize private drafts. Receipts omit contact details. Outbound contact links carry only the safe context defined in [VISUAL_CONTACTS.md](VISUAL_CONTACTS.md); private drafts and arbitrary URL values are excluded. The provider's privacy terms apply after a visitor follows its link.
 
 Analytics stores sanitized events in memory. Only recognized event names, routes, locales, catalog IDs, campaign/CTA identifiers, finder steps and outcome categories survive sanitization. Arbitrary contact or free-text fields are not event payloads.
 
 ## Demo and launch boundaries
 
-`next.config.ts` rejects non-demo `SITE_MODE`; environment toggles cannot create a live integration. Runtime origin and approval inputs fail closed for indexability. Brand, operator, contact, commercial, content, privacy, provider and translation requirements remain represented by the launch diagnostic. [LAUNCH_CHECKLIST.md](LAUNCH_CHECKLIST.md) describes their business meaning.
+`next.config.ts` rejects non-demo `SITE_MODE`; environment toggles cannot create a provider integration. Public contact destinations do not enable website form delivery or approve a business launch. Runtime origin and approval inputs fail closed for indexability. Brand, operator, contact, commercial, content, privacy, provider and translation requirements remain represented by the launch diagnostic. [LAUNCH_CHECKLIST.md](LAUNCH_CHECKLIST.md) describes their business meaning.

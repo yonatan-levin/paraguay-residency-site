@@ -176,8 +176,9 @@ test("Russian missing pages and empty receipts recover without implying success"
   ).toHaveAttribute("href", /\/ru\/book\?.*plan=temporary-guided/);
 });
 
-test("Russian WhatsApp preview stays local and returns keyboard focus", async ({
+test("Russian WhatsApp opens a localized family draft at the approved destination", async ({
   page,
+  context,
   baseURL,
 }) => {
   const external: string[] = [];
@@ -185,15 +186,36 @@ test("Russian WhatsApp preview stays local and returns keyboard focus", async ({
     if (new URL(request.url()).origin !== new URL(baseURL!).origin)
       external.push(request.url());
   });
-  await page.goto("/ru/contact?plan=temporary-guided");
-  const trigger = page.getByRole("button", { name: /WhatsApp/i }).first();
-  await trigger.click();
-  await expect(page.getByRole("dialog")).toContainText(
-    copy["Sending is disabled in this preview."],
+  await page.goto(
+    "/ru/contact?plan=temporary-guided&campaign=family-relocation",
   );
-  await expect(page.getByRole("dialog")).toContainText(copy.Guided);
-  await page.keyboard.press("Escape");
-  await expect(page.getByRole("dialog")).not.toBeVisible();
-  await expect(trigger).toBeFocused();
+  const link = page
+    .locator("main")
+    .getByRole("link", { name: /WhatsApp/i })
+    .first();
+  const destination = new URL((await link.getAttribute("href"))!);
+  expect(destination.origin + destination.pathname).toBe(
+    "https://wa.me/972544941176",
+  );
+  expect(destination.searchParams.get("text")).toContain(copy.Guided);
+  expect(destination.searchParams.get("text")).toContain(
+    copy["I would like to request a family quote."],
+  );
+  await expect(link).toHaveAttribute("target", "_blank");
   expect(external).toEqual([]);
+  await context.route("https://wa.me/**", (route) =>
+    route.fulfill({
+      contentType: "text/html",
+      body: "<h1>WhatsApp destination intercepted</h1>",
+    }),
+  );
+  await link.focus();
+  const popupEvent = page.waitForEvent("popup");
+  await link.press("Enter");
+  const popup = await popupEvent;
+  await expect(popup.getByRole("heading")).toHaveText(
+    "WhatsApp destination intercepted",
+  );
+  await expect(page.locator("html")).toHaveAttribute("lang", "ru");
+  await popup.close();
 });

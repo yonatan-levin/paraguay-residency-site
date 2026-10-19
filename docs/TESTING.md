@@ -29,6 +29,7 @@ npm run test:a11y
 | Package, finder, inquiry, receipt and transition journeys | `tests/e2e/journeys.spec.ts`, `finder.spec.ts`, `finder-placement.spec.ts`, `selection-transition.spec.ts` |
 | Hebrew and Russian journeys | `tests/e2e/hebrew.spec.ts`, `russian-journeys.spec.ts` |
 | Benefits, tax content and accessibility | `tests/e2e/value-first.spec.ts`, `tax-opportunities.spec.ts`, `accessibility.spec.ts` |
+| Skyline/palette, direct contact destinations, safe context, private drafts and no-JavaScript links | `tests/e2e/flag-contact-journeys.spec.ts` |
 
 The Playwright configuration defines desktop Chromium, 390px mobile Chromium for journey/Hebrew suites and WebKit smoke coverage. Browser emulation does not establish native device behavior.
 
@@ -37,6 +38,8 @@ The Playwright configuration defines desktop Chromium, 390px mobile Chromium for
 Playwright uses `E2E_BASE_URL` or `http://127.0.0.1:3000`. It starts `npm run start` on the target port when needed and may reuse a running server outside CI. Set `E2E_WORKERS` to control concurrency; the configured default is in `playwright.config.ts`.
 
 Traces, automatic screenshots and video are disabled. Explicit screenshot tests capture unfilled pages. Playwright reports remain local generated artifacts. Test data should not be real contact information.
+
+Direct-contact tests inspect and intercept outbound links without sending a WhatsApp message or completing a Calendly appointment. The accepted contact/privacy and image-rights boundaries live in [VISUAL_CONTACTS.md](VISUAL_CONTACTS.md). Browser coverage can establish the rendered destination and safe context; it does not establish external account ownership, future availability or delivery after a visitor leaves the site.
 
 The hosted-target instructions and acceptance matrix live in [Firebase hosting](FIREBASE_HOSTING.md). Hosted evidence is necessary to establish deployed adapter behavior, environment values and origin metadata; a local pass does not do that.
 

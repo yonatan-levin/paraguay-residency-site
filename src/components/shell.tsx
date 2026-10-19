@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useId, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import type { Locale } from "../domain/types";
@@ -13,13 +13,10 @@ import {
   supportedLocales,
 } from "../config/locales";
 import { translate } from "../lib/i18n/common";
-import { createMockMessagingGateway } from "../infrastructure/mock/gateways";
-import { useHydrated } from "./use-hydrated";
+import { DirectContactLinks } from "./direct-contact";
 import {
   CaptureJourneyEntry,
   JourneyLink,
-  useJourney,
-  useLeadContext,
   useSelection,
 } from "./journey-provider";
 
@@ -37,77 +34,8 @@ function BrandSymbol() {
         stroke="currentColor"
         strokeWidth="3"
       />
-      <circle cx="29" cy="36" r="3" fill="#b77f47" />
+      <circle cx="29" cy="36" r="3" fill="var(--accent)" />
     </svg>
-  );
-}
-
-export function WhatsAppButton({
-  locale,
-  className = "text-button",
-  children,
-}: {
-  locale: Locale;
-  className?: string;
-  children?: ReactNode;
-}) {
-  const hydrated = useHydrated();
-  const dialog = useRef<HTMLDialogElement>(null);
-  const titleId = useId();
-  const context = useLeadContext(locale);
-  const { analytics } = useJourney();
-  const preview = createMockMessagingGateway().preview(context);
-  return (
-    <>
-      <button
-        type="button"
-        disabled={!hydrated}
-        className={className}
-        onClick={() => {
-          analytics.emit({
-            eventId: "whatsapp_clicked",
-            routeKey: context.entryPageKey,
-            locale,
-            serviceId: context.serviceId,
-            planId: context.packageId,
-            is_demo: true,
-          });
-          dialog.current?.showModal();
-        }}
-      >
-        {children ?? text(locale, "Ask us on WhatsApp")}
-      </button>
-      <dialog ref={dialog} className="message-dialog" aria-labelledby={titleId}>
-        <div className="dialog-top">
-          <span className="eyebrow">{text(locale, "Local preview only")}</span>
-          <button
-            type="button"
-            className="icon-button"
-            aria-label={text(locale, "Close message preview")}
-            onClick={() => dialog.current?.close()}
-          >
-            ×
-          </button>
-        </div>
-        <h2 id={titleId}>
-          {text(locale, "Preview your conversation starter")}
-        </h2>
-        <p className="message-bubble">{preview.message}</p>
-        <p role="status">
-          {text(
-            locale,
-            "Sending is disabled in this preview. No message has been sent. An approved business phone number has not been supplied.",
-          )}
-        </p>
-        <button
-          type="button"
-          className="button"
-          onClick={() => dialog.current?.close()}
-        >
-          {text(locale, "Return to the website")}
-        </button>
-      </dialog>
-    </>
   );
 }
 
@@ -306,9 +234,10 @@ export function SiteShell({
               <p className="small">
                 {text(
                   locale,
-                  "Working brand. Legal operator and business contacts pending owner approval.",
+                  "Working brand. Legal operator and commercial offers await approval.",
                 )}
               </p>
+              <DirectContactLinks locale={locale} className="footer-contact" />
             </div>
             <nav aria-label={text(locale, "Explore")}>
               <h2>{text(locale, "Your next step")}</h2>
@@ -341,7 +270,9 @@ export function SiteShell({
             <span>
               {text(locale, "A considered move begins with clear information.")}
             </span>
-            <span>{text(locale, "Demo website · USD · No live services")}</span>
+            <span>
+              {text(locale, "Demo website · USD · Live contact links")}
+            </span>
           </div>
         </div>
       </footer>

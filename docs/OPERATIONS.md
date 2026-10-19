@@ -28,7 +28,7 @@ For production rendering locally, run `npm run build`, then `npm run start`. The
 | `PERF_BASE_URL` | Lighthouse target, default `http://127.0.0.1:3000` |
 | `CHROME_PATH` | Optional Chrome executable path for Lighthouse |
 
-Brand, contacts, timezone and approval inputs live in `src/config/`. No credentials are required for local demo journeys. Hosted build/runtime origin settings live in `apphosting.yaml`; provider details are in [Firebase hosting](FIREBASE_HOSTING.md).
+Brand, public contact destinations, timezone and approval inputs live in `src/config/`. No credentials are required for local demo journeys or native contact links. Public destinations do not depend on the mock integration switches. Their behavior and safe context are defined in [VISUAL_CONTACTS.md](VISUAL_CONTACTS.md). Hosted build/runtime origin settings live in `apphosting.yaml`; provider details are in [Firebase hosting](FIREBASE_HOSTING.md).
 
 ## Commands and output
 
@@ -49,7 +49,7 @@ See [testing](TESTING.md) for browser installation, server reuse and the meaning
 
 ## Demo diagnostics
 
-The booking interface exposes demo outcomes for success, failure and unavailable time. Conversations and appointments go through local adapters. WhatsApp opens a local message preview. Refreshing clears contact drafts and receipts, so an empty receipt after reload is expected.
+The booking interface exposes demo outcomes for success, failure and unavailable time. Website conversations and appointments go through local adapters. Direct WhatsApp and Calendly actions open real provider pages in a separate tab. Inspect their destinations without sending a message or finishing an appointment when testing. Refreshing clears website contact drafts and receipts, so an empty receipt after reload is expected.
 
 A live-mode configuration error is intentional. `npm run check:launch` lists missing requirements without provisioning or sending anything. [Launch requirements](LAUNCH_CHECKLIST.md) explain the gaps.
 

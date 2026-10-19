@@ -73,8 +73,9 @@ test("AC-10 simulated failure keeps draft and allows successful retry", async ({
   await expect(page).toHaveURL(/\/en\/thank-you/);
 });
 
-test("AC-12 WhatsApp is an accessible local preview and makes no provider requests", async ({
+test("AC-12 WhatsApp opens the approved draft only after an accessible native action", async ({
   page,
+  context,
   baseURL,
 }) => {
   const siteOrigin = new URL(baseURL!).origin;
@@ -84,16 +85,33 @@ test("AC-12 WhatsApp is an accessible local preview and makes no provider reques
       external.push(request.url());
   });
   await page.goto("/en/contact?plan=temporary-guided");
-  await page
-    .getByRole("button", { name: /WhatsApp/i })
-    .first()
-    .click();
-  const dialog = page.getByRole("dialog");
-  await expect(dialog).toContainText("Sending is disabled in this preview");
-  await expect(dialog).toContainText("Guided");
-  await page.keyboard.press("Escape");
-  await expect(dialog).not.toBeVisible();
+  const link = page
+    .locator("main")
+    .getByRole("link", { name: /WhatsApp/i })
+    .first();
+  const destination = new URL((await link.getAttribute("href"))!);
+  expect(destination.origin + destination.pathname).toBe(
+    "https://wa.me/972544941176",
+  );
+  expect(destination.searchParams.get("text")).toContain("Guided");
+  await expect(link).toHaveAttribute("target", "_blank");
+  await expect(link).toHaveAttribute("rel", "noopener noreferrer");
   expect(external).toEqual([]);
+  await context.route("https://wa.me/**", (route) =>
+    route.fulfill({
+      contentType: "text/html",
+      body: "<h1>WhatsApp destination intercepted</h1>",
+    }),
+  );
+  await link.focus();
+  const popupEvent = page.waitForEvent("popup");
+  await link.press("Enter");
+  const popup = await popupEvent;
+  await expect(popup.getByRole("heading")).toHaveText(
+    "WhatsApp destination intercepted",
+  );
+  await expect(page).toHaveURL(/\/en\/contact\?plan=temporary-guided/);
+  await popup.close();
 });
 
 test("AC-09/10 demo appointment retains UTC selection across zones and recovers from unavailable time", async ({

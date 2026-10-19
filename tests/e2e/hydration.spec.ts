@@ -97,7 +97,7 @@ test("finder waits for hydration before accepting an answer", async ({
   }
 });
 
-test("WhatsApp preview waits for hydration without disabling native navigation", async ({
+test("WhatsApp remains a contextual native link before and after hydration", async ({
   page,
 }) => {
   const release = await holdScripts(page);
@@ -105,14 +105,22 @@ test("WhatsApp preview waits for hydration without disabling native navigation",
     await page.goto("/en/contact?plan=temporary-guided", {
       waitUntil: "commit",
     });
-    const whatsapp = page.getByRole("button", { name: /WhatsApp/i }).first();
-    await expect(whatsapp).toBeDisabled();
+    const whatsapp = page
+      .locator("main")
+      .getByRole("link", { name: /WhatsApp/i })
+      .first();
+    await expect(whatsapp).toBeVisible();
+    const destination = await whatsapp.getAttribute("href");
+    expect(new URL(destination!).searchParams.get("text")).toContain("Guided");
+    await expect(whatsapp).toHaveAttribute("target", "_blank");
     await expect(
       page.getByRole("link", { name: "Packages", exact: true }).first(),
     ).toHaveAttribute("href", /pricing/);
     release();
-    await whatsapp.click();
-    await expect(page.getByRole("dialog")).toContainText("Guided");
+    await expect(
+      page.getByLabel("Open navigation", { exact: true }),
+    ).toBeEnabled();
+    await expect(whatsapp).toHaveAttribute("href", destination!);
   } finally {
     release();
   }
